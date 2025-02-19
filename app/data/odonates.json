@@ -1,60 +1,50 @@
-import { ApplicationSettings } from '@nativescript/core';
-import { SyncService } from '../services/sync.service';
-
-// Default data array remains as fallback
-const defaultOdonates = [
+[
   {
-    id: 43,
-    commonName: "TEST SYNC1 Ruddy Marsh-Skimmer",
-    malayalamName: "വയൽത്തുമ്പി",
-    scientificName: "TEST SYNC1 Crocothemis servilia",
-	sciName: "Crocothemis servilia (Drury, 1773)",
-    family: "Libellulidae / Skimmers and Hawks / നീര്‍മുത്തന്‍‍മാര്‍",
-    description: "ശുദ്ധജലാശയങ്ങൾക്കു സമീപത്തായി സാധാരണ കാണപ്പെടുന്ന ഒരിനം കല്ലൻ തുമ്പിയാണ് വയൽത്തുമ്പി. മിക്ക ഏഷ്യൻ രാജ്യങ്ങളിലും ഇവയെ കാണാം. വയൽത്തുമ്പികളിൽ ആൺ/പെൺ തുമ്പികൾ കാഴ്ച്ചയിൽ വ്യത്യസ്തരാണ്. ഇവയുടെ ആൺതുമ്പികൾക്ക് കടുത്ത ചുവപ്പു നിറവും പെൺതുമ്പികൾക്കു മഞ്ഞനിറവുമാണ്. ആൺതുമ്പികളുടെയും പെൺതുമ്പികളുടെയും ഉദരത്തിന്റെ മുതുകുഭാഗത്ത്‌ കറുത്ത നീണ്ട ഒരു വരയുണ്ട്.\n\ \n\ആൺതുമ്പി\n\പ്രായ പൂർത്തിയായ ആൺതുമ്പികളുടെ ശരീരത്തിന് ചുവപ്പു നിറമാണ്. ആൺതുമ്പികളുടെ ശിരസ്സിന് കടുത്ത രക്തവർണ്ണമാണ്. ഇരുണ്ട ചുവപ്പു നിറമാർന്ന കണ്ണുകളുടെ വശങ്ങളിൽ പർപ്പിൾ നിറം കാണാം. ഉദരവും ഉരസ്സും കടും ചുവപ്പു നിറത്തിൽ കാണപ്പെടുന്നു. ഉരസ്സിലും ഉദരത്തിലും കടും തവിട്ടു നിറത്തിലുള്ള വരകൾ കാണാം. സുതാര്യമായ ചിറകുകളുടെ തുടക്കഭാഗത്ത് മഞ്ഞ നിറം വ്യാപിച്ചു കാണാം. ചിറകുകളിലെ പൊട്ടിന് ഇരുണ്ട തവിട്ടു നിറമാണ് .\n\ \n\പെൺതുമ്പി\n\പെൺതുമ്പികളുടെ ശിരസ്സ് വിളറിയ മഞ്ഞനിറത്തിൽ കാണപ്പെടുന്നു. തവിട്ടു നിറത്തിലുള്ള കണ്ണുകളുടെ താഴ്ഭാഗത്ത് മഞ്ഞകലർന്ന പച്ച നിറം കാണാം. ഉരസ്സിനും കാലുകൾക്കും തവിട്ടു നിറമാണ്. ചിറകുകൾ ആൺതുമ്പികളുടേത് പോലെയാണെങ്കിലും തുടക്കത്തിലുള്ള മഞ്ഞ നിറം അല്പം വിളറിയതായി കാണപ്പെടുന്നു. തവിട്ടു കലർന്ന മഞ്ഞ നിറത്തിലുള്ള ഉദരത്തിന് മുകളിലായി കറുത്ത ഒരു വര കാണാം.\n\ \n\ആവാസവ്യവസ്ഥ\n\കേരളത്തിൽ സുലഭമായി കാണപ്പെടുന്ന ഒരു തുമ്പിയാണ് വയൽ തുമ്പി. കുളങ്ങൾ, ചെറിയ വെള്ളക്കെട്ടുകൾ, പുഴയോരങ്ങൾ, കിണറുകൾ, ടാങ്കുകൾ, നെൽപ്പാടങ്ങൾ എന്നിവിടങ്ങളിലെല്ലാം ഇവയെ കാണാം. വെള്ളത്തിലെ ഉയർന്നു നിൽക്കുന്ന കളസസ്യങ്ങളിൽ ഇരിക്കാൻ ഇഷ്ടപ്പെടുന്ന ഇവ അതിക്രമിച്ചു വരുന്ന മറ്റു തുമ്പികളെ തുരത്തി ഓടിക്കുന്നത് കാണാം. കുളങ്ങൾ, അരുവികൾ എന്നിവിടങ്ങളിലെല്ലാം മുട്ടയിട്ടു വളരുന്ന വയൽ തുമ്പിയെ വർഷം മുഴുവൻ കാണാൻ സാധിക്കും. നിലത്തു നിന്ന് ഉയരത്തിൽ പറക്കാൻ ഇഷ്ടപ്പെടാത്തവരാണ് ഈ തുമ്പികൾ. ആൺതുമ്പികളെയാണ് കൂടുതലായി കാണാൻ കഴിയുന്നത്. പക്ഷികൾ ധാരാളമായി ഇതിനെ ഭക്ഷിക്കുന്നതായും കണ്ടിട്ടുണ്ട്. വിശ്രമിക്കുമ്പോൾ ഇവയുടെ ചിറകുകൾ കീഴ്പ്പോട്ടായിരിക്കും.",
-    mainPhoto: "~/images/Crocothemis_servilia_main.jpg",
-    photos: [
-      { url: "~/images/Crocothemis_servilia_male1.jpg", credit: "ആൺതുമ്പി © 2010 Jee & Rani Nature Photography", sourceUrl: "https://en.wikipedia.org/wiki/File:Crocothemis_servilia_male_by_kadavoor.jpg" },
-      { url: "~/images/Crocothemis_servilia_female1.jpg", credit: "പെൺതുമ്പി © 2010 Jee & Rani Nature Photography", sourceUrl: "https://en.wikipedia.org/wiki/File:Crocothemis_servilia_female_by_kadavoor.jpg" }
+    "id": 43,
+    "commonName": "SYNC Ruddy Marsh-Skimmer",
+    "malayalamName": "വയൽത്തുമ്പി",
+    "scientificName": "Crocothemis servilia",
+    "sciName": "Crocothemis servilia (Drury, 1773)",
+    "family": "Libellulidae / Skimmers and Hawks / നീര്‍മുത്തന്‍‍മാര്‍",
+    "description": "ശുദ്ധജലാശയങ്ങൾക്കു സമീപത്തായി സാധാരണ കാണപ്പെടുന്ന ഒരിനം കല്ലൻ തുമ്പിയാണ് വയൽത്തുമ്പി. മിക്ക ഏഷ്യൻ രാജ്യങ്ങളിലും ഇവയെ കാണാം. വയൽത്തുമ്പികളിൽ ആൺ/പെൺ തുമ്പികൾ കാഴ്ച്ചയിൽ വ്യത്യസ്തരാണ്. ഇവയുടെ ആൺതുമ്പികൾക്ക് കടുത്ത ചുവപ്പു നിറവും പെൺതുമ്പികൾക്കു മഞ്ഞനിറവുമാണ്. ആൺതുമ്പികളുടെയും പെൺതുമ്പികളുടെയും ഉദരത്തിന്റെ മുതുകുഭാഗത്ത്‌ കറുത്ത നീണ്ട ഒരു വരയുണ്ട്.",
+    "mainPhoto": "~/images/Crocothemis_servilia_main.jpg",
+    "photos": [
+      {
+        "url": "~/images/Crocothemis_servilia_male1.jpg",
+        "credit": "ആൺതുമ്പി © 2010 Jee & Rani Nature Photography",
+        "sourceUrl": "https://en.wikipedia.org/wiki/File:Crocothemis_servilia_male_by_kadavoor.jpg"
+      },
+      {
+        "url": "~/images/Crocothemis_servilia_female1.jpg",
+        "credit": "പെൺതുമ്പി © 2010 Jee & Rani Nature Photography",
+        "sourceUrl": "https://en.wikipedia.org/wiki/File:Crocothemis_servilia_female_by_kadavoor.jpg"
+      }
     ],
-    speciesLink: "https://www.inaturalist.org/taxa/52055-Crocothemis-servilia",
-    wikipediaLink: "https://en.wikipedia.org/wiki/Scarlet_skimmer"
+    "speciesLink": "https://www.inaturalist.org/taxa/52055-Crocothemis-servilia",
+    "wikipediaLink": "https://en.wikipedia.org/wiki/Scarlet_skimmer"
   },
   {
-    id: 44,
-    commonName: "TEST SYNC2 Scarlet Skimmer",
-    malayalamName: "കാട്ടു ചോലത്തുമ്പി",
-    scientificName: "TEST SYNC2 Crocothemis erythraea",
-	sciName: "Crocothemis erythraea (Brullé, 1832)",
-    family: "Libellulidae / Skimmers and Hawks / നീര്‍മുത്തന്‍‍മാര്‍",
-    description: "ശുദ്ധജലാശയങ്ങൾക്കു സമീപത്തായി കാണപ്പെടുന്ന ഒരിനം കല്ലൻ തുമ്പിയാണ് കാട്ടു ചോലത്തുമ്പി. മിക്ക ഏഷ്യൻ രാജ്യങ്ങളിലും ഇവയെ കാണാം. ",
-    mainPhoto: "~/images/Crocothemis_erythraea_main.jpg",
-    photos: [
-      { url: "~/images/Crocothemis_erythraea_male1.jpg", credit: "ആൺതുമ്പി © Charles J. Sharp", sourceUrl: "https://en.wikipedia.org/wiki/File:Broad_scarlet_(Crocothemis_erythraea)_male_Cyprus.jpg" },
-      { url: "~/images/Crocothemis_erythraea_female1.jpg", credit: "പെൺതുമ്പി © Charles J. Sharp", sourceUrl: "https://en.wikipedia.org/wiki/File:Scarlet_darter_(Crocothemis_erythraea)_female_Bulgaria.jpg" }
+    "id": 44,
+    "commonName": "SYNC Scarlet Skimmer",
+    "malayalamName": "കാട്ടു ചോലത്തുമ്പി",
+    "scientificName": "Crocothemis erythraea",
+    "sciName": "Crocothemis erythraea (Brullé, 1832)",
+    "family": "Libellulidae / Skimmers and Hawks / നീര്‍മുത്തന്‍‍മാര്‍",
+    "description": "ശുദ്ധജലാശയങ്ങൾക്കു സമീപത്തായി കാണപ്പെടുന്ന ഒരിനം കല്ലൻ തുമ്പിയാണ് കാട്ടു ചോലത്തുമ്പി. മിക്ക ഏഷ്യൻ രാജ്യങ്ങളിലും ഇവയെ കാണാം.",
+    "mainPhoto": "~/images/Crocothemis_erythraea_main.jpg",
+    "photos": [
+      {
+        "url": "~/images/Crocothemis_erythraea_male1.jpg",
+        "credit": "ആൺതുമ്പി © Charles J. Sharp",
+        "sourceUrl": "https://en.wikipedia.org/wiki/File:Broad_scarlet_(Crocothemis_erythraea)_male_Cyprus.jpg"
+      },
+      {
+        "url": "~/images/Crocothemis_erythraea_female1.jpg",
+        "credit": "പെൺതുമ്പി © Charles J. Sharp",
+        "sourceUrl": "https://en.wikipedia.org/wiki/File:Scarlet_darter_(Crocothemis_erythraea)_female_Bulgaria.jpg"
+      }
     ],
-    speciesLink: "https://www.inaturalist.org/taxa/85030-Crocothemis-erythraea",
-    wikipediaLink: "https://en.wikipedia.org/wiki/Scarlet_dragonfly"
-  },
-   {
-    id: 45,
-    commonName: "Black Tipped Ground-Skimmer",
-    malayalamName: "ചുട്ടിനിലത്തൻ",
-    scientificName: "Diplacodes nebulosa",
-	sciName: "Diplacodes nebulosa (Fabricius, 1793)",
-    family: "Libellulidae / Skimmers and Hawks / നീര്‍മുത്തന്‍‍മാര്‍",
-    description: "കേരളത്തിൽ കാണപ്പെടുന്ന നീർമുത്തൻ കുടുംബത്തിൽ ഉള്ള ഒരു കല്ലൻതുമ്പിയാണ് ചുട്ടിനിലത്തൻ. ഏഷ്യയിലെ മിക്കരാജ്യങ്ങളിലും ആസ്ത്രേലിയയിലും ഇവയെ കാണാറുണ്ട്. ചതുപ്പുകളിലും സസ്യനിബിഡമായ കുളങ്ങളിലും തടാകതീരങ്ങളിലും ഇവയെ കാണാം.",
-    mainPhoto: "~/images/Diplacodes_nebulosa_main.jpg",
-    photos: [
-      { url: "~/images/Diplacodes_nebulosa_male1.jpg", credit: "ആൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", sourceUrl: "https://en.wikipedia.org/wiki/File:Black_Tipped_Ground_Skimmer_(Diplacodes_Nebulosa)_male.jpg" },
-      { url: "~/images/Diplacodes_nebulosa_female1.jpg", credit: "പെൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", sourceUrl: "https://en.wikipedia.org/wiki/File:Black_tipped_ground_skimmer_female_(36857328406).jpg" }
-    ],
-    speciesLink: "https://www.inaturalist.org/taxa/99329-Diplacodes-nebulosa",
-    wikipediaLink: "https://en.wikipedia.org/wiki/Diplacodes_nebulosa"
-  } 
-];
-
-export const odonates = (() => {
-  const syncService = SyncService.getInstance();
-  const localData = syncService.getLocalData();
-  return localData || defaultOdonates;
-})();
+    "speciesLink": "https://www.inaturalist.org/taxa/85030-Crocothemis-erythraea",
+    "wikipediaLink": "https://en.wikipedia.org/wiki/Scarlet_dragonfly"
+  }
+]
