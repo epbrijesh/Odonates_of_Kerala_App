@@ -2,7 +2,7 @@
   "metadata": {
     "version": "1.0.1",
     "lastUpdated": "2025-02-19T13:03:28.577Z",
-    "totalSpecies": 1
+    "totalSpecies": 3
   },
   "species": [
     {
@@ -13,7 +13,7 @@
       "sciName": "Anaciaeschna martini (Selys, 1897)",
       "family": "Aeshnidae / Darners / സൂചിവാലന്‍ കല്ലന്‍തുമ്പികള്‍",
       "description": "സൂചിവാലൻ കല്ലൻ തുമ്പികളുടെ കുടുംബത്തിൽപ്പെട്ട ഒരു തുമ്പിയാണ് ചോല ചാത്തന്‍...",
-      "mainPhoto": "https://raw.githubusercontent.com/epbrijesh/Odonates_of_Kerala_App/main/images/Anaciaeschna_martini_main.jpg",
+      "mainPhoto": "/images/Anaciaeschna_martini_male1.jpg",
       "photos": [
         {
           "url": "https://raw.githubusercontent.com/epbrijesh/Odonates_of_Kerala_App/main/images/Anaciaeschna_martini_male1.jpg",
