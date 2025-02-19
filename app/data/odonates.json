@@ -1,33 +1,21 @@
-{
-  "metadata": {
-    "version": "1.0.1",
-    "lastUpdated": "2025-02-19T13:03:28.577Z",
-    "totalSpecies": 3
-  },
-  "species": [
-    {
-      "id": 1,
-      "commonName": "Montarne Dusk-Hawker",
-      "malayalamName": "ചോല ചാത്തന്‍",
-      "scientificName": "Anaciaeschna martini",
-      "sciName": "Anaciaeschna martini (Selys, 1897)",
-      "family": "Aeshnidae / Darners / സൂചിവാലന്‍ കല്ലന്‍തുമ്പികള്‍",
-      "description": "സൂചിവാലൻ കല്ലൻ തുമ്പികളുടെ കുടുംബത്തിൽപ്പെട്ട ഒരു തുമ്പിയാണ് ചോല ചാത്തന്‍...",
-      "mainPhoto": "/images/Anaciaeschna_martini_male1.jpg",
-      "photos": [
-        {
-          "url": "https://raw.githubusercontent.com/epbrijesh/Odonates_of_Kerala_App/main/images/Anaciaeschna_martini_male1.jpg",
-          "credit": "ആൺതുമ്പി © Pokopong",
-          "sourceUrl": "https://en.wikipedia.org/wiki/File:Anaciaeschna_martini.jpg"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/epbrijesh/Odonates_of_Kerala_App/main/images/Anaciaeschna_martini_female1.jpg",
-          "credit": "പെൺതുമ്പി © TekuraDF",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anaciaeschna_martini_(Female,Japan,2017.08.18,b).jpg"
-        }
-      ],
-      "speciesLink": "https://www.inaturalist.org/taxa/149183-Anaciaeschna-martini",
-      "wikipediaLink": "https://en.wikipedia.org/wiki/Anaciaeschna_martini"
-    }
-  ]
-}
+[
+  {
+    "id": 1,
+    "commonName": "Montarne Dusk-Hawker",
+    "malayalamName": "ചോല ചാത്തന്‍",
+    "scientificName": "Anaciaeschna martini",
+    "sciName": "Anaciaeschna martini (Selys, 1897)",
+    "family": "Aeshnidae / Darners / സൂചിവാലന്‍ കല്ലന്‍തുമ്പികള്‍",
+    "description": "...",
+    "mainPhoto": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/data/images/Anaciaeschna_martini_main.jpg",
+    "photos": [
+      {
+        "url": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/data/images/Anaciaeschna_martini_male1.jpg",
+        "credit": "ആൺതുമ്പി © Pokopong",
+        "sourceUrl": "https://en.wikipedia.org/wiki/File:Anaciaeschna_martini.jpg"
+      }
+    ],
+    "speciesLink": "https://www.inaturalist.org/taxa/149183-Anaciaeschna-martini",
+    "wikipediaLink": "https://en.wikipedia.org/wiki/Anaciaeschna_martini"
+  }
+]
