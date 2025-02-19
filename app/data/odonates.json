@@ -7,10 +7,48 @@
     "sciName": "Anaciaeschna martini (Selys, 1897)",
     "family": "Aeshnidae / Darners / സൂചിവാലന്‍ കല്ലന്‍തുമ്പികള്‍",
     "description": "...",
-    "mainPhoto": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/data/images/Anaciaeschna_martini_main.jpg",
+    "mainPhoto": "/images/Anaciaeschna_martini_main.jpg",
     "photos": [
       {
-        "url": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/data/images/Anaciaeschna_martini_male1.jpg",
+        "url": "/images/Anaciaeschna_martini_male1.jpg",
+        "credit": "ആൺതുമ്പി © Pokopong",
+        "sourceUrl": "https://en.wikipedia.org/wiki/File:Anaciaeschna_martini.jpg"
+      }
+    ],
+    "speciesLink": "https://www.inaturalist.org/taxa/149183-Anaciaeschna-martini",
+    "wikipediaLink": "https://en.wikipedia.org/wiki/Anaciaeschna_martini"
+  },
+  {
+    "id": 2,
+    "commonName": "Montarne Dusk-Hawker",
+    "malayalamName": "ചോല ചാത്തന്‍",
+    "scientificName": "Anaciaeschna martini",
+    "sciName": "Anaciaeschna martini (Selys, 1897)",
+    "family": "Aeshnidae / Darners / സൂചിവാലന്‍ കല്ലന്‍തുമ്പികള്‍",
+    "description": "...",
+    "mainPhoto": "/images/Anaciaeschna_martini_main.jpg",
+    "photos": [
+      {
+        "url": "/images/Anaciaeschna_martini_male1.jpg",
+        "credit": "ആൺതുമ്പി © Pokopong",
+        "sourceUrl": "https://en.wikipedia.org/wiki/File:Anaciaeschna_martini.jpg"
+      }
+    ],
+    "speciesLink": "https://www.inaturalist.org/taxa/149183-Anaciaeschna-martini",
+    "wikipediaLink": "https://en.wikipedia.org/wiki/Anaciaeschna_martini"
+  },
+  {
+    "id": 3,
+    "commonName": "Montarne Dusk-Hawker",
+    "malayalamName": "ചോല ചാത്തന്‍",
+    "scientificName": "Anaciaeschna martini",
+    "sciName": "Anaciaeschna martini (Selys, 1897)",
+    "family": "Aeshnidae / Darners / സൂചിവാലന്‍ കല്ലന്‍തുമ്പികള്‍",
+    "description": "...",
+    "mainPhoto": "/images/Anaciaeschna_martini_main.jpg",
+    "photos": [
+      {
+        "url": "/images/Anaciaeschna_martini_male1.jpg",
         "credit": "ആൺതുമ്പി © Pokopong",
         "sourceUrl": "https://en.wikipedia.org/wiki/File:Anaciaeschna_martini.jpg"
       }
