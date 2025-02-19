@@ -46,5 +46,29 @@
     ],
     "speciesLink": "https://www.inaturalist.org/taxa/85030-Crocothemis-erythraea",
     "wikipediaLink": "https://en.wikipedia.org/wiki/Scarlet_dragonfly"
+  },
+  {
+    "id": 45,
+    "commonName": "SYNC Scarlet Skimmer",
+    "malayalamName": "ddddകാട്ടു ചോലത്തുമ്പി",
+    "scientificName": "dddddCrocothemis erythraea",
+    "sciName": "ddddCrocothemis erythraea (Brullé, 1832)",
+    "family": "Libellulidae / Skimmers and Hawks / നീര്‍മുത്തന്‍‍മാര്‍",
+    "description": "ശുദ്ധജലാശയങ്ങൾക്കു സമീപത്തായി കാണപ്പെടുന്ന ഒരിനം കല്ലൻ തുമ്പിയാണ് കാട്ടു ചോലത്തുമ്പി. മിക്ക ഏഷ്യൻ രാജ്യങ്ങളിലും ഇവയെ കാണാം.",
+    "mainPhoto": "~/images/Crocothemis_erythraea_main.jpg",
+    "photos": [
+      {
+        "url": "~/images/Crocothemis_erythraea_male1.jpg",
+        "credit": "ആൺതുമ്പി © Charles J. Sharp",
+        "sourceUrl": "https://en.wikipedia.org/wiki/File:Broad_scarlet_(Crocothemis_erythraea)_male_Cyprus.jpg"
+      },
+      {
+        "url": "~/images/Crocothemis_erythraea_female1.jpg",
+        "credit": "പെൺതുമ്പി © Charles J. Sharp",
+        "sourceUrl": "https://en.wikipedia.org/wiki/File:Scarlet_darter_(Crocothemis_erythraea)_female_Bulgaria.jpg"
+      }
+    ],
+    "speciesLink": "https://www.inaturalist.org/taxa/85030-Crocothemis-erythraea",
+    "wikipediaLink": "https://en.wikipedia.org/wiki/Scarlet_dragonfly"
   }
 ]
