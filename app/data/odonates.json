@@ -1,59 +1,26 @@
 [
   {
-    "id": 1,
-    "commonName": "Montarne Dusk-Hawker",
-    "malayalamName": "ചോല ചാത്തന്‍",
-    "scientificName": "Anaciaeschna martini",
-    "sciName": "Anaciaeschna martini (Selys, 1897)",
-    "family": "Aeshnidae / Darners / സൂചിവാലന്‍ കല്ലന്‍തുമ്പികള്‍",
-    "description": "...",
-    "mainPhoto": "/images/Anaciaeschna_martini_main.jpg",
+    "id": 43,
+    "commonName": "Ruddy Marsh-Skimmer",
+    "malayalamName": "വയൽത്തുമ്പി",
+    "scientificName": "Crocothemis servilia",
+    "sciName": "Crocothemis servilia (Drury, 1773)",
+    "family": "Libellulidae / Skimmers and Hawks / നീര്‍മുത്തന്‍‍മാര്‍",
+    "description": "ശുദ്ധജലാശയങ്ങൾക്കു സമീപത്തായി സാധാരണ കാണപ്പെടുന്ന ഒരിനം കല്ലൻ തുമ്പിയാണ് വയൽത്തുമ്പി. മിക്ക ഏഷ്യൻ രാജ്യങ്ങളിലും ഇവയെ കാണാം.",
+    "mainPhoto": "~/images/Crocothemis_servilia_main.jpg",
     "photos": [
       {
-        "url": "/images/Anaciaeschna_martini_male1.jpg",
-        "credit": "ആൺതുമ്പി © Pokopong",
-        "sourceUrl": "https://en.wikipedia.org/wiki/File:Anaciaeschna_martini.jpg"
-      }
-    ],
-    "speciesLink": "https://www.inaturalist.org/taxa/149183-Anaciaeschna-martini",
-    "wikipediaLink": "https://en.wikipedia.org/wiki/Anaciaeschna_martini"
-  },
-  {
-    "id": 2,
-    "commonName": "Montarne Dusk-Hawker",
-    "malayalamName": "ചോല ചാത്തന്‍",
-    "scientificName": "Anaciaeschna martini",
-    "sciName": "Anaciaeschna martini (Selys, 1897)",
-    "family": "Aeshnidae / Darners / സൂചിവാലന്‍ കല്ലന്‍തുമ്പികള്‍",
-    "description": "...",
-    "mainPhoto": "/images/Anaciaeschna_martini_main.jpg",
-    "photos": [
+        "url": "~/images/Crocothemis_servilia_male1.jpg",
+        "credit": "ആൺതുമ്പി © 2010 Jee & Rani Nature Photography",
+        "sourceUrl": "https://en.wikipedia.org/wiki/File:Crocothemis_servilia_male_by_kadavoor.jpg"
+      },
       {
-        "url": "/images/Anaciaeschna_martini_male1.jpg",
-        "credit": "ആൺതുമ്പി © Pokopong",
-        "sourceUrl": "https://en.wikipedia.org/wiki/File:Anaciaeschna_martini.jpg"
+        "url": "~/images/Crocothemis_servilia_female1.jpg",
+        "credit": "പെൺതുമ്പി © 2010 Jee & Rani Nature Photography",
+        "sourceUrl": "https://en.wikipedia.org/wiki/File:Crocothemis_servilia_female_by_kadavoor.jpg"
       }
     ],
-    "speciesLink": "https://www.inaturalist.org/taxa/149183-Anaciaeschna-martini",
-    "wikipediaLink": "https://en.wikipedia.org/wiki/Anaciaeschna_martini"
-  },
-  {
-    "id": 3,
-    "commonName": "Montarne Dusk-Hawker",
-    "malayalamName": "ചോല ചാത്തന്‍",
-    "scientificName": "Anaciaeschna martini",
-    "sciName": "Anaciaeschna martini (Selys, 1897)",
-    "family": "Aeshnidae / Darners / സൂചിവാലന്‍ കല്ലന്‍തുമ്പികള്‍",
-    "description": "...",
-    "mainPhoto": "/images/Anaciaeschna_martini_main.jpg",
-    "photos": [
-      {
-        "url": "/images/Anaciaeschna_martini_male1.jpg",
-        "credit": "ആൺതുമ്പി © Pokopong",
-        "sourceUrl": "https://en.wikipedia.org/wiki/File:Anaciaeschna_martini.jpg"
-      }
-    ],
-    "speciesLink": "https://www.inaturalist.org/taxa/149183-Anaciaeschna-martini",
-    "wikipediaLink": "https://en.wikipedia.org/wiki/Anaciaeschna_martini"
+    "speciesLink": "https://www.inaturalist.org/taxa/52055-Crocothemis-servilia",
+    "wikipediaLink": "https://en.wikipedia.org/wiki/Scarlet_skimmer"
   }
 ]
