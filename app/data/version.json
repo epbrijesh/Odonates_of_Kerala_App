@@ -1,5 +1,14 @@
 {
-  "version": "1.0.1",
-  "lastUpdated": "2025-02-19T13:03:28.577Z",
-  "description": "Initial release"
+  "version": "1.0.0",
+  "lastUpdated": "2024-01-20T12:00:00Z",
+  "changes": [
+    "Initial data release with 3 species",
+    "Added Montarne Dusk-Hawker",
+    "Added Rusty Darner",
+    "Added Ochre Darner"
+  ],
+  "totalSpecies": 3,
+  "maintainer": "Brijesh Pookkottur",
+  "contact": "epbrijesh@gmail.com",
+  "license": "Apache-2.0"
 }
