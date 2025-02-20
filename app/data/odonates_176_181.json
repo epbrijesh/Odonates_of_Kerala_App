@@ -1,0 +1,123 @@
+[
+  {
+    "id": 176,
+    "commonName": "Spiny Reedtail",
+    "malayalamName": "കൊമ്പൻ നിഴൽത്തുമ്പി",
+    "scientificName": "Protosticta antelopoides",
+	"sciName": "Protosticta antelopoides (Fraser, 1931)",
+    "family": "Platystictidae / Reed tails / നിഴല്‍ത്തുമ്പികള്‍",
+    "description1": "നിഴൽത്തുമ്പി കുടുംബത്തിൽ ഉള്ള ഒരു സൂചിത്തുമ്പിയാണ് കൊമ്പൻ നിഴൽത്തുമ്പി. ഇത് പശ്ചിമഘട്ടത്തിലെ ഒരു തദ്ദേശീയ തുമ്പിയാണ്. ചിത്രങ്ങള്‍ ലഭ്യമല്ല.",
+    	 "description2": "",
+     "description3": "",
+     "description4": "",
+     "description5": "",
+    "mainPhoto": "~/assets/main_photo_1200x900.jpg",
+    "photos": [
+      { "url": "~/assets/male_1.jpg", "credit": " © ", "sourceUrl": "https://" }
+    ],
+    "speciesLink": "https://www.inaturalist.org/taxa/110715-Protosticta-antelopoides",
+    "wikipediaLink": "https://en.wikipedia.org/wiki/Protosticta_antelopoides"
+  },
+    {
+    "id": 177,
+    "commonName": "Agasthyamala Reedtail",
+    "malayalamName": "അഗസ്ത്യമല നിഴൽത്തുമ്പി",
+    "scientificName": "Protosticta armageddonia",
+	"sciName": "Protosticta armageddonia (Chandran et al.,2023)",
+    "family": "Platystictidae / Reed tails / നിഴല്‍ത്തുമ്പികള്‍",
+    "description1": "നിഴൽത്തുമ്പികൾ എന്ന തുമ്പികുടുംബത്തിൽപ്പെട്ട ഒരു സൂചിത്തുമ്പിയാണ് അഗസ്ത്യമല നിഴൽത്തുമ്പി. ലോകത്താകമാനം പ്രാണിവർഗ്ഗ ജീവികളുടെ എണ്ണത്തിൽ സംഭവിച്ചുകൊണ്ടിരിക്കുന്ന ആപൽക്കരമായ കുറവിനെയും അത് സൃഷ്ടിക്കുന്ന പ്രത്യാഘാതങ്ങളെയും സൂചിപ്പിക്കുന്നതിനാണ് ഈ തുമ്പിക്ക് Protosticta armageddonia എന്ന് പേരിട്ടിരിക്കുന്നത് (armageddon = അവസാന പോരാട്ടം)",
+    "description2": " പശ്ചിമഘട്ടത്തിലെ ഒരു സ്ഥാനീയ തുമ്പിയാണിത്. മുൻ ഉരസ്സിന്റെ (prothorax) ഘടന, അവിടെയുള്ള അടയാളങ്ങൾ; ഉരസ്സിന്റെ വശങ്ങളിൽ ഉള്ള അടയാളങ്ങൾ, കുറുവാലുകളുടെ ഘടനയിലുള്ള വ്യത്യാസം എന്നിവയെല്ലാം ഈ നിഴൽത്തുമ്പിയെ മറ്റ് നിഴൽത്തുമ്പികളിൽ നിന്നും വേർതിരിച്ചറിയാൻ സഹായിക്കുന്നു. ",
+     "description3": "കണ്ണുകൾക്ക് നീല കലർന്ന കറുപ്പ് നിറമാണ്. തവിട്ട് നിറത്തിലുള്ള ഉരസ്സിൽ മഞ്ഞ കലർന്ന വെളുത്ത നിറത്തിലുള്ള അടയാളങ്ങൾ ഉണ്ട്. ഉദരത്തിന് കറുപ്പ് നിറം. ഉദരത്തിലും വെളുത്ത നിറത്തിലുള്ള അടയാളങ്ങൾ കാണാം. മറ്റ് നിഴൽത്തുമ്പികളിൽ നിന്നും വ്യത്യസ്തമായി അഗസ്ത്യമല നിഴൽത്തുമ്പിയെ വേനൽ മാസങ്ങളിലും സജീവമായി കാണാം.",
+     "description4": "",
+     "description5": "",
+    "mainPhoto": "~/images/Protosticta_armageddonia_male1.jpg",
+    "photos": [
+      { "url": "~/images/Protosticta_armageddonia_male1.jpg", "credit": "ആൺതുമ്പി © രെജി ചന്ദ്രന്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Protosticta_armageddonia.jpg" }
+    ],
+    "speciesLink": "https://www.inaturalist.org/taxa/1493078-Protosticta-armageddonia",
+    "wikipediaLink": "https://en.wikipedia.org/wiki/Protosticta_armageddonia"
+  },
+ {
+    "id": 178,
+    "commonName": "Blue-eyed Reedtail",
+    "malayalamName": "നീലക്കണ്ണന്‍ നിഴൽത്തുമ്പി",
+    "scientificName": "Protosticta cyanofemora",
+	"sciName": "Protosticta cyanofemora (Joshi et al., 2020)",
+    "family": "Platystictidae / Reed tails / നിഴല്‍ത്തുമ്പികള്‍",
+    "description1": "നിഴൽത്തുമ്പി കുടുംബത്തിൽ ഉള്ള ഒരു സൂചിത്തുമ്പിയാണ് നീലക്കണ്ണന്‍ നിഴൽത്തുമ്പി. ഇത് പശ്ചിമഘട്ടത്തിലെ ഒരു തദ്ദേശീയ തുമ്പിയാണ്. ഇവയുടെ കാലുകളുടെ തുടകൾക്കുള്ള (femur) നീല (cyan) നിറത്തെ സൂചിപ്പിക്കാനാണ് 'സിയനോഫെമോറ' എന്ന ശാസ്ത്രീയനാമം നൽകിയിട്ടുള്ളത്. ",
+     "description2": "ഇന്ത്യയിൽ കണ്ടെത്തിയിട്ടുള്ള പതിനഞ്ച് നിഴൽത്തുമ്പികളിൽ പന്ത്രണ്ടും പശ്ചിമഘട്ടത്തിൽ നിന്നുമാണ്. നീലക്കണ്ണുകളും ഇരുണ്ട ഉടലുമുള്ള ഈ സൂചിത്തുമ്പിയുടെ ഉരസ്സിൽ മഞ്ഞ വരകൾ ഉണ്ട്. കാലുകളുടെ തുടഭാഗത്തിന്റെ അകവശം നീലയാണ്. സുതാര്യമായ ചിറകുകളിലെ പൊട്ടുകൾക്ക് കടുത്ത തവിട്ടുനിറമാണ്. ",
+     "description3": "കറുപ്പുനിറത്തിലുള്ള ഉദരത്തിന്റെ ആദ്യ ഖണ്ഡങ്ങളുടെ വശങ്ങളിൽ വെള്ളനിറമുണ്ട്. 3 മുതൽ 8 വരെയുള്ള ഖണ്ഡങ്ങളുടെ തുടക്കത്തിൽ വെള്ള വളയങ്ങളുണ്ട്. എട്ടാം ഖണ്ഡത്തിന്റെ തുടക്കത്തിലെ മൂന്നിൽ രണ്ടുഭാഗവും മഞ്ഞകലർന്ന വെള്ളനിറമാണ്. ഒൻപതും പത്തും ഖണ്ഡങ്ങളും കുറുവാലുകളും കറുപ്പുനിറമാണ്. പെൺതുമ്പികൾ ആൺതുമ്പികളെപ്പോലെതന്നെ ആണെങ്കിലും കുറുകിയ ശരീരപ്രകൃതമാണ്.",
+     "description4": "",
+     "description5": "",
+    "mainPhoto": "~/images/Protosticta_cyanofemora_main.jpg",
+    "photos": [
+      { "url": "~/images/Protosticta_cyanofemora_male1.jpg", "credit": "ആൺതുമ്പി © ഡേവിഡ് രാജു", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Protosticta_cyanofemora_-_male.jpg" },
+      { "url": "~/images/Protosticta_cyanofemora_female1.jpg", "credit": "പെൺതുമ്പി © ഡേവിഡ് രാജു", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Protosticta_cyanofemora-_female.jpg" },
+	  { "url": "~/images/Protosticta_cyanofemora_male2.jpg", "credit": "ആൺതുമ്പി © ഡേവിഡ് രാജു", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Protosticta_cyanofemora_-Head.jpg" }
+    ],
+    "speciesLink": "https://www.inaturalist.org/taxa/1350571-Protosticta-cyanofemora",
+    "wikipediaLink": "https://en.wikipedia.org/wiki/Protosticta_cyanofemora"
+  },
+    {
+    "id": 179,
+    "commonName": "Munnar Reedtail",
+    "malayalamName": "മൂന്നാര്‍ നിഴൽത്തുമ്പി",
+    "scientificName": "Protosticta davenporti",
+	"sciName": "Protosticta davenporti (Fraser, 1931)",
+    "family": "Platystictidae / Reed tails / നിഴല്‍ത്തുമ്പികള്‍",
+    "description1": "നിഴൽത്തുമ്പി കുടുംബത്തിൽ ഉള്ള ഒരു സൂചിത്തുമ്പിയാണ് മൂന്നാര്‍ നിഴൽത്തുമ്പി. ഇത് പശ്ചിമഘട്ടത്തിലെ ഒരു തദ്ദേശീയ തുമ്പിയാണ്. പശ്ചിമഘട്ടത്തിലെ പാലക്കാട് ചുരത്തിനു തെക്കുഭാഗത്തുള്ള കാടുപിടിച്ചുകിടക്കുന്ന കാട്ടരുവികളിൽ ഇവ പൊതുവേ കാണപ്പെടുന്നു. ഇവ നിലംപറ്റി പറക്കുകയും പുല്ലിൽ വിശ്രമിക്കുകയും ചെയ്യും. ",
+    "description2": "ഇവയുടെ തലക്കും ഉരസ്സിനും കഴുത്തിനും പുള്ളി നിഴൽത്തുമ്പിയോട് സാമ്യമുണ്ടെങ്കിലും കുറച്ചുകൂടി നീലിമയുണ്ട്. എട്ടാം ഖണ്ഡത്തിൽ ഒരു നീല കലയുണ്ട്. കുറുവാലിന്റെ ആകൃതി ഇവയെ മറ്റു നിഴൽത്തുമ്പികകളിൽനിന്നും തിരിച്ചറിയാൻ സഹായിക്കുന്നു.",
+     "description3": "",
+     "description4": "",
+     "description5": "",
+    "mainPhoto": "~/images/Protosticta_davenporti_main.jpg",
+    "photos": [
+      { "url": "~/images/Protosticta_davenporti_male1.jpg", "credit": "ആൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Protosticta_davenporti_male.jpg" },
+      { "url": "~/images/Protosticta_davenporti_female1.jpg", "credit": "പെൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Protosticta_davenporti_female.jpg" },
+	  { "url": "~/images/Protosticta_davenporti_male2.jpg", "credit": "കുറുവാൽ © ബാലചന്ദ്രന്‍ വി", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Protosticata_davenporti_01.jpg" }
+    ],
+    "speciesLink": "https://www.inaturalist.org/taxa/110718-Protosticta-davenporti",
+    "wikipediaLink": "https://en.wikipedia.org/wiki/Protosticta_davenporti"
+  },
+   {
+    "id": 180,
+    "commonName": "Francy's Reedtail",
+    "malayalamName": "ഫ്രാന്‍സി നിഴൽത്തുമ്പി",
+    "scientificName": "Protosticta francyi",
+	"sciName": "Protosticta francyi (Sadasivan, Vibhu, Nair & Palot, 2022)",
+    "family": "Platystictidae / Reed tails / നിഴല്‍ത്തുമ്പികള്‍",
+    "description1": "നിഴൽത്തുമ്പി കുടുംബത്തിൽ ഉള്ള ഒരു സൂചിത്തുമ്പിയാണ് ഫ്രാന്‍സി നിഴൽത്തുമ്പി. ഇത് പശ്ചിമഘട്ടത്തിലെ ഒരു തദ്ദേശീയ തുമ്പിയാണ്.",
+    	 "description2": "",
+     "description3": "",
+     "description4": "",
+     "description5": "",
+    "mainPhoto": "~/images/Protosticta_francyi_main.jpg",
+    "photos": [
+      { "url": "~/images/Protosticta_francyi_male1.jpg", "credit": "ആൺതുമ്പി © Vibhu V", "sourceUrl": "https://www.researchgate.net/publication/364639326_A_new_species_of_Protosticta_Selys_1885_Odonata_Zygoptera_Platystictidae_from_the_Brahmagiri_Hills_Kerala_India/" },
+      { "url": "~/images/Protosticta_francyi_female1.jpg", "credit": "പെൺതുമ്പി © Vibhu V", "sourceUrl": "https://www.researchgate.net/publication/364639326_A_new_species_of_Protosticta_Selys_1885_Odonata_Zygoptera_Platystictidae_from_the_Brahmagiri_Hills_Kerala_India/" }
+    ],
+    "speciesLink": "https://www.inaturalist.org/taxa/1427671-Protosticta-francyi",
+    "wikipediaLink": "https://en.wikipedia.org/wiki/Protosticta"
+  },
+   {
+    "id": 181,
+    "commonName": "Pied Reedtail",
+    "malayalamName": "പുള്ളി നിഴൽത്തുമ്പി",
+    "scientificName": "Protosticta gravelyi",
+	"sciName": "Protosticta gravelyi (Laidlaw, 1915)",
+    "family": "Platystictidae / Reed tails / നിഴല്‍ത്തുമ്പികള്‍",
+    "description1": "കറുത്ത ശരീരത്തിൽ വെളുത്ത വരകളും ഉദരത്തിൽ വെളുത്ത വളയങ്ങളുമുള്ള നിഴൽത്തുമ്പി കുടുംബത്തിൽ ഉള്ള ഒരു സൂചിത്തുമ്പിയാണ് പുള്ളി നിഴൽത്തുമ്പി. ഇത് പശ്ചിമഘട്ടത്തിലെ ഒരു തദ്ദേശീയ തുമ്പിയാണ്. നീളമുള്ള ഉദരവും, ഉദരത്തിന്റെ പകുതിയിൽ താഴെ മാത്രം നീളമുള്ള ചിറകുകളും, കടും തവിട്ട് നിറമുള്ള കണ്ണുകളുമുള്ള ആൺതുമ്പിയെ തിരിച്ചറിയാൻ എളുപ്പമാണ്. പശ്ചിമഘട്ട വനമേഖലയിൽ ഇവ സാധാരണമാണ്. ",
+    "description2": "ജലാശയത്തിനു ചുറ്റുമുള്ള വനങ്ങളുടെ അടിക്കാടുകളിൽ കാണപ്പെടുന്നു. പായലും പന്നൽ ചെടികളും നിറഞ്ഞ പാറയിടുക്കുകൾ, മണൽത്തിട്ടകൾ, എന്നിവിടങ്ങളിലായി കാണുന്നു. കണ്ണുകൾക്ക് കടും തവിട്ടു നിറമാണ്. ഇവയുടെ കഴുത്തിന് മങ്ങിയ വെളുപ്പു നിറമാണ്. തിളങ്ങുന്ന കറുപ്പു നിറമുള്ള ഉരസ്സിൽ രണ്ട് വെളുത്ത വരകൾ കാണാം. ഇവയുടെ കാലുകൾക്ക് മങ്ങിയ വെളുപ്പു നിറവും കാൽമുട്ടുകൾക്ക് കറുപ്പുനിറവുമാണ്. ",
+     "description3": "കറുത്ത ഉദരത്തിന്റെ ഖണ്ഡങ്ങൾക്കിടയിൽ വെളുത്ത വളയങ്ങളുണ്ട്. പെൺതുമ്പികളുടെ ഉദരം നീളം കുറഞ്ഞതും തടിച്ചതുമാണ്. പിൻകഴുത്തിലെ വെളുത്ത നിറം ആൺതുമ്പികളെക്കാളും കൂടുതലായിരിക്കും. ചെറിയ ദൂരം മാത്രം സഞ്ചരിക്കുന്ന ഇവ പതുക്കെയാണ് പറക്കുക. മുന്നോട്ടും പിന്നോട്ടും പറക്കാനുള്ള കഴിവും ഇവയ്ക്കുണ്ട്. ",
+     "description4": "ഇരുട്ടുള്ള പ്രദേശങ്ങളിൽ ഉദരത്തിലെ വെള്ളപ്പാടുകൾ മാത്രമായിരിക്കും കണ്ണിൽപ്പെടുന്നത്. അരുവികളിലാണ് ഇവ മുട്ടയിടാറുള്ളത്. കൂട്ടമായിട്ടാണ് ഇവ ജീവിക്കുന്നത്.",
+     "description5": "",
+    "mainPhoto": "~/images/Protosticta_gravelyi_main.jpg",
+    "photos": [
+      { "url": "~/images/Protosticta_gravelyi_male1.jpg", "credit": "ആൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pied_Reedtail_(Protosticta_gravelyi)_male._%E0%B4%AA%E0%B5%81%E0%B4%B3%E0%B5%8D%E0%B4%B3%E0%B4%BF_%E0%B4%A8%E0%B4%BF%E0%B4%B4%E0%B4%B2%E0%B5%8D%E2%80%8D%E0%B4%A4%E0%B5%8D%E0%B4%A4%E0%B5%81%E0%B4%AE%E0%B5%8D%E0%B4%AA%E0%B4%BF._(31150246768).jpg" },
+      { "url": "~/images/Protosticta_gravelyi_female1.jpg", "credit": "പെൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Protosticta_gravelyi-Kadavoor-2016-06-23-004.jpg" },
+	  { "url": "~/images/Protosticta_gravelyi_male2.jpg", "credit": "കുറുവാൽ © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Protosticta_gravelyi-Kadavoor-2016-06-23-002.jpg" }
+    ],
+    "speciesLink": "https://www.inaturalist.org/taxa/110723-Protosticta-gravelyi",
+    "wikipediaLink": "https://en.wikipedia.org/wiki/Protosticta_gravelyi"
+  }
+  ]
