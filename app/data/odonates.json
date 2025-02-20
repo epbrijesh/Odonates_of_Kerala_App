@@ -1013,6 +1013,509 @@
     "wikipediaLink": "https://en.wikipedia.org/wiki/Hydrobasileus_croceus"
   },
   {
+    "id": 51,
+    "commonName": "Blue Hawklet",
+    "malayalamName": "നീല നീർത്തോഴൻ",
+    "scientificName": "Hylaeothemis apicalis",
+	"sciName": "Hylaeothemis apicalis (Fraser, 1924)",
+    "family": "Libellulidae / Skimmers and Hawks / നീര്‍മുത്തന്‍‍മാര്‍",
+    "description1": "ഇന്ത്യയിൽ മാത്രം കാണപ്പെടുന്ന നീർമുത്തൻ കുടുംബത്തിൽ ഉള്ള ഒരു കല്ലൻതുമ്പിയാണ് നീല നീർത്തോഴൻ. വനത്തിലെ ചതുപ്പുകളിൽ ഇവ കൂട്ടമായി കാണപ്പെടുന്നു. ഫ്രെസർ ഇതിനെ വിവരിക്കുന്നതുവരെ ശ്രീലങ്കയിൽ മാത്രം കാണപ്പെടുന്ന H. fruhstorferi ആയിട്ടാണ് ഇതിനെയും കണക്കാക്കിയിരുന്നത്.",
+    	 "description2": "",
+     "description3": "",
+     "description4": "",
+     "description5": "",
+    "mainPhoto": "~/images/Hylaeothemis_apicalis_main.jpg",
+    "photos": [
+      { "url": "~/images/Hylaeothemis_apicalis_male1.jpg", "credit": "ആൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Hylaeothemis_indica-Silent_Valley-2016-08-14-001.jpg" },
+      { "url": "~/images/Hylaeothemis_apicalis_female1.jpg", "credit": "പെൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hylaeothemis_indica-Silent_Valley-2016-08-14-009.jpg" }
+    ],
+    "speciesLink": "https://www.inaturalist.org/taxa/1134273-Hylaeothemis-apicalis",
+    "wikipediaLink": "https://en.wikipedia.org/wiki/Hylaeothemis_apicalis"
+  },
+  {
+    "id": 52,
+    "commonName": "Black Scrub-Glider",
+    "malayalamName": "കരിമുത്തന്‍",
+    "scientificName": "Indothemis carnatica",
+	"sciName": "Indothemis carnatica (Fabricius, 1798)",
+    "family": "Libellulidae / Skimmers and Hawks / നീര്‍മുത്തന്‍‍മാര്‍",
+    "description1": "ഇന്ത്യയിലും ശ്രീലങ്കയിലും തായ്ലാന്റിലും അപൂർവമായി കാണപ്പെടുന്ന നീർമുത്തൻ കുടുംബത്തിൽ ഉള്ള ഒരു കല്ലൻതുമ്പിയാണ് കരിമ്പൻ ചരൽമുത്തി. കാടുമൂടിയ കുളങ്ങളിലും തടാകങ്ങളിലുമാണ് ഇവ പ്രജനനം നടത്തുന്നത്.",
+    	 "description2": "",
+     "description3": "",
+     "description4": "",
+     "description5": "",
+    "mainPhoto": "~/images/Indothemis_carnatica_main.jpg",
+    "photos": [
+      { "url": "~/images/Indothemis_carnatica_male1.jpg", "credit": "ആൺതുമ്പി © Charles J. Sharp", "sourceUrl": "https://en.wikipedia.org/wiki/File:Light-tipped_demon_(Indothemis_carnatica)_male_Kanha.jpg" },
+      { "url": "~/images/Indothemis_carnatica_female1.jpg", "credit": "പെൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Indothemis_carnatica_female_by_kadavoor.jpg" }
+    ],
+    "speciesLink": "https://www.inaturalist.org/taxa/103421-Indothemis-carnatica",
+    "wikipediaLink": "https://en.wikipedia.org/wiki/Indothemis_carnatica"
+  },
+  {
+    "id": 53,
+    "commonName": "Restless Demon",
+    "malayalamName": "പുള്ളി കരിമുത്തൻ",
+    "scientificName": "Indothemis limbata sita",
+	"sciName": "Indothemis limbata sita (Campion, 1923)",
+    "family": "Libellulidae / Skimmers and Hawks / നീര്‍മുത്തന്‍‍മാര്‍",
+    "description1": "ഇന്ത്യയിലും ശ്രീലങ്കയിലും തായ്ലാന്റിലും കാണപ്പെടുന്ന നീർമുത്തൻ കുടുംബത്തിൽ ഉള്ള ഒരു കല്ലൻതുമ്പിയാണ് പുള്ളി കരിമുത്തൻ. കാടുമൂടിയ കുളങ്ങളിലും തടാകങ്ങളിലുമാണ് ഇവ പ്രജനനം നടത്തുന്നത്.",
+    	 "description2": "",
+     "description3": "",
+     "description4": "",
+     "description5": "",
+    "mainPhoto": "~/images/Indothemis_limbata_sita_main.jpg",
+    "photos": [
+      { "url": "~/images/Indothemis_limbata_sita_male1.jpg", "credit": "ആൺതുമ്പി © വിവേക് ചന്ദ്രന്‍ എ", "sourceUrl": "https://en.wikipedia.org/wiki/File:Indothemis_limbata_(cropped).jpg" },
+      { "url": "~/images/Indothemis_limbata_sita_female1.jpg", "credit": "പെൺതുമ്പി © അഫ്സര്‍ നായക്കന്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Imdothemis_limbata_6.jpg" }
+    ],
+    "speciesLink": "https://www.inaturalist.org/taxa/1351974-Indothemis-limbata-sita",
+    "wikipediaLink": "https://en.wikipedia.org/wiki/Indothemis_limbata"
+  },
+  {
+    "id": 54,
+    "commonName": "Asian Blood-tail",
+    "malayalamName": "ചോരവാലൻ",
+    "scientificName": "Lathrecista asiatica",
+	"sciName": "Lathrecista asiatica (Fabricius, 1798)",
+    "family": "Libellulidae / Skimmers and Hawks / നീര്‍മുത്തന്‍‍മാര്‍",
+    "description1": "ഇന്ത്യ മുതൽ ആസ്ത്രേലിയ വരെ കാണപ്പെടുന്ന നീർമുത്തൻ കുടുംബത്തിൽ ഉള്ള ഒരു കല്ലൻതുമ്പിയാണ് ചോരവാലൻ തുമ്പി. കുളങ്ങളിലും ചതുപ്പുകളിലും ഇവ പ്രജനനം നടത്തുന്നു.",
+    	 "description2": "",
+     "description3": "",
+     "description4": "",
+     "description5": "",
+    "mainPhoto": "~/images/Lathrecista_asiatica_main.jpg",
+    "photos": [
+      { "url": "~/images/Lathrecista_asiatica_male1.jpg", "credit": "ആൺതുമ്പി © Charles J. Sharp ", "sourceUrl": "https://en.wikipedia.org/wiki/File:Asiatic_blood_tail_(Lathrecista_asiatica)_male_Viti_Levu.jpg" },
+      { "url": "~/images/Lathrecista_asiatica_female1.jpg", "credit": "പെൺതുമ്പി © Shagil Kannur", "sourceUrl": "https://en.wikipedia.org/wiki/File:Lathrecista_asiatica_in_Kerala.jpg" }
+    ],
+    "speciesLink": "https://www.inaturalist.org/taxa/104104-Lathrecista-asiatica",
+    "wikipediaLink": "https://en.wikipedia.org/wiki/Lathrecista_asiatica"
+  },
+  {
+    "id": 55,
+    "commonName": "Pygmy Blood-tail",
+    "malayalamName": "ചെറു വർണ്ണത്തുമ്പി",
+    "scientificName": "Lyriothemis acigastra",
+	"sciName": "Lyriothemis acigastra (Selys, 1878)",
+    "family": "Libellulidae / Skimmers and Hawks / നീര്‍മുത്തന്‍‍മാര്‍",
+    "description1": "ഇന്ത്യയിൽ കാണപ്പെടുന്ന നീർമുത്തൻ കുടുംബത്തിൽ ഉള്ള ഒരു കല്ലൻതുമ്പിയാണ് ചെറു വർണ്ണത്തുമ്പി. Lyriothemis ജനുസിൽപെട്ട പതിനഞ്ച് ഇനം തുമ്പികൾ ഏഷ്യയിൽ ആകമാനം കാണപ്പെടുന്നു. ഈ ജനുസിൽപെട്ട മൂന്നു ഇനം തുമ്പികൾ ഇന്ത്യയിൽ കാണപ്പെടുന്നു. അവ L. cleis, L. tricolor, L. acigastra എന്നിവയാണ്. ഇവ മൂന്നും ഇന്ത്യയുടെ വടക്കു കിഴക്കൻ സംസ്ഥാനങ്ങളിൽ മാത്രമായി ഒതുങ്ങിയിരുന്നതായി കരുതിയിരുന്നു.",
+    "description2": "എന്നാൽ 2009 ഇൽ L. tricolor ഉം 2010 ൽ L. acigastra ഉം കേരളത്തിൽ കണ്ടെത്തി. കുള്ളൻ വർണ്ണത്തുമ്പിയുടെ ആവാസ വ്യവസ്ഥയെക്കുറിച്ച് കാര്യമായി ഒന്നും നമുക്കറിയില്ല. ഇവയുടെ അപൂർവതയും രഹസ്യ സ്വാഭാവവും ആവാം അതിനു കാരണം. ശുദ്ധജല ചതുപ്പുകൾകും നീരുരവകൾകും അരികുകളിലുള്ള കുറ്റിക്കാടുകളിലാണ്‌ 2010 ൽ ഇവയെ കണ്ടെത്തിയത്. ഇവക്ക് ശ്രീലങ്കയിൽ 2009 ൽ കണ്ടെത്തിയ L. defonsekai യുമായി വളരെ സാമ്യമുണ്ട്‌.",
+     "description3": "",
+     "description4": "",
+     "description5": "",
+    "mainPhoto": "~/images/Lyriothemis_acigastra_main.jpg",
+    "photos": [
+      { "url": "~/images/Lyriothemis_acigastra_male1.jpg", "credit": "ആൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Lyriothemis_acigastra_male_at_Kadavoor.jpg" },
+      { "url": "~/images/Lyriothemis_acigastra_female1.jpg", "credit": "പെൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Lyriothemis_acigastra_female_at_Kadavoor.jpg" }
+    ],
+    "speciesLink": "https://www.inaturalist.org/taxa/104927-Lyriothemis-acigastra",
+    "wikipediaLink": "https://en.wikipedia.org/wiki/Lyriothemis_acigastra"
+  },
+  {
+    "id": 56,
+    "commonName": "Tricolour Blood-tail",
+    "malayalamName": "ത്രിവർണ്ണത്തുമ്പി",
+    "scientificName": "Lyriothemis tricolor",
+	"sciName": "Lyriothemis tricolor (Ris, 1919)",
+    "family": "Libellulidae / Skimmers and Hawks / നീര്‍മുത്തന്‍‍മാര്‍",
+    "description1": "ത്രിവർണ്ണത്തുമ്പി ഇന്ത്യയിൽ കാണപ്പെടുന്ന നീർമുത്തൻ കുടുംബത്തിൽ ഉള്ള ഒരു കല്ലൻതുമ്പിയാണ്. ബംഗ്ലാദേശ്, ചൈന, ഇന്ത്യ, ജപ്പാൻ, മ്യാന്മാർ, തായ്‌വാൻ എന്നിവിടങ്ങളിലെ ഉഷ്ണമേഖലാവനങ്ങളിൽ ഈ തുമ്പി കാണപ്പെടുന്നു. Lyriothemis ജനുസിൽപെട്ട പതിനഞ്ച് ഇനം തുമ്പികൾ ഏഷ്യയിൽ ആകമാനം കാണപ്പെടുന്നു. ഈ ജനുസിൽപെട്ട മൂന്നു ഇനം തുമ്പികൾ ഇന്ത്യയിൽ കാണപ്പെടുന്നു. അവ L. cleis, L. tricolor, L. acigastra എന്നിവയാണ്. ",
+     "description2": "ഇവ മൂന്നും ഇന്ത്യയുടെ വടക്കു കിഴക്കൻ സംസ്ഥാനങ്ങളിൽ മാത്രമായി ഒതുങ്ങിയിരുന്നതായി കരുതിയിരുന്നു. എന്നാൽ 2009 ഇൽ L. tricolor ഉം 2013 ൽ L. acigastra ഉം കേരളത്തിൽ കണ്ടെത്തി. മറ്റു തുമ്പികളിൽനിന്നും വ്യത്യസ്തമായി ഈ തുമ്പി വനങ്ങളിലെ മരപ്പൊത്തുകളിൽ കെട്ടിക്കിടക്കുന്ന വെള്ളത്തിലാണ് മുട്ടയിടുന്നത്. ഈ പൊത്തുകൾക്ക് സമീപം ആൺതുമ്പികൾ കാവൽ നിൽക്കുന്നതും കണ്ടിട്ടുണ്ട്.",
+     "description3": "ഈ ജലം പരിശോധിച്ചപ്പോൾ അമ്ലസ്വഭാവമുള്ളതും ധാരാളം ലവണങ്ങൾ അടങ്ങിയതുമായി കാണപ്പെട്ടു (pH 3.56 - 6.48). നട്ടെല്ലുള്ളതും ഇല്ലാത്തതുമായ ധാരാളം ജീവികൾ L. tricolor ലാർവക്കൊപ്പം ജീവിക്കുന്നതായും കണ്ടെത്തി. എന്നാൽ ഇവ തമ്മിലുള്ള ബന്ധത്തെക്കുറിച്ച് കൂടുതൽ ഗവേഷണം ആവശ്യമാണ്.",
+     "description4": "",
+     "description5": "",
+    "mainPhoto": "~/images/Lyriothemis_tricolor_main.jpg",
+    "photos": [
+      { "url": "~/images/Lyriothemis_tricolor_male1.jpg", "credit": "ആൺതുമ്പി © ഡേവിഡ് രാജു", "sourceUrl": "https://en.wikipedia.org/wiki/File:Lyriothemis_tricolor_Ris,_1919_(4).jpg" },
+      { "url": "~/images/Lyriothemis_tricolor_female1.jpg", "credit": "പെൺതുമ്പി © ബാലചന്ദ്രന്‍ വി", "sourceUrl": "https://en.wikipedia.org/wiki/File:Lyriothemis_tricolor_Ris,_1919.jpg" }
+    ],
+    "speciesLink": "https://www.inaturalist.org/taxa/1498313-Lyriothemis-flava",
+    "wikipediaLink": "https://en.wikipedia.org/wiki/Lyriothemis_tricolor"
+  },
+  {
+    "id": 57,
+    "commonName": "Estuarine Skimmer",
+    "malayalamName": "പൊഴിത്തുമ്പി",
+    "scientificName": "Macrodiplax cora",
+	"sciName": "Macrodiplax cora (Kaup in Brauer, 1867)",
+    "family": "Libellulidae / Skimmers and Hawks / നീര്‍മുത്തന്‍‍മാര്‍",
+    "description1": "ഏഷ്യയിലും ആസ്ത്രേലിയയിലും കാണപ്പെടുന്ന നീർമുത്തൻ കുടുംബത്തിൽ ഉള്ള ഒരു കല്ലൻതുമ്പിയാണ് പൊഴിത്തുമ്പി. ഉപ്പുവേള്ളത്തോട്‌ പ്രതിരോധശേഷിയുള്ളതിനാൽ ഇവയെ തീരപ്രദേശത്ത് കണ്ടുവരുന്നു.",
+    	 "description2": "",
+     "description3": "",
+     "description4": "",
+     "description5": "",
+    "mainPhoto": "~/images/Macrodiplax_cora_main.jpg",
+    "photos": [
+      { "url": "~/images/Macrodiplax_cora_male1.jpg", "credit": "ആൺതുമ്പി © Summerdrought", "sourceUrl": "https://en.wikipedia.org/wiki/File:Macrodiplax_cora_4160.jpg" },
+      { "url": "~/images/Macrodiplax_cora_female1.jpg", "credit": "പെൺതുമ്പി © Lin Scott", "sourceUrl": "https://en.wikipedia.org/wiki/File:Macrodiplax_cora_female_obelisk.jpg" }
+    ],
+    "speciesLink": "https://www.inaturalist.org/taxa/104994-Macrodiplax-cora",
+    "wikipediaLink": "https://en.wikipedia.org/wiki/Macrodiplax_cora"
+  },
+  {
+    "id": 58,
+    "commonName": "Fulvous Forest-Skimmer",
+    "malayalamName": "തവിടന്‍ തുരുമ്പൻ",
+    "scientificName": "Neurothemis fulvia",
+	"sciName": "Neurothemis fulvia (Drury, 1773)",
+    "family": "Libellulidae / Skimmers and Hawks / നീര്‍മുത്തന്‍‍മാര്‍",
+    "description1": "മുഖ്യമായും ഏഷ്യൻ രാജ്യങ്ങളിലും കേരളത്തിൽ ഇടനാട്, മലനാട് പ്രദേശങ്ങളിൽ കൂടുതലായും കാണപ്പെടുന്ന ഒരിനം കല്ലൻ തുമ്പിയാണ് തുരുമ്പൻ തുമ്പി അഥവാ തവിടൻ തുരുമ്പൻ. ചുവപ്പുകലർന്ന കടുത്ത മജന്ത നിറത്തിൽ ആൺതുമ്പിയും തുരുമ്പിച്ച നിറത്തിൽ പെൺതുമ്പിയും കാണപ്പെടുന്നു.",
+    "description2": " ചിറകുകളുടെ ആഗ്ര ഭാഗത്തുള്ള സുതാര്യമായ കലകൾ മറ്റു തുരുമ്പൻ തുമ്പികളിൽ നിന്നും ഇവയെ തിരിച്ചറിയുവാൻ സഹായിക്കുന്നു. ശുദ്ധജലാശയങ്ങളുടെയും കാട്ടരുവികളുടെയും സമീപത്തു വസിക്കുന്ന ഇവയെ തീരപ്രദേശങ്ങളിലും അപൂർവ്വമായി കാണാറുണ്ട്.",
+     "description3": "ഈ തുമ്പികൾക്ക് പ്രായമാകുന്തോറും ശരീരത്തിലെ ചുവപ്പ് നിറം കൂടി വരുന്നതായി കാണാം. പെൺതുമ്പികളുടെ ശരീരത്തിന് തുരുമ്പിച്ച മഞ്ഞ നിറമാണ്. നിറവ്യത്യാസം ഒഴിച്ചു നിർത്തിയാൽ ആൺതുമ്പിയും പെൺതുമ്പിയും തമ്മിൽ പ്രകടമായ മറ്റു വ്യത്യാസങ്ങൾ ഇല്ല.  തുരുമ്പൻ തുമ്പിയുടെ പെൺതുമ്പികൾ പല നിറഭേദങ്ങളിൽ കാണപ്പെടുന്നുണ്ട്. ",
+     "description4": "ചില തുമ്പികളിൽ ശരീരം മുഴുവനും ഏകതാനമായ മഞ്ഞ നിറം വ്യാപിച്ചു കാണപ്പെടുമ്പോൾ മറ്റു ചില പെൺതുമ്പികളിൽ നിറത്തിന്റെ വ്യാപ്തി ഏറിയും കുറഞ്ഞും കാണാം.  ചെടികളിലോ, ഉണങ്ങിയ കമ്പുകളുടെ അഗ്രഭാഗത്തോ ഇരിക്കാനിഷ്ടപ്പെടുന്നു. വിശ്രമിക്കുമ്പോൾ ചിറകുകൾ താഴ്ത്തിപ്പിടിച്ചിരിക്കുന്നത് കാണാം.",
+     "description5": "കാട്ടിനുള്ളിലെ തുറസ്സുകളിലും, കാടിന്റെ അരികുപ്രദേശങ്ങളിലും തുരുമ്പൻ തുമ്പിയുടെ വലിയ കൂട്ടങ്ങൾ പറന്ന് നടക്കുന്നത് കാണാം. കേരളത്തിൽ വർഷം മുഴുവനും ഇവയെ കാണാൻ സാധിക്കും. മെയ് മുതൽ സെപ്റ്റംബർ വരെയുള്ള മാസങ്ങളിലാണ് ഏറ്റവും കൂടുതൽ കാണപ്പെടുന്നത്.",
+    "mainPhoto": "~/images/Neurothemis_fulvia_main.jpg",
+    "photos": [
+      { "url": "~/images/Neurothemis_fulvia_male1.jpg", "credit": "ആൺതുമ്പി © JJ Harrison", "sourceUrl": "https://en.wikipedia.org/wiki/File:Neurothemis_fulvia_9332_-_Doi_Inthanon.jpg" },
+      { "url": "~/images/Neurothemis_fulvia_female1.jpg", "credit": "പെൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Neurothemis_fulvia-Kadavoor-2016-07-28-001.jpg" }
+    ],
+    "speciesLink": "https://www.inaturalist.org/taxa/107003-Neurothemis-fulvia",
+    "wikipediaLink": "https://en.wikipedia.org/wiki/Neurothemis_fulvia"
+  },
+  {
+    "id": 59,
+    "commonName": "Ruddy Meadow-Skimmer",
+    "malayalamName": "പുൽ തുരുമ്പൻ",
+    "scientificName": "Neurothemis intermedia",
+	"sciName": "Neurothemis intermedia (Rambur, 1842)",
+    "family": "Libellulidae / Skimmers and Hawks / നീര്‍മുത്തന്‍‍മാര്‍",
+    "description1": "ഏഷ്യയിൽ കാണപ്പെടുന്ന നീർമുത്തൻ കുടുംബത്തിൽ ഉള്ള ഒരു കല്ലൻതുമ്പിയാണ് പുൽ തുരുമ്പൻ. ഈ തുമ്പിയെ പല രാജ്യങ്ങളിലും കാണാമെങ്കിലും അത്ര സർവസാധാരണം അല്ല. പുൽമേടുകളിലും അതുപോലുള്ള തുറസായ സ്ഥലങ്ങളിലുമാണ് ഇവയെ കാണാറുള്ളത്‌. നാല് ഉപവർഗങ്ങളെ തിരിച്ചറിഞ്ഞിട്ടുണ്ട്. ഉപവർഗങ്ങൾ Neurothemis intermedia atalanta Ris 1919 Neurothemis intermedia degener Selys, 1879 Neurothemis intermedia excelsa Lieftinck, 1934 Neurothemis intermedia intermedia (Rambur, 1842) ",
+    "description2": "കേരളത്തിൽ കാണപ്പെടുന്ന 3 Neurothemis സ്പീഷീസുകളിൽ താരതമ്യേന അപൂർവ്വമായി കാണപ്പെടുന്ന തുമ്പിയാണ് പുൽ തുരുമ്പൻ. പ്രത്യേകിച്ച് തെക്കൻ കേരളത്തിൽ ഇവ വളരെ അപൂർവ്വമാണ്. വടക്കൻ കേരളത്തിൽ കൂടുതലായി കാണപ്പെടുന്ന ഇവയെ പാലക്കാട്, മലപ്പുറം ജില്ലകളിലെ നാട്ടിൻപുറങ്ങളിൽ സുലഭമായി കാണാം. പൊതുവെ വരണ്ട കാലാവസ്ഥ ഇഷ്ടപ്പെടുന്ന വയൽ തുരുമ്പൻ തുമ്പികളെ ",
+     "description3": "മഴ കഴിഞ്ഞുള്ള മാസങ്ങളിലാണ് കൂടുതലായും കാണാൻ കഴിയുന്നത്. ഇലപൊഴിയും വനങ്ങൾ ഇവയുടെ ഒരു പ്രധാന ആവാസവ്യവസ്ഥയാണ്. ചുറ്റിനും കുറ്റിച്ചെടികൾ നിറഞ്ഞ ചെറിയ കുളങ്ങൾ ഇവയുടെ ഇഷ്ട കേന്ദ്രങ്ങളാണ്. അധികം ഉയരത്തിൽ പറക്കാൻ ഇഷ്ടപ്പെടാത്ത വയൽ തുരുമ്പൻ കുറ്റിച്ചെടികളുടെയും മറ്റും ഇലപ്പടർപ്പുകളിലിരുന്ന് വെയിൽ കായുന്നത് സാധാരണമാണ്.",
+     "description4": "പലപ്പോഴും ചെറിയ കൂട്ടങ്ങളായി കാണപ്പെടുന്ന ഇവയിൽ പെൺതുമ്പികളുടെ എണ്ണം ആൺതുമ്പികളെ അപേക്ഷിച്ച് കൂടുതലായാണ് നിരീക്ഷിക്കപ്പെട്ടിട്ടുള്ളത്. ആൺതുമ്പികളുടെ ഉദരത്തിന് ഏകദേശം രണ്ടര സെന്റിമീറ്ററോളം നീളമുണ്ടായിരിയ്ക്കും. ചിറകുകളുടെ തുടക്കത്തിലുള്ള ചുവപ്പു നിറം ഇവയെ മറ്റു തുമ്പികളിൽ നിന്നും തിരിച്ചറിയാൻ സഹായിക്കുന്നു.",
+     "description5": "പെൺതുമ്പികളുടെ ശരീരത്തിന് ചുവപ്പു നിറത്തിനു പകരം കൂടുതൽ മഞ്ഞനിറമായിരിയ്ക്കും.  പെൺതുമ്പികളുടെ ഉദരത്തിലെ കറുപ്പുവരകൾ കൂടുതൽ ഇരുണ്ടതായി കാണപ്പെടുന്നു.",
+    "mainPhoto": "~/images/Neurothemis_intermedia_main.jpg",
+    "photos": [
+      { "url": "~/images/Neurothemis_intermedia_male1.jpg", "credit": "ആൺതുമ്പി © വിനീത് വെങ്ങോലിസ്", "sourceUrl": "https://en.wikipedia.org/wiki/File:Neurothemis_intermedia_05455.jpg" },
+      { "url": "~/images/Neurothemis_intermedia_female1.jpg", "credit": "പെൺതുമ്പി © Charles J. Sharp", "sourceUrl": "https://en.wikipedia.org/wiki/File:Paddyfield_parasol_(Neurothemis_intermedia)_female_Kanha.jpg" }
+    ],
+    "speciesLink": "https://www.inaturalist.org/taxa/107004-Neurothemis-intermedia",
+    "wikipediaLink": "https://en.wikipedia.org/wiki/Neurothemis_intermedia"
+  },
+  {
+    "id": 60,
+    "commonName": "Pied Paddy-Skimmer",
+    "malayalamName": "സ്വാമിത്തുമ്പി",
+    "scientificName": "Neurothemis tullia",
+	"sciName": "Neurothemis tullia (Drury, 1773)",
+    "family": "Libellulidae / Skimmers and Hawks / നീര്‍മുത്തന്‍‍മാര്‍",
+    "description1": "തെക്കനേഷ്യയിലും തെക്കു-കിഴക്കനേഷ്യയിലും സാധാരണയായി കാണപ്പെടുന്ന ഒരിനം കല്ലൻ തുമ്പിയാണ് സ്വാമിത്തുമ്പി. കേരളത്തിലെ നാട്ടിൻപുറങ്ങളിലും വയൽപ്രദേശങ്ങളിലും ഇവയെ ധാരാളമായി കാണാം. ആൺതുമ്പിയുടെ ചിറകുകളുടെ നിറവിന്യാസം ശബരിമല തീർത്ഥാടകരുടെ വസ്ത്രധാരണത്തെ അനുസ്മരിപ്പിക്കുന്നതിനാലാണ് ഇവയെ സ്വാമിത്തുമ്പി എന്ന് വിളിക്കുന്നത്.",
+    "description2": " ആൺതുമ്പിയും പെൺതുമ്പിയും കാഴ്ച്ചയിൽ വളരെ വ്യത്യാസപ്പെട്ടിരിക്കുന്നു. ശരീരം കറുപ്പുനിറത്തിൽ വെള്ള പുള്ളികളോട് കൂടിയ ആൺതുമ്പികളുടെ ചിറകിന്റെ അഗ്രഭാഗം സുതാര്യവും വെള്ളവരകൾ നിറഞ്ഞതുമാണ്. ആൺതുമ്പികളെ അപേഷിച്ച് പെൺതുമ്പികളുടെ ചിറകുകളിൽ കറുപ്പു പൊട്ടുകളുണ്ട്, ",
+     "description3": "കൂടാതെ ചിറകുകൾ ഇളം മഞ്ഞ നിറത്തിൽ കൂടുതൽ സുതാര്യവുമാണ്. ആൺതുമ്പി ആൺതുമ്പിയുടെ മുഖം കറുത്തിട്ടാണ്. പാടശേഖരങ്ങളിലും കുളങ്ങൾക്കരികിലും ധാരാളമായി കാണപ്പെടുന്ന ഒരു തുമ്പിയാണ് സ്വാമിത്തുമ്പി.",
+     "description4": "വളരെ സാവധാനത്തിലാണ് സ്വാമിത്തുമ്പിയുടെ പറക്കൽ. നിലത്തോട് ചേർന്ന് കിടക്കുന്ന ചെറിയ മരച്ചില്ലകളും പുല്ലുകളുമെല്ലാം ഇവയുടെ ഇഷ്ട ഇരിപ്പിടങ്ങളാണ്. നെല്പാടങ്ങൾക്കിടയിലുള്ള തോടുകൾ ഇവയുടെ ഇഷ്ട കേന്ദ്രങ്ങളാണ്. ആൺതുമ്പികളും പെൺതുമ്പികളും ചേർന്നുള്ള ചെറിയ കൂട്ടങ്ങളായി ഇവയെ കാണാം.",
+     "description5": "ആൺതുമ്പികൾ അധീനപ്രദേശം കാത്തുസൂക്ഷിക്കുന്ന സ്വഭാവക്കാരാണ്. ചതുപ്പുകളിലും ചെറു കുളങ്ങളിലുമാണ് ഇവ സാധാരണയായി മുട്ടയിടുന്നത്. കേരളത്തിൽ വർഷം മുഴുവനും സ്വാമിത്തുമ്പിയെ കാണാം. ജൂലൈ മുതൽ സെപ്റ്റംബർ വരെയുള്ള സമയങ്ങളിലാണ് ഇവയെ കൂടുതലായി കാണാറുള്ളത്.",
+    "mainPhoto": "~/images/Neurothemis_tullia_main.jpg",
+    "photos": [
+      { "url": "~/images/Neurothemis_tullia_male1.jpg", "credit": "ആൺതുമ്പി © ബ്രിജേഷ് പൂക്കോട്ടൂര്‍", "sourceUrl": "https://" },
+	  { "url": "~/images/Neurothemis_tullia_male2.jpg", "credit": "ആൺതുമ്പി © ബ്രിജേഷ് പൂക്കോട്ടൂര്‍", "sourceUrl": "https://" },
+      { "url": "~/images/Neurothemis_tullia_female1.jpg", "credit": "പെൺതുമ്പി © ബ്രിജേഷ് പൂക്കോട്ടൂര്‍", "sourceUrl": "https://" }
+    ],
+    "speciesLink": "https://www.inaturalist.org/taxa/107008-Neurothemis-tullia",
+    "wikipediaLink": "https://en.wikipedia.org/wiki/Neurothemis_tullia"
+  },
+  {
+    "id": 61,
+    "commonName": "Stellate River-Hawk",
+    "malayalamName": "കാട്ടുപുള്ളൻ",
+    "scientificName": "Onychothemis testacea ceylanica",
+	"sciName": "Onychothemis testacea ceylanica (Ris, 1912)",
+    "family": "Libellulidae / Skimmers and Hawks / നീര്‍മുത്തന്‍‍മാര്‍",
+    "description1": "ഏഷ്യയിൽ കാണപ്പെടുന്ന നീർമുത്തൻ കുടുംബത്തിൽ ഉള്ള ഒരു കല്ലൻതുമ്പിയാണ് കാട്ടുപുള്ളൻ. നീർമുത്തൻ കുടുംബത്തിലെ തുമ്പികളിൽ താരതമ്യേന വലിപ്പം കൂടുതലുള്ള, കറുപ്പും മഞ്ഞയും കലർന്ന ശരീരത്തോട് കൂടിയ ഒരു തുമ്പിയാണ് കാട്ടുപുള്ളൻ. കറുപ്പ് കലർന്ന മഞ്ഞ നിറത്തിലുള്ള ശിരസ്സിൽ തിളങ്ങുന്ന പച്ച നിറത്തിലുള്ള പാടുകൾ കാണാം.",
+    "description2": "കണ്ണുകൾക്ക് മരതകപ്പച്ച നിറമാണ്.  തിളങ്ങുന്ന കടുംനീല നിറത്തിലുള്ള ഉരസ്സിന് കുറുകെയായി മഞ്ഞ വരകൾ കാണാം. കാലുകൾക്ക് കറുപ്പ് നിറമാണ്.  ചിറകുകൾ സുതാര്യമാണ്.  തടിച്ച, കറുത്ത നിറത്തിലുള്ള ഉദരത്തിൽ മഞ്ഞ നിറത്തിലുള്ള പൊട്ടുകൾ കാണാം. ആൺതുമ്പിയും പെൺതുമ്പിയും തമ്മിൽ പുറം കാഴ്ച്ചയിൽ വ്യത്യാസങ്ങളില്ല. ",
+     "description3": "ആവാസവ്യവസ്ഥ നദികളിലെയും തോടുകളിലെയും ആഴം കുറഞ്ഞതും എന്നാൽ ഒഴുക്കുള്ളതുമായ കൽപ്പരപ്പുകളിലാണ്‌ ഇവ പ്രജനനം നടത്തുന്നത്. കാട്ടരുവികളുടെ മുകളിലൂടെ ഇവ വളരെ വേഗത്തിൽ പറക്കുന്നത് കാണാം. ആൺതുമ്പികൾ അരുവികളുടെ തീരത്തുള്ള കൊമ്പുകളിൽ സ്ഥാനം പിടിക്കുന്നതും അടുത്തുവരുന്ന മറ്റെല്ലാ തുമ്പികളെയും ഓടിക്കുന്നതുമായി കാണാറുണ്ട്.",
+     "description4": "പെൺതുമ്പികളെ അപൂർവമായേ കാണാറുള്ളൂ. ചെറിയ കൂട്ടങ്ങളായും ചിലപ്പോൾ കാണാറുണ്ട്. ഏപ്രിൽ മുതൽ ജൂൺ വരെയുള്ള മാസങ്ങളിലാണ് ഇവയെ കൂടുതലായി കാണാറുള്ളത്.",
+     "description5": "",
+    "mainPhoto": "~/images/Onychothemis_testacea_ceylanica_main.jpg",
+    "photos": [
+      { "url": "~/images/Onychothemis_testacea_ceylanica_male1.jpg", "credit": "ആൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Onychothemis_testacea-Kadavoor-2016-06-25-004.jpg" },
+      { "url": "~/images/Onychothemis_testacea_ceylanica_female1.jpg", "credit": "പെൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", "sourceUrl": "https://www.inaturalist.org/observations/35112300" }
+    ],
+    "speciesLink": "https://www.inaturalist.org/taxa/107618-Onychothemis-testacea",
+    "wikipediaLink": "https://en.wikipedia.org/wiki/Onychothemis_testacea"
+  },
+  {
+    "id": 62,
+    "commonName": "Brown-backed Marsh-Hawk",
+    "malayalamName": "ചെന്തവിടൻ വ്യാളി",
+    "scientificName": "Orthetrum chrysis",
+	"sciName": "Orthetrum chrysis (Selys, 1891)",
+    "family": "Libellulidae / Skimmers and Hawks / നീര്‍മുത്തന്‍‍മാര്‍",
+    "description1": "കല്ലൻ തുമ്പികളിൽ ഒരിനമാണ് ചെന്തവിടൻ വയലി അഥവാ ചെന്തവിടൻ വ്യാളി. ഇവ എല്ലാക്കാലത്തും സാധാരണയായി കാണപ്പെടുന്നു. ആൺതുമ്പികൾക്ക് കടും ചുവപ്പു നിറത്തിലുള്ള ഉദരവും തവിട്ടുനിറമുള്ള ഉരസ്സുമാണുള്ളത്.",
+    "description2": "പെൺതുമ്പികൾക്ക് ആകെ ചുവപ്പുകലർന്ന തവിട്ടുനിറമാണ്. ഒഴുക്കുള്ള നീർച്ചാലുകൾക്കും കുളങ്ങൾക്കും അരികിലായി സാധാരണ കാണപ്പെടുന്നു. കേരളം ഉൾപ്പെടെ ഇന്ത്യ, ചൈന, ഹോങ്കോങ്, ഇന്തോനേഷ്യ, മലേഷ്യ, മ്യാന്മാർ, ഫിലിപ്പീൻസ്, സിംഗപ്പൂർ, ശ്രീലങ്ക, തായ്‌ലന്റ്, വിയറ്റ്നാം തുടങ്ങിയ സ്ഥലങ്ങളില്‍ ഇവ കാണപ്പെടുന്നു.",
+     "description3": "",
+     "description4": "",
+     "description5": "",
+    "mainPhoto": "~/images/Orthetrum_chrysis_main.jpg",
+    "photos": [
+      { "url": "~/images/Orthetrum_chrysis_male1.jpg", "credit": "ആൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Brown-backed_Red_Marsh_Hawk_Orthetrum_chrysis_Male_2_by_Kadavoor.jpg" },
+      { "url": "~/images/Orthetrum_chrysis_female1.jpg", "credit": "പെൺതുമ്പി © Charles J. Sharp", "sourceUrl": "https://en.wikipedia.org/wiki/File:Brown-backed_red_marsh_hawk_(Orthetrum_chrysis)_female_Eravikulam.jpg" },
+	  { "url": "~/images/Orthetrum_chrysis_mating.jpg", "credit": "ഇണചേരല്‍ © Charles J. Sharp", "sourceUrl": "https://en.wikipedia.org/wiki/File:Brown-backed_marsh_hawk_(Orthetrum_chrysis)_mating_Chinnar.jpg" }
+    ],
+    "speciesLink": "https://www.inaturalist.org/taxa/107952-Orthetrum-chrysis",
+    "wikipediaLink": "https://en.wikipedia.org/wiki/Orthetrum_chrysis"
+  },
+  {
+    "id": 63,
+    "commonName": "Blue Marsh-Hawk",
+    "malayalamName": "നീല വ്യാളി",
+    "scientificName": "Orthetrum glaucum",
+	"sciName": "Orthetrum glaucum (Brauer, 1865)",
+    "family": "Libellulidae / Skimmers and Hawks / നീര്‍മുത്തന്‍‍മാര്‍",
+    "description1": "ഏഷ്യയിൽ കാണപ്പെടുന്ന നീർമുത്തൻ കുടുംബത്തിൽ ഉള്ള കല്ലൻ തുമ്പികളിൽ ഒരിനമാണ് നീല വ്യാളി. ഇന്ത്യയിലെ വനപ്രദേശങ്ങളിൽ ഇവയെ സാധാരണയായി കാണാം. ആൺതുമ്പിയുടെ ശിരസ്സിന് തവിട്ടു കലർന്ന കറുപ്പ് നിറമാണ്. കരിംപച്ച നിറത്തിലുള്ള കണ്ണുകളുടെ മുകൾ ഭാഗത്തായി ചുവപ്പ് കലർന്ന തവിട്ട് നിറം കാണാം. ഉരസ്സിന് കറുപ്പ് നിറമാണ്.",
+    "description2": "ഉദരത്തിന് വിളറിയ നീല നിറമാണുള്ളത്. ഉദരത്തിലും ഉരസ്സിലും pruinescence ആവരണം കാണാം.  ഉദരത്തിന്റെ അവസാന ഖണ്ഡങ്ങൾക്ക് കറുപ്പ് നിറമാണുള്ളത്. ചിറകുകളുടെ അഗ്രഭാഗത്തുള്ള തവിട്ട് നിറം ഒഴിച്ചാൽ ചിറകുകൾ സുതാര്യമാണ്.",
+     "description3": "കാലുകൾക്ക് കറുപ്പ് നിറമാണ്. പെൺതുമ്പിയുടെ ശിരസ്സിന് തവിട്ട് നിറമാണ്.  തവിട്ട് നിറത്തിലുള്ള ഉരസ്സിലും ഉദരത്തിലും മഞ്ഞയും കടും തവിട്ടും നിറങ്ങളിലുള്ള അടയാളങ്ങൾ കാണാം. കാട്ടരുവികളോട്  ചേർന്നുള്ള ചതുപ്പ് നിലങ്ങളാണ് ഇവയുടെ പ്രജനനകേന്ദ്രങ്ങൾ.  മെയ് തുടങ്ങി ഒക്ടോബർ വരെയുള്ള മാസങ്ങളിലാണ് ഇവ സജീവമാകുന്നത്.",
+     "description4": "",
+     "description5": "",
+    "mainPhoto": "~/images/Orthetrum_glaucum_main.jpg",
+    "photos": [
+      { "url": "~/images/Orthetrum_glaucum_male1.jpg", "credit": "ആൺതുമ്പി © Charles J. Sharp", "sourceUrl": "https://en.wikipedia.org/wiki/File:Blue_marsh_hawk_(Orthetrum_glaucum)_male_Phuket.jpg" },
+      { "url": "~/images/Orthetrum_glaucum_female1.jpg", "credit": "പെൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Orthetrum_glaucum-Silent_Valley-2016-08-14-003.jpg" }
+    ],
+    "speciesLink": "https://www.inaturalist.org/taxa/107955-Orthetrum-glaucum",
+    "wikipediaLink": "https://en.wikipedia.org/wiki/Orthetrum_glaucum"
+  },
+  {
+    "id": 64,
+    "commonName": "Tricoloured Marsh-Hawk",
+    "malayalamName": "ത്രിവർണ്ണൻ വ്യാളി",
+    "scientificName": "Orthetrum luzonicum",
+	"sciName": "Orthetrum luzonicum (Brauer, 1868)",
+    "family": "Libellulidae / Skimmers and Hawks / നീര്‍മുത്തന്‍‍മാര്‍",
+    "description1": "ഏഷ്യയിൽ കാണപ്പെടുന്ന നീർമുത്തൻ കുടുംബത്തിൽ ഉള്ള കല്ലൻ തുമ്പികളിൽ ഒരിനമാണ് ത്രിവർണൻ വയലി അഥവാ വ്യാളി. ഇടത്തരം നീലനിറത്തിലുള്ള ഇവയിൽ പ്രായപൂർത്തിയെത്താത്ത ആൺതുമ്പികളുടെ മുതുകിലായി നേർത്ത മഞ്ഞവര കാണപ്പെടുന്നു. പെൺതുമ്പികൾക്ക് അധികം വർണ്ണപ്പകിട്ടില്ല.",
+    "description2": "എന്നാൽ ആൺതുമ്പികൾക്കു സമാനമായി വരയുണ്ട്. ചതുപ്പുകളിലും ഉപേക്ഷിക്കപ്പെട്ടുകിടക്കുന്ന നെൽപ്പാടങ്ങളിലുമാണ് ഇവ പ്രജനനം നടത്തുന്നത്. ഇന്ത്യടക്കം അഫ്ഗാനിസ്ഥാൻ, ബംഗ്ലാദേശ്, ഭൂട്ടാൻ, ചൈന, ഹോങ്കോങ്, ഇന്തോനേഷ്യ",
+     "description3": "(ജാവ, സുമാത്ര), ജപ്പാൻ, മലേഷ്യ, മ്യാന്മാർ, നേപ്പാൾ, ഫിലിപ്പീൻസ്, സിംഗപ്പൂർ, ശ്രീലങ്ക, തായ്‌വാൻ, തായ്‌ലന്റ്, വിയറ്റ്നാം എന്നീ ഏഷ്യൻ രാജ്യങ്ങളിൽ ഇവ കാണപ്പെടുന്നു.",
+     "description4": "",
+     "description5": "",
+    "mainPhoto": "~/images/Orthetrum_luzonicum_main.jpg",
+    "photos": [
+      { "url": "~/images/Orthetrum_luzonicum_male1.jpg", "credit": "ആൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Orthetrum_luzonicum-Kadavoor-2016-09-08-001.jpg" },
+      { "url": "~/images/Orthetrum_luzonicum_female1.jpg", "credit": "പെൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Orthetrum_luzonicum_female_in_Kadavoor.jpg" },
+	  { "url": "~/images/Orthetrum_luzonicum_mating.jpg", "credit": "ഇണചേരല്‍ © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Orthetrum_luzonicum_mating_of_Kadavoor.jpg" }
+    ],
+    "speciesLink": "https://www.inaturalist.org/taxa/107964-Orthetrum-luzonicum",
+    "wikipediaLink": "https://en.wikipedia.org/wiki/Orthetrum_luzonicum"
+  },
+  {
+    "id": 65,
+    "commonName": "Crimson-tailed Marsh-Hawk",
+    "malayalamName": "പവിഴവാലൻ വ്യാളി",
+    "scientificName": "Orthetrum pruinosum neglectum",
+	"sciName": "Orthetrum pruinosum neglectum (Rambur, 1842)",
+    "family": "Libellulidae / Skimmers and Hawks / നീര്‍മുത്തന്‍‍മാര്‍",
+    "description1": "കല്ലൻ തുമ്പികളിൽ ഒരിനമാണ് പവിഴവാലൻ വയലി അഥവാ വ്യാളി. ആൺതുമ്പികളുടെ ഉരസ്സിന്റെ മുകൾഭാഗം നീലനിറത്തിലും ഉദരം പവിഴവർണ്ണത്തിലും കാണപ്പെടുന്നു. പെൺതുമ്പികളുടെ ഉരസ്സിൽ ചുവപ്പുകലർന്ന തവിട്ടു നിറവും അതിൽ വരകളും കാണാം. ഇവയുടെ മറ്റു ഭാഗങ്ങൾ മങ്ങിയ നിറത്തിൽ കാണപ്പെടുന്നു.",
+    "description2": "കുളങ്ങളുടെയും വയലുകളുടെയും സമീപം ഇവ സാധാരണയായി കാണപ്പെടുന്നു. ഇടനാട് മേഖലയിലും വനപ്രദേശങ്ങളിലുമാണ് ഇവ കൂടുതലായി കാണുന്നത്. ഇന്ത്യയടക്കമുള്ള മിക്ക ഏഷ്യൻ രാജ്യങ്ങളും ഇവയുടെ ആവാസമേഖലകളാണ്.",
+     "description3": "",
+     "description4": "",
+     "description5": "",
+    "mainPhoto": "~/images/Orthetrum_pruinosum_neglectum_main.jpg",
+    "photos": [
+      { "url": "~/images/Orthetrum_pruinosum_neglectum_male1.jpg", "credit": "ആൺതുമ്പി © Charles J. Sharp", "sourceUrl": "https://en.wikipedia.org/wiki/File:Crimson-tailed_marsh_hawk_(Orthetrum_pruinosum_neglectum)_male_Nepal.jpg" },
+      { "url": "~/images/Orthetrum_pruinosum_neglectum_female1.jpg", "credit": "പെൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Orthetrum_pruinosum_female_by_kadavoor.jpg" }
+    ],
+    "speciesLink": "https://www.inaturalist.org/taxa/107971-Orthetrum-pruinosum",
+    "wikipediaLink": "https://en.wikipedia.org/wiki/Orthetrum_pruinosum"
+  },
+  {
+    "id": 66,
+    "commonName": "Green Marsh-Hawk",
+    "malayalamName": "പച്ച വ്യാളി",
+    "scientificName": "Orthetrum sabina",
+	"sciName": "Orthetrum sabina (Drury, 1770)",
+    "family": "Libellulidae / Skimmers and Hawks / നീര്‍മുത്തന്‍‍മാര്‍",
+    "description1": "കേരളത്തിൽ സാധാരണയായി കാണപ്പെടുന്ന കല്ലൻ തുമ്പികളിൽ ഒരിനമാണ് പച്ച വയലി അഥവാ വ്യാളി. ഇവയിൽ ആൺ പെൺ, തുമ്പികൾ തമ്മിൽ വളരെ സാമ്യമുണ്ട്. മികച്ച ഇരപിടിയന്മാരായ ഇവ പലപ്പോഴും മറ്റു തുമ്പികളെ ഭക്ഷണമാക്കുന്നു. അപൂർവ്വമായി ഇവ സ്വന്തം വർഗ്ഗത്തിൽപ്പെട്ട തുമ്പികളെയും ഭക്ഷണമാക്കാറുണ്ട് (cannibalism).",
+    "description2": "ഇടത്തരം വലുപ്പമുള്ള ഒരു തുമ്പിയാണ് പച്ചവ്യാളി . ഉദരത്തിന് ശരാശരി 29-32 മില്ലീമീറ്റർ വലുപ്പമുണ്ടായിരിക്കും. മുഖത്തിന് മഞ്ഞ കലർന്ന പച്ച നിറമാണുള്ളത്.  കണ്ണുകൾക്ക് ഇരുണ്ട പച്ച നിറമാണ്.  പച്ച കലർന്ന മഞ്ഞ നിറമുള്ള ഉരസ്സിൽ കടുവയുടെ ശരീരത്തിലേത് പോലെയുള്ള കറുത്ത വരകൾ കാണാം.",
+     "description3": "കറുത്ത നിറമുള്ള ഉദരത്തിൽ വീതിയുള്ള വെളുത്ത വലയങ്ങളുണ്ട്.    ഉദരത്തിന്റെ ആദ്യഖണ്ഡങ്ങൾ തടിച്ചിട്ടാണ്.  കാലുകൾക്ക് കറുപ്പ് നിറമാണ്. ചിറകുകൾ സുതാര്യമാണ്. കുളങ്ങളാണ് പച്ചവ്യാളിയുടെ മുഖ്യ പ്രജനനകേന്ദ്രങ്ങൾ. വർഷം മുഴുവൻ ഇവയെ കാണാം. ഇന്ത്യയിൽ മിക്ക സംസ്ഥാനങ്ങളുൾപ്പടെ ഒട്ടുമിക്ക ഏഷ്യൻ രാജ്യങ്ങളിലും ഇവ സർവ്വസാധാരണമാണ്.",
+     "description4": "",
+     "description5": "",
+    "mainPhoto": "~/images/Orthetrum_sabina_main.jpg",
+    "photos": [
+      { "url": "~/images/Orthetrum_sabina_male1.jpg", "credit": "ആൺതുമ്പി © Charles J. Sharp", "sourceUrl": "https://en.wikipedia.org/wiki/File:Slender_skimmer_(Orthetrum_sabina)_male_Cyprus.jpg" },
+      { "url": "~/images/Orthetrum_sabina_female1.jpg", "credit": "പെൺതുമ്പി © Charles J. Sharp", "sourceUrl": "https://en.wikipedia.org/wiki/File:Green_marsh_hawk_(Orthetrum_sabina)_female_Nepalgunj.jpg" }
+    ],
+    "speciesLink": "https://www.inaturalist.org/taxa/107974-Orthetrum-sabina",
+    "wikipediaLink": "https://en.wikipedia.org/wiki/Orthetrum_sabina"
+  },
+  {
+    "id": 67,
+    "commonName": "Ashy Marsh-Hawk",
+    "malayalamName": "ചെറു വ്യാളി",
+    "scientificName": "Orthetrum taeniolatum",
+	"sciName": "Orthetrum taeniolatum (Schneider, 1845)",
+    "family": "Libellulidae / Skimmers and Hawks / നീര്‍മുത്തന്‍‍മാര്‍",
+    "description1": "ഏഷ്യയിൽ കാണപ്പെടുന്ന നീർമുത്തൻ കുടുംബത്തിൽ ഉള്ള ഒരു കല്ലൻതുമ്പിയാണ് ചെറു വ്യാളി. ചതുപ്പുകളോടു ചേർന്നുള്ള സാവധാനത്തിൽ ഒഴുകുന്ന അരുവികളിലാണ്‌ ഇവ പ്രജനനം നടത്തുന്നത്. അരുവികളോടു ചേർന്നുള്ള പാറക്കെട്ടുകളിലും മണൽതിട്ടകളിലും ഇവയെ കാണാം.",
+    	 "description2": "",
+     "description3": "",
+     "description4": "",
+     "description5": "",
+    "mainPhoto": "~/images/Orthetrum_taeniolatum_main.jpg",
+    "photos": [
+      { "url": "~/images/Orthetrum_taeniolatum_male1.jpg", "credit": "ആൺതുമ്പി © Prosenjit Dawn", "sourceUrl": "https://en.wikipedia.org/wiki/File:Orthetrum_taeniolatum_male.jpg" },
+      { "url": "~/images/Orthetrum_taeniolatum_female1.jpg", "credit": "പെൺതുമ്പി © Charles J. Sharp", "sourceUrl": "https://en.wikipedia.org/wiki/File:Small_skimmer_(Orthetrum_taeniolatum)_female_Rajasthan.jpg" }
+    ],
+    "speciesLink": "https://www.inaturalist.org/taxa/107979-Orthetrum-taeniolatum",
+    "wikipediaLink": "https://en.wikipedia.org/wiki/Orthetrum_taeniolatum"
+  },
+  {
+    "id": 68,
+    "commonName": "Blue-tailed Forest-Hawk",
+    "malayalamName": "നീലക്കറുപ്പൻ വ്യാളി",
+    "scientificName": "Orthetrum triangulare",
+	"sciName": "Orthetrum triangulare (Selys, 1878)",
+    "family": "Libellulidae / Skimmers and Hawks / നീര്‍മുത്തന്‍‍മാര്‍",
+    "description1": "ഏഷ്യയിൽ കാണപ്പെടുന്ന നീർമുത്തൻ കുടുംബത്തിൽ ഉള്ള ഒരു കല്ലൻതുമ്പിയാണ് നീലക്കറുപ്പൻ വ്യാളി. ഇവയെ സാധാരണയായി കുറച്ച്‌ ഉയരത്തിലുള്ള കാടുകളിലാണ് കാണാറുള്ളത്‌. അവിടെയുള്ള ചതുപ്പുകളിലും കുളങ്ങലിലുമാണ് ഇവ പ്രജനനം നടത്തുന്നത്. രണ്ട് ഉപവർഗങ്ങളെ തിരിച്ചറിഞ്ഞിട്ടുണ്ട്. O. t. triangulare ഉം O. t. malaccense ഉം.",
+    	 "description2": "",
+     "description3": "",
+     "description4": "",
+     "description5": "",
+    "mainPhoto": "~/images/Orthetrum_triangulare_main.jpg",
+    "photos": [
+      { "url": "~/images/Orthetrum_triangulare_male1.jpg", "credit": "ആൺതുമ്പി © Antony Grossy", "sourceUrl": "https://en.wikipedia.org/wiki/File:Dragon_Fly_(Orthetrum_triangulare)_(7976467260).jpg" },
+      { "url": "~/images/Orthetrum_triangulare_female1.jpg", "credit": "പെൺതുമ്പി © Rohit George", "sourceUrl": "https://en.wikipedia.org/wiki/File:Orthetrum_triangulare_by_Rohit_George.jpg" }
+    ],
+    "speciesLink": "https://www.inaturalist.org/taxa/107981-Orthetrum-triangulare",
+    "wikipediaLink": "https://en.wikipedia.org/wiki/Orthetrum_triangulare"
+  },
+  {
+    "id": 69,
+    "commonName": "Blue-tailed Pygmy Skimmer",
+    "malayalamName": "നീലക്കുറുവാലൻ",
+    "scientificName": "Palpopleura sexmaculata",
+	"sciName": "Palpopleura sexmaculata (Fabricius, 1787)",
+    "family": "Libellulidae / Skimmers and Hawks / നീര്‍മുത്തന്‍‍മാര്‍",
+    "description1": "ഏഷ്യയിൽ കാണപ്പെടുന്ന നീർമുത്തൻ കുടുംബത്തിൽ ഉള്ള ഒരു കല്ലൻതുമ്പിയാണ് നീലക്കുറുവാലൻ. ചതുപ്പുകളിലും ചെറിയ കുളങ്ങളിലുമാണ് ഇവ പ്രജനനം നടത്തുന്നത്.",
+    	 "description2": "",
+     "description3": "",
+     "description4": "",
+     "description5": "",
+    "mainPhoto": "~/images/Palpopleura_sexmaculata_main.jpg",
+    "photos": [
+      { "url": "~/images/Palpopleura_sexmaculata_male1.jpg", "credit": "ആൺതുമ്പി © Panchapakesan Jeganathan", "sourceUrl": "https://en.wikipedia.org/wiki/File:Palpopleura_sexmaculata_by_P_Jeganathan.jpg" },
+      { "url": "~/images/Palpopleura_sexmaculata_female1.jpg", "credit": "പെൺതുമ്പി © ഡേവിഡ് രാജു", "sourceUrl": "https://en.wikipedia.org/wiki/File:Davidraju_1997.jpg" }
+    ],
+    "speciesLink": "https://www.inaturalist.org/taxa/108300-Palpopleura-sexmaculata",
+    "wikipediaLink": "https://en.wikipedia.org/wiki/Palpopleura_sexmaculata"
+  },
+  {
+    "id": 70,
+    "commonName": "Wandering Glider",
+    "malayalamName": "തുലാത്തുമ്പി",
+    "scientificName": "Pantala flavescens",
+	"sciName": "Pantala flavescens (Fabricius, 1798)",
+    "family": "Libellulidae / Skimmers and Hawks / നീര്‍മുത്തന്‍‍മാര്‍",
+    "description1": "ലോകത്തെല്ലായിടത്തും തന്നെ കാണപ്പെടുന്ന ഒരിനം കല്ലൻ തുമ്പിയാണ് തുലാത്തുമ്പി. മിക്ക ഉഷ്ണമേഖലാ രാജ്യങ്ങളിലും ഇവ കാണപ്പെടുന്നു. ആൺതുമ്പിയുടെ പിൻചിറകുകളുടെ അറ്റത്തുള്ള ഇരുണ്ട പൊട്ടാണ് ഇവയെ പെൺതുമ്പികളിൽ നിന്നും തിരിച്ചറിയാൻ സഹായിക്കുന്നത്. ജലാശയങ്ങളുടെയും ചതുപ്പുകളുടെയും തുറസായ സ്ഥലങ്ങളുടെയും മുകളിൽ കൂട്ടമായി ഇവ പറക്കുന്നു.",
+    "description2": "1798-ൽ ജോഹാൻ ക്രിസ്റ്റ്യൻ ഫാബ്രിക്കസ് ഇതിനെ ആദ്യമായി വിവരിച്ചു. യൂറോപ്പിൽ അപൂർവമാണെങ്കിലും അന്റാർട്ടിക്ക ഒഴികെയുള്ള മറ്റെല്ലാ ഭൂഖണ്ഡങ്ങളിലും നല്ല അംഗസംഖ്യയുള്ളതും ഏറ്റവും വ്യാപകവുമായ കല്ലൻതുമ്പിയായി ഇതിനെ കണക്കാക്കുന്നു. 18,000 കിലോമീറ്റർ വരെ വാർഷിക യാത്ര നടത്തുന്നു. ഇത് എല്ലാ പ്രാണികളുടെയും വിദൂര കുടിയേറ്റങ്ങളിലൊന്നായി കണക്കാക്കുന്നു.",
+     "description3": " തുലാത്തുമ്പികൾ ഇന്ത്യൻ ഉപഭൂഖണ്ഡത്തിൽ നിന്നും തെക്കൻ ആഫ്രിക്കയിലേക്ക് ദേശാടനം നടത്തുന്നതായി കണ്ടെത്തിയിട്ടുണ്ട്. മറ്റു തുമ്പികളിൽ നിന്നും വ്യത്യസ്തമായി ഇവയുടെ ലാർവക്ക് പൂർണ വളർച്ച എത്താൻ 6 ആഴ്ച്ച വരെ സമയം മതി. ഇവ സെപ്റ്റംബർ - ഒക്ടോബർ മാസങ്ങളിൽ പതിനായിരക്കണക്കിന് വരുന്ന കൂട്ടങ്ങളായി ഇന്ത്യൻ മഹാസമുദ്രം താണ്ടി ആഫ്രിക്കയിലേക്ക് സഞ്ചരിക്കുന്നു. കേരളത്തിൽ",
+     "description4": " തുലാമഴയുടെ സമയമാണിത്. ഈ സമയത്ത് ധാരാളമായി കാണുന്നത് കൊണ്ടാണ് ഇവയെ തുലാത്തുമ്പികൾ എന്ന് വിളിക്കുന്നത്. ഒക്ടോബർ-നവംബർ മാസങ്ങളിൽ കിഴക്കൻ ആഫ്രിക്കയിൽ മഴക്കാലമാണ്. ഈ സമയത്ത് തുലാത്തുമ്പികൾ കിഴക്കൻ ആഫ്രിക്കയിൽ പ്രജനനം നടത്തുന്നു. അതിന് ശേഷം ആഫ്രിക്കയുടെ തെക്ക് ഭാഗത്തേക്ക് സഞ്ചരിക്കുന്ന ഇവ സൗത്ത് ആഫ്രിക്കയിൽ ഡിസംബർ-ഫെബ്രുവരി സമയങ്ങളിൽ സജീവമാകുന്നു. ",
+     "description5": "മാർച്ച്-മെയ് മാസങ്ങളിൽ തിരിച്ച് കിഴക്കൻ ആഫ്രിക്കയിൽ എത്തുന്ന തുലാത്തുമ്പികൾ തെക്ക് പടിഞ്ഞാറൻ കാലവർഷത്തോടൊപ്പം, ജൂൺ-ജൂലൈ മാസങ്ങളിൽ ഇന്ത്യയിൽ തിരിച്ചെത്തുന്നു. ഒരേ തുമ്പിയല്ല ഇന്ത്യയിൽ നിന്ന് ആഫ്രിക്കയിലേക്ക് പോയി തിരിച്ചുവരുന്നത്. കുറഞ്ഞത് നാല് തലമുറകളെങ്കിലും ഈ കാലയളവിൽ പൂർത്തീകരിച്ചിട്ടുണ്ടാവും.",
+    "mainPhoto": "~/images/Pantala_flavescens_main.jpg",
+    "photos": [
+      { "url": "~/images/Pantala_flavescens_male1.jpg", "credit": "ആൺതുമ്പി © ഡേവിഡ് രാജു", "sourceUrl": "https://en.wikipedia.org/wiki/File:Davidraju_IMG_5948.jpg" },
+      { "url": "~/images/Pantala_flavescens_female1.jpg", "credit": "പെൺതുമ്പി © Charles J. Sharp", "sourceUrl": "https://en.wikipedia.org/wiki/File:Wandering_glider_(Pantala_flavescens).JPG" }
+    ],
+    "speciesLink": "https://www.inaturalist.org/taxa/108344-Pantala-flavescens",
+    "wikipediaLink": "https://en.wikipedia.org/wiki/Pantala_flavescens"
+  },
+  {
+    "id": 71,
+    "commonName": "Yellow-Tailed Ashy Skimmer",
+    "malayalamName": "പുള്ളിവാലൻ",
+    "scientificName": "Potamarcha congener",
+	"sciName": "Potamarcha congener (Rambur, 1842)",
+    "family": "Libellulidae / Skimmers and Hawks / നീര്‍മുത്തന്‍‍മാര്‍",
+    "description1": "ഏഷ്യയിൽ കാണപ്പെടുന്ന നീർമുത്തൻ കുടുംബത്തിൽ ഉള്ള ഒരു കല്ലൻതുമ്പിയാണ് പുള്ളിവാലൻ തുമ്പി. ചെറിയ കുളങ്ങളിലും നെൽപ്പാടങ്ങളിലുമൊക്കെ ഇവയെ കാണാം. വെള്ളത്തിൽനിന്നും അകലെയായി ഉയർന്ന മരക്കൊമ്പുകളിലും വൈദ്യുതചാലക കമ്പികളിലും തുണി ഉണങ്ങാനിടുന്ന അഴകളിലുമെല്ലാം കൂട്ടമായി ഇവയെ കാണാറുണ്ട്.",
+    	 "description2": "",
+     "description3": "",
+     "description4": "",
+     "description5": "",
+    "mainPhoto": "~/images/Potamarcha_congener_main.jpg",
+    "photos": [
+      { "url": "~/images/Potamarcha_congener_male1.jpg", "credit": "ആൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Yellow-tailed_Ashy_Skimmer_Potamarcha_congener_Male_by_kadavoor.jpg" },
+      { "url": "~/images/Potamarcha_congener_female1.jpg", "credit": "പെൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Potamarcha_congener_female_in_Kadavoor.jpg" }
+    ],
+    "speciesLink": "https://www.inaturalist.org/taxa/110195-Potamarcha-congener",
+    "wikipediaLink": "https://en.wikipedia.org/wiki/Potamarcha_congener"
+  },
+  {
+    "id": 72,
+    "commonName": "Rufous Marsh-Glider",
+    "malayalamName": "ചെമ്പൻ തുമ്പി",
+    "scientificName": "Rhodothemis rufa",
+	"sciName": "Rhodothemis rufa (Rambur, 1842)",
+    "family": "Libellulidae / Skimmers and Hawks / നീര്‍മുത്തന്‍‍മാര്‍",
+    "description1": "കേരളത്തിൽ സർവ്വസാധാരണമായ ഒരിനം കല്ലൻ തുമ്പിയാണ് ചെമ്പൻ തുമ്പി. ആൺതുമ്പികൾക്ക് കടുംചുവപ്പാർന്ന വാലും, തവിട്ടുകലർന്ന ചുവപ്പു നിറത്തോടു കൂടിയ ഉരസ്സുമാണുള്ളത്. അധികം ഭംഗിയില്ലാത്ത തവിട്ടു നിറം കലർന്ന ചുവപ്പു നിറമാണ് പെൺതുമ്പികൾക്ക്. ഇരു ജാതി തുമ്പികളുടെയും ഉരസ്സിനു മുകളിലായി മഞ്ഞ നിറത്തിലുള്ള വരകൾ കാണപ്പെടുന്നു.",
+    "description2": "എന്നാൽ ആൺതുമ്പികളുടെ വരകൾ പ്രായപൂർത്തി ആകുന്നതോടെ ചുവപ്പുനിറത്താൽ മറക്കപ്പെടുന്നു. ഏഷ്യയിൽ ഇന്ത്യ, ഇന്തോനേഷ്യ, ചൈന, മലേഷ്യ, ശ്രീലങ്ക, വിയറ്റ്നാം, തായ്‌ലാന്റ്, ബംഗ്ലാദേശ്, ഫിലിപ്പീൻസ്, സിങ്കപ്പൂർ എന്നീ രാജ്യങ്ങൾ ചെമ്പൻ തുമ്പിയുടെ ആവാസ മേഖലകളാണ്.",
+     "description3": "",
+     "description4": "",
+     "description5": "",
+    "mainPhoto": "~/images/Rhodothemis_rufa_main.jpg",
+    "photos": [
+      { "url": "~/images/Rhodothemis_rufa_male1.jpg", "credit": "ആൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Rufous_Marsh_Glider_Rhodothemis_rufa_Male.jpg" },
+      { "url": "~/images/Rhodothemis_rufa_female1.jpg", "credit": "പെൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Rhodothemis_rufa_female_by_kadavoor.jpg" }
+    ],
+    "speciesLink": "https://www.inaturalist.org/taxa/111765-Rhodothemis-rufa",
+    "wikipediaLink": "https://en.wikipedia.org/wiki/Rhodothemis_rufa"
+  },
+  {
+    "id": 73,
+    "commonName": "Lesser Blue-Wing",
+    "malayalamName": "കരിനീലച്ചിറകൻ",
+    "scientificName": "Rhyothemis triangularis",
+	"sciName": "Rhyothemis triangularis (Kirby, 1889)",
+    "family": "Libellulidae / Skimmers and Hawks / നീര്‍മുത്തന്‍‍മാര്‍",
+    "description1": "ഏഷ്യയിൽ കാണപ്പെടുന്ന നീർമുത്തൻ കുടുംബത്തിൽ ഉള്ള ഒരു കല്ലൻതുമ്പിയാണ് കരിനീലച്ചിറകൻ. ഇവ അത്ര സർവ്വസാധാരണം അല്ലെങ്കിലും കാണപ്പെടുന്ന സ്ഥലങ്ങളിൽ കൂട്ടമായി കാണപ്പെടുന്നു. കാടുപിടിച്ച കുളങ്ങളിലും ചതുപ്പുകളിലും പ്രജനനം നടത്തുന്ന ഇവ അവയ്ക്ക് ചുറ്റുമായി കാണപ്പെടുന്നു.",
+    	 "description2": "",
+     "description3": "",
+     "description4": "",
+     "description5": "",
+    "mainPhoto": "~/images/Rhyothemis_triangularis_main.jpg",
+    "photos": [
+      { "url": "~/images/Rhyothemis_triangularis_male1.jpg", "credit": "ആൺതുമ്പി © വിനീത് വെങ്ങോലിസ്", "sourceUrl": "https://en.wikipedia.org/wiki/File:Rhyothemis_triangularis-5822.jpg" },
+      { "url": "~/images/Rhyothemis_triangularis_female1.jpg", "credit": "പെൺതുമ്പി © അരുണ്‍ ലാല്‍", "sourceUrl": "https://www.inaturalist.org/observations/249977816" }
+    ],
+    "speciesLink": "https://www.inaturalist.org/taxa/111797-Rhyothemis-triangularis",
+    "wikipediaLink": "https://en.wikipedia.org/wiki/Rhyothemis_triangularis"
+  },
+  {
+    "id": 74,
+    "commonName": "Common Picture-Wing",
+    "malayalamName": "ഓണത്തുമ്പി",
+    "scientificName": "Rhyothemis variegata",
+	"sciName": "Rhyothemis variegata (Linnaeus, 1763)",
+    "family": "Libellulidae / Skimmers and Hawks / നീര്‍മുത്തന്‍‍മാര്‍",
+    "description1": "ഇന്ത്യയുൾപ്പെടെ ഏഷ്യൻ രാജ്യങ്ങളിൽ കാണപ്പെടുന്ന നീർമുത്തൻ കുടുംബത്തിൽ ഉള്ള ഒരു കല്ലൻ തുമ്പിയാണ് ഓണത്തുമ്പി. പേരിനു പിന്നിൽ ഓഗസ്ത് മുതൽ ഡിസംബർ വരെയാണ് ഇവ കേരളത്തിൽ കാണപ്പെടുന്നത്. ഓണക്കാലത്ത് പെട്ടെന്ന് പ്രത്യക്ഷപ്പെടുന്നതിനാൽ ഇവയെ ഓണത്തുമ്പി എന്നു വിളിക്കുന്നു.",
+    "description2": "നെൽപ്പാടങ്ങളും കുളങ്ങളും തോടുകളുമാണ് ഇവയുടെ പ്രജനനകേന്ദ്രങ്ങൾ. ശാരീരിക പ്രത്യേകതകൾ   മുഖ ഭാഗങ്ങൾക്ക് തിളങ്ങുന്ന പച്ച നിറമാണ്.  കണ്ണുകൾ ഇരുണ്ട തവിട്ട് നിറത്തിൽ കാണപ്പെടുന്നു.  ഉരസ്സിന് ഇരുണ്ട പച്ച നിറമാണ്.  കാലുകൾക്കും ഉദരത്തിനും കറുപ്പ് നിറമാണ്. ചിറകിലെ നിറവ്യത്യാസങ്ങൾ ഒഴിച്ചാൽ ആൺതുമ്പികളും പെൺതുമ്പികളും കാഴ്ച്ചയിൽ ഒരുപോലെയാണ്.",
+     "description3": "ആൺ തുമ്പിയുടെ ചിറകുകളിൽ കറുപ്പു നിറം കുറവും സുതാര്യതയേറിയുമിരിക്കും. പെൺ തുമ്പികളുടെ ചിറകുകൾക്ക് നിറങ്ങൾ കാഠിന്യമേറിയും സുതാര്യത കുറഞ്ഞുമിരിക്കും. കൂടാതെ പെൺതുമ്പികളുടെ ചിറകുകളുടെ ആഗ്ര ഭാഗം സുതാര്യമാണ്.  ആൺതുമ്പികളുടെ ചിറകുകൾ മുഴുവനായും മഞ്ഞ നിറം വ്യാപിച്ചു കാണാം.",
+     "description4": "ആൺതുമ്പികളുടെയും പെൺതുമ്പികളുടെയും വലിപ്പം ഏകദേശം തുല്യമാണ്. ചിത്രശലഭങ്ങളെപ്പോലെ വളരെ സാവധാനത്തിലാണ് ഇവ പറക്കുക. വെയിലുള്ളപ്പോൾ മുറ്റത്തും അതുപോലുള്ള തുറസായ സ്ഥലങ്ങളിലും വട്ടമിട്ടു പറക്കാറുണ്ട്. ആഹാരം കൊതുകുകൾ, ചെറിയ പ്രാണികൾ എന്നിവയാണ് പ്രധാന ആഹാരം. കൊതുകുകളുടെ നിയന്ത്രണത്തിൽ ഇവ ഒരു ഘടകമാണ്. ഓന്ത്, ആനറാഞ്ചി തുടങ്ങിയ ജീവികൾ ഇവയെ ആഹാരമാക്കുന്നു.",
+     "description5": "",
+    "mainPhoto": "~/images/Rhyothemis_variegata_main.jpg",
+    "photos": [
+      { "url": "~/images/Rhyothemis_variegata_male1.jpg", "credit": "ആൺതുമ്പി © ഡേവിഡ് രാജു", "sourceUrl": "https://en.wikipedia.org/wiki/File:Rhyothemis_variegata_-_Davidraju_IMG_4761.jpg" },
+      { "url": "~/images/Rhyothemis_variegata_female1.jpg", "credit": "പെൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Rhyothemis_variegata_female_at_Kadavoor.jpg" }
+    ],
+    "speciesLink": "https://www.inaturalist.org/taxa/82001-Rhyothemis-variegata",
+    "wikipediaLink": "https://en.wikipedia.org/wiki/Rhyothemis_variegata"
+  },
+  {
+    "id": 75,
+    "commonName": "Red-veined Darter",
+    "malayalamName": "കുങ്കുമച്ചിറകൻ",
+    "scientificName": "Sympetrum fonscolombii",
+	"sciName": "Sympetrum fonscolombii (Selys, 1840)",
+    "family": "Libellulidae / Skimmers and Hawks / നീര്‍മുത്തന്‍‍മാര്‍",
+    "description1": "ഏഷ്യയിലും ആഫ്രിക്കയിലും യൂറോപ്പിലും കാണപ്പെടുന്ന നീർമുത്തൻ കുടുംബത്തിൽ ഉള്ള ഒരു കല്ലൻതുമ്പിയാണ് കുങ്കുമച്ചിറകൻ. സ്ഥിരമായിട്ടുള്ളതോ അല്ലാത്തതോ ആയ ജലാശയങ്ങൾ, കുളങ്ങൾ, തടാകങ്ങൾ, നദികൾ എന്നിവയിലെല്ലാം ഇവ പ്രജനനം നടത്തുന്നു.",
+    "description2": "വരണ്ടുകിടക്കുന്ന സ്ഥലങ്ങളിലേക്ക് മഴയ്ക്കുശേഷം ഇവ കൂട്ടമായി താമസം മാറ്റാറുണ്ട്. കേരളത്തിൽ സമുദ്രനിരപ്പിൽനിന്നും വളരെ ഉയരത്തിൽ സ്ഥിതിചെയ്യുന്ന മൂന്നാർ, മാട്ടുപ്പെട്ടി എന്നിവിടങ്ങളിൽ മാത്രമാണ് ഇവയെ കണ്ടിട്ടുള്ളത്.",
+     "description3": "",
+     "description4": "",
+     "description5": "",
+    "mainPhoto": "~/images/Sympetrum_fonscolombii_main.jpg",
+    "photos": [
+      { "url": "~/images/Sympetrum_fonscolombii_male1.jpg", "credit": "ആൺതുമ്പി © Joaquim Alves Gaspar Lisboa Portugal", "sourceUrl": "https://en.wikipedia.org/wiki/File:Darter_August_2007-20.jpg" },
+      { "url": "~/images/Sympetrum_fonscolombii_female1.jpg", "credit": "പെൺതുമ്പി © Charles J. Sharp", "sourceUrl": "https://en.wikipedia.org/wiki/File:Red-veined_darter_(Sympetrum_fonscolombii)_female_Cyprus.jpg" }
+    ],
+    "speciesLink": "https://www.inaturalist.org/taxa/113507-Sympetrum-fonscolombii",
+    "wikipediaLink": "https://en.wikipedia.org/wiki/Red-veined_darter"
+  },
+  {
     "id": 76,
     "commonName": "Pigmy Skimmer",
     "malayalamName": "കിണർ തുമ്പി",
