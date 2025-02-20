@@ -1,0 +1,518 @@
+[
+  {
+    "id": 126,
+    "commonName": "Orange-tailed Marsh-Dart",
+    "malayalamName": "കനൽവാലൻ ചതുപ്പൻ",
+    "scientificName": "Ceriagrion cerinorubellum",
+	"sciName": "Ceriagrion cerinorubellum (Brauer, 1865)",
+    "family": "Coenagrionidae / Dartlets, Marsh Darts and Sprites / നിലത്തന്‍മാര്‍",
+    "description1": "തടാകക്കരകളിലും, കുളങ്ങൾക്ക് സമീപവും, വൃക്ഷങ്ങൾ ഇടതൂർന്നു വളരുന്ന സ്ഥലങ്ങളിലും കാണപ്പെടുന്ന നിലത്തൻ കുടുംബത്തിൽ ഉള്ള ഒരിനം വർണ്ണ ശോഭയുള്ള സൂചിത്തുമ്പിയാണ് കനൽവാലൻ ചതുപ്പൻ. ഏഷ്യയിൽ ബംഗ്ലാദേശ്, ചൈന, ഇന്തോനേഷ്യ, ഇന്ത്യ, ശ്രീലങ്ക, മ്യാന്മാർ, മലേഷ്യ, ഫിലിപ്പീൻസ്, സിംഗപ്പൂർ, തായ്‌ലൻഡ്, വിയറ്റ്നാം എന്നീ രാജ്യങ്ങൾ ഇവയുടെ ആവാസകേന്ദ്രങ്ങളാണ്.",
+    "description2": "കാലുകൾ മഞ്ഞ നിറത്തിലോ മഞ്ഞ കലർന്ന തവിട്ടു നിറത്തിലോ കാണപ്പെടുന്ന ഇവയുടെ കണ്ണുകളും ഉരസ്സും പച്ച നിറത്തിൽ കാണപ്പെടുന്നു. വാലിലെ മിക്ക ഖണ്ഡങ്ങളും കറുപ്പു കലർന്ന നിറമാണെങ്കിലും വാലിന്റെ ആരംഭവും അവസാനവും ചുവപ്പു നിറമാണ്.",
+     "description3": "ഇവയുടെ ചിറകുകൾ സുതാര്യ​മാണ്. പുല്ലുകൾക്കും കുറ്റിച്ചെടികൾക്കും ഇടയിലായി കാണപ്പെടുന്ന ഇവയുടെ പ്രധാന ഭക്ഷണം കൊതുകുകളും ചെറു ഷഡ്പദങ്ങളുമാണ്. ",
+     "description4": "",
+     "description5": "",
+    "mainPhoto": "~/images/Ceriagrion_cerinorubellum_main.jpg",
+    "photos": [
+      { "url": "~/images/Ceriagrion_cerinorubellum_male1.jpg", "credit": "ആൺതുമ്പി © വിനീത് വെങ്ങോലിസ്", "sourceUrl": "https://en.wikipedia.org/wiki/File:Orange-tailed_marsh_dart_08030.jpg" },
+      { "url": "~/images/Ceriagrion_cerinorubellum_female1.jpg", "credit": "പെൺതുമ്പി © ഡേവിഡ് രാജു", "sourceUrl": "https://en.wikipedia.org/wiki/File:Davidraju_IMG_7768.jpg" },
+	  { "url": "~/images/Ceriagrion_cerinorubellum_mating.jpg", "credit": "ഇണചേരല്‍ © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Ceriagrion_cerinorubellum_mating_by_kadavoor.jpg" }
+    ],
+    "speciesLink": "https://www.inaturalist.org/taxa/97057-Ceriagrion-cerinorubellum",
+    "wikipediaLink": "https://en.wikipedia.org/wiki/Ceriagrion_cerinorubellum"
+  },
+  {
+    "id": 127,
+    "commonName": "Sindhudurg Marsh-Dart",
+    "malayalamName": "മഞ്ഞ ചതുപ്പൻ",
+    "scientificName": "Ceriagrion chromothorax",
+	"sciName": "Ceriagrion chromothorax (Joshi & Sawant 2019)",
+    "family": "Coenagrionidae / Dartlets, Marsh Darts and Sprites / നിലത്തന്‍മാര്‍",
+    "description1": "നിലത്തൻ കുടുംബത്തിൽ ഉള്ള ഒരിനം സൂചിത്തുമ്പിയാണ് സിന്ധുദുർഗ് ചതുപ്പൻ അഥവാ  മഞ്ഞചതുപ്പൻ. ഈ തുമ്പി ദക്ഷിണേന്ത്യയിൽ കാണപ്പെടുന്നു. നാട്ടുചതുപ്പനുമായി (Ceriagrion coromandelianum) ഇതിനു നല്ല സാമ്യമുണ്ടെങ്കിലും",
+    "description2": "ഉരസ്സിന്റെ തിളങ്ങുന്ന മഞ്ഞനിറവും കഴുത്തിലെ അടയാളങ്ങളും കുറുവാലുകളുടെ ആകൃതിയും ഇവയെ വേർതിരിച്ചറിയാൻ സഹായിക്കുന്നു. ഉരസ്സിന്റെ നിറത്തെ അടിസ്ഥാനമാക്കിയാണ് chromothorax എന്ന് പേരുനൽകിയിരിക്കുന്നത്.",
+     "description3": "ഇവ നാട്ടുചതുപ്പനേക്കാൾ നീണ്ടു മെലിഞ്ഞതും ഉദരത്തിന്റെ അവസാന ഖണ്ഡങ്ങളുടെ മുകൾഭാഗം ഇരുണ്ട നിറത്തോടുകൂടിയതുമാണ്.",
+     "description4": "",
+     "description5": "",
+    "mainPhoto": "~/images/Ceriagrion_chromothorax_main.jpg",
+    "photos": [
+      { "url": "~/images/Ceriagrion_chromothorax_male1.jpg", "credit": "ആൺതുമ്പി © വിനയന്‍ പി നായര്‍", "sourceUrl": "https://en.wikipedia.org/wiki/File:Ceriagrion_chromothorax._Male.jpg" },
+      { "url": "~/images/Ceriagrion_chromothorax_female1.jpg", "credit": "പെൺതുമ്പി © Charles J. Sharp", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sindhudurg_marsh_dart_(Ceriagrion_chromothorax)_female_Kerala.jpg" }
+    ],
+    "speciesLink": "https://www.inaturalist.org/taxa/990996-Ceriagrion-chromothorax",
+    "wikipediaLink": "https://en.wikipedia.org/wiki/Ceriagrion_chromothorax"
+  },
+  {
+    "id": 128,
+    "commonName": "Coromandel Marsh Dart",
+    "malayalamName": "നാട്ടുചതുപ്പൻ",
+    "scientificName": "Ceriagrion coromandelianum",
+	"sciName": "Ceriagrion coromandelianum (Fabricius, 1798)",
+    "family": "Coenagrionidae / Dartlets, Marsh Darts and Sprites / നിലത്തന്‍മാര്‍",
+    "description1": "നിലത്തൻ കുടുംബത്തിൽ ഉള്ള ഒരിനം സൂചിത്തുമ്പിയാണ് നാട്ടുചതുപ്പൻ. ഇന്ത്യ, നേപ്പാൾ, പാകിസ്താൻ, ശ്രീലങ്ക, ചൈന, മ്യാന്മാർ, വിയറ്റ്നാം എന്നീ രാജ്യങ്ങളിൽ ഇവയെ കണ്ടെത്തിയിട്ടുണ്ട്. കനൽവാലൻ ചതുപ്പനെപ്പോലെ വളരെ സാധാരണയായി നാട്ടുചതുപ്പനും കാണപ്പെടുന്നു.",
+    "description2": "പച്ച നിറത്തിലുള്ള കണ്ണുകളും ഉരസ്സുമാണിവയ്ക്കുള്ളത്. പച്ച നിറത്തിലുള്ള ശരീരമുള്ള ആൺ, പെൺതുമ്പികളിൽ പെൺതുമ്പികൾക്ക് ശോഭ കുറവാണ്. ആൺതുമ്പികൾക്ക് നല്ല മഞ്ഞനിറത്തിലുള്ള വാലും കാണപ്പെടുന്നു.",
+     "description3": "",
+     "description4": "",
+     "description5": "",
+    "mainPhoto": "~/images/Ceriagrion_coromandelianum_main.jpg",
+    "photos": [
+      { "url": "~/images/Ceriagrion_coromandelianum_male1.jpg", "credit": "ആൺതുമ്പി © Joydeep", "sourceUrl": "https://en.wikipedia.org/wiki/File:Ceriagrion_coromandelianum_male,_Burdwan,_West_Bengal,_India_09_07_2013.jpg" },
+      { "url": "~/images/Ceriagrion_coromandelianum_female1.jpg", "credit": "പെൺതുമ്പി © Joydeep", "sourceUrl": "https://en.wikipedia.org/wiki/File:Ceriagrion_coromandelianum,_Burdwan,_West_Bengal,_India_23_09_2012_(1).JPG" },
+	  { "url": "~/images/Ceriagrion_coromandelianum_mating.jpg", "credit": "ഇണചേരല്‍ © വിനീത് വെങ്ങോലിസ്", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ceriagrion_coromandelianum_mating_6017_(cropped).jpg" }
+    ],
+    "speciesLink": "https://www.inaturalist.org/taxa/97060-Ceriagrion-coromandelianum",
+    "wikipediaLink": "https://en.wikipedia.org/wiki/Ceriagrion_coromandelianum"
+  },
+  {
+    "id": 129,
+    "commonName": "Orange Marsh-Dart",
+    "malayalamName": "തീച്ചതുപ്പൻ",
+    "scientificName": "Ceriagrion rubiae",
+	"sciName": "Ceriagrion rubiae (Laidlaw, 1916)",
+    "family": "Coenagrionidae / Dartlets, Marsh Darts and Sprites / നിലത്തന്‍മാര്‍",
+    "description1": "ചുവപ്പ് കലർന്ന മഞ്ഞ ഉദരമുള്ള നിലത്തൻ കുടുംബത്തിൽ ഉള്ള ഒരിനം സൂചിത്തുമ്പിയാണ് തീച്ചതുപ്പൻ. ശരീരത്തിൽ കാണുന്ന ഓറഞ്ച് നിറം ഇവയെ മറ്റു ചതുപ്പൻ തുമ്പികളിൽ നിന്നും എളുപ്പത്തിൽ തിരിച്ചറിയുവാൻ കഴിയും. തലയുടെ നിറം മഞ്ഞയിൽ ഓറഞ്ച് കലർന്നതാണ്. ഇളം പച്ച കണ്ണുകളുടെ കീഴ്ഭാഗം മഞ്ഞ കലർന്ന പച്ച നിറമാണ്.  ഉരസ്സിനും, ഉദരത്തിനും മഞ്ഞ കലർന്ന ഓറഞ്ചു നിറമാണ്.",
+    "description2": "കാലുകൾ തവിട്ട് കലർന്ന മഞ്ഞ നിറത്തിൽ കാണപ്പെടുന്നു. പെൺതുമ്പികൾ കാഴ്ച്ചയിൽ ആൺതുമ്പികളെപ്പോലെയാണെങ്കിലും നിറങ്ങൾ മങ്ങിയതായിരിക്കും. നിശ്ചലമായ ജലാശയങ്ങളിലാണ് ഇവ മുട്ടയിടുന്നത്. ആൺതുമ്പികളുടെ ഉദരത്തിന് 26 -29 mm വരെ വലിപ്പമുണ്ടായിരിക്കും. പെൺതുമ്പികൾ പൊതുവെ ആൺതുമ്പികളേക്കാൾ വലുതാണ്. വനപ്രദേശങ്ങളിലാണ് ഈ തുമ്പിയെ കൂടുതലും കാണാൻ സാധിക്കുന്നത്.",
+     "description3": "കാടുകളിൽ ചതുപ്പുകളിലും, കാട്ടിനുള്ളിലെ ചെറു കുളങ്ങളോട് ചേർന്നും ഇവയെ കാണാം. ചെറുചെടികൾ നിറഞ്ഞ കുളങ്ങൾ ഇവയുടെ ഇഷ്ട താവളങ്ങളാണ്. ഇന്ത്യയിൽ സഹ്യപർവ്വതത്തിന് പടിഞ്ഞാറ് ഭാഗങ്ങളിലായി (പ്രധാനമായും മഹാരാഷ്ട്ര, കർണ്ണാടക, കേരള സംസ്ഥാനങ്ങളിൽ)  ഈ സൂചിത്തുമ്പി കാണപ്പെടുന്നു. അത്ര സാധാരണമല്ലാത്ത ഇവയെ തെക്കുപടിഞ്ഞാറൻ മൺസൂൺ കാലത്ത് കൂടുതലായി കാണാം.",
+     "description4": "",
+     "description5": "",
+    "mainPhoto": "~/images/Ceriagrion_rubiae_main.jpg",
+    "photos": [
+      { "url": "~/images/Ceriagrion_rubiae_male1.jpg", "credit": "ആൺതുമ്പി © എബ്രഹാം സാമുവേല്‍", "sourceUrl": "https://en.wikipedia.org/wiki/File:Ceriagrion_rubiae-_male_(2).jpg" },
+      { "url": "~/images/Ceriagrion_rubiae_female1.jpg", "credit": "പെൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Orange_Marsh_Dart_female_(Ceriagrion_rubiae).jpg" },
+	  { "url": "~/images/Ceriagrion_rubiae_mating.jpg", "credit": "ഇണചേരല്‍ © ഷിനോ ജേക്കബ് കൂറ്റനാട്", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ceriagrion_rubiae,_Orange_Wax_Tail.jpg" }
+    ],
+    "speciesLink": "https://www.inaturalist.org/taxa/507491-Ceriagrion-rubiae",
+    "wikipediaLink": "https://en.wikipedia.org/wiki/Ceriagrion_rubiae"
+  },
+  {
+    "id": 130,
+    "commonName": "Golden Dartlet",
+    "malayalamName": "മഞ്ഞ പുൽമാണിക്യൻ",
+    "scientificName": "Ischnura rubilio",
+	"sciName": "Ischnura rubilio (Selys, 1876)",
+    "family": "Coenagrionidae / Dartlets, Marsh Darts and Sprites / നിലത്തന്‍മാര്‍",
+    "description1": "പാടത്തും നനവുള്ള പറമ്പുകളിലും കാണപ്പെടുന്ന നിലത്തൻ കുടുംബത്തിൽ ഉള്ള ഒരിനം സൂചിത്തുമ്പിയാണ് മഞ്ഞ പുൽമാണിക്യൻ. ചെറുചെടികൾക്കും പുല്ലുകൾക്കുമിടയിലൂടെ നിലം‌പറ്റിയാണ് ഇവ സാധാരണയായി പറക്കുന്നത്. ആൺതുമ്പികളിൽ ഇലപ്പച്ച നിറത്തിലുള്ള ഉരസ്സും അതിൽ കറുത്തവരകളും കാണാം.",
+    "description2": "ഇവയുടെ മഞ്ഞ വാലിന്റെ അഗ്രഭാഗത്തായി ഇളംനീലപ്പൊട്ടുകളും കാണപ്പെടുന്നു. പെൺതുമ്പികൾക്ക് ആൺതുമ്പികളോട് സാദൃശ്യമുണ്ടെങ്കിലും ശോഭ കുറവാണ്. ഇവയുടെ വാലിൽ കുത്തുകളും കറുത്തവരയും ഉണ്ട്. എന്നാൽ ആൺതുമ്പികളിലേതു പോലെ വാലിന്റെ അഗ്രത്തിൽ നീലപ്പൊട്ടുകൾ കാണപ്പെടുന്നില്ല.",
+     "description3": "ഇന്ത്യ, നേപ്പാൾ, പാകിസ്താൻ, ശ്രീലങ്ക, ചൈന, മ്യാന്മാർ, വിയറ്റ്നാം, ഭൂട്ടാൻ, തായ്‌ലന്റ്, ഫിലിപ്പീൻസ്, ജപ്പാൻ, ഇന്തോനേഷ്യ തുടങ്ങിയ രാജ്യങ്ങളിൽ ഇവയെ കണ്ടെത്തിയിട്ടുണ്ട്. നേരത്തെ ആസ്ത്രേലിയയിൽ കാണപ്പെടുന്ന Ischnura aurora എന്ന തുമ്പിയുടെ ഉപവർഗമായി കണക്കാക്കിയിരുന്നു. എന്നാൽ ഇവ രണ്ടും തമ്മിൽ വ്യത്യാസമുണ്ടെന്ന് കണ്ടെത്തി.",
+     "description4": "",
+     "description5": "",
+    "mainPhoto": "~/images/Ischnura_rubilio_main.jpg",
+    "photos": [
+      { "url": "~/images/Ischnura_rubilio_male1.jpg", "credit": "ആൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Ischnura_rubilio-Kadavoor-2016-07-09-001.jpg" },
+      { "url": "~/images/Ischnura_rubilio_female1.jpg", "credit": "പെൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Ischnura_rubilio-Silent_Valley-2016-08-15-001.jpg" },
+	  { "url": "~/images/Ischnura_rubilio_mating.jpg", "credit": "ഇണചേരല്‍ © ഷിനോ ജേക്കബ് കൂറ്റനാട്", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Western_Golden_Dartlet_,_Ischnura_rubilio).jpg" }
+    ],
+    "speciesLink": "https://www.inaturalist.org/taxa/561940-Ischnura-rubilio",
+    "wikipediaLink": "https://en.wikipedia.org/wiki/Ischnura_rubilio"
+  },
+  {
+    "id": 131,
+    "commonName": "Senegal Dartlet",
+    "malayalamName": "നീല പുൽമാണിക്യൻ",
+    "scientificName": "Ischnura senegalensis",
+	"sciName": "Ischnura senegalensis (Rambur, 1842)",
+    "family": "Coenagrionidae / Dartlets, Marsh Darts and Sprites / നിലത്തന്‍മാര്‍",
+    "description1": "നിലത്തൻ കുടുംബത്തിൽ ഉള്ള സൂചിത്തുമ്പികളിൽ ഭംഗിയേറിയ ഒരിനമാണ് നീലപ്പുള്ളി സുവർണ്ണചിന്നൻ അഥവാ നീല പുൽമാണിക്യൻ. പച്ചകലർന്ന നീലനിറത്തിലുള്ള ശരീരത്തോടുകൂടിയ ആൺതുമ്പികളുടെ മഞ്ഞനിറത്തിലുള്ള വാൽ പോലെയുള്ള ഉടലിൽ നേർത്ത കറുപ്പുനിറത്തിലുള്ള വരയും പിന്നറ്റത്തായി നീലപൊട്ടുകളുമാണുള്ളത്.",
+    "description2": "പെൺതുമ്പികളിൽ പച്ചനിറം കലർന്ന ശരീരവും അതിൽ അരണ്ട തവിട്ടുനിറത്തിലുള്ള വരകളും കാണപ്പെടുന്നു. ഇന്ത്യയടക്കം മിക്ക ഏഷ്യൻ രാജ്യങ്ങളും ഇവയുടെ വിഹാരമേഖലകളാണ്.",
+     "description3": "",
+     "description4": "",
+     "description5": "",
+    "mainPhoto": "~/images/Ischnura_senegalensis_main.jpg",
+    "photos": [
+      { "url": "~/images/Ischnura_senegalensis_male1.jpg", "credit": "ആൺതുമ്പി © TekuraDF", "sourceUrl": "https://en.wikipedia.org/wiki/File:Ischnura_senegalensis(Male_,_Japan_,_2018.09.02).jpg" },
+      { "url": "~/images/Ischnura_senegalensis_female1.jpg", "credit": "പെൺതുമ്പി © TekuraDF", "sourceUrl": "https://en.wikipedia.org/wiki/File:Ischnura_senegalensis(Female,Japan,2018.10.08).jpg" },
+	  { "url": "~/images/Ischnura_senegalensis_mating.jpg", "credit": "ഇണചേരല്‍ © TekuraDF", "sourceUrl": "https://en.wikipedia.org/wiki/File:Ischnura_senegalensis(Couple,Japan,2018.05.26,b).jpg" }
+    ],
+    "speciesLink": "https://www.inaturalist.org/taxa/52053-Ischnura-senegalensis",
+    "wikipediaLink": "https://en.wikipedia.org/wiki/Ischnura_senegalensis"
+  },
+  {
+    "id": 132,
+    "commonName": "Morton's Midget",
+    "malayalamName": "കരിയിലത്തുമ്പി",
+    "scientificName": "Mortonagrion varralli",
+	"sciName": "Mortonagrion varralli (Fraser, 1920)",
+    "family": "Coenagrionidae / Dartlets, Marsh Darts and Sprites / നിലത്തന്‍മാര്‍",
+    "description1": "തണൽ പ്രദേശങ്ങളിൽ കാണുന്ന കടും തവിട്ടും ഇളം നീലനിറവുമുള്ള നിലത്തൻ കുടുംബത്തിൽ ഉള്ള ഒരിനം സൂചിത്തുമ്പിയാണ് കരിയിലത്തുമ്പി. കേരളത്തിൽ വളരെ അപൂർവ്വമായിട്ടാണ് ഈ തുമ്പിയെ കണ്ടെത്തിയിട്ടുള്ളത്. വലിയ കായലുകളുടേയും പുഴകളുടേയും അടുത്തുള്ള ചെറിയ കുറ്റിക്കാടുകളാണ് ഇഷ്ടപ്പെട്ട സ്ഥലം. കറുത്ത കണ്ണുകളുടെ കീഴ് ഭാഗം പച്ച കലർന്ന നീല നിറത്തിലാണ്. ",
+    "description2": "തലക്ക് നീല കലർന്ന തവിട്ട് നിറമാണ്.ഉദരത്തിൽ നീല നിറത്തിലുള്ള ചെറിയ വളയങ്ങളുണ്ട്. തണൽ പ്രദേശങ്ങളിൽ കാണുന്ന കടും തവിട്ടും, ഇളം നീല നിറവുമുള്ള ചെറിയ സൂചിതുമ്പി. കാട്ടുപുല്‍ച്ചിന്നനുമായി സാമ്യമുണ്ടെങ്കിലും നീളം കുറഞ്ഞ ചെരുവലുകളും ഉദരത്തിലെ എട്ടാം ഖണ്ഡത്തിലെ നീല വളയവും ഇവയെ തിരിച്ചറിയാൻ സഹായിക്കുന്നു. ആൺതുമ്പികളെ ആണ് അധികമായി കാണാറുള്ളത്.",
+     "description3": "മൂന്നു നിറഭേദങ്ങളുള്ള ആൺ തുമ്പികളെ കണ്ടെത്തിയിട്ടുണ്ട്. പൊതുവേ നീലയും തവിട്ട്‌ നിറത്തിലുമുള്ള ആൺതുമ്പികളെ ആണ് കൂടുതലായി കാണാൻ സാധിക്കുന്നത്.",
+     "description4": "പെൺതുമ്പികള്‍ കാഴ്ചയിൽ ആൺതുമ്പികളെ പോലെയാണ്. തണൽ വളരെ അധികം ഇഷ്ടപെടുന്ന ഇവ തറയിൽ നിന്ന് അധികം ഉയരത്തിൽ പറക്കുവാൻ താല്പര്യപെടാറില്ല. അധീന പ്രദേശം കാത്തു സൂക്ഷിക്കുന്ന ഈ തുമ്പികളെ ഒരേ സ്ഥലത്ത് സ്ഥിരമായി കാണാം.",
+     "description5": "",
+    "mainPhoto": "~/images/Mortonagrion_varralli_main.jpg",
+    "photos": [
+      { "url": "~/images/Mortonagrion_varralli_male1.jpg", "credit": "ആൺതുമ്പി © Renjusplace", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mortonagrion_varralli_2.jpg" },
+      { "url": "~/images/Mortonagrion_varralli_female1.jpg", "credit": "പെൺതുമ്പി © Sunny Joseph", "sourceUrl": "https://en.wikipedia.org/wiki/File:Mortonagrion_varralli_by_Sunny_Joseph_412.jpg" }
+    ],
+    "speciesLink": "https://www.inaturalist.org/taxa/106203-Mortonagrion-varralli",
+    "wikipediaLink": "https://en.wikipedia.org/wiki/Mortonagrion_varralli"
+  },
+  {
+    "id": 133,
+    "commonName": "Dusky Lily-Squatter",
+    "malayalamName": "ചുട്ടിവാലൻ താമരത്തുമ്പി",
+    "scientificName": "Paracercion calamorum",
+	"sciName": "Paracercion calamorum (Ris, 1916)",
+    "family": "Coenagrionidae / Dartlets, Marsh Darts and Sprites / നിലത്തന്‍മാര്‍",
+    "description1": "നിലത്തൻ കുടുംബത്തിൽ ഉള്ള ഒരിനം സൂചിത്തുമ്പിയാണ് ചുട്ടിവാലൻ താമരത്തുമ്പി. റഷ്യയിലും, ചൈന, ജപ്പാൻ, ഇന്ത്യ, തുടങ്ങിയ മിക്ക ഏഷ്യൻ രാജ്യങ്ങളിലും ഇവ കാണപ്പെടുന്നു. P. c. calamorum, P. c. dyeri എന്നീ രണ്ട് ഉപവർഗങ്ങളിൽ P. c. dyeri ആണ് കേരളത്തിൽ കാണപ്പെടുന്നത്.",
+    "description2": "ജലസസ്യങ്ങൾ നിറഞ്ഞ നിശ്ചല ജലാശയങ്ങളിലുള്ള ചെടികളിലും താമരയിലകളിലും ഇവയെ കാണാം. താമരയിലയുടെ മടക്കുകളിലും മറ്റു പൊങ്ങിക്കിടക്കുന്ന ജലസസ്യങ്ങളിലുമാണ് ഇവ മുട്ടയിടുന്നത്.",
+     "description3": "",
+     "description4": "",
+     "description5": "",
+    "mainPhoto": "~/images/Paracercion_calamorum_main.jpg",
+    "photos": [
+      { "url": "~/images/Paracercion_calamorum_male1.jpg", "credit": "ആൺതുമ്പി © വിനയന്‍ പി നായര്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paracercion_calamorum_2_by_Vinayan_Nair.jpg" },
+      { "url": "~/images/Paracercion_calamorum_female1.jpg", "credit": "പെൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", "sourceUrl": "https://en.wikipedia.org/wiki/File:Paracercion_calamorum_(Dusky_Lilysquatter)_female.jpg" }
+    ],
+    "speciesLink": "https://www.inaturalist.org/taxa/108420-Paracercion-calamorum",
+    "wikipediaLink": "https://en.wikipedia.org/wiki/Paracercion_calamorum"
+  },
+  {
+    "id": 134,
+    "commonName": "Malayan Lily-Squatter",
+    "malayalamName": "മലയന്‍ താമരത്തുമ്പി",
+    "scientificName": "Paracercion malayanum",
+	"sciName": "Paracercion malayanum (Selys, 1876)",
+    "family": "Coenagrionidae / Dartlets, Marsh Darts and Sprites / നിലത്തന്‍മാര്‍",
+    "description1": "നിലത്തൻ കുടുംബത്തിൽ ഉള്ള ഒരിനം സൂചിത്തുമ്പിയാണ് മലയന്‍ താമരത്തുമ്പി. ഇവ ഇന്ത്യ, ശ്രീലങ്ക, നേപ്പാൾ, ജാവ, ഫിലിപ്പൈൻസ്, തായ്‌ലാന്റ് എന്നിവിടങ്ങളിൽ കാണപ്പെടുന്നു. Paracercion ജീനസിൽ ഉള്ള സ്പീഷീസുകളെക്കുറിച്ചു ഡി.എൻ.എ ബാർകോഡിങ്, മോർഫോളജി തുടങ്ങിയവ അടിസ്ഥാനമാക്കി നടത്തിയ വിശദമായ പഠനം",
+    "description2": "  P. pendulum, P. malayanum എന്നീ സ്പീഷീസുകൾ P. melanotum എന്ന സ്പീഷിസിന്റെ പര്യായങ്ങൾ ആണ് എന്ന് കണ്ടെത്തി. ആഴം കുറഞ്ഞ തടാകങ്ങളിലും കുളങ്ങളിലിലും പ്രജനനം നടത്തുന്ന ഈ തുമ്പികൾ അത്തരം ജലാശയങ്ങളുടെ മധ്യത്തിലുള്ള ജലസസ്യങ്ങളിൽ ഇരിക്കുന്നതുകാണാം. വളരെയധികം സ്ഥലങ്ങളിൽ ഇവയുണ്ടെങ്കിലും വളരെ അപൂർവമായേ ഇവയെ കണ്ടെത്താറുള്ളൂ.",
+     "description3": "",
+     "description4": "",
+     "description5": "",
+    "mainPhoto": "~/images/Paracercion_malayanum_main.jpg",
+    "photos": [
+      { "url": "~/images/Paracercion_malayanum_male1.jpg", "credit": "ആൺതുമ്പി © ബാലചന്ദ്രന്‍ വി", "sourceUrl": "https://en.wikipedia.org/wiki/File:Paracercion_malayanum_lateral_view.jpg" },
+      { "url": "~/images/Paracercion_malayanum_female1.jpg", "credit": "പെൺതുമ്പി © Andrew Pierce", "sourceUrl": "https://www.inaturalist.org/observations/88779817" }
+    ],
+    "speciesLink": "https://www.inaturalist.org/taxa/108421-Paracercion-melanotum",
+    "wikipediaLink": "https://en.wikipedia.org/wiki/Paracercion_melanotum"
+  },
+  {
+    "id": 135,
+    "commonName": "Short-tailed Sprite",
+    "malayalamName": "ചെറുവാലൻ പൂത്താലി",
+    "scientificName": "Pseudagrion australasiae",
+	"sciName": "Pseudagrion australasiae (Selys, 1876)",
+    "family": "Coenagrionidae / Dartlets, Marsh Darts and Sprites / നിലത്തന്‍മാര്‍",
+    "description1": "നിലത്തന്മാർ എന്ന തുമ്പി കുടുംബത്തിൽപ്പെട്ട ഒരു സൂചിത്തുമ്പിയാണ് ചെറുവാലൻ പൂത്താലി. ഇന്ത്യ, ചൈന, ഇന്തോനേഷ്യ , മലേഷ്യ, മ്യാന്മാർ, സിംഗപ്പൂർ, തായ്‌ലൻഡ് തുടങ്ങിയ ഏഷ്യൻ രാജ്യങ്ങളിലാണ് ഇവയെ സാധാരണയായി കണ്ടു വരുന്നത്. ഇടത്തരം വലിപ്പമുള്ള നീല നിറത്തിലുള്ള ഒരു സൂചിത്തുമ്പിയാണ് ചെറുവാലൻ പൂത്താലി. ഇതിന്റെ ശിരസ്സിന് അല്പം വിളറിയ പച്ച കലർന്ന നീല നിറമാണ്. ",
+    	 "description2": "ശിരസ്സിന്റെ പിൻഭാഗത്ത് നേരിയ കറുപ്പ് നിറം കാണാം. കണ്ണുകൾക്ക് നീല നിറമാണ്. നല്ല തിളങ്ങുന്ന നീല നിറത്തിലുള്ള ഉരസ്സിൽ മധ്യ ഭാഗത്തായി ഒരു കറുത്ത പാടും അതിന് മുകളിലായി നേർത്ത കറുപ്പ് വരകളും കാണാം. വിളറിയ നീല നിറത്തിലുള്ള കാലിന്റെ പിൻഭാഗം കറുത്തിട്ടാണ്. ചിറകുകൾ സുതാര്യമാണ്. ചിറകിലെ പൊട്ട് മങ്ങിയ മഞ്ഞ നിറത്തിലോ തവിട്ട് നിറത്തിലോ കാണപ്പെടുന്നു. ",
+     "description3": "ഉദരത്തിന്റെ വശങ്ങൾ പൊതുവെ നീല നിറത്തിലും മുകൾ ഭാഗം കറുപ്പ് നിറത്തിലും കാണപ്പെടുന്നു. ഉദരത്തിന്റെ 8, 9 ഖണ്ഡങ്ങൾ മുഴുവനായും നീല നിറത്തിലാണുള്ളത്. ഉദരത്തിന്റെ പത്താം ഖണ്ഡത്തിൽ X ആകൃതിയിലുള്ള ഒരു കറുത്ത പാട് കാണാം. ഉദരത്തിന്റെ പത്താം ഖണ്ഡത്തിന്റെ നേർപകുതി വലിപ്പത്തിലുള്ള കുറുവാലുകൾക്ക് കറുത്ത നിറമാണ്.",
+     "description4": "ആൺതുമ്പിയുടെ ഉദരത്തിന് 30-32.5 മില്ലീമീറ്റർ വരെ വലിപ്പമുണ്ടായിരിക്കും. പെൺതുമ്പിക്ക് ആൺതുമ്പിയെ അപേക്ഷിച്ച് അല്പം വലിപ്പം കുറവാണ്. പെൺതുമ്പിയുടെ ഉദരത്തിന് 29 മില്ലീമീറ്റർ വരെയാണ് വലിപ്പം. പെൺതുമ്പിയുടെ ശരീരത്തിലെ പാടുകളും വരകളും ആൺതുമ്പിയുടേതിന് സമാനമാണെങ്കിലും ശരീരത്തിന്റെ നിറത്തിൽ വ്യത്യാസമുണ്ട്. കണ്ണുകൾക്കും ഉരസ്സിനും നീല കലർന്ന പച്ച നിറമാണ്. ",
+     "description5": "നാട്ടുപൂത്താലി, കാട്ടുപൂത്താലി എന്നീ തുമ്പികളുമായി വളരെ സാദൃശ്യമുണ്ടെങ്കിലും കുറുവാലുകളുടെ വലിപ്പക്കുറവ് ചെറുവാലൻ പൂത്താലിയെ കാഴ്ച്ചയിൽ വ്യത്യസ്തമാക്കുന്നു. കൂടാതെ മുകളിലെ ജോഡി കുറുവാലുകളുടെ അഗ്രഭാഗത്തുള്ള സവിശേഷാകൃതി നാട്ടുപൂത്താലിയിൽ നിന്നും ചെറുവാലൻ പൂത്താലിയെ എളുപ്പത്തിൽ വേർതിരിച്ചറിയാൻ സഹായിക്കുന്നു.",
+    "mainPhoto": "~/images/Pseudagrion_australasiae_main.jpg",
+    "photos": [
+      { "url": "~/images/Pseudagrion_australasiae_male1.jpg", "credit": "ആൺതുമ്പി © 2016 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Pseudagrion_australasiae-Kadavoor-2016-07-11-002.jpg" },
+      { "url": "~/images/Pseudagrion_australasiae_female1.jpg", "credit": "പെൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pseudagrion_australasiae_female1.jpg" }
+    ],
+    "speciesLink": "https://www.inaturalist.org/taxa/110779-Pseudagrion-australasiae",
+    "wikipediaLink": "https://en.wikipedia.org/wiki/Pseudagrion_australasiae"
+  },
+  {
+    "id": 136,
+    "commonName": "Green-striped Sprite",
+    "malayalamName": "വരയന്‍ പൂത്താലി",
+    "scientificName": "Pseudagrion decorum",
+	"sciName": "Pseudagrion decorum (Rambur, 1842)",
+    "family": "Coenagrionidae / Dartlets, Marsh Darts and Sprites / നിലത്തന്‍മാര്‍",
+    "description1": "ശരീരത്തിന് പൊതുവേ ഇളം നീലനിറവും ഉരസ്സിന്റെ മുകൾഭാഗം ഇളം പച്ച നിറവുമുള്ള നിലത്തൻ കുടുംബത്തിൽ ഉള്ള ഒരിനം സൂചിത്തുമ്പിയാണ് വരയന്‍  പൂത്താലി. ഉരസ്സിന് മുകൾ ഭാഗത്തെ കറുത്ത വരകളും ഉദരത്തിന്റെ രണ്ടാം ഭാഗത്തുള്ള കറുത്ത കലയും ഇവയെ മറ്റു പൂത്താലികളിൽ നിന്നും തിരിച്ചറിയുവാൻ സഹായിക്കുന്നു. നിരപ്പുള്ള്ര പ്രദേശങ്ങളിൽ തുറസ്സായ ഇടങ്ങളിലാണ് ഇവയെ കാണാറുള്ളത്.",
+    	 "description2": "",
+     "description3": "",
+     "description4": "",
+     "description5": "",
+    "mainPhoto": "~/images/Pseudagrion_decorum_main.jpg",
+    "photos": [
+      { "url": "~/images/Pseudagrion_decorum_male1.jpg", "credit": "ആൺതുമ്പി © 2016 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Pseudagrion_decorum-Thekkady-2016-12-02-001.jpg" },
+      { "url": "~/images/Pseudagrion_decorum_female1.jpg", "credit": "പെൺതുമ്പി © മനോജ് വി നായര്‍", "sourceUrl": "https://en.wikipedia.org/wiki/File:Pseudagrion_decorum_female_by_Manoj_V_Nair.jpg" }
+    ],
+    "speciesLink": "https://www.inaturalist.org/taxa/110793-Pseudagrion-decorum",
+    "wikipediaLink": "https://en.wikipedia.org/wiki/Pseudagrion_decorum"
+  },
+  {
+    "id": 137,
+    "commonName": "Yellow-striped Sprite",
+    "malayalamName": "മഞ്ഞവരയൻ പൂത്താലി",
+    "scientificName": "Pseudagrion indicum",
+	"sciName": "Pseudagrion indicum (Fraser, 1924)",
+    "family": "Coenagrionidae / Dartlets, Marsh Darts and Sprites / നിലത്തന്‍മാര്‍",
+    "description1": "ശരീരത്തിന് ഇളം നീല നിറവും ഉരസ്സിന് മുകൾഭാഗം മഞ്ഞ കലർന്ന ഇളം പച്ച നിറവും അതിൽ കറുത്ത വരകളുമുള്ള നിലത്തൻ കുടുംബത്തിൽ ഉള്ള ഒരിനം സൂചിത്തുമ്പിയാണ് മഞ്ഞവരയൻ പൂത്താലി. നീലച്ചുട്ടിയോട് സാമ്യമുണ്ടെങ്കിലും വലിപ്പക്കൂടുതൽ കൊണ്ടും ഉരസ്സിന് മുകൾ ഭാഗത്തെ നിറങ്ങൾ കൊണ്ടും ഇവയെ പ്രത്യേകം തിരിച്ചറിയാൻ കഴിയും. ",
+    "description2": "പശ്ചിമഘട്ടത്തിലെ സ്ഥാനീയത്തുമ്പിയായ ഇവ തെക്കൻ കേരളത്തിൽ സാധാരണമാണ്. വനപ്രദേശങ്ങളിലെ തടാകങ്ങളിലും അരുവികളിലും നാട്ടിൻ പ്രദേശങ്ങളിലെ പുഴകളിലും തോടുകളിലും ഇവ കാണപ്പെടുന്നു. കണ്ണുകൾക്ക് ഇളം പച്ച നിറവും മുകൾ ഭാഗത്തായി കറുത്ത തൊപ്പിയുമുണ്ട്. ഇളം പച്ച കലർന്ന മഞ്ഞ വരയുള്ള ഉരസ്സിന് മുകൾ ഭാഗത്ത് കറുപ്പുനിറമാണ്. ",
+     "description3": "ഇവ ചിലപ്പോൾ കറുപ്പിൽ ഓറഞ്ച് നിറമുള്ള വരകളോടു കൂടിയും കാണപ്പെടുന്നു. ഉരസ്സിന്റെ പകുതിക്കു താഴെ ഇളം നീല നിറമാണ്. ചിറകിനോടു ചേരുന്ന വശങ്ങളിലായി നീളത്തിലുള്ള രണ്ടു കറുത്ത കലകളും കാണാം. കറുപ്പു നിറമുള്ള കാലുകളുടെ അകവശം ഇളം നീലയാണ്. ഉദരത്തിന്റെ അടിവശം ഇളം നീലയും മുകൾ ഭാഗം കറുത്ത നിറവുമാണ്. ഖണ്ഡങ്ങൾക്കിടയിൽ ഇളം നീല വളയങ്ങളുമുണ്ട്. സുതാര്യമാണ് ഇവയുടെ ചിറകുകൾ.",
+     "description4": "",
+     "description5": "",
+    "mainPhoto": "~/images/Pseudagrion_indicum_main.jpg",
+    "photos": [
+      { "url": "~/images/Pseudagrion_indicum_male1.jpg", "credit": "ആൺതുമ്പി © 2015 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Pseudagrion_indicum-Kadavoor-2015-08-21-001.jpg" },
+	  { "url": "~/images/Pseudagrion_indicum_mating.jpg", "credit": "ഇണചേരല്‍ © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Pseudagrion_indicum_by_kadavoor.JPG" }
+    ],
+    "speciesLink": "https://www.inaturalist.org/taxa/110820-Pseudagrion-indicum",
+    "wikipediaLink": "https://en.wikipedia.org/wiki/Pseudagrion_indicum"
+  },
+  {
+    "id": 138,
+    "commonName": "Malabar Sprite",
+    "malayalamName": "കാട്ടുപൂത്താലി",
+    "scientificName": "Pseudagrion malabaricum",
+	"sciName": "Pseudagrion malabaricum (Fraser, 1924)",
+    "family": "Coenagrionidae / Dartlets, Marsh Darts and Sprites / നിലത്തന്‍മാര്‍",
+    "description1": "ശരീരത്തിന് ഇളം നീലയിൽ കറുത്ത വരകളും പൊട്ടുകളുമുള്ള നിലത്തൻ കുടുംബത്തിൽ ഉള്ള ഒരിനം സൂചിത്തുമ്പിയാണ് കാട്ടുപൂത്താലി. വനപ്രദേശങ്ങളിലെ നിശ്ചലജലാശയങ്ങളിൽ സാധാരണയായി കാണുന്നു. പുല്ലുകൾ നിറഞ്ഞ കുളങ്ങൾ, കായലുകൾ, ചതുപ്പുകൾ എന്നിവിടങ്ങളിൽ ഇവയെ കാണാം. ",
+    "description2": "ആൺ തുമ്പിക്ക് കണ്ണുകൾക്ക് നീല നിറവും മുകൾഭാഗത്ത് കറുത്ത കലകളുമുണ്ട്. കണ്ണുകൾ തമ്മിൽ ബന്ധിപ്പിക്കുന്ന കറുത്ത വരയും അതിൽ ഇളം നീല അടയാളങ്ങളുമുണ്ട്.",
+     "description3": "",
+     "description4": "",
+     "description5": "",
+    "mainPhoto": "~/images/Pseudagrion_malabaricum_main.jpg",
+    "photos": [
+      { "url": "~/images/Pseudagrion_malabaricum_male1.jpg", "credit": "ആൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", "sourceUrl": "https://en.wikipedia.org/wiki/File:Pseudagrion_malabaricum_male.jpg" },
+      { "url": "~/images/Pseudagrion_malabaricum_female1.jpg", "credit": "പെൺതുമ്പി © വിനയന്‍ പി നായര്‍", "sourceUrl": "https://en.wikipedia.org/wiki/File:Pseudagrion_malabaricum_Female.jpg" }
+    ],
+    "speciesLink": "https://www.inaturalist.org/taxa/110829-Pseudagrion-malabaricum",
+    "wikipediaLink": "https://en.wikipedia.org/wiki/Pseudagrion_malabaricum"
+  },
+  {
+    "id": 139,
+    "commonName": "Blue Sprite",
+    "malayalamName": "നാട്ടുപൂത്താലി",
+    "scientificName": "Pseudagrion microcephalum",
+	"sciName": "Pseudagrion microcephalum (Rambur, 1842)",
+    "family": "Coenagrionidae / Dartlets, Marsh Darts and Sprites / നിലത്തന്‍മാര്‍",
+    "description1": "നിലത്തൻ കുടുംബത്തിൽ ഉള്ള ഒരിനം സൂചിത്തുമ്പിയാണ് നാട്ടുപൂത്താലി. ആകാശനീലയിൽ കറുപ്പുവരകളോടുകൂടിയ ശരീരമാണ് ആൺതുമ്പികളുടേത്, നേർത്ത പച്ചയും തവിട്ടും കലർന്ന ശരീരത്തിൽ കറുത്തവരകളോടുകൂടി പെൺതുമ്പികളും കാണപ്പെടുന്നു. വയലുകൾ, കുളങ്ങൾ, തോടുകൾ എന്നിവിടങ്ങളിൽ ഇവ സാധാരണയായി കാണപ്പെടുന്നു.",
+    "description2": "താഴ്ന്ന പ്രദേശങ്ങളിൽ സാധാരണമായും കാടുകളിൽ അപൂർവ്വമായും കാണുന്നു. കായലുകൾ, ചതുപ്പുകൾ, തോടുകൾ, പുഴകൾ എന്നിവിടങ്ങളിൽ കൂടുതലായും കാണുന്നു. ചെറിയ കൂട്ടങ്ങളായ് വസിക്കുന്ന ഇവയുടെ ആൺ തുമ്പികൾ തമ്മിൽ അധീന പ്രദേശങ്ങൾക്കായ് തർക്കങ്ങൾ ഉണ്ടാക്കാറുണ്ട്.",
+     "description3": " മിക്കപ്പോഴും പെൺ തുമ്പികൾ ജലാശയത്തിനു അകലെ മാറിയാണ് കണ്ടു വരുന്നത്. വടക്ക് കിഴക്കന് മൺസൂൺ കാലത്ത് കൂട്ടമായ്‌ ദേശാടനം നടത്താറുണ്ട്‌. ആൺ തുമ്പി: കണ്ണുകളുടെ കീഴ്ഭാഗം ഇളം നീല നിറമാണ്‌. കണ്ണിനു മുകളിലായ് കറുത്ത തൊപ്പിയുണ്ട്. തലയിൽ കണ്ണുകൾ തമ്മിൽ ബന്ധിപ്പിക്കുന്ന കറുത്ത വരയും ഇളം നീല പൊട്ടുകളും ഉണ്ട്. ഉരസ്സിനു മുകൾ ഭാഗം കറുത്ത നിറവും അതിൽ നേർത്ത ഇളം നീല വരകളുമുണ്ട്. ",
+     "description4": "ഉരസ്സിന്റെ വശങ്ങളിൽ ഇളം നീല നിറമാണ്‌. ഇളം നീല നിറത്തിലുള്ള ഉദരത്തിൽ കറുത്ത വരകളും കലകളും ഉണ്ട് . സുതാര്യമായ ചിറകുകൾ ആണുള്ളത്. പെൺ തുമ്പി: ഇളം പച്ച കണ്ണുകളുടെ മുകൾ ഭാഗം മഞ്ഞ നിറമാണ്‌. ഉരസ്സിനും ഉദരതിനും മങ്ങിയ പച്ച കലർന്ന നീല നിറമാണ്‌. ഉരസ്സിനു മുകളിൽ തവിട്ട്‌ നിറമുള്ള വരകളും ഉദരത്തിന്റെ ഖണ്ഡങ്ങളുടെ മുകൾ ഭാഗത്ത്‌ കറുത്ത കലകളും ഉണ്ട്.",
+     "description5": "",
+    "mainPhoto": "~/images/Pseudagrion_microcephalum_main.jpg",
+    "photos": [
+      { "url": "~/images/Pseudagrion_microcephalum_male1.jpg", "credit": "ആൺതുമ്പി © എബ്രഹാം സാമുവേല്‍", "sourceUrl": "https://en.wikipedia.org/wiki/File:Pseudagrion_microcephalum_-_male_chry.jpg" },
+      { "url": "~/images/Pseudagrion_microcephalum_female1.jpg", "credit": "പെൺതുമ്പി © Sunny Joseph", "sourceUrl": "https://en.wikipedia.org/wiki/File:Pseudagrion_microcephalum_by_Sunny_Joseph.jpg" }
+    ],
+    "speciesLink": "https://www.inaturalist.org/taxa/110834-Pseudagrion-microcephalum",
+    "wikipediaLink": "https://en.wikipedia.org/wiki/Blue_riverdamsel"
+  },
+  {
+    "id": 140,
+    "commonName": "Red-faced Sprite",
+    "malayalamName": "സിന്ദൂരപ്പൂത്താലി",
+    "scientificName": "Pseudagrion rubriceps",
+	"sciName": "Pseudagrion rubriceps (Selys, 1876)",
+    "family": "Coenagrionidae / Dartlets, Marsh Darts and Sprites / നിലത്തന്‍മാര്‍",
+    "description1": "തലയുടെ മുൻഭാഗത്ത് ഓറഞ്ച് നിറമുള്ള നിലത്തൻ കുടുംബത്തിൽ ഉള്ള ഒരിനം സൂചിത്തുമ്പിയാണ് സിന്ദൂരപ്പൂത്താലി. തലയിലെ ഓറഞ്ച് നിറവും മെലിഞ്ഞ ഇളം നീല ശരീരവും ഇവയെ തിരിച്ചറിയുവാൻ സഹായിക്കുന്നു. വനപ്രദേശങ്ങളിലും നാട്ടിൻ പുറങ്ങളിലും സാധാരണയായി കാണപ്പെടുന്നു. അരുവികൾ, പുഴകൾ കുളങ്ങൾ, തോടുകൾ എന്നിവയാണ് ഇഷ്ടവാസസ്ഥലം. ",
+    "description2": "കണ്ണുകൾക്ക് ഓറഞ്ച് നിറവും കീഴ്ഭാഗം മഞ്ഞയുമാണ്. തലയുടെ മുൻ വശത്തിന് ചുവപ്പു കലർന്ന ഓറഞ്ച് നിറം. ഇവയുടെ ഉരസ്സിന്റെ മുകൾ ഭാഗം നരച്ച പച്ചയും അതിൽ കറുത്ത വരകളുമുണ്ട്. ഉരസ്സിനും അദരത്തിനും ഇളം നീലനിറം. മങ്ങിയ മഞ്ഞ നിറമുള്ള കാലുകളുടെ ആദ്യഖണ്ഡത്തിന്റെ മുകൾ ഭാഗം കറുത്തതായിരിക്കും. ",
+     "description3": "കാഴ്ചയിൽ പെൺതുമ്പികൾ ആൺതുമ്പികളെപ്പോലെയാണെങ്കിലും പൊതുവേ നിറങ്ങൾ മങ്ങിയതായിരിക്കും. പെൺതുമ്പികളെ അപൂർവ്വമായാണ് കാണുവാൻ സാധിക്കുന്നത്. ഒറ്റയ്ക്കും ചെറിയ കൂട്ടങ്ങളായും ഇവയെ കാണാം. ആൺ തുമ്പികൾ ജലാശയത്തിന്റെ ഓരത്തുള്ള പുല്ലുകളിൽ പറ്റിപ്പിടിച്ചിരിക്കും.",
+     "description4": "",
+     "description5": "",
+    "mainPhoto": "~/images/Pseudagrion_rubriceps_main.jpg",
+    "photos": [
+      { "url": "~/images/Pseudagrion_rubriceps_male1.jpg", "credit": "ആൺതുമ്പി © 2015 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Pseudagrion_rubriceps_male-Kadavoor-2015-08-20-001.jpg" },
+      { "url": "~/images/Pseudagrion_rubriceps_female1.jpg", "credit": "പെൺതുമ്പി © Muhamed Sherif", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pseudagrion_rubriceps_-_November_2014.jpg" },
+	  { "url": "~/images/Pseudagrion_rubriceps_mating.jpg", "credit": "ഇണചേരല്‍ © റൈസണ്‍ തുമ്പൂര്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Saffron_Faced_Blue_Dart_(Pseudagrion_rubriceps)_mating_(30004415527).jpg" }
+    ],
+    "speciesLink": "https://www.inaturalist.org/taxa/110843-Pseudagrion-rubriceps",
+    "wikipediaLink": "https://en.wikipedia.org/wiki/Pseudagrion_rubriceps"
+  },
+{
+    "id": 141,
+    "commonName": "Black Torrent-Dart",
+    "malayalamName": "കരിമ്പൻ അരുവിയൻ",
+    "scientificName": "Dysphaea ethela",
+	"sciName": "Dysphaea ethela (Fraser, 1924)",
+    "family": "Euphaeidae / Torrent-Darts / അരുവിയന്‍മാര്‍",
+    "description1": "ശരീരമാസകലം കറുപ്പ് നിറമുള്ള ഒരിനം സൂചിത്തുമ്പിയാണ് കരിമ്പൻ അരുവിയൻ. കേരളം, കർണാടകം, തമിഴ്‌നാട് എന്നീ സംസ്ഥനങ്ങളിൽ ഇവയെ കണ്ടുവരുന്നു. പൂർവഘത്തിലും മധ്യഇന്ത്യയിലും ഇവയെ കണ്ടെത്തിയിട്ടുണ്ട്. വനപ്രദേശങ്ങളിലെ ഒഴുക്കുള്ള അരുവികളിലും, അപൂർവ്വമായി നാട്ടിൻ പുറങ്ങളിലെ പുഴകളിലും ഇവ കാണപ്പെടുന്നു. മഴ കഴിഞ്ഞുള്ള കാലങ്ങളിൽ ഇവയുടെ ചെറിയ കൂട്ടങ്ങൾ കാണാം. ",
+    "description2": "ജലാശയങ്ങളിൽ നിന്നും പൊങ്ങിനിൽക്കുന്ന പാറകൾ, മരക്കുറ്റികൾ എന്നിവയാണ് പ്രധാന ഇരിപ്പിടങ്ങൾ. വലിയ കണ്ണുകളുടെ മുകൾ ഭാഗം കറുപ്പു കീഴ്ഭാഗം ചാര നിറവുമാണ്. ഉദരത്തിന്റെ അഗ്രഭാഗം വളച്ചു മുകളിലോട്ടുയർത്തി പിടിക്കുന്ന ശീലവുമുണ്ട്. ",
+     "description3": "ഇവയുടെ ചിറകിന് തിളങ്ങുന്ന ഇളം തവിട്ടു നിറമോ കറുപ്പ് നിറമോ ആയിരിക്കും. തവിട്ടു നിറമുള്ള കണ്ണിന്റെ കീഴ്ഭാഗം ചാരനിറമാണ്. കറുത്ത ഉരസ്സിൽ മഞ്ഞ വരകളുണ്ട്. ഉദരത്തിന് കറുപ്പു നിറവും അതിൽ മഞ്ഞ വരകളും വളയങ്ങളുമുണ്ട്. ഇവയ്ക്ക് ദീർഘനേരം പറക്കാനുള്ള കഴിവമുണ്ട്. അപകടമുണ്ടെന്നു തോന്നിയാൽ വളരെ ഉയരമുള്ള മരച്ചില്ലുകളിലേക്ക് പറന്ന് അപ്രത്യക്ഷമാവും.",
+     "description4": "ആൺതുമ്പികൾ പാറകളിലും മരക്കുറ്റിയിലും ഒരിടത്തുതന്നെ വളരെയേറെ നേരം ഇരിക്കാനിഷ്ടപ്പെടുന്നു. പെൺതുമ്പികൾ ജലാശയത്തിനോട് ചേർന്നുള്ള പൊക്കമുള്ള മരത്തിന്റെ ചില്ലകളിലാണ് വിശ്രമിക്കാറുള്ളത്.",
+     "description5": "",
+    "mainPhoto": "~/images/Dysphaea_ethela_main.jpg",
+    "photos": [
+      { "url": "~/images/Dysphaea_ethela_male1.jpg", "credit": "ആൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", "sourceUrl": "https://en.wikipedia.org/wiki/File:Black_Torrent_Dart_(Dysphaea_ethela)_male._(25602242838).jpg" },
+      { "url": "~/images/Dysphaea_ethela_female1.jpg", "credit": "പെൺതുമ്പി © എബ്രഹാം സാമുവേല്‍", "sourceUrl": "https://en.wikipedia.org/wiki/File:Dysphaea_ethela_-_female_3(vagamon).jpg" }
+    ],
+    "speciesLink": "https://www.inaturalist.org/taxa/99638-Dysphaea-ethela",
+    "wikipediaLink": "https://en.wikipedia.org/wiki/Dysphaea_ethela"
+  },
+  {
+    "id": 142,
+    "commonName": "Travancore Torrent-Dart",
+    "malayalamName": "തെക്കൻ അരുവിയൻ",
+    "scientificName": "Euphaea cardinalis",
+	"sciName": "Euphaea cardinalis (Fraser, 1924)",
+    "family": "Euphaeidae / Torrent-Darts / അരുവിയന്‍മാര്‍",
+    "description1": "ശരീരത്തിന് കറുപ്പു ചുവപ്പും നിറവും ചിറകിൽ വലിയ ഒരു കറുത്ത പാടുമുള്ള അരുവിയൻ കുടുംബത്തിൽ ഉള്ള ഒരിനം സൂചിത്തുമ്പിയാണ് തെക്കൻ അരുവിയൻ. ആൺതുമ്പികളുട തവിട്ടു നിറത്തിലുള്ള ചുണ്ടും, ചുവന്ന കാലുകളും ചിറകിലെ വലിയ കറുത്ത പാടും മറ്റു അരുവിയന്മാരുമായി തിരിച്ചറിയുവാൻ സഹായിക്കുന്നു. പശ്ചിമഘട്ടത്തിൽ പാലക്കാടിന് തെക്കോട്ടു മാത്രമേ ഇവയെ കാണാറുള്ളു. ",
+    "description2": "ഉൾക്കാടുകളിൽ പ്രത്യേകിച്ച് ഉയർന്ന വനമേഖലകളിലെ അരുവികളിലെ തുറസ്സായ ഇടങ്ങളിൽ കാണപ്പെടുന്നു. ",
+     "description3": "സുതാര്യമായ നീളമുള്ള ചിറകാണ് ഇവയ്ക്കുള്ളത്. പിൻ ചിറകിൽ പകുതി മുതൽ അഗ്രഭാഗം വരെ കറുത്തതായിരിക്കും. മുൻ ചിറകുകൾക്ക് പിൻ ചിറകിനെക്കാൾ നീളം കൂടുതലായിരിക്കും. പിൻ ചിറകുകൾ തുറക്കുമ്പോൾ കറുത്ത ഭാഗങ്ങളിൽ തിളങ്ങുന്ന ചുവപ്പ് നിറം കാണാം. ഉരസ്സിനും ഉദരത്തിനും കടും തവിട്ടു നിറവും അതിൽ പച്ച കലർന്ന മങ്ങിയ മഞ്ഞ വരകളും കലകളുമുണ്ട്.",
+     "description4": "സുതാര്യമായ ചിറകിനു നേരിയ തവിട്ടുനിറമുണ്ട്. പറന്നു വന്നിരുന്ന ഉടനെയും അപകട സൂചനയുള്ളപ്പോഴും ചിറകുകൾ വിരിച്ച് പിൻ ചിറകുകളിലെ തിളങ്ങുന്ന ചുവപ്പ് നിറം കാണിക്കാറുണ്ട്. പെൺതുമ്പികൾ ജലാശയത്തിനരികിൽ പൊക്കമുള്ള ചെടികളിൽ മാറി മാറി ഇരിക്കാറാണ് പതിവ്. ചിലപ്പോൾ ഇവ കൂട്ടമായും കാണാറുണ്ട്.",
+     "description5": "",
+    "mainPhoto": "~/images/Euphaea_cardinalis_main.jpg",
+    "photos": [
+      { "url": "~/images/Euphaea_cardinalis_male1.jpg", "credit": "ആൺതുമ്പി © ബ്രിജേഷ് പൂക്കോട്ടൂര്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEuphaea_cardinalis_%28Fraser%2C_1924%29.jpg" },
+      { "url": "~/images/Euphaea_cardinalis_female1.jpg", "credit": "പെൺതുമ്പി © ബ്രിജേഷ് പൂക്കോട്ടൂര്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEuphaea_cardinalis_%28Fraser%2C_1924%29_Female.jpg" }
+    ],
+    "speciesLink": "https://www.inaturalist.org/taxa/100732-Euphaea-cardinalis",
+    "wikipediaLink": "https://en.wikipedia.org/wiki/Euphaea_cardinalis"
+  },
+  {
+    "id": 143,
+    "commonName": "Nilgiri Torrent-Dart",
+    "malayalamName": "വടക്കൻ അരുവിയൻ",
+    "scientificName": "Euphaea dispar",
+	"sciName": "Euphaea dispar (Rambur, 1842)",
+    "family": "Euphaeidae / Torrent-Darts / അരുവിയന്‍മാര്‍",
+    "description1": "ശരീരത്തിന് കറുപ്പും ചുവപ്പും നിറമുള്ള അരുവിയൻ കുടുംബത്തിൽ ഉള്ള ഒരിനം സൂചിത്തുമ്പിയാണ് വടക്കൻ അരുവിയൻ. ആൺതുമ്പിയുടെ ഇളം നീല ചുണ്ടും മഞ്ഞയും കറുപ്പു നിറമുള്ള കാലും മുൻ ചിറകിന്റെ അഗ്രഭാഗത്തെ കറുത്ത പാടും മറ്റു അരുവിയന്മാരിൽ നിന്നും തിരിച്ചറിയുവാൻ സഹായിക്കുന്നു. പശ്ചിമഘട്ടത്തിൽ പാലക്കാട്ട് മുതൽ വടക്കോട്ടുള്ള വനമേഖലകളിൽ മാത്രം കാണപ്പെടുന്നു. ",
+    "description2": "ഒഴുക്കുള്ള അരുവികളിലെ പാറകളിലും ഉണങ്ങിയ മരച്ചില്ലകളിലുമാണ് കൂടുതൽ കാണാറുള്ളത്. കറുത്ത കണ്ണുകളുടെ കീഴ്ഭാഗത്തിന് ഇളം ചാരനിറമാണ്. ചുണ്ടുകൾക്ക് നീല നിറം. കറുത്ത ഉരസ്സിന്റെ മുകൾ ഭാഗത്ത് തീമഞ്ഞ വരകളും കീഴ്ഭാഗത്ത് ചുവപ്പ് നിറവുമാണ്. മഞ്ഞ നിറത്തിലുള്ള കാലുകളുടെ മുകൾ വശം കറുപ്പ് നിറമാണ്. ഉദരത്തിനു ചുവപ്പ് നിറവും അഗ്രഭാഗത്തേക്ക് വരുമ്പോൾ കറുപ്പു നിറവുമാണ്.",
+     "description3": "സുതാര്യമായ നീളമുള്ള ചിറകുകളാണ് ഇവയ്ക്കുള്ളത്. പിൻ ചിറകിന്റെ പകുതി മുതൽ അഗ്രഭാഗം വരെ കറുത്ത പാടുണ്ട്. ചിറകുകൾ തുറക്കുമ്പോൾ കറുത്ത പാടുകളിൽ വിസ്മയിപ്പിക്കുന്ന തിളങ്ങുന്ന ചുവപ്പു നിറം കാണാം. ഉരസ്സിനോട് ചേരുന്ന ചിറകിന്റെ ഭാഗത്ത് നേരിയ തവിട്ട് നിറമുണ്ട്. തവിട്ടു നിറമുള്ള കണ്ണുകളുടെ കീഴ്ഭാഗത്തിന് ചാരനിറമാണ്. ",
+     "description4": "കടും തവിട്ടു നിറമുള്ള ഉരസ്സിലും ഉദരത്തിലും വരകളും കലകളുമുണ്ട്. സുതാര്യമായ ചിറകുകളാണിവയ്ക്കുള്ളത്. ഇണയെ ആകർഷിക്കുവാൻ ചിറകുകൾ വിടർത്തി തിളങ്ങുന്ന ചുവപ്പ് നിറങ്ങൾ കാണിക്കാറുണ്ട്. പെൺതുമ്പികൾ ഇണ ചേരുവാൻ മാത്രമേ ജലാശയത്തിനരികിൽ വരാറുള്ളു. ചെറിയ കൂട്ടങ്ങളായും ഇവയെ കാണപ്പെടുന്നു.",
+     "description5": "",
+    "mainPhoto": "~/images/Euphaea_dispar_main.jpg",
+    "photos": [
+      { "url": "~/images/Euphaea_dispar_male1.jpg", "credit": "ആൺതുമ്പി © ഡേവിഡ് രാജു", "sourceUrl": "https://en.wikipedia.org/wiki/File:Euphaea_dispar_-_Davidraju_IMG_5408.jpg" },
+      { "url": "~/images/Euphaea_dispar_female1.jpg", "credit": "പെൺതുമ്പി © Thomson Saburaj", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Euphaea_dispar_(Female).jpg" },
+	  { "url": "~/images/Euphaea_dispar_mating.jpg", "credit": "ഇണചേരല്‍ © Jithesh Pai", "sourceUrl": "https://www.inaturalist.org/observations/132276377" }
+    ],
+    "speciesLink": "https://www.inaturalist.org/taxa/100733-Euphaea-dispar",
+    "wikipediaLink": "https://en.wikipedia.org/wiki/Euphaea_dispar"
+  },
+  {
+    "id": 144,
+    "commonName": "Fraser's Torrent-Dart",
+    "malayalamName": "ചെങ്കറുപ്പൻ അരുവിയൻ",
+    "scientificName": "Euphaea fraseri",
+	"sciName": "Euphaea fraseri (Laidlaw, 1920)",
+    "family": "Euphaeidae / Torrent-Darts / അരുവിയന്‍മാര്‍",
+    "description1": "ശരീരത്തിന് കറുപ്പും ചുവപ്പും നിറവും അതിൽ മഞ്ഞ വരകളുമുള്ള അരുവിയൻ കുടുംബത്തിൽ ഉള്ള ഒരു ചെറിയ സൂചിത്തുമ്പിയാണ് ചെങ്കറുപ്പൻ അരുവിയൻ. മറ്റ് അരുവിയന്മാരെ അപേക്ഷിച്ച് ചിറകിലെ കറുത്ത പാട് ചെറുതായിരിക്കും. ചുണ്ടിന് നീലനിറമാണ്. കറുപ്പ് നിറമുള്ള മുൻകാലുകളും ഉരസ്സിലെ നീലയും മഞ്ഞയും വരകളും ഇവയെ തിരിച്ചറിയുവാൻ സഹായിക്കുന്നു. ",
+    "description2": "പശ്ചിമഘട്ടത്തിലെ ഒരു സ്ഥാനീയ തുമ്പിയാണിത്. നാട്ടിൻ പുറങ്ങളിലും കാവുകളിലും മൂവായിരം അടി വരെ ഉയരമുള്ള വനപ്രദേശങ്ങളിലും ഇവയെ കാണാം. ഒഴുക്കുള്ള അരുവികളിലും പുഴകളിലുമാണ് കാണപ്പെടുന്നത്. തവിട്ടുനിറമുള്ള കണ്ണുകളുടെ കീഴ്‌ഭാഗം ചാരനിറമാണ്. ഇളംനീല മേൽചുണ്ടാണ് ഇവയ്ക്കുള്ളത്. ഉരസ്സിന് മുകൾ ഭാഗം കറുപ്പും അതിൽ ഇളം നീലയും മഞ്ഞയും വരകളുമുണ്ട്. ",
+     "description3": "ഉരസ്സിന്റെ വശങ്ങളിൽ തീമഞ്ഞയും അടിഭാഗം ചുവന്നതുമാണ്. കാലുകൾക്ക് ചുവന്നനിറമാണ്. എന്നാൽ മുൻ വശത്തെ ഒരു ജോഡി കറുപ്പു നിറമായിരിക്കും. ചുവന്ന ഉദരത്തിന്റെ അവസാന മൂന്നു ഖണ്ഡങ്ങളുടെ മുകൾഭാഗം കറുത്തതാണ്. നീളം കുറഞ്ഞതും ഉരുണ്ടതുമായ പിൻ ചിറകിന്റെ അഗ്രഭാഗം പുറമേ കറുപ്പുനിറവും അകവശത്ത് തിളങ്ങുന്ന ചുവപ്പുനിറമുള്ള പാടുമുണ്ട്.  ",
+     "description4": "തവിട്ടുനിറമുള്ള കണ്ണുകളുടെ കീഴ്‌ഭാഗം മങ്ങിയ മഞ്ഞനിറമാണ്. കറുത്ത ശരീരത്തിൽ മഞ്ഞ വരകളുമുണ്ട്. സുതാര്യമായ ചിറകിൽ നേരിയ തവിട്ടു നിറമുണ്ട്. ഉണങ്ങിയ മരക്കുറ്റികളിലും പാറകളിലുമായി പാറിപ്പറന്നു നടക്കും. ഇണയെ ആകർഷിക്കുവാനും ശത്രുക്കളെ ഭയപ്പെടുത്തുവാനുംചിറകു വിടർത്തി പിടിക്കാറുണ്ട്,.  ",
+     "description5": "അപൂർവ്വമായിട്ടാണ് പെൺതുമ്പികൾ ജലാശയത്തിനടുത്ത് വരാറുള്ളത്. ശുദ്ധജലത്തിന്റെ സൂചകമാണ് ഈ തുമ്പിയുടെ സാന്നിദ്ധ്യം.",
+    "mainPhoto": "~/images/Euphaea_fraseri_main.jpg",
+    "photos": [
+      { "url": "~/images/Euphaea_fraseri_male1.jpg", "credit": "ആൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Malabar_Torrent_Dart_(Euphaea_fraseri)_male.,%E0%B4%9A%E0%B5%86%E0%B4%99%E0%B5%8D%E0%B4%95%E0%B4%B1%E0%B5%81%E0%B4%AA%E0%B5%8D%E0%B4%AA%E0%B5%BB_%E0%B4%85%E0%B4%B0%E0%B5%81%E0%B4%B5%E0%B4%BF%E0%B4%AF%E0%B5%BB_(45003072104).jpg" },
+      { "url": "~/images/Euphaea_fraseri_female1.jpg", "credit": "പെൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Malabar_Torrent_Dart_(Euphaea_fraseri)_Female_(30740827208).jpg" },
+	  { "url": "~/images/Euphaea_fraseri_female2.jpg", "credit": "പെൺതുമ്പി © ഗിരീഷ് മോഹന്‍ പി.കെ", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Euphaea_fraseri_03.jpg" },
+	  { "url": "~/images/Euphaea_fraseri_mating.jpg", "credit": "ഇണചേരല്‍ © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Euphaea_fraseri-Kadavoor-2016-06-25-001.jpg" }
+    ],
+    "speciesLink": "https://www.inaturalist.org/taxa/100735-Euphaea-fraseri",
+    "wikipediaLink": "https://en.wikipedia.org/wiki/Euphaea_fraseri"
+  },
+  {
+    "id": 145,
+    "commonName": "Davenport's False Spreadwing",
+    "malayalamName": "കാട്ടു വിരിച്ചിറകന്‍",
+    "scientificName": "Indolestes gracilis",
+	"sciName": "Indolestes gracilis (Hagen in Selys, 1862)",
+	"family": "Lestidae / Spreadwings / ചേരാച്ചിറകൻ",
+    "description1": "മിക്കവാറും സമയത്ത് ചിറകുകൾ മടക്കി ഉദരത്തിനോട് ചേർത്തു പിടിച്ചിരിക്കുന്നതും ശരീരത്തിനു ഇളം നീല നിറം ഉള്ളതുമായ ചേരാചിറകൻ കുടുംബത്തിൽ ഉള്ള ഒരു സൂചിത്തുമ്പിയാണ് കാട്ടു വിരിച്ചിറകൻ. വളഞ്ഞു നീളമുള്ള ചെറുവാലും ഉരസ്സിലെ വരകളും, ഉദരത്തിനോട് ചേർത്തിരിക്കുന്ന ചിറകുകളും ഇവയെ തിരിച്ചറിയുവാൻ സഹായിക്കുന്നു. ",
+    "description2": "കേരളത്തിലെ വനങ്ങളിൽ അത്യപൂർവ്വമായി കാണപ്പെടുന്നു. വനപ്രദേശങ്ങളിലെ ചെറിയ അരുവികളിലും പൊന്തക്കാടുകളിലുമാണ് ഈ തുമ്പിയെ കണ്ടെത്തുവാൻ കഴിയുക. സമുദ്രനിരപ്പിൽ നിന്ന് 1000 മീറ്റർ മുകളിലുള്ള വനപ്രദേശങ്ങളിൽ മാത്രമാണ് ഈ തുമ്പിയെ കണ്ടെത്തിയിട്ടുള്ളൂ. കണ്ണുകൾക്ക് ഇളം നീലനിറം, കറുപ്പ് നിറമുള്ള കഴുത്തിൽ ഇളം നീല നിറത്തിലുള്ള ചെറിയ വരകൾ കാണാം. ",
+     "description3": "കറുത്ത ഉരസ്സിൽ ഇളം നീല നിറത്തിലുള്ള ചെറിയ വരകളുണ്ട്. വശങ്ങൾക്ക് ഇളം നീല നിറവും കീഴ്ഭാഗത്തായി ഇളം തവിട്ടു നിറവുമാണ്. ചിറകിനോട് ചേരുന്ന ഭാഗത്ത് കറുത്ത രണ്ടു പൊട്ടുകളുണ്ട്. കറുത്ത ഉദരത്തിൽ ഇളം നീല വളയങ്ങളുണ്ട്. കാലുകൾക്ക് പച്ച കലർന്ന നീല നിറമാണ്. സുതാര്യമായ ചിറകുകളാണ് ഇവയ്ക്കുള്ളത്. പെൺതുമ്പികൾ കാഴ്ചയിൽ ആൺതുമ്പികളെപ്പോലെയാണെങ്കിലും നിറങ്ങൾ മങ്ങിയതായിരിക്കും.",
+     "description4": " വിരിച്ചിറകൻ തുമ്പികളുടെ കുടുംബത്തിൽ പെട്ട ഈ തുമ്പി സാധാരണയായി ചിറകുകൾ പൂട്ടിയാണ് ഇരിക്കുക. മലനിരകളിലെ പുൽമേടുകളിലും അരുവികൾക്കടുത്തുള്ള പുല്ലുകളിലും മരച്ചില്ലകളിലും തൂങ്ങിക്കിടന്ന് വിശ്രമിക്കുകയാണ് പതിവ്. മറ്റ് പേരുകള്‍ - Mountain Reedling",
+     "description5": "",
+    "mainPhoto": "~/images/Indolestes_gracilis_main.jpg",
+    "photos": [
+			{ "url": "~/images/Indolestes_gracilis_male1.jpg", "credit": "ആൺതുമ്പി © എബ്രഹാം സാമുവേല്‍", "sourceUrl": "https://en.wikipedia.org/wiki/File:Indolestes_gracilis_-_male.jpg" },
+			{ "url": "~/images/Indolestes_gracilis_female1.jpg", "credit": "പെൺതുമ്പി © എബ്രഹാം സാമുവേല്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Indolestes_gracilis_-_female.jpg" },
+	        { "url": "~/images/Indolestes_gracilis_mating.jpg", "credit": "ഇണചേരല്‍ © മനോജ് പി", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Indolestes_gracilis_2_by_Manoj_P.jpg" }
+			],
+    "speciesLink": "https://www.inaturalist.org/taxa/103411-Indolestes-gracilis",
+    "wikipediaLink": "https://en.wikipedia.org/wiki/Indolestes_gracilis"
+  },
+  {
+    "id": 146,
+    "commonName": "Fraser's False Spreadwing",
+    "malayalamName": "വയനാടന്‍ വിരിച്ചിറകൻ",
+    "scientificName": "Indolestes pulcherrimus",
+	"sciName": "Indolestes pulcherrimus (Fraser, 1924)",
+    "family": "Lestidae / Spreadwings / ചേരാച്ചിറകൻ",
+    "description1": "ചിറകുകൾ മടക്കി ഉദരത്തിനോട് ചേർത്തു പിടിച്ചിരിക്കുന്നതും ശരീരത്തിനു ഇളം നീല നിറമുള്ളതുമായ ചേരാചിറകൻ കുടുംബത്തിൽ ഉള്ള ഒരു സൂചിത്തുമ്പിയാണ് വയനാടന്‍ വിരിച്ചിറകൻ. കർണ്ണാടകത്തിലെ കൊടകിലെ കാട്ടു ചതുപ്പുകളിലാണ് പൊതുവെ ഇവയെ കണ്ടുവരുന്നത്.",
+     "description2": "2020-ൽ കേരള വനം വന്യജീവിവകുപ്പും പരിസ്ഥിതി സംഘടനയായ ഫേൺസ് നാച്വർ കൺസർവേഷൻ സൊസൈറ്റിയും സംയുക്തമായി വയനാട് വന്യജീവി സങ്കേതത്തിൽ നടത്തിയ പഠനത്തിൽ ബത്തേരിയിൽ ഇവയെ കണ്ടെത്തി. വളഞ്ഞു നീളമുള്ള ചെറുവാലും ഉരസ്സിലെ വരകളും, ഉദരത്തിനോട് ചേർത്തിരിക്കുന്ന ചിറകുകളും ഇവയെ തിരിച്ചറിയുവാൻ സഹായിക്കുന്നു. കേരളത്തിലെ വനങ്ങളിൽ അത്യപൂർവ്വമായി കാണപ്പെടുന്നു.",
+     "description3": "വനപ്രദേശങ്ങളിലെ ചെറിയ ചതുപ്പുകളിലാണ് ഈ തുമ്പിയെ കണ്ടെത്തുവാൻ കഴിയുക. കണ്ണുകൾക്ക് നീലനിറം, കാവി നിറമുള്ള കഴുത്തിന്റെ വശങ്ങൾ നീല നിറത്തിലാണ്. ഉരസ്സിന്റെ മുതുകുവശം ഇരുണ്ടതും വശങ്ങൾ നീല നിറത്തിലുള്ളതും ആണ്. വശങ്ങളിൽ രണ്ടു കറുത്ത കലകൾ ഉണ്ട്. നീല നിറത്തിലുള്ള ഉദരത്തിന്റെ മുതുകുവശം കറുത്തതും നീല വളയങ്ങളോട് കൂടിയതും ആണ്.",
+     "description4": "എട്ടാം ഖണ്ഡം കറുത്തതും ഒൻപതാം ഖണ്ഡത്തിന്റെ അവസാന ഭാഗവും പത്താം ഖണ്ഡവും നീലയും ആണ്. സുതാര്യമായ ചിറകുകളാണ് ഇവയ്ക്കുള്ളത്. പെൺതുമ്പികൾ കാഴ്ചയിൽ ആൺതുമ്പികളെപ്പോലെയാണെങ്കിലും നിറങ്ങൾ മങ്ങിയതായിരിക്കും. വിരിച്ചിറകൻ തുമ്പികളുടെ കുടുംബത്തിൽ പെട്ട ഈ തുമ്പി സാധാരണയായി ചിറകുകൾ പൂട്ടിയാണ് ഇരിക്കുക.",
+     "description5": "",
+    "mainPhoto": "~/images/Indolestes_pulcherrimus_main.jpg",
+    "photos": [
+      { "url": "~/images/Indolestes_pulcherrimus_male1.jpg", "credit": "ആൺതുമ്പി © മുനീർ തോൽപ്പെട്ടി", "sourceUrl": "https://en.wikipedia.org/wiki/File:Indolestes_pulcherrimus_6.jpg" },
+      { "url": "~/images/Indolestes_pulcherrimus_female1.jpg", "credit": "പെൺതുമ്പി © മുനീർ തോൽപ്പെട്ടി", "sourceUrl": "https://en.wikipedia.org/wiki/File:Indolestes_pulcherrimus_2.jpg" },
+      { "url": "~/images/Indolestes_pulcherrimus_mating.jpg", "credit": "ഇണചേരല്‍ © മുനീർ തോൽപ്പെട്ടി", "sourceUrl": "https://en.wikipedia.org/wiki/File:Indolestes_pulcherrimus_7.jpg" },
+      { "url": "~/images/Indolestes_pulcherrimus_male2.jpg", "credit": "കുറുവാൽ (ആൺതുമ്പി) © മുനീർ തോൽപ്പെട്ടി", "sourceUrl": "https://en.wikipedia.org/wiki/File:Indolestes_pulcherrimus_3.jpg" }
+    ],
+    "speciesLink": "https://www.inaturalist.org/taxa/103415-Indolestes-pulcherrimus",
+    "wikipediaLink": "https://en.wikipedia.org/wiki/Indolestes_pulcherrimus"
+  },
+  {
+    "id": 147,
+    "commonName": "Brown Spreadwing",
+    "malayalamName": "തവിടൻ ചേരാച്ചിറകൻ",
+    "scientificName": "Lestes concinnus",
+	"sciName": "Lestes concinnus (Hagen in Selys, 1862)",
+    "family": "Lestidae / Spreadwings / ചേരാച്ചിറകൻ",
+    "description1": "പേര് സൂചിപ്പിക്കുന്നതുപോലെ തവിട്ട് നിറമാണ് ഈ തുമ്പിക്കുള്ളത്. മെലിഞ്ഞ ഉരസ്സിനു മുകളിലുള്ള നേർത്ത ക‌ടും തവിട്ടു നിറമുള്ള വരകൾ പച്ചവരയൻ ചേരാച്ചിറകൻ തുമ്പിയിൽ നിന്നും ഇവയെ വേർതിരിച്ചറിയാൻ സഹായിക്കുന്നു. തുറസ്സായ സ്ഥലങ്ങളിലും പുൽമേടുകളിലുമാണ് സാധാരണ ഇവയെ കാണുക.",
+    "description2": "വരണ്ട പ്രദേശങ്ങൾ ഇഷ്ടപ്പെടുന്ന ഈ തുമ്പിയെ തെക്കൻ കേരളത്തിലാണ് കണ്ടെത്തിയീട്ടുള്ളത്. മഴ കഴിഞ്ഞുള്ള മാസങ്ങളിൽ ഈ തുമ്പികളെ ധാരാളമായി കാണുവാൻ സാധിക്കും. ശരീരത്തിന് പരിസരവുമായി ഇണങ്ങുന്ന നിറമായതിനാൽ ഇവയെ കണ്ടെത്തുവാൻ പ്രയാസമാണ്. ",
+     "description3": "നിശ്ചലമായ ജലാശയങ്ങളിലെ പുല്ലുകളിലും ചെടികളിലുമാണ് മുട്ട ഇടുന്നത്. ആൺ പെൺ തുമ്പികൾ കാഴ്ചയിൽ ഒരുപോലെയാണിരിക്കുന്നത്.",
+     "description4": "",
+     "description5": "",
+    "mainPhoto": "~/images/Lestes_concinnus_main.jpg",
+    "photos": [
+      { "url": "~/images/Lestes_concinnus_male1.jpg", "credit": "ആൺതുമ്പി © ഡേവിഡ് രാജു", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Davidraju_IMG_4327.jpg" },
+      { "url": "~/images/Lestes_concinnus_female1.jpg", "credit": "പെൺതുമ്പി © മനോജ് വി നായര്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lestes_umbrinus_female_by_Manoj_V_Nair.jpg" }
+    ],
+    "speciesLink": "https://www.inaturalist.org/taxa/104421-Lestes-concinnus",
+    "wikipediaLink": "https://en.wikipedia.org/wiki/Lestes_concinnus"
+  },
+  {
+    "id": 148,
+    "commonName": "Forest Spreadwing",
+    "malayalamName": "കാട്ടു ചേരാച്ചിറകൻ",
+    "scientificName": "Lestes dorothea",
+	"sciName": "Lestes dorothea (Fraser, 1924)",
+    "family": "Lestidae / Spreadwings / ചേരാച്ചിറകൻ",
+    "description1": "കറുത്ത പുള്ളികളും കലകളുമുള്ള ചേരാചിറകൻ കുടുംബത്തിൽ ഉള്ള ഒരു സൂചിത്തുമ്പിയാണ് കാട്ടു ചേരാച്ചിറകൻ. ഇന്ത്യ, തായ്‌ലാന്റ്, മലേഷ്യ എന്നീ രാജ്യങ്ങളിൽ ഇവ കാണപ്പെടുന്നു. ഇവയ്ക്ക് നീലക്കണ്ണി ചേരാച്ചിറകൻ തുമ്പിയുമായി ഏറെ സാമ്യമുണ്ടെങ്കിലും കുറച്ചുകൂടി വലിപ്പമുണ്ട്. ",
+    "description2": "ഇവയുടെ ശിരസ്സിനു കറുപ്പുനിറവും പ്രായപൂർത്തിയായ ആൺതുമ്പികളുടെ കണ്ണുകൾക്ക് നീലനിറവുമാണ്. ഇവയുടെ ഉരസ്സിന്റെ മുതുകുഭാഗത്ത് നീലക്കണ്ണി ചേരാച്ചിറകൻ തുമ്പിക്ക് ഉള്ളതുപോലുള്ള കരിമ്പച്ച നിറത്തിലുള്ള ഒരു പുള്ളിയുണ്ട്. അതിനു താഴെയായി ഇരുവശത്തും കറുപ്പും പച്ചയും കലർന്ന ഓരോ വരകൾകൂടിയുണ്ട്. അതോടൊപ്പം മൂന്നു കറുത്ത പൊട്ടുകളും. ",
+     "description3": "നീലക്കണ്ണി ചേരാച്ചിറകൻ തുമ്പിക്ക് ഈ വരകൾ ഇല്ല. പ്രായപൂർത്തിയായ ആൺതുമ്പികളുടെ ഈ കലകളെല്ലാം ഇളം നീലനിറത്തിലുള്ള പൊടികൾകൊണ്ട് മറയ്ക്കപ്പെടും. സുതാര്യമായ ചിറകുകളിൽ കറുത്ത പൊട്ടുകളുണ്ട്. 8, 9, 10 ഖണ്ഡങ്ങൾ കറുപ്പ് നിറമാണ്. പത്താം ഖണ്ഡത്തിന്റെ മുതുഭാഗത്തുമാത്രം പ്രായമാകുമ്പോൾ നീലനിറത്തിലുള്ള പൊടികൾകൊണ്ട് മൂടപ്പെടും.",
+     "description4": " നീലക്കണ്ണി ചേരാച്ചിറകൻ തുമ്പിക്ക് ഒൻപതാം ഖണ്ഡത്തിൽ ഇരുവശത്തും നീല കലകൾ ഉണ്ട്. പ്രായമായ ആൺതുമ്പിയുടെ കുറുവാലുകളുടെ മധ്യഭാഗം ഇളം നീല നിറത്തിലും ഇരു അഗ്രങ്ങളും കറുപ്പുനിറത്തിലും ആയിരിക്കും. പെൺതുമ്പികളുടെ കലകൾ കൂടുതൽ വീതിയുള്ളതും വ്യക്തവുമാണ്. തീരെ ചെറിയ കുറുവാലുകൾക്ക് ഇരുണ്ട നിറമാണ്. ",
+     "description5": "വലിപ്പക്കൂടുതലും 8, 9 ഖണ്ഡങ്ങളിലെ കലകളുടെ അഭാവവും ഉരസ്സിന്റെ വശത്തുള്ള കറുപ്പും പച്ചയും കലർന്ന വരയും ഇവയെ നീലക്കണ്ണി ചേരാച്ചിറകൻ തുമ്പിയിൽനിന്നും വേർതിരിച്ചറിയാൻ സഹായിക്കുന്നു. ചെടികൾ നിറഞ്ഞ കുളങ്ങളിലാണ് ഇവ പ്രജനനം നടത്തുന്നത്.",
+    "mainPhoto": "~/images/Lestes_dorothea_main.jpg",
+    "photos": [
+      { "url": "~/images/Lestes_dorothea_male1.jpg", "credit": "ആൺതുമ്പി © വിവേക് ചന്ദ്രന്‍ എ", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lestes_dorothea_from_Wayanad.jpg" },
+      { "url": "~/images/Lestes_dorothea_female1.jpg", "credit": "പെൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Lestes_dorothea-Kadavoor-2018-08-05-002.jpg" },
+	  { "url": "~/images/Lestes_dorothea_mating.jpg", "credit": "ഇണചേരല്‍ © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lestes_dorothea-Kadavoor-2018-08-05-004.jpg" }
+    ],
+    "speciesLink": "https://www.inaturalist.org/taxa/104428-Lestes-dorothea",
+    "wikipediaLink": "https://en.wikipedia.org/wiki/Lestes_dorothea"
+  },
+  {
+    "id": 149,
+    "commonName": "Emerald Spreadwing",
+    "malayalamName": "പച്ച ചേരാച്ചിറകൻ",
+    "scientificName": "Lestes elatus",
+	"sciName": "Lestes elatus (Hagen in Selys, 1862)",
+    "family": "Lestidae / Spreadwings / ചേരാച്ചിറകൻ",
+    "description1": "ഉരസ്സിന് മുകൾ ഭാഗത്ത് ചൂണ്ടയുടെ ആകൃതിയിൽ, തിളങ്ങുന്ന പച്ച വരയുള്ള ചേരാചിറകൻ കുടുംബത്തിൽ ഉള്ള ഒരു സൂചിത്തുമ്പിയാണ് പച്ച ചേരാച്ചിറകൻ. ഇന്ത്യ, തായ്‌ലാന്റ്, ശ്രീലങ്ക എന്നീ രാജ്യങ്ങളിൽ ഇവ കാണപ്പെടുന്നു. കേരളത്തിലെ സമതല പ്രദേശങ്ങളിലും മലനിരകളിലുമെല്ലാം വളരെ സാധാരണമാണ് ഈ തുമ്പി.",
+    "description2": "നെൽപ്പാടങ്ങൾ, വലിയ കുളങ്ങൾ, ചതുപ്പ് നിലങ്ങൾ എന്നിവിടങ്ങളിലൊക്കെ ഇവയുടെ വലിയ കൂട്ടങ്ങളെ കാണാം. ഇളം നീലയും തവിട്ടു നിറവുമുള്ള ഉരസ്സിൽ കറുത്ത പൊട്ടുകളും ഉരസ്സിന് മുകൾ ഭാഗത്ത് ചൂണ്ടയുടെ ആകൃതിയിൽ തിളങ്ങുന്ന പച്ച നിറത്തിലുള്ള വരയുമുണ്ട്. പ്രായപൂർത്തിയാകാത്ത ആൺതുമ്പികൾ പെൺതുമ്പികളെപ്പോലെ തവിട്ടു നിറത്തിലാണ് കാണപ്പെടുന്നത്.",
+     "description3": "",
+     "description4": "",
+     "description5": "",
+    "mainPhoto": "~/images/Lestes_elatus_main.jpg",
+    "photos": [
+      { "url": "~/images/Lestes_elatus_male1.jpg", "credit": "ആൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Lestes_elatus-Kadavoor-2016-07-04-004.jpg" },
+      { "url": "~/images/Lestes_elatus_female1.jpg", "credit": "പെൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Lestes_elatus-Kadavoor-2016-07-04-003.jpg" },
+	  { "url": "~/images/Lestes_elatus_1.jpg", "credit": "© പ്രവീണ്‍ ജി നായര്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Emerald_Spreadwing_or_Lestes_elatus.jpg" },
+	  { "url": "~/images/Lestes_elatus_mating.jpg", "credit": "ഇണചേരല്‍ © ഷിനോ ജേക്കബ് കൂറ്റനാട്", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lestes_elatus_male_and_female.jpg" }
+    ],
+    "speciesLink": "https://www.inaturalist.org/taxa/149502-Lestes-elatus",
+    "wikipediaLink": "https://en.wikipedia.org/wiki/Lestes_elatus"
+  },
+  {
+    "id": 150,
+    "commonName": "Malabar Spreadwing",
+    "malayalamName": "മലബാർ ചേരാച്ചിറകൻ",
+    "scientificName": "Lestes malabaricus",
+	"sciName": "Lestes malabaricus (Fraser, 1929)",
+    "family": "Lestidae / Spreadwings / ചേരാച്ചിറകൻ",
+    "description1": "ചേരാചിറകൻ കുടുംബത്തിൽ ഉള്ള ഒരു സൂചിത്തുമ്പിയാണ് മലബാർ ചേരാച്ചിറകൻ. ഇന്ത്യ, ശ്രീലങ്ക എന്നീ രാജ്യങ്ങളിൽ  കാണപ്പെടുന്നു. പച്ച ചേരാച്ചിറകൻ തുമ്പിയുമായി ഇവയ്ക്കു വളരെ രൂപസാദൃശ്യമുണ്ട്.",
+    	 "description2": "",
+     "description3": "",
+     "description4": "",
+     "description5": "",
+    "mainPhoto": "~/images/Lestes_malabaricus_main.jpg",
+    "photos": [
+      { "url": "~/images/Lestes_malabaricus_male1.jpg", "credit": "ആൺതുമ്പി © അഫ്സര്‍ നായക്കന്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lestes_malabaricus_6.jpg" },
+      { "url": "~/images/Lestes_malabaricus_male2.jpg", "credit": "ആൺതുമ്പി © ഹനീഫ് മങ്ങാട്", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lestes_malabaricus_Fraser_(cropped).jpg" },
+	  { "url": "~/images/Lestes_malabaricus_mating.jpg", "credit": "ഇണചേരല്‍ © ഹനീഫ് മങ്ങാട്", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lestes_malabaricus.jpg" }
+    ],
+    "speciesLink": "https://www.inaturalist.org/taxa/561020-Lestes-malabaricus/",
+    "wikipediaLink": "https://en.wikipedia.org/wiki/Lestes_malabaricus"
+  } 
+ ]
