@@ -1,7 +1,7 @@
 import { NativeScriptConfig } from '@nativescript/core';
 
 export default {
-  id: 'org.nativescript.app',
+  id: 'com.thinkdigit.odonatesofkerala',
   appPath: 'app',
   appResourcesPath: 'App_Resources',
   android: {
