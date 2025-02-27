@@ -17,8 +17,8 @@ const defaultOdonates = [
     description5: "പർവ്വത മുകളിലെ കുളങ്ങൾ, തടാകങ്ങൾ എന്നിങ്ങനെയുള്ള കെട്ടിക്കിടക്കുന്ന ജലാശയങ്ങളിലാണ് ഈ തുമ്പി മുട്ടയിടുന്നത്. ഉയർന്ന വനപ്രദേശങ്ങളിലുള്ള വയലുകളിലും, ചതുപ്പു നിലങ്ങളിലും ഇവയെ കാണാറുണ്ട്.",
     mainPhoto: "~/images/Anaciaeschna_martini_main.jpg",
     photos: [
-      { url: "~/images/Anaciaeschna_martini_male1.jpg", credit: "ആൺതുമ്പി © Pokopong", sourceUrl: "https://en.wikipedia.org/wiki/File:Anaciaeschna_martini.jpg" },
-      { url: "~/images/Anaciaeschna_martini_female1.jpg", credit: "പെൺതുമ്പി © TekuraDF", sourceUrl: "https://commons.wikimedia.org/wiki/File:Anaciaeschna_martini_(Female,Japan,2017.08.18,b).jpg" }
+      { url: "~/images/Anaciaeschna_martini_male1.jpg", credit: "ആൺതുമ്പി © Pokopong", "sourceUrl": "https://en.wikipedia.org/wiki/File:Anaciaeschna_martini.jpg" },
+      { url: "~/images/Anaciaeschna_martini_female1.jpg", credit: "പെൺതുമ്പി © TekuraDF", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anaciaeschna_martini_(Female,Japan,2017.08.18,b).jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/149183-Anaciaeschna-martini",
     wikipediaLink: "https://en.wikipedia.org/wiki/Anaciaeschna_martini"
@@ -37,9 +37,9 @@ const defaultOdonates = [
     description5: "കുളങ്ങളിലും ചതുപ്പുകളിലുമാണ് ഇവ മുട്ടയിടുന്നത്.",
     mainPhoto: "~/images/Anaciaeschna_jaspidea_main.jpg",
     photos: [
-      { url: "~/images/Anaciaeschna_jaspidea_male1.jpg", credit: "ആൺതുമ്പി © Ged Tranter", sourceUrl: "https://www.inaturalist.org/photos/261556397" },
-      { url: "~/images/Anaciaeschna_jaspidea_male2.jpg", credit: "ആൺതുമ്പി © Gopakumar VR Namboothiri", sourceUrl: "https://commons.wikimedia.org/wiki/File:Anaciaeschna_jaspidea_2_by_Gopakumar_VR.jpg" },
-      { url: "~/images/Anaciaeschna_jaspidea_female1.jpg", credit: "പെൺതുമ്പി © Chung-Yen", sourceUrl: "https://en.wikipedia.org/wiki/File:Female_Rusty_Darner_imported_from_iNaturalist_photo_20461844.jpg" }
+      { url: "~/images/Anaciaeschna_jaspidea_male1.jpg", credit: "ആൺതുമ്പി © Ged Tranter", "sourceUrl": "https://www.inaturalist.org/photos/261556397" },
+      { url: "~/images/Anaciaeschna_jaspidea_male2.jpg", credit: "ആൺതുമ്പി © Gopakumar VR Namboothiri", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anaciaeschna_jaspidea_2_by_Gopakumar_VR.jpg" },
+      { url: "~/images/Anaciaeschna_jaspidea_female1.jpg", credit: "പെൺതുമ്പി © Chung-Yen", "sourceUrl": "https://en.wikipedia.org/wiki/File:Female_Rusty_Darner_imported_from_iNaturalist_photo_20461844.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/93998-Anaciaeschna-jaspidea",
     wikipediaLink: "https://en.wikipedia.org/wiki/Anaciaeschna_jaspidea"
@@ -58,8 +58,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Anax_ephippiger_main.jpg",
     photos: [
-      { url: "~/images/Anax_ephippiger_male1.jpg", credit: "ആൺതുമ്പി © ഡേവിഡ് രാജു", sourceUrl: "https://commons.wikimedia.org/wiki/File:Davidraju_IMG_6012.jpg" },
-      { url: "~/images/Anax_ephippiger_female1.jpg", credit: "പെൺതുമ്പി © Joaquim Alves Gaspar", sourceUrl: "https://en.wikipedia.org/wiki/File:Dragonfly_Porto_Covo_August_2021-4.jpg" }
+      { url: "~/images/Anax_ephippiger_male1.jpg", credit: "ആൺതുമ്പി © ഡേവിഡ് രാജു", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Davidraju_IMG_6012.jpg" },
+      { url: "~/images/Anax_ephippiger_female1.jpg", credit: "പെൺതുമ്പി © Joaquim Alves Gaspar", "sourceUrl": "https://en.wikipedia.org/wiki/File:Dragonfly_Porto_Covo_August_2021-4.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/94041-Anax-ephippiger",
     wikipediaLink: "https://en.wikipedia.org/wiki/Anax_ephippiger"
@@ -71,15 +71,15 @@ const defaultOdonates = [
     scientificName: "Anax guttatus",
 	sciName: "Anax guttatus (Burmeister, 1839)",
     family: "Aeshnidae / Darners / സൂചിവാലന്‍ കല്ലന്‍തുമ്പികള്‍",
-    description1: "കേരളത്തിൽ കാണപ്പെടുന്ന സൂചിവാലൻ കുടുംബത്തിൽ ഉള്ള ഒരു കല്ലൻതുമ്പിയിനമാണ് വയല്‍ ചാത്തന്‍. കുളങ്ങളിലും തടാകങ്ങളിലുമാണ് ഇവ പ്രജനനം നടത്തുന്നത്. ഇവക്ക് വരയന്‍ ചാത്തന്‍ തുമ്പിയുമായി (Anax indicus) വളരെ സാമ്യമുണ്ട്. പക്ഷെ ഉദരത്തിലെ ഏഴും എട്ടും ഖണ്ഡങ്ങളിലുള്ള വേറിട്ടുനിക്കുന്ന പൊട്ടുകൾ ഇവയെ തിരിച്ചറിയാൻ സഹായിക്കുന്നു. വരയന്‍ ചാത്തന്‍ തുമ്പിയിൽ അവ കൂടിച്ചേർന്നിരിക്കുന്ന മഞ്ഞക്കലകളാണ്.",
-     description2: "",
+    description1: "കേരളത്തിൽ കാണപ്പെടുന്ന സൂചിവാലൻ കുടുംബത്തിൽ ഉള്ള ഒരു കല്ലൻതുമ്പിയിനമാണ് വയല്‍ ചാത്തന്‍. കുളങ്ങളിലും തടാകങ്ങളിലുമാണ് ഇവ പ്രജനനം നടത്തുന്നത്. ഇവക്ക് വരയന്‍ ചാത്തന്‍ തുമ്പിയുമായി (Anax indicus) വളരെ സാമ്യമുണ്ട്.",
+     description2: " പക്ഷെ ഉദരത്തിലെ ഏഴും എട്ടും ഖണ്ഡങ്ങളിലുള്ള വേറിട്ടുനിക്കുന്ന പൊട്ടുകൾ ഇവയെ തിരിച്ചറിയാൻ സഹായിക്കുന്നു. വരയന്‍ ചാത്തന്‍ തുമ്പിയിൽ അവ കൂടിച്ചേർന്നിരിക്കുന്ന മഞ്ഞക്കലകളാണ്.",
      description3: "",
      description4: "",
      description5: "",
     mainPhoto: "~/images/Anax_guttatus_main.jpg",
     photos: [
-      { url: "~/images/Anax_guttatus_male1.jpg", credit: "ആൺതുമ്പി © Weiting Liu", sourceUrl: "https://www.inaturalist.org/photos/4999" },
-      { url: "~/images/Anax_guttatus_female1.jpg", credit: "പെൺതുമ്പി © ബാലചന്ദ്രന്‍ വി", sourceUrl: "https://commons.wikimedia.org/wiki/File:Anax_guttatus_(Burmeister,_1839)_female,_lateral_view.jpg" }
+      { url: "~/images/Anax_guttatus_male1.jpg", credit: "ആൺതുമ്പി © Weiting Liu", "sourceUrl": "https://www.inaturalist.org/photos/4999" },
+      { url: "~/images/Anax_guttatus_female1.jpg", credit: "പെൺതുമ്പി © ബാലചന്ദ്രന്‍ വി", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anax_guttatus_(Burmeister,_1839)_female,_lateral_view.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/51467-Anax-guttatus",
     wikipediaLink: "https://en.wikipedia.org/wiki/Anax_guttatus"
@@ -98,8 +98,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Anax_immaculifrons_main.jpg",
     photos: [
-      { url: "~/images/Anax_immaculifrons_male1.jpg", credit: "ആൺതുമ്പി © Erland Refling Nielsen", sourceUrl: "https://www.inaturalist.org/photos/5516949" },
-      { url: "~/images/Anax_immaculifrons_female1.jpg", credit: "പെൺതുമ്പി © ബാലചന്ദ്രന്‍ വി", sourceUrl: "https://en.wikipedia.org/wiki/File:Anax_immaculifrons_by_Bala_Chandran.jpg" }
+      { url: "~/images/Anax_immaculifrons_male1.jpg", credit: "ആൺതുമ്പി © Erland Refling Nielsen", "sourceUrl": "https://www.inaturalist.org/photos/5516949" },
+      { url: "~/images/Anax_immaculifrons_female1.jpg", credit: "പെൺതുമ്പി © ബാലചന്ദ്രന്‍ വി", "sourceUrl": "https://en.wikipedia.org/wiki/File:Anax_immaculifrons_by_Bala_Chandran.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/94042-Anax-immaculifrons",
     wikipediaLink: "https://en.wikipedia.org/wiki/Anax_immaculifrons"
@@ -118,8 +118,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Anax_indicus_main.jpg",
     photos: [
-      { url: "~/images/Anax_indicus_male1.jpg", credit: "ആൺതുമ്പി © Arun V", sourceUrl: "https://en.wikipedia.org/wiki/File:Anax_indicus_by_Arun_V.jpg" },
-      { url: "~/images/Anax_indicus_female1.jpg", credit: "പെൺതുമ്പി © ഡേവിഡ് രാജു", sourceUrl: "https://en.wikipedia.org/wiki/File:Anax_indicus_5231.jpg" }
+      { url: "~/images/Anax_indicus_male1.jpg", credit: "ആൺതുമ്പി © Arun V", "sourceUrl": "https://en.wikipedia.org/wiki/File:Anax_indicus_by_Arun_V.jpg" },
+      { url: "~/images/Anax_indicus_female1.jpg", credit: "പെൺതുമ്പി © ഡേവിഡ് രാജു", "sourceUrl": "https://en.wikipedia.org/wiki/File:Anax_indicus_5231.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/94044-Anax-indicus",
     wikipediaLink: "https://en.wikipedia.org/wiki/Anax_indicus"
@@ -132,15 +132,15 @@ const defaultOdonates = [
 	sciName: "Anax parthenope (Selys, 1839)",
     family: "Aeshnidae / Darners / സൂചിവാലന്‍ കല്ലന്‍തുമ്പികള്‍",
      description1: "കേരളത്തിൽ കാണപ്പെടുന്ന സൂചിവാലൻ കുടുംബത്തിൽ ഉള്ള ഒരു കല്ലൻതുമ്പിയിനമാണ് കുഞ്ഞി ചാത്തന്‍. തവിട്ടു നിറമുള്ള ഉരസ്സും ഉദരത്തിന്റെ തുടക്കഭാഗത്ത് നീല പൊട്ടുകളുമുള്ളവയാണ് ഇവ. Anax guttatusനോട് വളരെയധികം സാമ്യമുള്ള ഇവയുടെ ഉരസ്സിലെ തവിട്ടു കലർന്ന പച്ച നിറവും വലിപ്പക്കുറവും തിരിച്ചറിയുവാൻ സഹായിക്കുന്നു. കേരളത്തിൽ അപൂർവ്വമായി മാത്രം കണ്ട് വരുന്ന ഒരു തുമ്പിയാണിത്. ",
-     description2: "തുറസ്സായ ചതുപ്പുനിലങ്ങളിലും, തടാകങ്ങളിലുമാണ് കൂടുതലായും കണ്ടുവരുന്നത്. ഇളം മഞ്ഞ നിറമുള്ള തലയുടെ മുൻവശത്തിനു മുകളിലായി കറുപ്പ് നിറത്തിലുള്ള വരകളുണ്ട്. കണ്ണുകൾക്ക് തവിട്ടു കലർന്ന പച്ച നിറമാണ്. ഉരസ്സിന് പച്ചയിൽ തവിട്ടു നിറവും, അതിൽ നേരിയ കടും തവിട്ട് നിറത്തിലുള്ള വരകളും കാണപ്പെടുന്നു. ഇവയുടെ കറുത്ത കാലുകളുടെ ആരംഭ ഭാഗത്ത് ചുവപ്പ് കലർന്ന തവിട്ട് നിറമാണ്. ഉദരത്തിന്റെ ആദ്യത്തെ രണ്ടും മൂന്നും ഖണ്ഡങ്ങളിൽ കടുത്ത നീല നിറം കാണാം.",
-     description3: " കടും തവിട്ട് നിറത്തിലുള്ള ഉദരത്തിൽ ഇളം തവിട്ടോ മഞ്ഞയോ നിറത്തിലുള്ള പൊട്ടുകളും കലകളും ഇരു വശങ്ങളിലായി കാണാം. സുതാര്യമായ ചിറകുകളിൽ ഇളം തവിട്ട് ഛായയുണ്ട്. പ്രായമേറുന്തോറും ഈ തവിട്ട് നിറം കൂടി വരുന്നതുമാണ്. കാഴ്ചയിൽ ആൺതുമ്പിയോട് വളരെ സാദൃശ്യമുണ്ടെങ്കിലും പെൺതുമ്പികൾക്ക് ചിറകിലെ തവിട്ട് നിറം നന്നേ കുറവായിരിക്കും. പുല്ലുകൾ നിറഞ്ഞ ജലാശയങ്ങളിലും ചതുപ്പുനിലങ്ങളിലുള്ള ചെടികളിലുമാണ് മുട്ടകൾ നിക്ഷേപിക്കുന്നത്.",
-     description4: "",
+     description2: "തുറസ്സായ ചതുപ്പുനിലങ്ങളിലും, തടാകങ്ങളിലുമാണ് കൂടുതലായും കണ്ടുവരുന്നത്. ഇളം മഞ്ഞ നിറമുള്ള തലയുടെ മുൻവശത്തിനു മുകളിലായി കറുപ്പ് നിറത്തിലുള്ള വരകളുണ്ട്. കണ്ണുകൾക്ക് തവിട്ടു കലർന്ന പച്ച നിറമാണ്. ഉരസ്സിന് പച്ചയിൽ തവിട്ടു നിറവും, അതിൽ നേരിയ കടും തവിട്ട് നിറത്തിലുള്ള വരകളും കാണപ്പെടുന്നു. ",
+     description3: "ഇവയുടെ കറുത്ത കാലുകളുടെ ആരംഭ ഭാഗത്ത് ചുവപ്പ് കലർന്ന തവിട്ട് നിറമാണ്. ഉദരത്തിന്റെ ആദ്യത്തെ രണ്ടും മൂന്നും ഖണ്ഡങ്ങളിൽ കടുത്ത നീല നിറം കാണാം. കടും തവിട്ട് നിറത്തിലുള്ള ഉദരത്തിൽ ഇളം തവിട്ടോ മഞ്ഞയോ നിറത്തിലുള്ള പൊട്ടുകളും കലകളും ഇരു വശങ്ങളിലായി കാണാം. ",
+     description4: "സുതാര്യമായ ചിറകുകളിൽ ഇളം തവിട്ട് ഛായയുണ്ട്. പ്രായമേറുന്തോറും ഈ തവിട്ട് നിറം കൂടി വരുന്നതുമാണ്. കാഴ്ചയിൽ ആൺതുമ്പിയോട് വളരെ സാദൃശ്യമുണ്ടെങ്കിലും പെൺതുമ്പികൾക്ക് ചിറകിലെ തവിട്ട് നിറം നന്നേ കുറവായിരിക്കും. പുല്ലുകൾ നിറഞ്ഞ ജലാശയങ്ങളിലും ചതുപ്പുനിലങ്ങളിലുള്ള ചെടികളിലുമാണ് മുട്ടകൾ നിക്ഷേപിക്കുന്നത്.",
      description5: "",
     mainPhoto: "~/images/Anax_parthenope_main.jpg",
     photos: [
-      { url: "~/images/Anax_parthenope_male1.jpg", credit: "ആൺതുമ്പി © Charles J. Sharp", sourceUrl: "https://commons.wikimedia.org/wiki/File:Lesser_emperor_(Anax_parthenope)_male_2.jpg" },
-      { url: "~/images/Anax_parthenope_female1.jpg", credit: "പെൺതുമ്പി © Klaus Krahn", sourceUrl: "https://commons.wikimedia.org/wiki/File:Kleine_K%C3%B6nigslibelle_(Anax_parthenope),_female.jpg" },
-	  { url: "~/images/Anax_parthenope_mating.jpg", credit: "ഇണചേരല്‍ © അജിത്ത് ഉണ്ണികൃഷ്ണന്‍", sourceUrl: "https://commons.wikimedia.org/wiki/File:Anax_parthenope_Bangalore.jpg" }
+      { url: "~/images/Anax_parthenope_male1.jpg", credit: "ആൺതുമ്പി © Charles J. Sharp", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lesser_emperor_(Anax_parthenope)_male_2.jpg" },
+      { url: "~/images/Anax_parthenope_female1.jpg", credit: "പെൺതുമ്പി © Klaus Krahn", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kleine_K%C3%B6nigslibelle_(Anax_parthenope),_female.jpg" },
+	  { url: "~/images/Anax_parthenope_mating.jpg", credit: "ഇണചേരല്‍ © അജിത്ത് ഉണ്ണികൃഷ്ണന്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anax_parthenope_Bangalore.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/94048-Anax-parthenope",
     wikipediaLink: "https://en.wikipedia.org/wiki/Anax_parthenope"
@@ -159,9 +159,9 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Gynacantha_dravida_main.jpg",
     photos: [
-      { url: "~/images/Gynacantha_dravida_male1.jpg", credit: "ആൺതുമ്പി © 2010 Jee & Rani Nature Photography", sourceUrl: "https://en.wikipedia.org/wiki/File:Gynacantha-Kadavoor-2016-07-25-001.jpg" },
-      { url: "~/images/Gynacantha_dravida_female1.jpg", credit: "പെൺതുമ്പി © 2010 Jee & Rani Nature Photography", sourceUrl: "https://en.wikipedia.org/wiki/File:Gynacantha-Kadavoor-2016-07-11-001.jpg" },
-	  { url: "~/images/Gynacantha_dravida_mating.jpg", credit: "ഇണചേരല്‍ © 2010 Jee & Rani Nature Photography", sourceUrl: "https://en.wikipedia.org/wiki/File:Gynacantha-Kadavoor-2017-05-13-001.jpg" }
+      { url: "~/images/Gynacantha_dravida_male1.jpg", credit: "ആൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Gynacantha-Kadavoor-2016-07-25-001.jpg" },
+      { url: "~/images/Gynacantha_dravida_female1.jpg", credit: "പെൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Gynacantha-Kadavoor-2016-07-11-001.jpg" },
+	  { url: "~/images/Gynacantha_dravida_mating.jpg", credit: "ഇണചേരല്‍ © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Gynacantha-Kadavoor-2017-05-13-001.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/101930-Gynacantha-dravida",
     wikipediaLink: "https://en.wikipedia.org/wiki/Gynacantha_dravida"
@@ -180,8 +180,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Gynacantha_millardi_main.jpg",
     photos: [
-      { url: "~/images/Gynacantha_millardi_male1.jpg", credit: "ആൺതുമ്പി © 2010 Jee & Rani Nature Photography", sourceUrl: "https://en.wikipedia.org/wiki/File:Gynacantha_millardi_-_Kadavoor_-_001.jpg" },
-      { url: "~/images/Gynacantha_millardi_female1.jpg", credit: "പെൺതുമ്പി © L. Shyamal", sourceUrl: "https://en.wikipedia.org/wiki/File:Gynacantha_bayadera.jpg" }
+      { url: "~/images/Gynacantha_millardi_male1.jpg", credit: "ആൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Gynacantha_millardi_-_Kadavoor_-_001.jpg" },
+      { url: "~/images/Gynacantha_millardi_female1.jpg", credit: "പെൺതുമ്പി © L. Shyamal", "sourceUrl": "https://en.wikipedia.org/wiki/File:Gynacantha_bayadera.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/506562-Gynacantha-millardi",
     wikipediaLink: "https://en.wikipedia.org/wiki/Gynacantha_millardi"
@@ -193,14 +193,14 @@ const defaultOdonates = [
     scientificName: "Chlorogomphus campioni",
 	sciName: "Chlorogomphus campioni (Fraser, 1924)",
     family: "Chlorogomphidae / Mountain Hawks / മലമുത്തന്‍മാര്‍",
-     description1: "ചിറകിൽ ഇളം തവിട്ടു നിറമുള്ള കല്ലൻ തുമ്പിയാണ് വടക്കന്‍ മലമുത്തൻ. പശ്ചിമഘട്ടത്തിലെ സ്ഥാനീയ തുമ്പികളിൽ ഒന്നാണ്. ഉയർന്ന മലനിരകളിലെ പുൽമേടുകളും വനങ്ങളും ഇഷ്ടപ്പെടുന്ന ഈ തുമ്പികളെ അപൂർവ്വമായി മാത്രമേ കാണാനാകൂ. കണ്ണുകൾക്ക് തിളങ്ങുന്ന പച്ച നിറമാണ്. കറുത്ത നിറമുള്ള കഴുത്തിൽ വലിയ ഒരു മഞ്ഞ പൊട്ടുണ്ട്. ഉരസ്സും ഉദരവും കറുത്ത നിറമാണ്. ഉരസ്സിൽ മഞ്ഞ നിറത്തിലുള്ള ചെറിയ വരകൾ കാണാവുന്നതാണ്. ",
-     description2: "ഉദരത്തിനു കുറുകെ മഞ്ഞ നിറത്തിലുള്ള ചെറിയ കലകളുണ്ട്. ഉദരത്തിന്റെ അഗ്രഭാഗം അൽപ്പം തടിച്ചതാണ്. കാലുകൾക്ക് കറുത്ത നിറം. സുതാര്യമായ ചിറകുകളുടെ അറ്റത്ത് കടും തവിട്ട് ഛായയുണ്ട്. വളരെ പ്രായമുള്ള തുമ്പികളുടെ ചിറകുകളിൽ ഇളം തവിട്ട് ഛായ കാണുവാൻ കഴിയും.പെൺതുമ്പികൾ കാഴ്ചയിൽ ആൺ തുമ്പികളെ പോലെയാണെങ്കിലും ഉദരത്തിലെ മഞ്ഞ നിറമുള്ള കലകൾ വളരെ നേർത്തതായിരുക്കും. ",
-     description3: "ആകാശത്ത് ഉയർന്ന് പറക്കുന്ന ഈ തുമ്പികൾ അപൂർവ്വമായേ വിശ്രമിക്കാറുള്ളൂ. വീതിയുള്ള വനപാതകളിലും തുറസ്സായ സ്ഥലങ്ങളിലുമാണ് ഇവയെ കാണാൻ കഴിയുന്നത്. മരച്ചില്ലകളിൽ തൂങ്ങിക്കിടന്നാണ് ഇവ വിശ്രമിക്കാറുള്ളത്.",
-     description4: "",
+     description1: "ചിറകിൽ ഇളം തവിട്ടു നിറമുള്ള കല്ലൻ തുമ്പിയാണ് വടക്കന്‍ മലമുത്തൻ. പശ്ചിമഘട്ടത്തിലെ സ്ഥാനീയ തുമ്പികളിൽ ഒന്നാണ്. ഉയർന്ന മലനിരകളിലെ പുൽമേടുകളും വനങ്ങളും ഇഷ്ടപ്പെടുന്ന ഈ തുമ്പികളെ അപൂർവ്വമായി മാത്രമേ കാണാനാകൂ. കണ്ണുകൾക്ക് തിളങ്ങുന്ന പച്ച നിറമാണ്. കറുത്ത നിറമുള്ള കഴുത്തിൽ വലിയ ഒരു മഞ്ഞ പൊട്ടുണ്ട്. ",
+     description2: "ഉരസ്സും ഉദരവും കറുത്ത നിറമാണ്. ഉരസ്സിൽ മഞ്ഞ നിറത്തിലുള്ള ചെറിയ വരകൾ കാണാവുന്നതാണ്. ഉദരത്തിനു കുറുകെ മഞ്ഞ നിറത്തിലുള്ള ചെറിയ കലകളുണ്ട്. ഉദരത്തിന്റെ അഗ്രഭാഗം അൽപ്പം തടിച്ചതാണ്. കാലുകൾക്ക് കറുത്ത നിറം. ",
+     description3: "സുതാര്യമായ ചിറകുകളുടെ അറ്റത്ത് കടും തവിട്ട് ഛായയുണ്ട്. വളരെ പ്രായമുള്ള തുമ്പികളുടെ ചിറകുകളിൽ ഇളം തവിട്ട് ഛായ കാണുവാൻ കഴിയും.പെൺതുമ്പികൾ കാഴ്ചയിൽ ആൺ തുമ്പികളെ പോലെയാണെങ്കിലും ഉദരത്തിലെ മഞ്ഞ നിറമുള്ള കലകൾ വളരെ നേർത്തതായിരുക്കും. ",
+     description4: "ആകാശത്ത് ഉയർന്ന് പറക്കുന്ന ഈ തുമ്പികൾ അപൂർവ്വമായേ വിശ്രമിക്കാറുള്ളൂ. വീതിയുള്ള വനപാതകളിലും തുറസ്സായ സ്ഥലങ്ങളിലുമാണ് ഇവയെ കാണാൻ കഴിയുന്നത്. മരച്ചില്ലകളിൽ തൂങ്ങിക്കിടന്നാണ് ഇവ വിശ്രമിക്കാറുള്ളത്.",
      description5: "",
     mainPhoto: "~/images/Chlorogomphus_campioni_male1.jpg",
     photos: [
-      { url: "~/images/Chlorogomphus_campioni_male1.jpg", credit: "ആൺതുമ്പി © Subramanian K. A", sourceUrl: "https://en.wikipedia.org/wiki/File:Chlorogomphus_campioni_by_Subramanian_K_A.jpg" }
+      { url: "~/images/Chlorogomphus_campioni_male1.jpg", credit: "ആൺതുമ്പി © Subramanian K. A", "sourceUrl": "https://en.wikipedia.org/wiki/File:Chlorogomphus_campioni_by_Subramanian_K_A.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/97608-Chlorogomphus-campioni",
     wikipediaLink: "https://en.wikipedia.org/wiki/Chlorogomphus_campioni"
@@ -219,7 +219,7 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Chlorogomphus_xanthoptera_male1.jpg",
     photos: [
-      { url: "~/images/Chlorogomphus_xanthoptera_male1.jpg", credit: "ആൺതുമ്പി © Thomson Saburaj", sourceUrl: "https://en.wikipedia.org/wiki/File:Chlorogomphus_xanthoptera_-_Male.jpg" }
+      { url: "~/images/Chlorogomphus_xanthoptera_male1.jpg", credit: "ആൺതുമ്പി © Thomson Saburaj", "sourceUrl": "https://en.wikipedia.org/wiki/File:Chlorogomphus_xanthoptera_-_Male.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/97621-Chlorogomphus-xanthoptera",
     wikipediaLink: "https://en.wikipedia.org/wiki/Chlorogomphus_xanthoptera"
@@ -238,9 +238,9 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Hemicordulia_asiatica_main.jpg",
     photos: [
-      { url: "~/images/Hemicordulia_asiatica_male1.jpg", credit: "ആൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", sourceUrl: "https://en.wikipedia.org/wiki/File:Hemicordulia_asiatica_(Asian_emerald).jpg" },
-      { url: "~/images/Hemicordulia_asiatica_female1.jpg", credit: "പെൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", sourceUrl: "https://en.wikipedia.org/wiki/File:Hemicordulia_asiatica_(Asian_Emerald)_female.jpg" },
-	  { url: "~/images/Hemicordulia_asiatica_mating.jpg", credit: "ഇണചേരല്‍ © Renjuuu", sourceUrl: "https://en.wikipedia.org/wiki/File:Hemicordulia_asiatica_RJM_6788.jpg" }
+      { url: "~/images/Hemicordulia_asiatica_male1.jpg", credit: "ആൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", "sourceUrl": "https://en.wikipedia.org/wiki/File:Hemicordulia_asiatica_(Asian_emerald).jpg" },
+      { url: "~/images/Hemicordulia_asiatica_female1.jpg", credit: "പെൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", "sourceUrl": "https://en.wikipedia.org/wiki/File:Hemicordulia_asiatica_(Asian_Emerald)_female.jpg" },
+	  { url: "~/images/Hemicordulia_asiatica_mating.jpg", credit: "ഇണചേരല്‍ © Renjuuu", "sourceUrl": "https://en.wikipedia.org/wiki/File:Hemicordulia_asiatica_RJM_6788.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/102487-Hemicordulia-asiatica",
     wikipediaLink: "https://en.wikipedia.org/wiki/Hemicordulia_asiatica"
@@ -259,8 +259,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Acrogomphus_fraseri_main.jpg",
     photos: [
-      { url: "~/images/Acrogomphus_fraseri_male1.jpg", credit: "ആൺതുമ്പി © രെജി ചന്ദ്രന്‍", sourceUrl: "https://www.inaturalist.org/observations/162229712" },
-      { url: "~/images/Acrogomphus_fraseri_female1.jpg", credit: "പെൺതുമ്പി © Rama Narayanan", sourceUrl: "https://www.inaturalist.org/observations/111078627" }
+      { url: "~/images/Acrogomphus_fraseri_male1.jpg", credit: "ആൺതുമ്പി © രെജി ചന്ദ്രന്‍", "sourceUrl": "https://www.inaturalist.org/observations/162229712" },
+      { url: "~/images/Acrogomphus_fraseri_female1.jpg", credit: "പെൺതുമ്പി © Rama Narayanan", "sourceUrl": "https://www.inaturalist.org/observations/111078627" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/93207-Acrogomphus-fraseri",
     wikipediaLink: "https://en.wikipedia.org/wiki/Acrogomphus_fraseri"
@@ -279,8 +279,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Asiagomphus_nilgiricus_main.jpg",
     photos: [
-      { url: "~/images/Asiagomphus_nilgiricus_male1.jpg", credit: "ആൺതുമ്പി © മുനീർ തോൽപ്പെട്ടി", sourceUrl: "https://commons.wikimedia.org/wiki/File:Asiagomphus_nilgiricus.jpg" },
-      { url: "~/images/Asiagomphus_nilgiricus_male2.jpg", credit: "ആൺതുമ്പി © വിവേക് ചന്ദ്രന്‍ എ", sourceUrl: "https://www.inaturalist.org/photos/398537360" }
+      { url: "~/images/Asiagomphus_nilgiricus_male1.jpg", credit: "ആൺതുമ്പി © മുനീർ തോൽപ്പെട്ടി", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Asiagomphus_nilgiricus.jpg" },
+      { url: "~/images/Asiagomphus_nilgiricus_male2.jpg", credit: "ആൺതുമ്പി © വിവേക് ചന്ദ്രന്‍ എ", "sourceUrl": "https://www.inaturalist.org/photos/398537360" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/94677-Asiagomphus-nilgiricus",
     wikipediaLink: "https://en.wikipedia.org/wiki/Asiagomphus_nilgiricus"
@@ -299,9 +299,9 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Burmagomphus_chaukulensis_main.jpg",
     photos: [
-      { url: "~/images/Burmagomphus_chaukulensis_male1.jpg", credit: "ആൺതുമ്പി © വിവേക് ചന്ദ്രന്‍ എ", sourceUrl: "https://en.wikipedia.org/wiki/File:Burmagomphus_chaukulensis.jpg" },
-      { url: "~/images/Burmagomphus_chaukulensis_male2.jpg", credit: "ആൺതുമ്പി © Karthik", sourceUrl: "https://www.inaturalist.org/observations/36670007" },
-	  { url: "~/images/Burmagomphus_chaukulensis_mating.jpg", credit: "ഇണചേരല്‍ © അഫ്സര്‍ നായക്കന്‍", sourceUrl: "https://www.inaturalist.org/observations/90744816" }
+      { url: "~/images/Burmagomphus_chaukulensis_male1.jpg", credit: "ആൺതുമ്പി © വിവേക് ചന്ദ്രന്‍ എ", "sourceUrl": "https://en.wikipedia.org/wiki/File:Burmagomphus_chaukulensis.jpg" },
+      { url: "~/images/Burmagomphus_chaukulensis_male2.jpg", credit: "ആൺതുമ്പി © Karthik", "sourceUrl": "https://www.inaturalist.org/observations/36670007" },
+	  { url: "~/images/Burmagomphus_chaukulensis_mating.jpg", credit: "ഇണചേരല്‍ © അഫ്സര്‍ നായക്കന്‍", "sourceUrl": "https://www.inaturalist.org/observations/90744816" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/1390111-Burmagomphus-chaukulensis",
     wikipediaLink: "https://en.wikipedia.org/wiki/Burmagomphus_chaukulensis"
@@ -320,8 +320,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Burmagomphus_laidlawi_main.jpg",
     photos: [
-      { url: "~/images/Burmagomphus_laidlawi_male1.jpg", credit: "ആൺതുമ്പി © രെജി ചന്ദ്രന്‍", sourceUrl: "https://www.inaturalist.org/observations/80739344" },
-      { url: "~/images/Burmagomphus_laidlawi_female1.jpg", credit: "പെൺതുമ്പി © Jayant M Deshpande", sourceUrl: "https://www.inaturalist.org/observations/224874885" }
+      { url: "~/images/Burmagomphus_laidlawi_male1.jpg", credit: "ആൺതുമ്പി © രെജി ചന്ദ്രന്‍", "sourceUrl": "https://www.inaturalist.org/observations/80739344" },
+      { url: "~/images/Burmagomphus_laidlawi_female1.jpg", credit: "പെൺതുമ്പി © Jayant M Deshpande", "sourceUrl": "https://www.inaturalist.org/observations/224874885" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/96236-Burmagomphus-laidlawi",
     wikipediaLink: "https://en.wikipedia.org/wiki/Burmagomphus_laidlawi"
@@ -334,14 +334,14 @@ const defaultOdonates = [
 	sciName: "Burmagomphus pyramidalis (Laidlaw, 1922)",
     family: "Gomphidae / Clawtails and Clubtails / കടുവാത്തുമ്പികള്‍",
     description1: "കടുവത്തുമ്പികൾ എന്ന തുമ്പി കുടുംബത്തിൽപ്പെട്ട ഒരു തുമ്പിയാണ് മഞ്ഞ കൊമ്പുവാലൻ കടുവ. Burmagomphus pyramidalis pyramidalis, Burmagomphus pyramidalis sinuatus എന്നിങ്ങനെ രണ്ട് ഉപസ്പീഷീസുകളുണ്ട്. B. pyramidalis ഇന്ത്യയിലും B. sinuatus ശ്രീലങ്കയിലും കാണപ്പെടുന്നു. ഇന്ത്യയിൽ കേരളം, തമിഴ്നാട്, കർണ്ണാടക, മഹാരാഷ്ട്ര എന്നീ സംസ്ഥാനങ്ങളിലാണ് ഈ തുമ്പിയെ കണ്ടെത്തിയിട്ടുള്ളത്. ",
-    	 description2: "ശിരസ്സിന് മുകളിൽ കണ്ണുകൾക്കിടയിലായുള്ള മഞ്ഞ പൊട്ടും, ഉദരത്തിന്റെ എട്ടാം ഖണ്ഡത്തിലുള്ള മഞ്ഞ വരകളും ഈ തുമ്പിയെ സമാനമായ മറ്റു സ്പീഷീസുകളിൽ നിന്നും വേർതിരിച്ചറിയാൻ സഹായിക്കുന്നു. മെയ് മുതൽ ജൂലൈ വരെയുള്ള സമയത്താണ് ഈ തുമ്പിയെ കാണാനാവുക. ശിരസ്സിന് കറുത്ത നിറമാണ്. കറുപ്പ് നിറത്തിലുള്ള ഉരസ്സിൽ മഞ്ഞ കലർന്ന പച്ച നിറത്തിലുള്ള പാടുകൾ കാണാം. ",
-     description3: "സുതാര്യമായ ചിറകുകളുടെ തുടക്ക ഭാഗത്ത് ചിലപ്പോൾ നേരിയ കാവി നിറം വ്യാപിച്ച് കാണാം. കറുത്ത നിറത്തിലുള്ള ഉദരത്തിൽ മഞ്ഞ നിറത്തിലുള്ള പാടുകളും വരകളും കാണപ്പെടുന്നു. ആൺതുമ്പിയും പെൺതുമ്പിയും കാഴ്ച്ചയിൽ വലിയ വ്യത്യാസമില്ല. ആൺതുമ്പിയുടെ ഉദരത്തിന് 30 മില്ലിമീറ്ററും , പിൻചിറകുകൾക്ക് 23-24 മില്ലിമീറ്ററും വലിപ്പമുണ്ട്. പെൺതുമ്പികളിൽ ഇത് യഥാക്രമം 33 മില്ലിമീറ്ററും 27 മില്ലിമീറ്ററും ആണ്.",
-     description4: " ഉയർന്ന മലമ്പ്രദേശങ്ങളിലെ കാട്ടരുവികളിലാണ് ഈ തുമ്പി മുട്ടയിടുന്നത്. കാട്ടാറുകളുടെ ഓരത്തുള്ള പുഴയോരക്കാടുകളിലെ വൃക്ഷത്തലപ്പുകളിലാണ് ഇവയെ കാണാനാവുക. അപൂർവ്വമായി അരുവികളുടെ മധ്യത്തിലുള്ള പാറകളിൽ ഇരിക്കുന്നത് കാണാം. ഈ തുമ്പിയുടെ ലാർവ്വകൾ അരുവികളുടെ അടിത്തട്ടിലുള്ള മണലിൽ കുഴികളുണ്ടാക്കി കഴിയുന്നവയാണെന്ന് ഫ്രേസർ നിരീക്ഷിച്ചിട്ടുണ്ട്.",
-     description5: "",
+    description2: "ശിരസ്സിന് മുകളിൽ കണ്ണുകൾക്കിടയിലായുള്ള മഞ്ഞ പൊട്ടും, ഉദരത്തിന്റെ എട്ടാം ഖണ്ഡത്തിലുള്ള മഞ്ഞ വരകളും ഈ തുമ്പിയെ സമാനമായ മറ്റു സ്പീഷീസുകളിൽ നിന്നും വേർതിരിച്ചറിയാൻ സഹായിക്കുന്നു. മെയ് മുതൽ ജൂലൈ വരെയുള്ള സമയത്താണ് ഈ തുമ്പിയെ കാണാനാവുക. ശിരസ്സിന് കറുത്ത നിറമാണ്. കറുപ്പ് നിറത്തിലുള്ള ഉരസ്സിൽ മഞ്ഞ കലർന്ന പച്ച നിറത്തിലുള്ള പാടുകൾ കാണാം. ",
+     description3: "സുതാര്യമായ ചിറകുകളുടെ തുടക്ക ഭാഗത്ത് ചിലപ്പോൾ നേരിയ കാവി നിറം വ്യാപിച്ച് കാണാം. കറുത്ത നിറത്തിലുള്ള ഉദരത്തിൽ മഞ്ഞ നിറത്തിലുള്ള പാടുകളും വരകളും കാണപ്പെടുന്നു. ആൺതുമ്പിയും പെൺതുമ്പിയും കാഴ്ച്ചയിൽ വലിയ വ്യത്യാസമില്ല. ആൺതുമ്പിയുടെ ഉദരത്തിന് 30 മില്ലിമീറ്ററും, ",
+     description4: "പിൻചിറകുകൾക്ക് 23-24 മില്ലിമീറ്ററും വലിപ്പമുണ്ട്. പെൺതുമ്പികളിൽ ഇത് യഥാക്രമം 33 മില്ലിമീറ്ററും 27 മില്ലിമീറ്ററും ആണ്. ഉയർന്ന മലമ്പ്രദേശങ്ങളിലെ കാട്ടരുവികളിലാണ് ഈ തുമ്പി മുട്ടയിടുന്നത്. കാട്ടാറുകളുടെ ഓരത്തുള്ള പുഴയോരക്കാടുകളിലെ വൃക്ഷത്തലപ്പുകളിലാണ് ഇവയെ കാണാനാവുക. അപൂർവ്വമായി അരുവികളുടെ മധ്യത്തിലുള്ള പാറകളിൽ ഇരിക്കുന്നത് കാണാം. ",
+     description5: "ഈ തുമ്പിയുടെ ലാർവ്വകൾ അരുവികളുടെ അടിത്തട്ടിലുള്ള മണലിൽ കുഴികളുണ്ടാക്കി കഴിയുന്നവയാണെന്ന് ഫ്രേസർ നിരീക്ഷിച്ചിട്ടുണ്ട്.",
     mainPhoto: "~/images/Burmagomphus_pyramidalis_main.jpg",
     photos: [
-      { url: "~/images/Burmagomphus_pyramidalis_male1.jpg", credit: "ആൺതുമ്പി © Shivaprakash", sourceUrl: "https://www.inaturalist.org/observations/91708318" },
-      { url: "~/images/Burmagomphus_pyramidalis_female1.jpg", credit: "പെൺതുമ്പി © Tejas Mehendale", sourceUrl: "https://www.inaturalist.org/observations/135326176" }
+      { url: "~/images/Burmagomphus_pyramidalis_male1.jpg", credit: "ആൺതുമ്പി © Shivaprakash", "sourceUrl": "https://www.inaturalist.org/observations/91708318" },
+      { url: "~/images/Burmagomphus_pyramidalis_female1.jpg", credit: "പെൺതുമ്പി © Tejas Mehendale", "sourceUrl": "https://www.inaturalist.org/observations/135326176" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/433314-Burmagomphus-pyramidalis",
     wikipediaLink: "https://en.wikipedia.org/wiki/Burmagomphus_pyramidalis"
@@ -360,9 +360,9 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Cyclogomphus_flavoannulatus_main.jpg",
     photos: [
-      { url: "~/images/Cyclogomphus_flavoannulatus_male1.jpg", credit: "ആൺതുമ്പി © Prosenjit Dawn", sourceUrl: "https://www.inaturalist.org/observations/97005849" },
-      { url: "~/images/Cyclogomphus_flavoannulatus_female1.jpg", credit: "പെൺതുമ്പി © വിവേക് ചന്ദ്രന്‍ എ", sourceUrl: "https://www.inaturalist.org/observations/16711234" },
-	  { url: "~/images/Cyclogomphus_flavoannulatus_male2.jpg", credit: "ആൺതുമ്പി - കുറുവാല്‍ © Prosenjit Dawn", sourceUrl: "https://www.inaturalist.org/observations/97005849" }
+      { url: "~/images/Cyclogomphus_flavoannulatus_male1.jpg", credit: "ആൺതുമ്പി © Prosenjit Dawn", "sourceUrl": "https://www.inaturalist.org/observations/97005849" },
+      { url: "~/images/Cyclogomphus_flavoannulatus_female1.jpg", credit: "പെൺതുമ്പി © വിവേക് ചന്ദ്രന്‍ എ", "sourceUrl": "https://www.inaturalist.org/observations/16711234" },
+	  { url: "~/images/Cyclogomphus_flavoannulatus_male2.jpg", credit: "ആൺതുമ്പി - കുറുവാല്‍ © Prosenjit Dawn", "sourceUrl": "https://www.inaturalist.org/observations/97005849" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/991002-Cyclogomphus-flavoannulatus",
     wikipediaLink: "https://en.wikipedia.org/wiki/Cyclogomphus_flavoannulatus"
@@ -381,9 +381,9 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Cyclogomphus_heterostylus_main.jpg",
     photos: [
-      { url: "~/images/Cyclogomphus_heterostylus_male1.jpg", credit: "ആൺതുമ്പി © Sadheeskumar K", sourceUrl: "https://www.indianodonata.org/sites/indianodonata.org/files/1_7202-958-5ea1df0f12e2b-2.jpg" },
-      { url: "~/images/Cyclogomphus_heterostylus_female1.jpg", credit: "പെൺതുമ്പി © Dattaprasad Sawant", sourceUrl: "https://www.indianodonata.org/sites/indianodonata.org/files/61_6740-177-5e569a964cdaa-1.jpg" },
-      { url: "~/images/Cyclogomphus_heterostylus_female2.jpg", credit: "പെൺതുമ്പി © ബാലചന്ദ്രന്‍ വി", sourceUrl: "https://commons.wikimedia.org/wiki/File:Cyclogomphus_heterostylus_Selys,_1854_Female.jpg" }
+      { url: "~/images/Cyclogomphus_heterostylus_male1.jpg", credit: "ആൺതുമ്പി © Sadheeskumar K", "sourceUrl": "https://www.indianodonata.org/sites/indianodonata.org/files/1_7202-958-5ea1df0f12e2b-2.jpg" },
+      { url: "~/images/Cyclogomphus_heterostylus_female1.jpg", credit: "പെൺതുമ്പി © Dattaprasad Sawant", "sourceUrl": "https://www.indianodonata.org/sites/indianodonata.org/files/61_6740-177-5e569a964cdaa-1.jpg" },
+      { url: "~/images/Cyclogomphus_heterostylus_female2.jpg", credit: "പെൺതുമ്പി © ബാലചന്ദ്രന്‍ വി", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cyclogomphus_heterostylus_Selys,_1854_Female.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/98837-Cyclogomphus-heterostylus",
     wikipediaLink: "https://en.wikipedia.org/wiki/Cyclogomphus_heterostylus"
@@ -395,16 +395,16 @@ const defaultOdonates = [
     scientificName: "Davidioides martini",
 	sciName: "Davidioides martini (Fraser, 1924)",
     family: "Gomphidae / Clawtails and Clubtails / കടുവാത്തുമ്പികള്‍",
-    description1: "കേരളത്തിൽ കാണപ്പെടുന്ന കടുവത്തുമ്പി കുടുംബത്തിൽപ്പെട്ട ശരീരത്തിന് കറുപ്പ് നിറമുള്ള മഞ്ഞ വരകുളുള്ള കല്ലൻതുമ്പിയിനമാണ് സൈരന്ധ്രിക്കടുവ. മറ്റു കല്ലൻ തുമ്പികളുമായി സാമ്യമുണ്ടെങ്കിലും പിൻകഴുത്തിലെ പൊട്ടുകളും ചെറുവാലുകളുടെ ആകൃതിയും ഇവയെ തിരിച്ചറിയുവാൻ സഹായിക്കും. കേരളത്തിലെ കാടുകളിൽ വളരെ അപൂർവ്വമാണ് ഈ തുമ്പി. നിത്യഹരിത വനങ്ങളിലെ വലിയ അരുവികളിലാണ് ഈ തുമ്പിയെ കണ്ടെത്തിയിട്ടുള്ളത്. ",
-    	 description2: "കണ്ണുകൾക്ക് നീല കലർന്ന പച്ച നിറമാണ്. തലയുടെ മുകൾ ഭാഗം മഞ്ഞ നിറമാണ്. പിൻ കഴുത്തിന് കറുത്ത നിറവും അതിൽ മഞ്ഞ നിറത്തിലുള്ള വലിയ പൊട്ടും വശങ്ങളിലായി ചെറിയ രണ്ട് പൊട്ടുകളുമുണ്ട്. കറുത്ത നിറമുള്ള ഉരസ്സിൽ മഞ്ഞ വരകളുണ്ട്. ഉദരത്തിനും കറുപ്പ് നിറമാണ്. കൂടാതെ ചെറിയ മഞ്ഞ വളയങ്ങളുമുണ്ട്. കാലുകൾക്ക് കറുപ്പ് നിറമാണ്. സുതാര്യമായ ചിറകുകളാണ് ഇവയ്ക്കുള്ളത്.",
-     description3: "അരുവികളിലെ നനവാർന്ന പ്രദേശങ്ങളിലാണ് കാണപ്പെടുന്നത്. ചെടികളുടെ ഇലകളിൽ പതുങ്ങിയിരിക്കാനാണ് ഇഷ്ടം. 1924 ന് ശേഷം 2024 ല്‍ ഇവയെ നിലമ്പൂരില്‍ വച്ച് കണ്ടെത്തി.",
+    description1: "കേരളത്തിൽ കാണപ്പെടുന്ന കടുവത്തുമ്പി കുടുംബത്തിൽപ്പെട്ട ശരീരത്തിന് കറുപ്പ് നിറമുള്ള മഞ്ഞ വരകുളുള്ള കല്ലൻതുമ്പിയിനമാണ് സൈരന്ധ്രിക്കടുവ. മറ്റു കല്ലൻ തുമ്പികളുമായി സാമ്യമുണ്ടെങ്കിലും പിൻകഴുത്തിലെ പൊട്ടുകളും ചെറുവാലുകളുടെ ആകൃതിയും ഇവയെ തിരിച്ചറിയുവാൻ സഹായിക്കും. ",
+    description2: "കേരളത്തിലെ കാടുകളിൽ വളരെ അപൂർവ്വമാണ് ഈ തുമ്പി. നിത്യഹരിത വനങ്ങളിലെ വലിയ അരുവികളിലാണ് ഈ തുമ്പിയെ കണ്ടെത്തിയിട്ടുള്ളത്. കണ്ണുകൾക്ക് നീല കലർന്ന പച്ച നിറമാണ്. തലയുടെ മുകൾ ഭാഗം മഞ്ഞ നിറമാണ്. പിൻ കഴുത്തിന് കറുത്ത നിറവും അതിൽ മഞ്ഞ നിറത്തിലുള്ള വലിയ പൊട്ടും വശങ്ങളിലായി ചെറിയ രണ്ട് പൊട്ടുകളുമുണ്ട്. ",
+     description3: "കറുത്ത നിറമുള്ള ഉരസ്സിൽ മഞ്ഞ വരകളുണ്ട്. ഉദരത്തിനും കറുപ്പ് നിറമാണ്. കൂടാതെ ചെറിയ മഞ്ഞ വളയങ്ങളുമുണ്ട്. കാലുകൾക്ക് കറുപ്പ് നിറമാണ്. സുതാര്യമായ ചിറകുകളാണ് ഇവയ്ക്കുള്ളത്. അരുവികളിലെ നനവാർന്ന പ്രദേശങ്ങളിലാണ് കാണപ്പെടുന്നത്. ചെടികളുടെ ഇലകളിൽ പതുങ്ങിയിരിക്കാനാണ് ഇഷ്ടം. 1924 ന് ശേഷം 2024 ല്‍ ഇവയെ നിലമ്പൂരില്‍ വച്ച് കണ്ടെത്തി.",
      description4: "",
      description5: "",
     mainPhoto: "~/images/Davidioides_martini_main.jpg",
     photos: [
-      { url: "~/images/Davidioides_martini_male1.jpg", credit: "ആൺതുമ്പി © ഡേവിഡ് രാജു", sourceUrl: "https://en.wikipedia.org/wiki/File:Davidioides_martini.jpg" },
-      { url: "~/images/Davidioides_martini_male2.jpg", credit: "ആൺതുമ്പി © കലേഷ് സദാശിവന്‍", sourceUrl: "https://www.researchgate.net/publication/373893317_Taxonomic_notes_on_Davidioides_martini_Fraser_1924_Odonata_Gomphidae_and_description_of_its_female_from_Western_Ghats_Peninsular_India" },	  
-      { url: "~/images/Davidioides_martini_female1.jpg", credit: "പെൺതുമ്പി © കലേഷ് സദാശിവന്‍", sourceUrl: "https://www.researchgate.net/publication/373893317_Taxonomic_notes_on_Davidioides_martini_Fraser_1924_Odonata_Gomphidae_and_description_of_its_female_from_Western_Ghats_Peninsular_India" }
+      { url: "~/images/Davidioides_martini_male1.jpg", credit: "ആൺതുമ്പി © ഡേവിഡ് രാജു", "sourceUrl": "https://en.wikipedia.org/wiki/File:Davidioides_martini.jpg" },
+      { url: "~/images/Davidioides_martini_male2.jpg", credit: "ആൺതുമ്പി © കലേഷ് സദാശിവന്‍", "sourceUrl": "https://www.researchgate.net/publication/373893317_Taxonomic_notes_on_Davidioides_martini_Fraser_1924_Odonata_Gomphidae_and_description_of_its_female_from_Western_Ghats_Peninsular_India" },	  
+      { url: "~/images/Davidioides_martini_female1.jpg", credit: "പെൺതുമ്പി © കലേഷ് സദാശിവന്‍", "sourceUrl": "https://www.researchgate.net/publication/373893317_Taxonomic_notes_on_Davidioides_martini_Fraser_1924_Odonata_Gomphidae_and_description_of_its_female_from_Western_Ghats_Peninsular_India" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/99130-Davidioides-martini",
     wikipediaLink: "https://en.wikipedia.org/wiki/Davidioides_martini"
@@ -417,14 +417,14 @@ const defaultOdonates = [
 	sciName: "Gomphidia kodaguensis (Fraser, 1923)",
     family: "Gomphidae / Clawtails and Clubtails / കടുവാത്തുമ്പികള്‍",
     description1: "കേരളത്തിൽ കാണപ്പെടുന്ന കടുവത്തുമ്പി കുടുംബത്തിൽ ഉള്ള ഒരു കല്ലൻതുമ്പിയിനമാണ് ആറ്റു കടുവ. പശ്ചിമഘട്ടത്തിൽ മാത്രമേ ഇവയെ കണ്ടിട്ടുള്ളൂ. കുന്നും മലയും നിറഞ്ഞ സ്ഥലങ്ങള്‍ക്കിടയിലുള്ള പുഴകളും തോടുകളുമാണ് ഇവയുടെ ആവാസകേന്ദ്രങ്ങൾ. ശരീരത്തിന് കറുപ്പിൽ മഞ്ഞ വരയും വളയങ്ങളുമുള്ള തുമ്പി.",
-    	 description2: "പെരുവാലൻ തുമ്പിയുമായി (Megalogomphus hannyngtoni) സാമ്യമുണ്ടെങ്കിലും ഇവയുടെ ഉദരത്തിന്റെ അവസാന ഭാഗം തടിച്ചതും, താഴത്തെ ഒരു ജോഡി ചെറുവാലുകൾക്ക് നീളക്കുറവുള്ളതു മൂലം തിരിച്ചറിയുവാൻ കഴിയും. തെക്കൻ കേരളത്തിലുള്ള കാടുകളിലും നാട്ടിൻ പുറങ്ങളിലും അപൂർവ്വമായി കാണപ്പെടുന്നു. നിത്യഹരിത വനങ്ങളിലെ ഒഴുക്കുള്ള ചെറിയ അരുവികളും പുഴകളുമാണ് ഈ തുമ്പിയുടെ ആവാസ കേന്ദ്രം. കണ്ണുകൾക്ക് പച്ച പച്ചനിറമാണ്.",
-     description3: "തലയുടെ മുൻഭാഗം മഞ്ഞ നിറമാണ്. മഞ്ഞ നിറമുള്ള പിൻ കഴുത്തിൽ കറുത്ത വരയുണ്ട്. കറുത്ത നിറമുള്ള ഉരസ്സിൽ വീതിയുള്ള മഞ്ഞ വരകളുണ്ട്. കറുത്ത നിറമുള്ള ഉദരത്തിൽ മഞ്ഞ പൊട്ടുകളും വളയങ്ങളുമുണ്ട്. കാലുകൾക്ക് കറുപ്പ് നിറമാണ്. ചിറകുകളുടെ അഗ്രഭാഗത്ത് ചിലപ്പോൾ ഇളം തവിട്ട് നിറം കാണുവാൻ കഴിയും. ഇവയുടെ പെൺതുമ്പിയെ ഇതുവരെ കണ്ടെത്തുവാൻ സാധിച്ചിട്ടില്ല.",
-     description4: "അരുവിയുടെ മധ്യത്തിലും വശങ്ങളിലും ഉള്ള ഉണക്ക മരച്ചില്ലകളുടെ തുഞ്ചത്തോ, പാറപ്പുറത്തോ വന്നിരിക്കുന്ന സ്വഭാവമുണ്ട്. വെയിലുള്ളപ്പോൾ വാല് മുകളിലേക്ക് ഉയർത്തിപ്പിടിച്ച് ഇരിക്കാറുണ്ട്.",
+    description2: "പെരുവാലൻ തുമ്പിയുമായി (Megalogomphus hannyngtoni) സാമ്യമുണ്ടെങ്കിലും ഇവയുടെ ഉദരത്തിന്റെ അവസാന ഭാഗം തടിച്ചതും, താഴത്തെ ഒരു ജോഡി ചെറുവാലുകൾക്ക് നീളക്കുറവുള്ളതു മൂലം തിരിച്ചറിയുവാൻ കഴിയും. തെക്കൻ കേരളത്തിലുള്ള കാടുകളിലും നാട്ടിൻ പുറങ്ങളിലും അപൂർവ്വമായി കാണപ്പെടുന്നു. ",
+     description3: "നിത്യഹരിത വനങ്ങളിലെ ഒഴുക്കുള്ള ചെറിയ അരുവികളും പുഴകളുമാണ് ഈ തുമ്പിയുടെ ആവാസ കേന്ദ്രം. കണ്ണുകൾക്ക് പച്ച പച്ചനിറമാണ്.തലയുടെ മുൻഭാഗം മഞ്ഞ നിറമാണ്. മഞ്ഞ നിറമുള്ള പിൻ കഴുത്തിൽ കറുത്ത വരയുണ്ട്. കറുത്ത നിറമുള്ള ഉരസ്സിൽ വീതിയുള്ള മഞ്ഞ വരകളുണ്ട്. കറുത്ത നിറമുള്ള ഉദരത്തിൽ മഞ്ഞ പൊട്ടുകളും വളയങ്ങളുമുണ്ട്. കാലുകൾക്ക് കറുപ്പ് നിറമാണ്. ",
+     description4: "ചിറകുകളുടെ അഗ്രഭാഗത്ത് ചിലപ്പോൾ ഇളം തവിട്ട് നിറം കാണുവാൻ കഴിയും. ഇവയുടെ പെൺതുമ്പിയെ ഇതുവരെ കണ്ടെത്തുവാൻ സാധിച്ചിട്ടില്ല. അരുവിയുടെ മധ്യത്തിലും വശങ്ങളിലും ഉള്ള ഉണക്ക മരച്ചില്ലകളുടെ തുഞ്ചത്തോ, പാറപ്പുറത്തോ വന്നിരിക്കുന്ന സ്വഭാവമുണ്ട്. വെയിലുള്ളപ്പോൾ വാല് മുകളിലേക്ക് ഉയർത്തിപ്പിടിച്ച് ഇരിക്കാറുണ്ട്.",
      description5: "",
     mainPhoto: "~/images/Gomphidia_kodaguensis_main.jpg",
     photos: [
-      { url: "~/images/Gomphidia_kodaguensis_male1.jpg", credit: "ആൺതുമ്പി © 2010 Jee & Rani Nature Photography", sourceUrl: "https://en.wikipedia.org/wiki/File:Gomphidia_kodaguensis-Kadavoor-2016-06-15-003.jpg" },
-      { url: "~/images/Gomphidia_kodaguensis_female1.jpg", credit: "പെൺതുമ്പി © Nithya S V", sourceUrl: "https://www.inaturalist.org/observations/78033534" }
+      { url: "~/images/Gomphidia_kodaguensis_male1.jpg", credit: "ആൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Gomphidia_kodaguensis-Kadavoor-2016-06-15-003.jpg" },
+      { url: "~/images/Gomphidia_kodaguensis_female1.jpg", credit: "പെൺതുമ്പി © Nithya S V", "sourceUrl": "https://www.inaturalist.org/observations/78033534" }
 	  ],
     speciesLink: "https://www.inaturalist.org/taxa/101646-Gomphidia-kodaguensis",
     wikipediaLink: "https://en.wikipedia.org/wiki/Gomphidia_kodaguensis"
@@ -443,7 +443,7 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Heliogomphus_kalarensis_main.jpg",
     photos: [
-      { url: "~/images/Heliogomphus_kalarensis_male1.jpg", credit: "ആൺതുമ്പി © കലേഷ് സദാശിവന്‍", sourceUrl: "https://www.researchgate.net/publication/366485051_Taxonomic_notes_on_the_genus_Heliogomphus_Laidlaw_1922_Odonata_Gomphidae_with_a_redescription_of_H_kalarensis_Fraser_1934_from_southern_India" }
+      { url: "~/images/Heliogomphus_kalarensis_male1.jpg", credit: "ആൺതുമ്പി © കലേഷ് സദാശിവന്‍", "sourceUrl": "https://www.researchgate.net/publication/366485051_Taxonomic_notes_on_the_genus_Heliogomphus_Laidlaw_1922_Odonata_Gomphidae_with_a_redescription_of_H_kalarensis_Fraser_1934_from_southern_India" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/102423-Heliogomphus-kalarensis",
     wikipediaLink: "https://en.wikipedia.org/wiki/Heliogomphus"
@@ -462,9 +462,9 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Heliogomphus_promelas_main.jpg",
     photos: [
-      { url: "~/images/Heliogomphus_promelas_male1.jpg", credit: "ആൺതുമ്പി © രെജി ചന്ദ്രന്‍", sourceUrl: "https://www.inaturalist.org/observations/80740357" },
-      { url: "~/images/Heliogomphus_promelas_female1.jpg", credit: "പെൺതുമ്പി © അഫ്സര്‍ നായക്കന്‍", sourceUrl: "https://www.inaturalist.org/observations/121995526" },
-	  { url: "~/images/Heliogomphus_promelas_male2.jpg", credit: "ആൺതുമ്പി‍ © Karthik", sourceUrl: "https://www.inaturalist.org/observations/104515226" }
+      { url: "~/images/Heliogomphus_promelas_male1.jpg", credit: "ആൺതുമ്പി © രെജി ചന്ദ്രന്‍", "sourceUrl": "https://www.inaturalist.org/observations/80740357" },
+      { url: "~/images/Heliogomphus_promelas_female1.jpg", credit: "പെൺതുമ്പി © അഫ്സര്‍ നായക്കന്‍", "sourceUrl": "https://www.inaturalist.org/observations/121995526" },
+	  { url: "~/images/Heliogomphus_promelas_male2.jpg", credit: "ആൺതുമ്പി‍ © Karthik", "sourceUrl": "https://www.inaturalist.org/observations/104515226" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/102427-Heliogomphus-promelas",
     wikipediaLink: "https://en.wikipedia.org/wiki/Heliogomphus_promelas"
@@ -483,8 +483,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Ictinogomphus_rapax_main.jpg",
     photos: [
-      { url: "~/images/Ictinogomphus_rapax_male1.jpg", credit: "ആൺതുമ്പി © Charles J. Sharp", sourceUrl: "https://en.wikipedia.org/wiki/File:Indian_common_clubtail_(Ictinogomphus_rapax)_male_3.jpg" },
-      { url: "~/images/Ictinogomphus_rapax_female1.jpg", credit: "പെൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", sourceUrl: "https://en.wikipedia.org/wiki/File:Ictinogomphus_rapax_(cropped).jpg" }
+      { url: "~/images/Ictinogomphus_rapax_male1.jpg", credit: "ആൺതുമ്പി © Charles J. Sharp", "sourceUrl": "https://en.wikipedia.org/wiki/File:Indian_common_clubtail_(Ictinogomphus_rapax)_male_3.jpg" },
+      { url: "~/images/Ictinogomphus_rapax_female1.jpg", credit: "പെൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", "sourceUrl": "https://en.wikipedia.org/wiki/File:Ictinogomphus_rapax_(cropped).jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/103289-Ictinogomphus-rapax",
     wikipediaLink: "https://en.wikipedia.org/wiki/Ictinogomphus_rapax"
@@ -503,8 +503,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Lamelligomphus_nilgiriensis_main.jpg",
     photos: [
-      { url: "~/images/Lamelligomphus_nilgiriensis_male1.jpg", credit: "ആൺതുമ്പി © Thomson Saburaj", sourceUrl: "https://en.wikipedia.org/wiki/File:Onychogomphus_species.jpg" },
-      { url: "~/images/Lamelligomphus_nilgiriensis_female1.jpg", credit: "പെൺതുമ്പി © 2010 Jee & Rani Nature Photography", sourceUrl: "https://commons.wikimedia.org/wiki/File:Onychogomphus_nilgiriensis-Silent_Valley-2016-08-14-002.jpg" }
+      { url: "~/images/Lamelligomphus_nilgiriensis_male1.jpg", credit: "ആൺതുമ്പി © Thomson Saburaj", "sourceUrl": "https://en.wikipedia.org/wiki/File:Onychogomphus_species.jpg" },
+      { url: "~/images/Lamelligomphus_nilgiriensis_female1.jpg", credit: "പെൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Onychogomphus_nilgiriensis-Silent_Valley-2016-08-14-002.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/1134286-Lamelligomphus-nilgiriensis",
     wikipediaLink: "https://en.wikipedia.org/wiki/Lamelligomphus_nilgiriensis"
@@ -523,9 +523,9 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Macrogomphus_wynaadicus_main.jpg",
     photos: [
-      { url: "~/images/Macrogomphus_wynaadicus_male1.jpg", credit: "ആൺതുമ്പി © രെജി ചന്ദ്രന്‍", sourceUrl: "https://www.inaturalist.org/observations/80740552" },
-      { url: "~/images/Macrogomphus_wynaadicus_female1.jpg", credit: "പെൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", sourceUrl: "https://en.wikipedia.org/wiki/File:Wayanad_Bowtail_(Macrogomphus_wynaadicus)female._%E0%B4%B5%E0%B4%AF%E0%B4%A8%E0%B4%BE%E0%B4%9F%E0%B5%BB_%E0%B4%95%E0%B4%9F%E0%B5%81%E0%B4%B5.jpg" },
-	  { url: "~/images/Macrogomphus_wynaadicus_male2.jpg", credit: "ആൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", sourceUrl: "https://en.wikipedia.org/wiki/File:Wayanad_Bowtail_(Macrogomphus_wynaadicus)male._%E0%B4%B5%E0%B4%AF%E0%B4%A8%E0%B4%BE%E0%B4%9F%E0%B5%BB_%E0%B4%95%E0%B4%9F%E0%B5%81%E0%B4%B5.jpg" }
+      { url: "~/images/Macrogomphus_wynaadicus_male1.jpg", credit: "ആൺതുമ്പി © രെജി ചന്ദ്രന്‍", "sourceUrl": "https://www.inaturalist.org/observations/80740552" },
+      { url: "~/images/Macrogomphus_wynaadicus_female1.jpg", credit: "പെൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", "sourceUrl": "https://en.wikipedia.org/wiki/File:Wayanad_Bowtail_(Macrogomphus_wynaadicus)female._%E0%B4%B5%E0%B4%AF%E0%B4%A8%E0%B4%BE%E0%B4%9F%E0%B5%BB_%E0%B4%95%E0%B4%9F%E0%B5%81%E0%B4%B5.jpg" },
+	  { url: "~/images/Macrogomphus_wynaadicus_male2.jpg", credit: "ആൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", "sourceUrl": "https://en.wikipedia.org/wiki/File:Wayanad_Bowtail_(Macrogomphus_wynaadicus)male._%E0%B4%B5%E0%B4%AF%E0%B4%A8%E0%B4%BE%E0%B4%9F%E0%B5%BB_%E0%B4%95%E0%B4%9F%E0%B5%81%E0%B4%B5.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/105015-Macrogomphus-wynaadicus",
     wikipediaLink: "https://en.wikipedia.org/wiki/Macrogomphus_wynaadicus"
@@ -544,8 +544,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Megalogomphus_hannyngtoni_main.jpg",
     photos: [
-      { url: "~/images/Megalogomphus_hannyngtoni_male1.jpg", credit: "ആൺതുമ്പി © രെജി ചന്ദ്രന്‍", sourceUrl: "https://commons.wikimedia.org/wiki/File:Megalogomphus_hannyngtoni_by_Reji_Chandran.jpg" },
-      { url: "~/images/Megalogomphus_hannyngtoni_male2.jpg", credit: "ആൺതുമ്പി © വിവേക് ചന്ദ്രന്‍ എ", sourceUrl: "https://www.inaturalist.org/observations/123801367" }
+      { url: "~/images/Megalogomphus_hannyngtoni_male1.jpg", credit: "ആൺതുമ്പി © രെജി ചന്ദ്രന്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Megalogomphus_hannyngtoni_by_Reji_Chandran.jpg" },
+      { url: "~/images/Megalogomphus_hannyngtoni_male2.jpg", credit: "ആൺതുമ്പി © വിവേക് ചന്ദ്രന്‍ എ", "sourceUrl": "https://www.inaturalist.org/observations/123801367" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/105432-Megalogomphus-hannyngtoni",
     wikipediaLink: "https://en.wikipedia.org/wiki/Megalogomphus_hannyngtoni"
@@ -564,7 +564,7 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Megalogomphus_superbus_main.jpg",
     photos: [
-      { url: "~/images/Megalogomphus_superbus_male1.jpg", credit: "ആൺതുമ്പി © Gopal Krishnan", sourceUrl: "https://en.wikipedia.org/wiki/File:Megalogomphus_superbus_by_Gopal_Krishnan.jpg" }
+      { url: "~/images/Megalogomphus_superbus_male1.jpg", credit: "ആൺതുമ്പി © Gopal Krishnan", "sourceUrl": "https://en.wikipedia.org/wiki/File:Megalogomphus_superbus_by_Gopal_Krishnan.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/105435-Megalogomphus-superbus",
     wikipediaLink: "https://en.wikipedia.org/wiki/Megalogomphus_superbus"
@@ -583,8 +583,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Merogomphus_longistigma_main.jpg",
     photos: [
-      { url: "~/images/Merogomphus_longistigma_male1.jpg", credit: "ആൺതുമ്പി © വിവേക് ചന്ദ്രന്‍ എ", sourceUrl: "https://en.wikipedia.org/wiki/File:Merogomphus_longistigma_from_Wayanad.jpg" },
-      { url: "~/images/Merogomphus_longistigma_female1.jpg", credit: "പെൺതുമ്പി © മുനീർ തോൽപ്പെട്ടി", sourceUrl: "https://en.wikipedia.org/wiki/File:Merogomphus_longistigma.jpg" }
+      { url: "~/images/Merogomphus_longistigma_male1.jpg", credit: "ആൺതുമ്പി © വിവേക് ചന്ദ്രന്‍ എ", "sourceUrl": "https://en.wikipedia.org/wiki/File:Merogomphus_longistigma_from_Wayanad.jpg" },
+      { url: "~/images/Merogomphus_longistigma_female1.jpg", credit: "പെൺതുമ്പി © മുനീർ തോൽപ്പെട്ടി", "sourceUrl": "https://en.wikipedia.org/wiki/File:Merogomphus_longistigma.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/105600-Merogomphus-longistigma",
     wikipediaLink: "https://en.wikipedia.org/wiki/Merogomphus_longistigma"
@@ -603,9 +603,9 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Merogomphus_tamaracherriensis_main.jpg",
     photos: [
-      { url: "~/images/Merogomphus_tamaracherriensis_male1.jpg", credit: "ആൺതുമ്പി © ഡേവിഡ് രാജു", sourceUrl: "https://en.wikipedia.org/wiki/File:Davidraju_CRW_2034.jpg" },
-      { url: "~/images/Merogomphus_tamaracherriensis_female1.jpg", credit: "പെൺതുമ്പി © എബ്രഹാം സാമുവേല്‍", sourceUrl: "https://en.wikipedia.org/wiki/File:Merogomphus_tamaracherriensis_-_female_Thattekad.jpg" },
-	  { url: "~/images/Merogomphus_tamaracherriensis_male2.jpg", credit: "ആൺതുമ്പി - കുറുവാല്‍ © 2010 Jee & Rani Nature Photography", sourceUrl: "https://en.wikipedia.org/wiki/File:Merogomphus_tamaracherriensis-Kadavoor-2016-06-19-002.jpg" }
+      { url: "~/images/Merogomphus_tamaracherriensis_male1.jpg", credit: "ആൺതുമ്പി © ഡേവിഡ് രാജു", "sourceUrl": "https://en.wikipedia.org/wiki/File:Davidraju_CRW_2034.jpg" },
+      { url: "~/images/Merogomphus_tamaracherriensis_female1.jpg", credit: "പെൺതുമ്പി © എബ്രഹാം സാമുവേല്‍", "sourceUrl": "https://en.wikipedia.org/wiki/File:Merogomphus_tamaracherriensis_-_female_Thattekad.jpg" },
+	  { url: "~/images/Merogomphus_tamaracherriensis_male2.jpg", credit: "ആൺതുമ്പി - കുറുവാല്‍ © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Merogomphus_tamaracherriensis-Kadavoor-2016-06-19-002.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/1071417-Merogomphus-tamaracherriensis",
     wikipediaLink: "https://en.wikipedia.org/wiki/Merogomphus_tamaracherriensis"
@@ -624,9 +624,9 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Microgomphus_souteri_main.jpg",
     photos: [
-      { url: "~/images/Microgomphus_souteri_male1.jpg", credit: "ആൺതുമ്പി © വിവേക് ചന്ദ്രന്‍ എ", sourceUrl: "https://commons.wikimedia.org/wiki/File:Microgomphus_souteri_from_Wayanad.jpg" },
-      { url: "~/images/Microgomphus_souteri_female1.jpg", credit: "പെൺതുമ്പി © 2010 Jee & Rani Nature Photography", sourceUrl: "https://commons.wikimedia.org/wiki/File:Microgomphus_souteri_at_Kadavoor.jpg" },
-	  { url: "~/images/Microgomphus_souteri_male2.jpg", credit: "ആൺതുമ്പി © രെജി ചന്ദ്രന്‍", sourceUrl: "https://www.inaturalist.org/observations/80741727" }
+      { url: "~/images/Microgomphus_souteri_male1.jpg", credit: "ആൺതുമ്പി © വിവേക് ചന്ദ്രന്‍ എ", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Microgomphus_souteri_from_Wayanad.jpg" },
+      { url: "~/images/Microgomphus_souteri_female1.jpg", credit: "പെൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Microgomphus_souteri_at_Kadavoor.jpg" },
+	  { url: "~/images/Microgomphus_souteri_male2.jpg", credit: "ആൺതുമ്പി © രെജി ചന്ദ്രന്‍", "sourceUrl": "https://www.inaturalist.org/observations/80741727" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/105781-Microgomphus-souteri",
     wikipediaLink: "https://en.wikipedia.org/wiki/Microgomphus_souteri"
@@ -645,8 +645,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Melligomphus_acinaces_main.jpg",
     photos: [
-      { url: "~/images/Melligomphus_acinaces_male1.jpg", credit: "ആൺതുമ്പി © രെജി ചന്ദ്രന്‍", sourceUrl: "https://www.inaturalist.org/observations/80741135" },
-      { url: "~/images/Melligomphus_acinaces_female1.jpg", credit: "പെൺതുമ്പി © രെജി ചന്ദ്രന്‍", sourceUrl: "https://commons.wikimedia.org/wiki/File:Melligomphus_acinaces_female.jpg" }
+      { url: "~/images/Melligomphus_acinaces_male1.jpg", credit: "ആൺതുമ്പി © രെജി ചന്ദ്രന്‍", "sourceUrl": "https://www.inaturalist.org/observations/80741135" },
+      { url: "~/images/Melligomphus_acinaces_female1.jpg", credit: "പെൺതുമ്പി © രെജി ചന്ദ്രന്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Melligomphus_acinaces_female.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/1134283-Melligomphus-acinaces",
     wikipediaLink: "https://en.wikipedia.org/wiki/Melligomphus_acinaces"
@@ -665,7 +665,7 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/assets/main_photo_1200x900.jpg",
     photos: [
-      { url: "~/assets/male_1.jpg", credit: " © ", sourceUrl: "https://" }
+      { url: "~/assets/male_1.jpg", credit: " © ", "sourceUrl": "https://" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/107596-Onychogomphus-malabarensis",
     wikipediaLink: "https://en.wikipedia.org/wiki/Onychogomphus_malabarensis"
@@ -684,8 +684,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Onychogomphus_striatus_main.jpg",
     photos: [
-      { url: "~/images/Onychogomphus_striatus_male1.jpg", credit: "ആൺതുമ്പി © രെജി ചന്ദ്രന്‍", sourceUrl: "https://www.inaturalist.org/observations/80742115" },
-      { url: "~/images/Onychogomphus_striatus_female1.jpg", credit: "പെൺതുമ്പി © Thomson Saburaj", sourceUrl: "https://commons.wikimedia.org/wiki/File:Onychogomphus_striatus_-_female.jpg" }
+      { url: "~/images/Onychogomphus_striatus_male1.jpg", credit: "ആൺതുമ്പി © രെജി ചന്ദ്രന്‍", "sourceUrl": "https://www.inaturalist.org/observations/80742115" },
+      { url: "~/images/Onychogomphus_striatus_female1.jpg", credit: "പെൺതുമ്പി © Thomson Saburaj", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Onychogomphus_striatus_-_female.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/562629-Nychogomphus-striatus",
     wikipediaLink: "https://en.wikipedia.org/wiki/Nychogomphus_striatus"
@@ -704,10 +704,10 @@ const defaultOdonates = [
      description5: "അരുവികളുടെയും പുഴകകളുടെയും കരയിലും, തടാകങ്ങൾ, കുളങ്ങൾ തുടങ്ങിയ ജലാശയങ്ങളുടെ തീരത്തും ഇവയെ സാധാരണമായി കാണാം. വർഷം മുഴുവനും ഇവയെ കാണാറുണ്ട്.  ഒഴുകുന്ന നദികളിലും, ചെറിയ കുളങ്ങളിലും, ചതുപ്പു നിലങ്ങളിലുമെല്ലാം ഇവ പ്രജനനം നടത്തുന്നു.",
     mainPhoto: "~/images/Paragomphus_lineatus_main.jpg",
     photos: [
-      { url: "~/images/Paragomphus_lineatus_male1.jpg", credit: "ആൺതുമ്പി © ബ്രിജേഷ് പൂക്കോട്ടൂര്‍", sourceUrl: "https://commons.wikimedia.org/wiki/File:Paragomphus_lineatus_(Selys,_1850)_Male_3.jpg" },
-      { url: "~/images/Paragomphus_lineatus_female1.jpg", credit: "പെൺതുമ്പി © എബ്രഹാം സാമുവേല്‍", sourceUrl: "https://commons.wikimedia.org/wiki/File:Paragomphus_lineatus_(female_-_TIES2)_(2).jpg" },
-	  { url: "~/images/Paragomphus_lineatus_male4.jpg", credit: "ആൺതുമ്പി  © ബ്രിജേഷ് പൂക്കോട്ടൂര്‍", sourceUrl: "https://commons.wikimedia.org/wiki/File:Paragomphus_lineatus_(Selys,_1850)_Male_9.jpg" },
- 	  { url: "~/images/Paragomphus_lineatus_male5.jpg", credit: "ആൺതുമ്പി - കുറുവാല്‍ © ബ്രിജേഷ് പൂക്കോട്ടൂര്‍", sourceUrl: "https://commons.wikimedia.org/wiki/File:Paragomphus_lineatus_(Selys,_1850)_Male_7.jpg" }
+      { url: "~/images/Paragomphus_lineatus_male1.jpg", credit: "ആൺതുമ്പി © ബ്രിജേഷ് പൂക്കോട്ടൂര്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paragomphus_lineatus_(Selys,_1850)_Male_3.jpg" },
+      { url: "~/images/Paragomphus_lineatus_female1.jpg", credit: "പെൺതുമ്പി © എബ്രഹാം സാമുവേല്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paragomphus_lineatus_(female_-_TIES2)_(2).jpg" },
+	  { url: "~/images/Paragomphus_lineatus_male4.jpg", credit: "ആൺതുമ്പി  © ബ്രിജേഷ് പൂക്കോട്ടൂര്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paragomphus_lineatus_(Selys,_1850)_Male_9.jpg" },
+ 	  { url: "~/images/Paragomphus_lineatus_male5.jpg", credit: "ആൺതുമ്പി - കുറുവാല്‍ © ബ്രിജേഷ് പൂക്കോട്ടൂര്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paragomphus_lineatus_(Selys,_1850)_Male_7.jpg" }
 	  ],
     speciesLink: "https://www.inaturalist.org/taxa/108506-Paragomphus-lineatus",
     wikipediaLink: "https://en.wikipedia.org/wiki/Paragomphus_lineatus"
@@ -726,8 +726,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Acisoma_panorpoides_main.jpg",
     photos: [
-      { url: "~/images/Acisoma_panorpoides_male1.jpg", credit: "ആൺതുമ്പി © 2010 Jee & Rani Nature Photography", sourceUrl: "https://en.wikipedia.org/wiki/File:Acisoma_panorpoides-Kadavoor-2016-09-07-001.jpg" },
-      { url: "~/images/Acisoma_panorpoides_female1.jpg", credit: "പെൺതുമ്പി © Charles J. Sharp", sourceUrl: "https://en.wikipedia.org/wiki/File:Asian_pintail_(Acisoma_panorpoides)_female_Phuket_2.jpg" }
+      { url: "~/images/Acisoma_panorpoides_male1.jpg", credit: "ആൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Acisoma_panorpoides-Kadavoor-2016-09-07-001.jpg" },
+      { url: "~/images/Acisoma_panorpoides_female1.jpg", credit: "പെൺതുമ്പി © Charles J. Sharp", "sourceUrl": "https://en.wikipedia.org/wiki/File:Asian_pintail_(Acisoma_panorpoides)_female_Phuket_2.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/93195-Acisoma-panorpoides",
     wikipediaLink: "https://en.wikipedia.org/wiki/Acisoma_panorpoides"
@@ -740,14 +740,14 @@ const defaultOdonates = [
 	sciName: "Aethriamanta brevipennis (Rambur, 1842)",
     family: "Libellulidae / Skimmers and Hawks / നീര്‍മുത്തന്‍‍മാര്‍",
     description1: "കേരളത്തിലെ തണ്ണീർതടങ്ങളിൽ കണ്ടുവരുന്ന തടിച്ച ശരീരമുള്ള കുറിയ ഒരിനം കല്ലൻ തുമ്പിയാണ് ചെങ്കുറുവാലൻ.   ശരീരപ്രകൃതി ആൺ-പെൺ തുമ്പികൾ തമ്മിൽ നല്ല രൂപവ്യത്യാസങ്ങളുണ്ട്. ആൺതുമ്പിക്ക് കടുത്ത ചുവപ്പു നിറവും പെൺതുമ്പിക്ക് മഞ്ഞയിൽ കറുത്ത വരകളുമുള്ള ശരീരമാണ്.",
-    description2: "ശരീരമുയർത്തിപ്പിടിച്ച് വെയിൽ കൊള്ളുന്ന പ്രത്യേക സ്വഭാവം ഇവയിൽ കാണപ്പെടുന്നു. ഒരേ ചില്ലയിൽ തന്നെ സ്ഥിരമായി ഇരിക്കുകയും പ്രാദേശികമായ മേധാവിത്വവും ഇവ പ്രകടിപ്പിക്കുന്നു. സെപ്റ്റംബർ, ഒക്ടോബർ മാസങ്ങളിലാണ് ഇവ കൂടുതലായി കാണപ്പെടുന്നത്.   ആവാസവ്യവസ്ഥ ഇന്ത്യ, ബംഗ്ലാദേശ്, ഇന്തോനേഷ്യ, മലേഷ്യ, മ്യാന്മാർ, സിംഗപ്പൂർ, ശ്രീലങ്ക, തായ്‌ലന്റ്, വിയറ്റ്നാം എന്നീ രാജ്യങ്ങൾ ഇവയുടെ ആവാസമേഖലകളാണ്.",
-     description3: "ജലസസ്യങ്ങൾ സമൃദമായുള്ള തോടുകളിലും കുളങ്ങളിലും കനാലുകളിലും വെള്ളക്കെട്ടിന്റെയുമെല്ലാം അരികിൽ ഈ തുമ്പിയെ കാണാനാകും. ജലസസ്യങ്ങളും കുളവാഴകൾക്കും മീതെ പറന്നുനടക്കുന്ന ചെറു പ്രാണികളെയാണ് ഇവ പ്രധാനമായും ആഹരിക്കുന്നത്. കനാലുകളിലും വയലേലകളിലെ ചെറുവെള്ളക്കെട്ടുകളിലുമാണ് ഇവ മുട്ടയിടുന്നത്.",
-     description4: "",
+    description2: "ശരീരമുയർത്തിപ്പിടിച്ച് വെയിൽ കൊള്ളുന്ന പ്രത്യേക സ്വഭാവം ഇവയിൽ കാണപ്പെടുന്നു. ഒരേ ചില്ലയിൽ തന്നെ സ്ഥിരമായി ഇരിക്കുകയും പ്രാദേശികമായ മേധാവിത്വവും ഇവ പ്രകടിപ്പിക്കുന്നു. സെപ്റ്റംബർ, ഒക്ടോബർ മാസങ്ങളിലാണ് ഇവ കൂടുതലായി കാണപ്പെടുന്നത്.   ",
+     description3: "ഇന്ത്യ, ബംഗ്ലാദേശ്, ഇന്തോനേഷ്യ, മലേഷ്യ, മ്യാന്മാർ, സിംഗപ്പൂർ, ശ്രീലങ്ക, തായ്‌ലന്റ്, വിയറ്റ്നാം എന്നീ രാജ്യങ്ങൾ ഇവയുടെ ആവാസമേഖലകളാണ്.ജലസസ്യങ്ങൾ സമൃദമായുള്ള തോടുകളിലും കുളങ്ങളിലും കനാലുകളിലും വെള്ളക്കെട്ടിന്റെയുമെല്ലാം അരികിൽ ഈ തുമ്പിയെ കാണാനാകും.",
+     description4: " ജലസസ്യങ്ങളും കുളവാഴകൾക്കും മീതെ പറന്നുനടക്കുന്ന ചെറു പ്രാണികളെയാണ് ഇവ പ്രധാനമായും ആഹരിക്കുന്നത്. കനാലുകളിലും വയലേലകളിലെ ചെറുവെള്ളക്കെട്ടുകളിലുമാണ് ഇവ മുട്ടയിടുന്നത്.",
      description5: "",
     mainPhoto: "~/images/Aethriamanta_brevipennis_main.jpg",
     photos: [
-      { url: "~/images/Aethriamanta_brevipennis_male1.jpg", credit: "ആൺതുമ്പി © Charles J. Sharp", sourceUrl: "https://en.wikipedia.org/wiki/File:Scarlet_marsh_hawk_(Aethriamanta_brevipennis)_male.jpg" },
-      { url: "~/images/Aethriamanta_brevipennis_female1.jpg", credit: "പെൺതുമ്പി © വിനീത് വെങ്ങോലിസ്", sourceUrl: "https://en.wikipedia.org/wiki/File:Aethriamanta_brevipennis_7678.jpg" }
+      { url: "~/images/Aethriamanta_brevipennis_male1.jpg", credit: "ആൺതുമ്പി © Charles J. Sharp", "sourceUrl": "https://en.wikipedia.org/wiki/File:Scarlet_marsh_hawk_(Aethriamanta_brevipennis)_male.jpg" },
+      { url: "~/images/Aethriamanta_brevipennis_female1.jpg", credit: "പെൺതുമ്പി © വിനീത് വെങ്ങോലിസ്", "sourceUrl": "https://en.wikipedia.org/wiki/File:Aethriamanta_brevipennis_7678.jpg" }
 	  ],
     speciesLink: "https://www.inaturalist.org/taxa/93460-Aethriamanta-brevipennis",
     wikipediaLink: "https://en.wikipedia.org/wiki/Aethriamanta_brevipennis"
@@ -766,8 +766,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Brachydiplax_chalybea_main.jpg",
     photos: [
-      { url: "~/images/Brachydiplax_chalybea_male1.jpg", credit: "ആൺതുമ്പി © Charles J. Sharp", sourceUrl: "https://en.wikipedia.org/wiki/File:Rufous-backed_marsh_hawk_(Brachydiplax_chalybea)_male_Phi_Phi.jpg" },
-      { url: "~/images/Brachydiplax_chalybea_female1.jpg", credit: "പെൺതുമ്പി © 2010 Jee & Rani Nature Photography", sourceUrl: "https://en.wikipedia.org/wiki/File:Rufous_Backed_Marsh_Hawk_Brachydiplax_chalybea_Female_by_Kadavoor.jpg" }
+      { url: "~/images/Brachydiplax_chalybea_male1.jpg", credit: "ആൺതുമ്പി © Charles J. Sharp", "sourceUrl": "https://en.wikipedia.org/wiki/File:Rufous-backed_marsh_hawk_(Brachydiplax_chalybea)_male_Phi_Phi.jpg" },
+      { url: "~/images/Brachydiplax_chalybea_female1.jpg", credit: "പെൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Rufous_Backed_Marsh_Hawk_Brachydiplax_chalybea_Female_by_Kadavoor.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/95964-Brachydiplax-chalybea",
     wikipediaLink: "https://en.wikipedia.org/wiki/Brachydiplax_chalybea"
@@ -786,8 +786,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Brachydiplax_sobrina_main.jpg",
     photos: [
-      { url: "~/images/Brachydiplax_sobrina_male1.jpg", credit: "ആൺതുമ്പി © Charles J. Sharp", sourceUrl: "https://en.wikipedia.org/wiki/File:Little_blue_marsh_hawk_(Brachydiplax_sobrina)_young_male_Phuket_02.jpg" },
-      { url: "~/images/Brachydiplax_sobrina_female1.jpg", credit: "പെൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", sourceUrl: "https://en.wikipedia.org/wiki/File:Little_blue_marsh_hawk_(Brachydiplax_sobrina)_female.jpg" }
+      { url: "~/images/Brachydiplax_sobrina_male1.jpg", credit: "ആൺതുമ്പി © Charles J. Sharp", "sourceUrl": "https://en.wikipedia.org/wiki/File:Little_blue_marsh_hawk_(Brachydiplax_sobrina)_young_male_Phuket_02.jpg" },
+      { url: "~/images/Brachydiplax_sobrina_female1.jpg", credit: "പെൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", "sourceUrl": "https://en.wikipedia.org/wiki/File:Little_blue_marsh_hawk_(Brachydiplax_sobrina)_female.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/95968-Brachydiplax-sobrina",
     wikipediaLink: "https://en.wikipedia.org/wiki/Brachydiplax_sobrina"
@@ -806,8 +806,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Brachythemis_contaminata_main.jpg",
     photos: [
-      { url: "~/images/Brachythemis_contaminata_male1.jpg", credit: "ആൺതുമ്പി © Charles J. Sharp", sourceUrl: "https://en.wikipedia.org/wiki/File:Ditch_jewel_(Brachythemis_contaminata)_male_Kerala.jpg" },
-      { url: "~/images/Brachythemis_contaminata_female1.jpg", credit: "പെൺതുമ്പി © Joydeep", sourceUrl: "https://en.wikipedia.org/wiki/File:Brachythemis_contaminata_female_27052014_(2).jpg" }
+      { url: "~/images/Brachythemis_contaminata_male1.jpg", credit: "ആൺതുമ്പി © Charles J. Sharp", "sourceUrl": "https://en.wikipedia.org/wiki/File:Ditch_jewel_(Brachythemis_contaminata)_male_Kerala.jpg" },
+      { url: "~/images/Brachythemis_contaminata_female1.jpg", credit: "പെൺതുമ്പി © Joydeep", "sourceUrl": "https://en.wikipedia.org/wiki/File:Brachythemis_contaminata_female_27052014_(2).jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/95995-Brachythemis-contaminata",
     wikipediaLink: "https://en.wikipedia.org/wiki/Brachythemis_contaminata"
@@ -826,8 +826,8 @@ const defaultOdonates = [
      description5: "നാട്ടിൻ പുറങ്ങളിൽ മാത്രമല്ല പട്ടണപ്രദേശങ്ങളിലും മതിൽ തുമ്പികളെ ധാരാളം കാണാറുണ്ട്.  നഗരങ്ങളിൽ വീടുകളുടെ ടാങ്കുകളിലും, പൂന്തോട്ടങ്ങളിലെ ചെറു കുളങ്ങളിലുമെല്ലാം ഇവ മുട്ടയിട്ടു വളരുന്നു.  പലപ്പോഴും അക്വാറിയങ്ങളിലെ  മത്സ്യക്കുഞ്ഞുങ്ങളെ മതിൽ തുമ്പിയുടെ ലാർവകൾ തിന്നു തീർക്കുന്നതായി നിരീക്ഷിക്കപ്പെട്ടിട്ടുണ്ട്.",
     mainPhoto: "~/images/Bradinopyga_geminata_main.jpg",
     photos: [
-      { url: "~/images/Bradinopyga_geminata_male1.jpg", credit: "ആൺതുമ്പി © 2010 Jee & Rani Nature Photography", sourceUrl: "https://en.wikipedia.org/wiki/File:Bradinopyga_geminata_at_Kadavoor.jpg" },
-      { url: "~/images/Bradinopyga_geminata_female1.jpg", credit: "പെൺതുമ്പി © വിനീത് വെങ്ങോലിസ്", sourceUrl: "https://en.wikipedia.org/wiki/File:Bradinopyga_geminata_6562.jpg" }
+      { url: "~/images/Bradinopyga_geminata_male1.jpg", credit: "ആൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Bradinopyga_geminata_at_Kadavoor.jpg" },
+      { url: "~/images/Bradinopyga_geminata_female1.jpg", credit: "പെൺതുമ്പി © വിനീത് വെങ്ങോലിസ്", "sourceUrl": "https://en.wikipedia.org/wiki/File:Bradinopyga_geminata_6562.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/96001-Bradinopyga-geminata",
     wikipediaLink: "https://en.wikipedia.org/wiki/Bradinopyga_geminata"
@@ -839,15 +839,15 @@ const defaultOdonates = [
     scientificName: "Cratilla lineata calverti",
 	sciName: "Cratilla lineata calverti (Foerster, 1903)",
     family: "Libellulidae / Skimmers and Hawks / നീര്‍മുത്തന്‍‍മാര്‍",
-    description1: "കേരളത്തിൽ കാണപ്പെടുന്ന നീർമുത്തൻ കുടുംബത്തിൽ ഉള്ള ഒരു കല്ലൻതുമ്പിയാണ് കാട്ടുപതുങ്ങൻ. ഏഷ്യയിലെ മിക്കരാജ്യങ്ങളിലും ഇവയെ കാണാറുണ്ട്. മഞ്ഞ നിറത്തിൽ, ഉരസ്സിൽ തിളങ്ങുന്ന പച്ച വരകളുള്ള ഒരു തുമ്പിയാണ് കാട്ടുപതുങ്ങൻ.  ഉദരത്തിന് ഏകദേശം 31 -32 മില്ലീമീറ്റർ വലിപ്പമുണ്ടായിരിയ്ക്കും. കണ്ണുകളുടെ മുകൾ ഭാഗം  ഇരുണ്ട ചുവപ്പുകലർന്ന തവിട്ടു നിറത്തിലും, താഴ്ഭാഗം മങ്ങിയ നീല നിറത്തിലും കാണപ്പെടുന്നു.",
-    description2: "മഞ്ഞനിറത്തിലുള്ള ഉരസ്സിൽ തിരശ്ചീനമായി തിളങ്ങുന്ന പച്ച നിറത്തിലുള്ള വരകൾ കാണാം.  കറുത്ത നിറത്തിലുള്ള കാലുകളുടെ പിൻഭാഗം മഞ്ഞ നിറത്തിലാണ്. സുതാര്യമായ ചിറകുകളുടെ അഗ്ര ഭാഗത്ത് പലപ്പോഴും തവിട്ടു നിറം വ്യാപിച്ചു കാണാം. ചിറകിലെ പൊട്ടിന് മഞ്ഞ കലർന്ന വെള്ള നിറമാണ്. കറുത്ത ഉദരത്തിൽ മഞ്ഞ വരകളുണ്ട്.  ആൺതുമ്പികളും പെൺതുമ്പികളും കാഴ്ച്ചയിൽ വ്യത്യാസമില്ല.",
-     description3: "എങ്കിലും പൊതുവെ പെൺതുമ്പികളുടെ ശരീരത്തിന് വലിപ്പം കൂടുതലും, നിറങ്ങൾ മങ്ങിയും കാണപ്പെടുന്നു.   ആവാസവ്യവസ്ഥ കേരളത്തിലെ കാടുകളിൽ വളരെ സാധാരണമാണ് ഈ തുമ്പി. ചെറിയ വെള്ളക്കെട്ടുകളിലും കുളങ്ങളിലുമാണ് ഇതിനെ സാധാരണയായി കാണുന്നത്.  വനപാതയിൽ മഴയത്തുണ്ടാവുന്ന താത്കാലിക ചെളിക്കുണ്ടുകൾക്കരികിലെല്ലാം ഇവയെ കാണാം. ",
-     description4: "ഉണക്കച്ചില്ലകളിലും ചെറിയ മരക്കുറ്റികളിലുമാണ് ഇവ വിശ്രമിക്കുന്നത്.  സദാ ജലാശയത്തിന് അഭിമുഖമായി ഇരിക്കാൻ ഇഷ്ടപ്പെടുന്ന ആൺതുമ്പികൾ തങ്ങളുടെ അധീനപ്രദേശത്തേക്ക് വരുന്ന മറ്റു തുമ്പികളെ ആക്രമിക്കാറുണ്ട് . കാട്ടരുവികളോട് ചേർന്ന് കാണുന്ന ചതുപ്പുകളിലാണ് ഇവ സാധാരണയായി മുട്ടയിടുന്നത്.",
-     description5: "",
+    description1: "കേരളത്തിൽ കാണപ്പെടുന്ന നീർമുത്തൻ കുടുംബത്തിൽ ഉള്ള ഒരു കല്ലൻതുമ്പിയാണ് കാട്ടുപതുങ്ങൻ. ഏഷ്യയിലെ മിക്കരാജ്യങ്ങളിലും ഇവയെ കാണാറുണ്ട്. മഞ്ഞ നിറത്തിൽ, ഉരസ്സിൽ തിളങ്ങുന്ന പച്ച വരകളുള്ള ഒരു തുമ്പിയാണ് കാട്ടുപതുങ്ങൻ.  ഉദരത്തിന് ഏകദേശം 31 -32 മില്ലീമീറ്റർ വലിപ്പമുണ്ടായിരിയ്ക്കും.",
+    description2: "കണ്ണുകളുടെ മുകൾ ഭാഗം ഇരുണ്ട ചുവപ്പുകലർന്ന തവിട്ടു നിറത്തിലും, താഴ്ഭാഗം മങ്ങിയ നീല നിറത്തിലും കാണപ്പെടുന്നു.",
+     description3: "മഞ്ഞനിറത്തിലുള്ള ഉരസ്സിൽ തിരശ്ചീനമായി തിളങ്ങുന്ന പച്ച നിറത്തിലുള്ള വരകൾ കാണാം.  കറുത്ത നിറത്തിലുള്ള കാലുകളുടെ പിൻഭാഗം മഞ്ഞ നിറത്തിലാണ്. സുതാര്യമായ ചിറകുകളുടെ അഗ്ര ഭാഗത്ത് പലപ്പോഴും തവിട്ടു നിറം വ്യാപിച്ചു കാണാം. ചിറകിലെ പൊട്ടിന് മഞ്ഞ കലർന്ന വെള്ള നിറമാണ്. കറുത്ത ഉദരത്തിൽ മഞ്ഞ വരകളുണ്ട്.  ആൺതുമ്പികളും പെൺതുമ്പികളും കാഴ്ച്ചയിൽ വ്യത്യാസമില്ല.",
+     description4: "എങ്കിലും പൊതുവെ പെൺതുമ്പികളുടെ ശരീരത്തിന് വലിപ്പം കൂടുതലും, നിറങ്ങൾ മങ്ങിയും കാണപ്പെടുന്നു.   ആവാസവ്യവസ്ഥ കേരളത്തിലെ കാടുകളിൽ വളരെ സാധാരണമാണ് ഈ തുമ്പി. ചെറിയ വെള്ളക്കെട്ടുകളിലും കുളങ്ങളിലുമാണ് ഇതിനെ സാധാരണയായി കാണുന്നത്.  വനപാതയിൽ മഴയത്തുണ്ടാവുന്ന താത്കാലിക ചെളിക്കുണ്ടുകൾക്കരികിലെല്ലാം ഇവയെ കാണാം. ",
+     description5: "ഉണക്കച്ചില്ലകളിലും ചെറിയ മരക്കുറ്റികളിലുമാണ് ഇവ വിശ്രമിക്കുന്നത്.  സദാ ജലാശയത്തിന് അഭിമുഖമായി ഇരിക്കാൻ ഇഷ്ടപ്പെടുന്ന ആൺതുമ്പികൾ തങ്ങളുടെ അധീനപ്രദേശത്തേക്ക് വരുന്ന മറ്റു തുമ്പികളെ ആക്രമിക്കാറുണ്ട് . കാട്ടരുവികളോട് ചേർന്ന് കാണുന്ന ചതുപ്പുകളിലാണ് ഇവ സാധാരണയായി മുട്ടയിടുന്നത്.",
     mainPhoto: "~/images/Cratilla_lineata_calverti_main.jpg",
     photos: [
-      { url: "~/images/Cratilla_lineata_calverti_male1.jpg", credit: "ആൺതുമ്പി © 2010 Jee & Rani Nature Photography", sourceUrl: "https://en.wikipedia.org/wiki/File:Cratilla_lineata_male_2_by_kadavoor.jpg" },
-      { url: "~/images/Cratilla_lineata_calverti_female1.jpg", credit: "പെൺതുമ്പി © 2010 Jee & Rani Nature Photography", sourceUrl: "https://en.wikipedia.org/wiki/File:Cratilla_lineata_female_by_kadavoor.jpg" }
+      { url: "~/images/Cratilla_lineata_calverti_male1.jpg", credit: "ആൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Cratilla_lineata_male_2_by_kadavoor.jpg" },
+      { url: "~/images/Cratilla_lineata_calverti_female1.jpg", credit: "പെൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Cratilla_lineata_female_by_kadavoor.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/503507-Cratilla-lineata-calverti",
     wikipediaLink: "https://en.wikipedia.org/wiki/Cratilla_lineata"
@@ -859,15 +859,15 @@ const defaultOdonates = [
     scientificName: "Crocothemis servilia",
 	sciName: "Crocothemis servilia (Drury, 1773)",
     family: "Libellulidae / Skimmers and Hawks / നീര്‍മുത്തന്‍‍മാര്‍",
-    description1: "ശുദ്ധജലാശയങ്ങൾക്കു സമീപത്തായി സാധാരണ കാണപ്പെടുന്ന ഒരിനം കല്ലൻ തുമ്പിയാണ് വയൽത്തുമ്പി. മിക്ക ഏഷ്യൻ രാജ്യങ്ങളിലും ഇവയെ കാണാം. വയൽത്തുമ്പികളിൽ ആൺ/പെൺ തുമ്പികൾ കാഴ്ച്ചയിൽ വ്യത്യസ്തരാണ്. ഇവയുടെ ആൺതുമ്പികൾക്ക് കടുത്ത ചുവപ്പു നിറവും പെൺതുമ്പികൾക്കു മഞ്ഞനിറവുമാണ്.",
-    description2: "ആൺതുമ്പികളുടെയും പെൺതുമ്പികളുടെയും ഉദരത്തിന്റെ മുതുകുഭാഗത്ത്‌ കറുത്ത നീണ്ട ഒരു വരയുണ്ട്.   ആൺതുമ്പി പ്രായ പൂർത്തിയായ ആൺതുമ്പികളുടെ ശരീരത്തിന് ചുവപ്പു നിറമാണ്. ആൺതുമ്പികളുടെ ശിരസ്സിന് കടുത്ത രക്തവർണ്ണമാണ്. ഇരുണ്ട ചുവപ്പു നിറമാർന്ന കണ്ണുകളുടെ വശങ്ങളിൽ പർപ്പിൾ നിറം കാണാം. ഉദരവും ഉരസ്സും കടും ചുവപ്പു നിറത്തിൽ കാണപ്പെടുന്നു. ഉരസ്സിലും ഉദരത്തിലും കടും തവിട്ടു നിറത്തിലുള്ള വരകൾ കാണാം. ",
-     description3: "സുതാര്യമായ ചിറകുകളുടെ തുടക്കഭാഗത്ത് മഞ്ഞ നിറം വ്യാപിച്ചു കാണാം. ചിറകുകളിലെ പൊട്ടിന് ഇരുണ്ട തവിട്ടു നിറമാണ് .   പെൺതുമ്പി പെൺതുമ്പികളുടെ ശിരസ്സ് വിളറിയ മഞ്ഞനിറത്തിൽ കാണപ്പെടുന്നു. തവിട്ടു നിറത്തിലുള്ള കണ്ണുകളുടെ താഴ്ഭാഗത്ത് മഞ്ഞകലർന്ന പച്ച നിറം കാണാം. ഉരസ്സിനും കാലുകൾക്കും തവിട്ടു നിറമാണ്. ചിറകുകൾ ആൺതുമ്പികളുടേത് പോലെയാണെങ്കിലും തുടക്കത്തിലുള്ള മഞ്ഞ നിറം അല്പം വിളറിയതായി കാണപ്പെടുന്നു. ",
-     description4: "തവിട്ടു കലർന്ന മഞ്ഞ നിറത്തിലുള്ള ഉദരത്തിന് മുകളിലായി കറുത്ത ഒരു വര കാണാം.   ആവാസവ്യവസ്ഥ കേരളത്തിൽ സുലഭമായി കാണപ്പെടുന്ന ഒരു തുമ്പിയാണ് വയൽ തുമ്പി. കുളങ്ങൾ, ചെറിയ വെള്ളക്കെട്ടുകൾ, പുഴയോരങ്ങൾ, കിണറുകൾ, ടാങ്കുകൾ, നെൽപ്പാടങ്ങൾ എന്നിവിടങ്ങളിലെല്ലാം ഇവയെ കാണാം. വെള്ളത്തിലെ ഉയർന്നു നിൽക്കുന്ന കളസസ്യങ്ങളിൽ ഇരിക്കാൻ ഇഷ്ടപ്പെടുന്ന ഇവ അതിക്രമിച്ചു വരുന്ന മറ്റു തുമ്പികളെ തുരത്തി ഓടിക്കുന്നത് കാണാം.",
-     description5: "കുളങ്ങൾ, അരുവികൾ എന്നിവിടങ്ങളിലെല്ലാം മുട്ടയിട്ടു വളരുന്ന വയൽ തുമ്പിയെ വർഷം മുഴുവൻ കാണാൻ സാധിക്കും. നിലത്തു നിന്ന് ഉയരത്തിൽ പറക്കാൻ ഇഷ്ടപ്പെടാത്തവരാണ് ഈ തുമ്പികൾ. ആൺതുമ്പികളെയാണ് കൂടുതലായി കാണാൻ കഴിയുന്നത്. പക്ഷികൾ ധാരാളമായി ഇതിനെ ഭക്ഷിക്കുന്നതായും കണ്ടിട്ടുണ്ട്. വിശ്രമിക്കുമ്പോൾ ഇവയുടെ ചിറകുകൾ കീഴ്പ്പോട്ടായിരിക്കും.",
+    description1: "ശുദ്ധജലാശയങ്ങൾക്കു സമീപത്തായി സാധാരണ കാണപ്പെടുന്ന ഒരിനം കല്ലൻ തുമ്പിയാണ് വയൽത്തുമ്പി. മിക്ക ഏഷ്യൻ രാജ്യങ്ങളിലും ഇവയെ കാണാം. വയൽത്തുമ്പികളിൽ ആൺ/പെൺ തുമ്പികൾ കാഴ്ച്ചയിൽ വ്യത്യസ്തരാണ്. ഇവയുടെ ആൺതുമ്പികൾക്ക് കടുത്ത ചുവപ്പു നിറവും പെൺതുമ്പികൾക്കു മഞ്ഞനിറവുമാണ്. ആൺതുമ്പികളുടെയും പെൺതുമ്പികളുടെയും ഉദരത്തിന്റെ മുതുകുഭാഗത്ത്‌ കറുത്ത നീണ്ട ഒരു വരയുണ്ട്.",
+    description2: "പ്രായ പൂർത്തിയായ ആൺതുമ്പികളുടെ ശരീരത്തിന് ചുവപ്പു നിറമാണ്. ആൺതുമ്പികളുടെ ശിരസ്സിന് കടുത്ത രക്തവർണ്ണമാണ്. ഇരുണ്ട ചുവപ്പു നിറമാർന്ന കണ്ണുകളുടെ വശങ്ങളിൽ പർപ്പിൾ നിറം കാണാം. ഉദരവും ഉരസ്സും കടും ചുവപ്പു നിറത്തിൽ കാണപ്പെടുന്നു. ഉരസ്സിലും ഉദരത്തിലും കടും തവിട്ടു നിറത്തിലുള്ള വരകൾ കാണാം. ",
+     description3: "സുതാര്യമായ ചിറകുകളുടെ തുടക്കഭാഗത്ത് മഞ്ഞ നിറം വ്യാപിച്ചു കാണാം. പെൺതുമ്പികളുടെ ശിരസ്സ് വിളറിയ മഞ്ഞനിറത്തിൽ കാണപ്പെടുന്നു. തവിട്ടു നിറത്തിലുള്ള കണ്ണുകളുടെ താഴ്ഭാഗത്ത് മഞ്ഞകലർന്ന പച്ച നിറം കാണാം. ഉരസ്സിനും കാലുകൾക്കും തവിട്ടു നിറമാണ്. ",
+     description4: "തവിട്ടു കലർന്ന മഞ്ഞ നിറത്തിലുള്ള ഉദരത്തിന് മുകളിലായി കറുത്ത ഒരു വര കാണാം.   ആവാസവ്യവസ്ഥ കേരളത്തിൽ സുലഭമായി കാണപ്പെടുന്ന ഒരു തുമ്പിയാണ് വയൽ തുമ്പി. കുളങ്ങൾ, ചെറിയ വെള്ളക്കെട്ടുകൾ, പുഴയോരങ്ങൾ, കിണറുകൾ, ടാങ്കുകൾ, നെൽപ്പാടങ്ങൾ എന്നിവിടങ്ങളിലെല്ലാം ഇവയെ കാണാം. വെള്ളത്തിലെ ഉയർന്നു നിൽക്കുന്ന കളസസ്യങ്ങളിൽ ഇരിക്കാൻ ഇഷ്ടപ്പെടുന്ന ഇവ അതിക്രമിച്ചു വരുന്ന ",
+     description5: "മറ്റു തുമ്പികളെ തുരത്തി ഓടിക്കുന്നത് കാണാം. നിലത്തു നിന്ന് ഉയരത്തിൽ പറക്കാൻ ഇഷ്ടപ്പെടാത്തവരാണ് ഈ തുമ്പികൾ. ആൺതുമ്പികളെയാണ് കൂടുതലായി കാണാൻ കഴിയുന്നത്. പക്ഷികൾ ധാരാളമായി ഇതിനെ ഭക്ഷിക്കുന്നതായും കണ്ടിട്ടുണ്ട്. വിശ്രമിക്കുമ്പോൾ ഇവയുടെ ചിറകുകൾ കീഴ്പ്പോട്ടായിരിക്കും.",
     mainPhoto: "~/images/Crocothemis_servilia_main.jpg",
     photos: [
-      { url: "~/images/Crocothemis_servilia_male1.jpg", credit: "ആൺതുമ്പി © 2010 Jee & Rani Nature Photography", sourceUrl: "https://en.wikipedia.org/wiki/File:Crocothemis_servilia_male_by_kadavoor.jpg" },
-      { url: "~/images/Crocothemis_servilia_female1.jpg", credit: "പെൺതുമ്പി © 2010 Jee & Rani Nature Photography", sourceUrl: "https://en.wikipedia.org/wiki/File:Crocothemis_servilia_female_by_kadavoor.jpg" }
+      { url: "~/images/Crocothemis_servilia_male1.jpg", credit: "ആൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Crocothemis_servilia_male_by_kadavoor.jpg" },
+      { url: "~/images/Crocothemis_servilia_female1.jpg", credit: "പെൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Crocothemis_servilia_female_by_kadavoor.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/52055-Crocothemis-servilia",
     wikipediaLink: "https://en.wikipedia.org/wiki/Scarlet_skimmer"
@@ -886,8 +886,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Crocothemis_erythraea_main.jpg",
     photos: [
-      { url: "~/images/Crocothemis_erythraea_male1.jpg", credit: "ആൺതുമ്പി © Charles J. Sharp", sourceUrl: "https://en.wikipedia.org/wiki/File:Broad_scarlet_(Crocothemis_erythraea)_male_Cyprus.jpg" },
-      { url: "~/images/Crocothemis_erythraea_female1.jpg", credit: "പെൺതുമ്പി © Charles J. Sharp", sourceUrl: "https://en.wikipedia.org/wiki/File:Scarlet_darter_(Crocothemis_erythraea)_female_Bulgaria.jpg" }
+      { url: "~/images/Crocothemis_erythraea_male1.jpg", credit: "ആൺതുമ്പി © Charles J. Sharp", "sourceUrl": "https://en.wikipedia.org/wiki/File:Broad_scarlet_(Crocothemis_erythraea)_male_Cyprus.jpg" },
+      { url: "~/images/Crocothemis_erythraea_female1.jpg", credit: "പെൺതുമ്പി © Charles J. Sharp", "sourceUrl": "https://en.wikipedia.org/wiki/File:Scarlet_darter_(Crocothemis_erythraea)_female_Bulgaria.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/85030-Crocothemis-erythraea",
     wikipediaLink: "https://en.wikipedia.org/wiki/Scarlet_dragonfly"
@@ -906,8 +906,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Diplacodes_nebulosa_main.jpg",
     photos: [
-      { url: "~/images/Diplacodes_nebulosa_male1.jpg", credit: "ആൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", sourceUrl: "https://en.wikipedia.org/wiki/File:Black_Tipped_Ground_Skimmer_(Diplacodes_Nebulosa)_male.jpg" },
-      { url: "~/images/Diplacodes_nebulosa_female1.jpg", credit: "പെൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", sourceUrl: "https://en.wikipedia.org/wiki/File:Black_tipped_ground_skimmer_female_(36857328406).jpg" }
+      { url: "~/images/Diplacodes_nebulosa_male1.jpg", credit: "ആൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", "sourceUrl": "https://en.wikipedia.org/wiki/File:Black_Tipped_Ground_Skimmer_(Diplacodes_Nebulosa)_male.jpg" },
+      { url: "~/images/Diplacodes_nebulosa_female1.jpg", credit: "പെൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", "sourceUrl": "https://en.wikipedia.org/wiki/File:Black_tipped_ground_skimmer_female_(36857328406).jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/99329-Diplacodes-nebulosa",
     wikipediaLink: "https://en.wikipedia.org/wiki/Diplacodes_nebulosa"
@@ -919,15 +919,15 @@ const defaultOdonates = [
     scientificName: "Diplacodes trivialis",
 	sciName: "Diplacodes trivialis (Rambur, 1842)",
     family: "Libellulidae / Skimmers and Hawks / നീര്‍മുത്തന്‍‍മാര്‍",
-    description1: "ഇന്ത്യയടക്കം മിക്ക ഏഷ്യൻരാജ്യങ്ങളിലും സാധാരണയായി കാണപ്പെടുന്ന ചെറിയ ഇനം കല്ലൻ തുമ്പിയാണ് നാട്ടുനിലത്തൻ. ഇന്ത്യ, ചൈന, ജപ്പാൻ തുടങ്ങിയ ഏഷ്യൻ രാജ്യങ്ങൾ മുതൽ പസിഫിക് സമുദ്രത്തിലെ ദ്വീപുകളിലും ആസ്ട്രേലിയയിലും വരെ നാട്ടുനിലത്തനെ കാണാം. ആൺതുമ്പികൾ ആകെ നീലനിറത്തിലോ അല്ലെങ്കിൽ കറുത്ത പൊട്ടുള്ള നേർത്ത പച്ച കലർന്ന നീല നിറത്തിലും, പെൺതുമ്പികൾ മഞ്ഞനിറത്തിലും കാണപ്പെടുന്നു. ",
-    description2: "ആൺതുമ്പി ശിരസ്സിന് അല്പം വിളറിയ നീല നിറമാണ്.  ചുവപ്പു കലർന്ന തവിട്ടു നിറത്തിലുള്ള കണ്ണുകളുടെ കീഴ്ഭാഗം മങ്ങിയ നീല നിറത്തിലോ മഞ്ഞ കലർന്ന പച്ച നിറത്തിലോ കാണാം.  ഉരസ്സിന് പച്ച കലർന്ന മഞ്ഞ നിറമാണ്.   വയലറ്റ് കലർന്ന തവിട്ടു നിറമുള്ള ഉരസ്സിന്റെ മുൻഭാഗത്ത് നിറയെ ചെറിയ ചെറിയ പൊട്ടുകൾ കാണാം.  പച്ച കലർന്ന മഞ്ഞ നിറമുള്ള കാലുകളിൽ കറുത്ത പാടുകൾ കാണാം. ചിറകുകൾ സുതാര്യമാണ്. ",
-     description3: "മഞ്ഞ നിറത്തിലുള്ള ഉദരത്തിന്റെ വശങ്ങളിൽ കറുത്ത വരകളുണ്ട്.  ഉദരത്തിന്റെ അവസാന ഖണ്ഡങ്ങൾക്ക് കറുപ്പ് നിറമാണ്. പ്രായപൂർത്തിയായ ആൺതുമ്പികളുടെ ഉരസ്സിലും ഉദരത്തിലും നിറയെ നീല നിറത്തിലുള്ള പൊടികൾ തൂവിയത് പോലെ ഒരു ആവരണം (Pruinescence) വ്യാപിച്ചു കാണാം. ചെറുവാലുകൾ തൂവെള്ള നിറത്തിൽ കാണപ്പെടുന്നു.   പെൺതുമ്പി പെൺതുമ്പികൾ കാഴ്ച്ചയിൽ പ്രായപൂർത്തിയെത്താത്ത ആൺതുമ്പികളെപ്പോലെയാണ്.  എന്നാൽ പെൺതുമ്പികളുടെ ശരീരത്തിൽ പ്രൂയിനെസെൻസ് കാണാറില്ല. ",
-     description4: "കൂടാതെ പെൺതുമ്പികളുടെ ഉദരത്തിലുള്ള കറുത്ത പാടുകൾ കൂടുതൽ വീതി ഉള്ളവയായിരിക്കും. പെൺതുമ്പികളുടെ ചെറുവാലുകൾക്ക് മഞ്ഞ നിറമാണ് . സുതാര്യമായ ചിറകുകളും, പ്രായപൂർത്തിയായ തുമ്പികളുടെ ശരീരത്തിലുള്ള നീലനിറത്തിലുള്ള ആവരണവും, വെളുത്ത നിറത്തിലുള്ള ചെറുവാലുകളും നാട്ടു നിലത്തൻ തുമ്പിയെ സമാനമായ മറ്റു തുമ്പികളിൽ നിന്നും തിരിച്ചറിയാൻ സഹായിക്കുന്നു.   ആവാസവ്യവസ്ഥ കേരളത്തിൽ വളരെ സാധാരണയായി കണ്ടു വരുന്ന ഒരു തുമ്പിയാണ് നാട്ടുനിലത്തൻ.",
-     description5: "വർഷം മുഴുവൻ ഇവയെ കാണാറുണ്ട്.  പേര്  അന്വർത്ഥമാക്കും വിധം കൂടുതൽ സമയവും നിലത്താണ് ഇവയുടെ ഇരിപ്പിടം. വെയിലുള്ളപ്പോൾ ഉദരം മുകളിലോട്ട് ഉയർത്തിപ്പിടിച്ച് കൊണ്ട് തറയിലോ ചെറിയ കല്ലുകളിലോ ഇരിക്കാറുണ്ട്.  തന്റെ അധീനപ്രദേശത്ത് വരുന്ന മറ്റു തുമ്പികളെ ആട്ടിപ്പായിക്കുന്ന സ്വഭാവം ഈ തുമ്പികൾക്കുണ്ട്.  നാട്ടു നിലത്തൻ തുമ്പികൾ വലിയ കൂട്ടങ്ങളായി ദേശാടനം നടത്തുന്നതായി നിരീക്ഷിക്കപ്പെട്ടിട്ടുണ്ട്. കുളങ്ങൾ പോലെയുള്ള ചെറു ജലാശയങ്ങളിലാണ് നാട്ടുനിലത്തൻ മുട്ടയിടുന്നത്.",
+    description1: "ഇന്ത്യയടക്കം മിക്ക ഏഷ്യൻരാജ്യങ്ങളിലും സാധാരണയായി കാണപ്പെടുന്ന ചെറിയ ഇനം കല്ലൻ തുമ്പിയാണ് നാട്ടുനിലത്തൻ. ഇന്ത്യ, ചൈന, ജപ്പാൻ തുടങ്ങിയ ഏഷ്യൻ രാജ്യങ്ങൾ മുതൽ പസിഫിക് സമുദ്രത്തിലെ ദ്വീപുകളിലും ആസ്ട്രേലിയയിലും വരെ നാട്ടുനിലത്തനെ കാണാം. ആൺതുമ്പികൾ ആകെ നീലനിറത്തിലോ അല്ലെങ്കിൽ കറുത്ത പൊട്ടുള്ള നേർത്ത പച്ച കലർന്ന നീല നിറത്തിലും, ",
+    description2: "പെൺതുമ്പികൾ മഞ്ഞനിറത്തിലും കാണപ്പെടുന്നു. പ്രായപൂർത്തിയായ ആൺതുമ്പികളുടെ ഉരസ്സിലും ഉദരത്തിലും നിറയെ നീല നിറത്തിലുള്ള പൊടികൾ തൂവിയത് പോലെ ഒരു ആവരണം (Pruinescence) വ്യാപിച്ചു കാണാം. ചെറുവാലുകൾ തൂവെള്ള നിറത്തിൽ കാണപ്പെടുന്നു.",
+     description3: " പെൺതുമ്പി പെൺതുമ്പികൾ കാഴ്ച്ചയിൽ പ്രായപൂർത്തിയെത്താത്ത ആൺതുമ്പികളെപ്പോലെയാണ്. എന്നാൽ പെൺതുമ്പികളുടെ ശരീരത്തിൽ പ്രൂയിനെസെൻസ് കാണാറില്ല. കൂടാതെ പെൺതുമ്പികളുടെ ഉദരത്തിലുള്ള കറുത്ത പാടുകൾ കൂടുതൽ വീതി ഉള്ളവയായിരിക്കും. പെൺതുമ്പികളുടെ ചെറുവാലുകൾക്ക് മഞ്ഞ നിറമാണ്.",
+     description4: " സുതാര്യമായ ചിറകുകളും, പ്രായപൂർത്തിയായ തുമ്പികളുടെ ശരീരത്തിലുള്ള നീലനിറത്തിലുള്ള ആവരണവും, വെളുത്ത നിറത്തിലുള്ള ചെറുവാലുകളും നാട്ടു നിലത്തൻ തുമ്പിയെ സമാനമായ മറ്റു തുമ്പികളിൽ നിന്നും തിരിച്ചറിയാൻ സഹായിക്കുന്നു.  കേരളത്തിൽ വളരെ സാധാരണയായി കണ്ടു വരുന്ന ഒരു തുമ്പിയാണ് നാട്ടുനിലത്തൻ.",
+     description5: "പേര് അന്വർത്ഥമാക്കും വിധം കൂടുതൽ സമയവും നിലത്താണ് ഇവയുടെ ഇരിപ്പിടം. വെയിലുള്ളപ്പോൾ ഉദരം മുകളിലോട്ട് ഉയർത്തിപ്പിടിച്ച് കൊണ്ട് തറയിലോ ചെറിയ കല്ലുകളിലോ ഇരിക്കാറുണ്ട്.  തന്റെ അധീനപ്രദേശത്ത് വരുന്ന മറ്റു തുമ്പികളെ ആട്ടിപ്പായിക്കുന്ന സ്വഭാവം ഈ തുമ്പികൾക്കുണ്ട്.  നാട്ടു നിലത്തൻ തുമ്പികൾ വലിയ കൂട്ടങ്ങളായി ദേശാടനം നടത്തുന്നതായി നിരീക്ഷിക്കപ്പെട്ടിട്ടുണ്ട്.",
     mainPhoto: "~/images/Diplacodes_trivialis_main.jpg",
     photos: [
-      { url: "~/images/Diplacodes_trivialis_male1.jpg", credit: "ആൺതുമ്പി © വിനീത് വെങ്ങോലിസ്", sourceUrl: "https://en.wikipedia.org/wiki/File:Diplacodes_trivialis_05609.JPG" },
-      { url: "~/images/Diplacodes_trivialis_female1.jpg", credit: "പെൺതുമ്പി © Joydeep", sourceUrl: "https://en.wikipedia.org/wiki/File:Diplacodes_trivialis,_Burdwan,_West_Bengal,_India_13_09_2012_5.jpg" }
+      { url: "~/images/Diplacodes_trivialis_male1.jpg", credit: "ആൺതുമ്പി © വിനീത് വെങ്ങോലിസ്", "sourceUrl": "https://en.wikipedia.org/wiki/File:Diplacodes_trivialis_05609.JPG" },
+      { url: "~/images/Diplacodes_trivialis_female1.jpg", credit: "പെൺതുമ്പി © Joydeep", "sourceUrl": "https://en.wikipedia.org/wiki/File:Diplacodes_trivialis,_Burdwan,_West_Bengal,_India_13_09_2012_5.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/99331-Diplacodes-trivialis",
     wikipediaLink: "https://en.wikipedia.org/wiki/Diplacodes_trivialis"
@@ -946,8 +946,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Diplacodes_lefebvrii_main.jpg",
     photos: [
-      { url: "~/images/Diplacodes_lefebvrii_male1.jpg", credit: "ആൺതുമ്പി © Dattaprasad Sawant", sourceUrl: "https://en.wikipedia.org/wiki/File:Diplacodes_lefebvrii_(Male),_Futala_Lake,_Nagpur.jpg" },
-      { url: "~/images/Diplacodes_lefebvrii_female1.jpg", credit: "പെൺതുമ്പി © John Tann", sourceUrl: "https://commons.wikimedia.org/wiki/File:Black_Percher_(8116284648).jpg" }
+      { url: "~/images/Diplacodes_lefebvrii_male1.jpg", credit: "ആൺതുമ്പി © Dattaprasad Sawant", "sourceUrl": "https://en.wikipedia.org/wiki/File:Diplacodes_lefebvrii_(Male),_Futala_Lake,_Nagpur.jpg" },
+      { url: "~/images/Diplacodes_lefebvrii_female1.jpg", credit: "പെൺതുമ്പി © John Tann", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Black_Percher_(8116284648).jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/99327-Diplacodes-lefebvrii",
     wikipediaLink: "https://en.wikipedia.org/wiki/Diplacodes_lefebvrii"
@@ -959,15 +959,15 @@ const defaultOdonates = [
     scientificName: "Epithemis wayanadensis",
 	sciName: "Epithemis wayanadensis (Chandran, et al., 2023)",
     family: "Libellulidae / Skimmers and Hawks / നീര്‍മുത്തന്‍‍മാര്‍",
-    description1: "നീർമുത്തന്മാർ എന്ന തുമ്പി കുടുംബത്തിൽപ്പെട്ട ഒരു കല്ലൻതുമ്പിയാണ് വയനാടൻ തീക്കറുപ്പൻ. വയനാട്ടിൽ നിന്നും 2023 ലാണ് ഈ തുമ്പിയെ കണ്ടെത്തിയത്. പശ്ചിമഘട്ടത്തിൽ മാത്രം കാണപ്പെടുന്ന തീക്കറുപ്പൻ തുമ്പിയുടെ സഹോദര സ്പീഷീസ് ആണ് വയനാടൻ തീക്കറുപ്പൻ. കാഴ്ചയിൽ തീക്കറുപ്പൻ തുമ്പിയോട് വളരെയധികം സാമ്യമുണ്ടെങ്കിലും ഇവയുടെ ഉദരത്തിലെ ചുവപ്പ് പൊട്ടിന് തീക്കറുപ്പൻ തുമ്പിയെ അപേക്ഷിച്ച് വലുപ്പം കുറവാണ്.",
+    description1: "നീർമുത്തന്മാർ എന്ന തുമ്പി കുടുംബത്തിൽപ്പെട്ട ഒരു കല്ലൻതുമ്പിയാണ് വയനാടൻ തീക്കറുപ്പൻ. വയനാട്ടിൽ നിന്നും 2023 ലാണ് ഈ തുമ്പിയെ കണ്ടെത്തിയത്. കാഴ്ചയിൽ തീക്കറുപ്പൻ തുമ്പിയോട് വളരെയധികം സാമ്യമുണ്ടെങ്കിലും ഇവയുടെ ഉദരത്തിലെ ചുവപ്പ് പൊട്ടിന് തീക്കറുപ്പൻ തുമ്പിയെ അപേക്ഷിച്ച് വലുപ്പം കുറവാണ്.",
     description2: "വയനാടൻ തീക്കറുപ്പൻ തുമ്പിയുടെ ഉരസ്സിനും ഉദരത്തിനും നല്ല കറുപ്പ് നിറമാണ്. മാത്രവുമല്ല തീക്കറുപ്പൻ തുമ്പിയുടെ ഉരസ്സിന്റെ മുകൾ ഭാഗത്തുള്ള മഞ്ഞ വരകൾ ഈ തുമ്പിയിൽ കാണുകയില്ല. പരമ്പരാഗത താരതമ്യപഠനങ്ങൾ കൂടാതെ DNA പഠനങ്ങൾ കൂടി പൂർത്തീകരിച്ചാണ് വയനാടൻ തീക്കറുപ്പൻ തുമ്പി പുതിയ സ്പീഷീസ് തന്നെയാണെന്ന് ഉറപ്പ് വരുത്തിയിട്ടുള്ളത്.",
      description3: "",
      description4: "",
      description5: "",
     mainPhoto: "~/images/Epithemis_wayanadensis_main.jpg",
     photos: [
-      { url: "~/images/Epithemis_wayanadensis_male1.jpg", credit: "ആൺതുമ്പി © ഡേവിഡ് രാജു", sourceUrl: "https://en.wikipedia.org/wiki/File:Epithemis_wayanadensis_(2).jpg" },
-      { url: "~/images/Epithemis_wayanadensis_mating.jpg", credit: "ഇണചേരല്‍ © ", sourceUrl: "https://www.sciencedirect.com/science/article/pii/S2287884X23000961?via%3Dihub" }
+      { url: "~/images/Epithemis_wayanadensis_male1.jpg", credit: "ആൺതുമ്പി © ഡേവിഡ് രാജു", "sourceUrl": "https://en.wikipedia.org/wiki/File:Epithemis_wayanadensis_(2).jpg" },
+      { url: "~/images/Epithemis_wayanadensis_mating.jpg", credit: "ഇണചേരല്‍ © ", "sourceUrl": "https://www.sciencedirect.com/science/article/pii/S2287884X23000961?via%3Dihub" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/1499163-Epithemis-wayanadensis",
     wikipediaLink: "https://en.wikipedia.org/wiki/Epithemis_wayanadensis"
@@ -986,12 +986,12 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Epithemis_mariae_main.jpg",
     photos: [
-      { url: "~/images/Epithemis_mariae_male1.jpg", credit: "ആൺതുമ്പി © ബ്രിജേഷ് പൂക്കോട്ടൂര്‍", sourceUrl: "https://" },
-      { url: "~/images/Epithemis_mariae_male2.jpg", credit: "ആൺതുമ്പി © ബ്രിജേഷ് പൂക്കോട്ടൂര്‍", sourceUrl: "https://" },
-      { url: "~/images/Epithemis_mariae_female1.jpg", credit: "പെൺതുമ്പി © ബ്രിജേഷ് പൂക്കോട്ടൂര്‍", sourceUrl: "https://" },
-      { url: "~/images/Epithemis_mariae_female2.jpg", credit: "പെൺതുമ്പി © ബ്രിജേഷ് പൂക്കോട്ടൂര്‍", sourceUrl: "https://" },
-      { url: "~/images/Epithemis_mariae_female3.jpg", credit: "പെൺതുമ്പി © ബ്രിജേഷ് പൂക്കോട്ടൂര്‍", sourceUrl: "https://" },
-      { url: "~/images/Epithemis_mariae_female4.jpg", credit: "പെൺതുമ്പി © ബ്രിജേഷ് പൂക്കോട്ടൂര്‍", sourceUrl: "https://" }
+      { url: "~/images/Epithemis_mariae_male1.jpg", credit: "ആൺതുമ്പി © ബ്രിജേഷ് പൂക്കോട്ടൂര്‍", "sourceUrl": "https://" },
+      { url: "~/images/Epithemis_mariae_male2.jpg", credit: "ആൺതുമ്പി © ബ്രിജേഷ് പൂക്കോട്ടൂര്‍", "sourceUrl": "https://" },
+      { url: "~/images/Epithemis_mariae_female1.jpg", credit: "പെൺതുമ്പി © ബ്രിജേഷ് പൂക്കോട്ടൂര്‍", "sourceUrl": "https://" },
+      { url: "~/images/Epithemis_mariae_female2.jpg", credit: "പെൺതുമ്പി © ബ്രിജേഷ് പൂക്കോട്ടൂര്‍", "sourceUrl": "https://" },
+      { url: "~/images/Epithemis_mariae_female3.jpg", credit: "പെൺതുമ്പി © ബ്രിജേഷ് പൂക്കോട്ടൂര്‍", "sourceUrl": "https://" },
+      { url: "~/images/Epithemis_mariae_female4.jpg", credit: "പെൺതുമ്പി © ബ്രിജേഷ് പൂക്കോട്ടൂര്‍", "sourceUrl": "https://" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/100223-Epithemis-mariae",
     wikipediaLink: "https://en.wikipedia.org/wiki/Epithemis_mariae"
@@ -1010,8 +1010,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Hydrobasileus_croceus_main.jpg",
     photos: [
-      { url: "~/images/Hydrobasileus_croceus_male1.jpg", credit: "ആൺതുമ്പി © വിനീത് വെങ്ങോലിസ്", sourceUrl: "https://en.wikipedia.org/wiki/File:Hydrobasileus_croceus_00379.JPG" },
-      { url: "~/images/Hydrobasileus_croceus_female1.jpg", credit: "പെൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", sourceUrl: "https://en.wikipedia.org/wiki/File:Amber-winged_Marsh_Glider_(Hydrobasileus_croceus)_female.,%E0%B4%AA%E0%B4%BE%E0%B4%A3%E0%B5%8D%E0%B4%9F%E0%B5%BB_%E0%B4%AA%E0%B4%B0%E0%B5%81%E0%B4%A8%E0%B5%8D%E0%B4%A4%E0%B5%BB._(43412314945).jpg" }
+      { url: "~/images/Hydrobasileus_croceus_male1.jpg", credit: "ആൺതുമ്പി © വിനീത് വെങ്ങോലിസ്", "sourceUrl": "https://en.wikipedia.org/wiki/File:Hydrobasileus_croceus_00379.JPG" },
+      { url: "~/images/Hydrobasileus_croceus_female1.jpg", credit: "പെൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", "sourceUrl": "https://en.wikipedia.org/wiki/File:Amber-winged_Marsh_Glider_(Hydrobasileus_croceus)_female.,%E0%B4%AA%E0%B4%BE%E0%B4%A3%E0%B5%8D%E0%B4%9F%E0%B5%BB_%E0%B4%AA%E0%B4%B0%E0%B5%81%E0%B4%A8%E0%B5%8D%E0%B4%A4%E0%B5%BB._(43412314945).jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/102995-Hydrobasileus-croceus",
     wikipediaLink: "https://en.wikipedia.org/wiki/Hydrobasileus_croceus"
@@ -1030,8 +1030,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Hylaeothemis_apicalis_main.jpg",
     photos: [
-      { url: "~/images/Hylaeothemis_apicalis_male1.jpg", credit: "ആൺതുമ്പി © 2010 Jee & Rani Nature Photography", sourceUrl: "https://en.wikipedia.org/wiki/File:Hylaeothemis_indica-Silent_Valley-2016-08-14-001.jpg" },
-      { url: "~/images/Hylaeothemis_apicalis_female1.jpg", credit: "പെൺതുമ്പി © 2010 Jee & Rani Nature Photography", sourceUrl: "https://commons.wikimedia.org/wiki/File:Hylaeothemis_indica-Silent_Valley-2016-08-14-009.jpg" }
+      { url: "~/images/Hylaeothemis_apicalis_male1.jpg", credit: "ആൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Hylaeothemis_indica-Silent_Valley-2016-08-14-001.jpg" },
+      { url: "~/images/Hylaeothemis_apicalis_female1.jpg", credit: "പെൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hylaeothemis_indica-Silent_Valley-2016-08-14-009.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/1134273-Hylaeothemis-apicalis",
     wikipediaLink: "https://en.wikipedia.org/wiki/Hylaeothemis_apicalis"
@@ -1050,8 +1050,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Indothemis_carnatica_main.jpg",
     photos: [
-      { url: "~/images/Indothemis_carnatica_male1.jpg", credit: "ആൺതുമ്പി © Charles J. Sharp", sourceUrl: "https://en.wikipedia.org/wiki/File:Light-tipped_demon_(Indothemis_carnatica)_male_Kanha.jpg" },
-      { url: "~/images/Indothemis_carnatica_female1.jpg", credit: "പെൺതുമ്പി © 2010 Jee & Rani Nature Photography", sourceUrl: "https://en.wikipedia.org/wiki/File:Indothemis_carnatica_female_by_kadavoor.jpg" }
+      { url: "~/images/Indothemis_carnatica_male1.jpg", credit: "ആൺതുമ്പി © Charles J. Sharp", "sourceUrl": "https://en.wikipedia.org/wiki/File:Light-tipped_demon_(Indothemis_carnatica)_male_Kanha.jpg" },
+      { url: "~/images/Indothemis_carnatica_female1.jpg", credit: "പെൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Indothemis_carnatica_female_by_kadavoor.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/103421-Indothemis-carnatica",
     wikipediaLink: "https://en.wikipedia.org/wiki/Indothemis_carnatica"
@@ -1070,8 +1070,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Indothemis_limbata_sita_main.jpg",
     photos: [
-      { url: "~/images/Indothemis_limbata_sita_male1.jpg", credit: "ആൺതുമ്പി © വിവേക് ചന്ദ്രന്‍ എ", sourceUrl: "https://en.wikipedia.org/wiki/File:Indothemis_limbata_(cropped).jpg" },
-      { url: "~/images/Indothemis_limbata_sita_female1.jpg", credit: "പെൺതുമ്പി © അഫ്സര്‍ നായക്കന്‍", sourceUrl: "https://commons.wikimedia.org/wiki/File:Imdothemis_limbata_6.jpg" }
+      { url: "~/images/Indothemis_limbata_sita_male1.jpg", credit: "ആൺതുമ്പി © വിവേക് ചന്ദ്രന്‍ എ", "sourceUrl": "https://en.wikipedia.org/wiki/File:Indothemis_limbata_(cropped).jpg" },
+      { url: "~/images/Indothemis_limbata_sita_female1.jpg", credit: "പെൺതുമ്പി © അഫ്സര്‍ നായക്കന്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Imdothemis_limbata_6.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/1351974-Indothemis-limbata-sita",
     wikipediaLink: "https://en.wikipedia.org/wiki/Indothemis_limbata"
@@ -1090,8 +1090,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Lathrecista_asiatica_main.jpg",
     photos: [
-      { url: "~/images/Lathrecista_asiatica_male1.jpg", credit: "ആൺതുമ്പി © Charles J. Sharp ", sourceUrl: "https://en.wikipedia.org/wiki/File:Asiatic_blood_tail_(Lathrecista_asiatica)_male_Viti_Levu.jpg" },
-      { url: "~/images/Lathrecista_asiatica_female1.jpg", credit: "പെൺതുമ്പി © Shagil Kannur", sourceUrl: "https://en.wikipedia.org/wiki/File:Lathrecista_asiatica_in_Kerala.jpg" }
+      { url: "~/images/Lathrecista_asiatica_male1.jpg", credit: "ആൺതുമ്പി © Charles J. Sharp ", "sourceUrl": "https://en.wikipedia.org/wiki/File:Asiatic_blood_tail_(Lathrecista_asiatica)_male_Viti_Levu.jpg" },
+      { url: "~/images/Lathrecista_asiatica_female1.jpg", credit: "പെൺതുമ്പി © Shagil Kannur", "sourceUrl": "https://en.wikipedia.org/wiki/File:Lathrecista_asiatica_in_Kerala.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/104104-Lathrecista-asiatica",
     wikipediaLink: "https://en.wikipedia.org/wiki/Lathrecista_asiatica"
@@ -1110,8 +1110,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Lyriothemis_acigastra_main.jpg",
     photos: [
-      { url: "~/images/Lyriothemis_acigastra_male1.jpg", credit: "ആൺതുമ്പി © 2010 Jee & Rani Nature Photography", sourceUrl: "https://en.wikipedia.org/wiki/File:Lyriothemis_acigastra_male_at_Kadavoor.jpg" },
-      { url: "~/images/Lyriothemis_acigastra_female1.jpg", credit: "പെൺതുമ്പി © 2010 Jee & Rani Nature Photography", sourceUrl: "https://en.wikipedia.org/wiki/File:Lyriothemis_acigastra_female_at_Kadavoor.jpg" }
+      { url: "~/images/Lyriothemis_acigastra_male1.jpg", credit: "ആൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Lyriothemis_acigastra_male_at_Kadavoor.jpg" },
+      { url: "~/images/Lyriothemis_acigastra_female1.jpg", credit: "പെൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Lyriothemis_acigastra_female_at_Kadavoor.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/104927-Lyriothemis-acigastra",
     wikipediaLink: "https://en.wikipedia.org/wiki/Lyriothemis_acigastra"
@@ -1130,8 +1130,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Lyriothemis_tricolor_main.jpg",
     photos: [
-      { url: "~/images/Lyriothemis_tricolor_male1.jpg", credit: "ആൺതുമ്പി © ഡേവിഡ് രാജു", sourceUrl: "https://en.wikipedia.org/wiki/File:Lyriothemis_tricolor_Ris,_1919_(4).jpg" },
-      { url: "~/images/Lyriothemis_tricolor_female1.jpg", credit: "പെൺതുമ്പി © ബാലചന്ദ്രന്‍ വി", sourceUrl: "https://en.wikipedia.org/wiki/File:Lyriothemis_tricolor_Ris,_1919.jpg" }
+      { url: "~/images/Lyriothemis_tricolor_male1.jpg", credit: "ആൺതുമ്പി © ഡേവിഡ് രാജു", "sourceUrl": "https://en.wikipedia.org/wiki/File:Lyriothemis_tricolor_Ris,_1919_(4).jpg" },
+      { url: "~/images/Lyriothemis_tricolor_female1.jpg", credit: "പെൺതുമ്പി © ബാലചന്ദ്രന്‍ വി", "sourceUrl": "https://en.wikipedia.org/wiki/File:Lyriothemis_tricolor_Ris,_1919.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/1498313-Lyriothemis-flava",
     wikipediaLink: "https://en.wikipedia.org/wiki/Lyriothemis_tricolor"
@@ -1150,8 +1150,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Macrodiplax_cora_main.jpg",
     photos: [
-      { url: "~/images/Macrodiplax_cora_male1.jpg", credit: "ആൺതുമ്പി © Summerdrought", sourceUrl: "https://en.wikipedia.org/wiki/File:Macrodiplax_cora_4160.jpg" },
-      { url: "~/images/Macrodiplax_cora_female1.jpg", credit: "പെൺതുമ്പി © Lin Scott", sourceUrl: "https://en.wikipedia.org/wiki/File:Macrodiplax_cora_female_obelisk.jpg" }
+      { url: "~/images/Macrodiplax_cora_male1.jpg", credit: "ആൺതുമ്പി © Summerdrought", "sourceUrl": "https://en.wikipedia.org/wiki/File:Macrodiplax_cora_4160.jpg" },
+      { url: "~/images/Macrodiplax_cora_female1.jpg", credit: "പെൺതുമ്പി © Lin Scott", "sourceUrl": "https://en.wikipedia.org/wiki/File:Macrodiplax_cora_female_obelisk.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/104994-Macrodiplax-cora",
     wikipediaLink: "https://en.wikipedia.org/wiki/Macrodiplax_cora"
@@ -1163,15 +1163,15 @@ const defaultOdonates = [
     scientificName: "Neurothemis fulvia",
 	sciName: "Neurothemis fulvia (Drury, 1773)",
     family: "Libellulidae / Skimmers and Hawks / നീര്‍മുത്തന്‍‍മാര്‍",
-    description1: "മുഖ്യമായും ഏഷ്യൻ രാജ്യങ്ങളിലും കേരളത്തിൽ ഇടനാട്, മലനാട് പ്രദേശങ്ങളിൽ കൂടുതലായും കാണപ്പെടുന്ന ഒരിനം കല്ലൻ തുമ്പിയാണ് തുരുമ്പൻ തുമ്പി അഥവാ തവിടൻ തുരുമ്പൻ. ചുവപ്പുകലർന്ന കടുത്ത മജന്ത നിറത്തിൽ ആൺതുമ്പിയും തുരുമ്പിച്ച നിറത്തിൽ പെൺതുമ്പിയും കാണപ്പെടുന്നു. ചിറകുകളുടെ ആഗ്ര ഭാഗത്തുള്ള സുതാര്യമായ കലകൾ മറ്റു തുരുമ്പൻ തുമ്പികളിൽ നിന്നും ഇവയെ തിരിച്ചറിയുവാൻ സഹായിക്കുന്നു.",
-    description2: "ശരീരത്തിൻറെ തുരുമ്പിച്ച നിറം  മൂലമാണ് ഈയിനം തുമ്പികൾ തുരുമ്പൻ തുമ്പി എന്നറിയപ്പെടുന്നത്.  ശുദ്ധജലാശയങ്ങളുടെയും കാട്ടരുവികളുടെയും സമീപത്തു വസിക്കുന്ന ഇവയെ തീരപ്രദേശങ്ങളിലും അപൂർവ്വമായി കാണാറുണ്ട്.   ആൺതുമ്പി കണ്ണുകളുടെ മുകൾവശം ചുവപ്പ് കലർന്ന തവിട്ടു നിറത്തിലും, താഴ്ഭാഗം ഇളം തവിട്ട് നിറത്തിലും കാണപ്പെടുന്നു.  കഴുത്ത്, ഉരസ്സ്, ഉദരം എന്നിവക്കെല്ലാം ഇരുണ്ട ചുവപ്പ് കലർന്ന തവിട്ട് നിറമാണ്. കാലുകൾ കടുംചുവപ്പ് നിറത്തിൽ കാണപ്പെടുന്നു. അഗ്രഭാഗം സുതാര്യമായ ചിറകുകൾക്ക് ചുവപ്പ് നിറമാണ്.",
-     description3: "ഈ തുമ്പികൾക്ക് പ്രായമാകുന്തോറും ശരീരത്തിലെ ചുവപ്പ് നിറം കൂടി വരുന്നതായി കാണാം.   പെൺതുമ്പി പെൺതുമ്പികളുടെ ശരീരത്തിന് തുരുമ്പിച്ച മഞ്ഞ നിറമാണ്. നിറവ്യത്യാസം ഒഴിച്ചു നിർത്തിയാൽ ആൺതുമ്പിയും പെൺതുമ്പിയും തമ്മിൽ പ്രകടമായ മറ്റു വ്യത്യാസങ്ങൾ ഇല്ല.  തുരുമ്പൻ തുമ്പിയുടെ പെൺതുമ്പികൾ പല നിറഭേദങ്ങളിൽ കാണപ്പെടുന്നുണ്ട്. ചില തുമ്പികളിൽ ശരീരം മുഴുവനും ഏകതാനമായ മഞ്ഞ നിറം വ്യാപിച്ചു കാണപ്പെടുമ്പോൾ  മറ്റു ചില പെൺതുമ്പികളിൽ നിറത്തിന്റെ വ്യാപ്തി ഏറിയും കുറഞ്ഞും കാണാം.",
-     description4: "ആവാസവ്യവസ്ഥ പുല്ലുകൾ/കളകൾ നിറഞ്ഞ കുളങ്ങൾ, ചതുപ്പുകൾ എന്നിവിടങ്ങളിലാണ് തുരുമ്പൻ തുമ്പി മുട്ടയിടുന്നത്. ചെടികളിലോ, ഉണങ്ങിയ കമ്പുകളുടെ അഗ്രഭാഗത്തോ ഇരിക്കാനിഷ്ടപ്പെടുന്നു. വിശ്രമിക്കുമ്പോൾ ചിറകുകൾ താഴ്ത്തിപ്പിടിച്ചിരിക്കുന്നത് കാണാം. പൊതുവെ ആൺതുമ്പികളെയാണ് കൂടുതലായി കാണാറുള്ളത്. കാട്ടിനുള്ളിലെ തുറസ്സുകളിലും, കാടിന്റെ അരികുപ്രദേശങ്ങളിലും തുരുമ്പൻ തുമ്പിയുടെ വലിയ കൂട്ടങ്ങൾ പറന്ന് നടക്കുന്നത് കാണാം.",
-     description5: "കേരളത്തിൽ വർഷം മുഴുവനും ഇവയെ കാണാൻ സാധിക്കും.  മെയ് മുതൽ സെപ്റ്റംബർ വരെയുള്ള മാസങ്ങളിലാണ് ഏറ്റവും കൂടുതൽ കാണപ്പെടുന്നത്.",
+    description1: "മുഖ്യമായും ഏഷ്യൻ രാജ്യങ്ങളിലും കേരളത്തിൽ ഇടനാട്, മലനാട് പ്രദേശങ്ങളിൽ കൂടുതലായും കാണപ്പെടുന്ന ഒരിനം കല്ലൻ തുമ്പിയാണ് തുരുമ്പൻ തുമ്പി അഥവാ തവിടൻ തുരുമ്പൻ. ചുവപ്പുകലർന്ന കടുത്ത മജന്ത നിറത്തിൽ ആൺതുമ്പിയും തുരുമ്പിച്ച നിറത്തിൽ പെൺതുമ്പിയും കാണപ്പെടുന്നു.",
+    description2: " ചിറകുകളുടെ ആഗ്ര ഭാഗത്തുള്ള സുതാര്യമായ കലകൾ മറ്റു തുരുമ്പൻ തുമ്പികളിൽ നിന്നും ഇവയെ തിരിച്ചറിയുവാൻ സഹായിക്കുന്നു. ശുദ്ധജലാശയങ്ങളുടെയും കാട്ടരുവികളുടെയും സമീപത്തു വസിക്കുന്ന ഇവയെ തീരപ്രദേശങ്ങളിലും അപൂർവ്വമായി കാണാറുണ്ട്.",
+     description3: "ഈ തുമ്പികൾക്ക് പ്രായമാകുന്തോറും ശരീരത്തിലെ ചുവപ്പ് നിറം കൂടി വരുന്നതായി കാണാം. പെൺതുമ്പികളുടെ ശരീരത്തിന് തുരുമ്പിച്ച മഞ്ഞ നിറമാണ്. നിറവ്യത്യാസം ഒഴിച്ചു നിർത്തിയാൽ ആൺതുമ്പിയും പെൺതുമ്പിയും തമ്മിൽ പ്രകടമായ മറ്റു വ്യത്യാസങ്ങൾ ഇല്ല.  തുരുമ്പൻ തുമ്പിയുടെ പെൺതുമ്പികൾ പല നിറഭേദങ്ങളിൽ കാണപ്പെടുന്നുണ്ട്. ",
+     description4: "ചില തുമ്പികളിൽ ശരീരം മുഴുവനും ഏകതാനമായ മഞ്ഞ നിറം വ്യാപിച്ചു കാണപ്പെടുമ്പോൾ മറ്റു ചില പെൺതുമ്പികളിൽ നിറത്തിന്റെ വ്യാപ്തി ഏറിയും കുറഞ്ഞും കാണാം.  ചെടികളിലോ, ഉണങ്ങിയ കമ്പുകളുടെ അഗ്രഭാഗത്തോ ഇരിക്കാനിഷ്ടപ്പെടുന്നു. വിശ്രമിക്കുമ്പോൾ ചിറകുകൾ താഴ്ത്തിപ്പിടിച്ചിരിക്കുന്നത് കാണാം.",
+     description5: "കാട്ടിനുള്ളിലെ തുറസ്സുകളിലും, കാടിന്റെ അരികുപ്രദേശങ്ങളിലും തുരുമ്പൻ തുമ്പിയുടെ വലിയ കൂട്ടങ്ങൾ പറന്ന് നടക്കുന്നത് കാണാം. കേരളത്തിൽ വർഷം മുഴുവനും ഇവയെ കാണാൻ സാധിക്കും. മെയ് മുതൽ സെപ്റ്റംബർ വരെയുള്ള മാസങ്ങളിലാണ് ഏറ്റവും കൂടുതൽ കാണപ്പെടുന്നത്.",
     mainPhoto: "~/images/Neurothemis_fulvia_main.jpg",
     photos: [
-      { url: "~/images/Neurothemis_fulvia_male1.jpg", credit: "ആൺതുമ്പി © JJ Harrison", sourceUrl: "https://en.wikipedia.org/wiki/File:Neurothemis_fulvia_9332_-_Doi_Inthanon.jpg" },
-      { url: "~/images/Neurothemis_fulvia_female1.jpg", credit: "പെൺതുമ്പി © 2010 Jee & Rani Nature Photography", sourceUrl: "https://en.wikipedia.org/wiki/File:Neurothemis_fulvia-Kadavoor-2016-07-28-001.jpg" }
+      { url: "~/images/Neurothemis_fulvia_male1.jpg", credit: "ആൺതുമ്പി © JJ Harrison", "sourceUrl": "https://en.wikipedia.org/wiki/File:Neurothemis_fulvia_9332_-_Doi_Inthanon.jpg" },
+      { url: "~/images/Neurothemis_fulvia_female1.jpg", credit: "പെൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Neurothemis_fulvia-Kadavoor-2016-07-28-001.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/107003-Neurothemis-fulvia",
     wikipediaLink: "https://en.wikipedia.org/wiki/Neurothemis_fulvia"
@@ -1183,15 +1183,15 @@ const defaultOdonates = [
     scientificName: "Neurothemis intermedia",
 	sciName: "Neurothemis intermedia (Rambur, 1842)",
     family: "Libellulidae / Skimmers and Hawks / നീര്‍മുത്തന്‍‍മാര്‍",
-    description1: "ഏഷ്യയിൽ കാണപ്പെടുന്ന നീർമുത്തൻ കുടുംബത്തിൽ ഉള്ള ഒരു കല്ലൻതുമ്പിയാണ് പുൽ തുരുമ്പൻ. ഈ തുമ്പിയെ പല രാജ്യങ്ങളിലും കാണാമെങ്ങിലും അത്ര സർവസാധാരണം അല്ല. പുൽമേടുകളിലും അതുപോലുള്ള തുറസായ സ്ഥലങ്ങളിലുമാണ് ഇവയെ കാണാറുള്ളത്‌. നാല് ഉപവർഗങ്ങളെ തിരിച്ചറിഞ്ഞിട്ടുണ്ട്.   ഉപവർഗങ്ങൾ   Neurothemis intermedia atalanta Ris 1919 Neurothemis intermedia degener Selys, 1879 Neurothemis intermedia excelsa Lieftinck, 1934 Neurothemis intermedia intermedia (Rambur, 1842) ",
-    description2: "കേരളത്തിൽ കാണപ്പെടുന്ന 3 Neurothemis സ്പീഷീസുകളിൽ താരതമ്യേന അപൂർവ്വമായി കാണപ്പെടുന്ന തുമ്പിയാണ് പുൽ തുരുമ്പൻ. പ്രത്യേകിച്ച് തെക്കൻ കേരളത്തിൽ ഇവ വളരെ അപൂർവ്വമാണ്.  വടക്കൻ കേരളത്തിൽ കൂടുതലായി കാണപ്പെടുന്ന ഇവയെ പാലക്കാട്, മലപ്പുറം ജില്ലകളിലെ നാട്ടിൻപുറങ്ങളിൽ  സുലഭമായി കാണാം. പൊതുവെ വരണ്ട കാലാവസ്ഥ ഇഷ്ടപ്പെടുന്ന വയൽ തുരുമ്പൻ തുമ്പികളെ മഴ കഴിഞ്ഞുള്ള മാസങ്ങളിലാണ് കൂടുതലായും കാണാൻ കഴിയുന്നത്. ",
-     description3: "ആഗസ്റ്റ് മാസം മുതൽ കണ്ടുതുടങ്ങുന്ന ഇവ നവംബർ-ഡിസംബർ മാസങ്ങൾ വരെ സജീവമായി പറന്നു നടക്കുന്നത് കാണാം.  ഇലപൊഴിയും വനങ്ങൾ ഇവയുടെ ഒരു പ്രധാന ആവാസവ്യവസ്ഥയാണ്.   ചുറ്റിനും കുറ്റിച്ചെടികൾ നിറഞ്ഞ ചെറിയ കുളങ്ങൾ ഇവയുടെ ഇഷ്ട കേന്ദ്രങ്ങളാണ്.  കുളങ്ങൾ പോലെയുള്ള ചെറുജലാശയങ്ങളിലാണ് ഈ തുമ്പികൾ സാധാരണയായി മുട്ടയിടുന്നത്. അധികം ഉയരത്തിൽ പറക്കാൻ ഇഷ്ടപ്പെടാത്ത വയൽ തുരുമ്പൻ കുറ്റിച്ചെടികളുടെയും മറ്റും ഇലപ്പടർപ്പുകളിലിരുന്ന് വെയിൽ കായുന്നത് സാധാരണമാണ്.  ",
-     description4: "പലപ്പോഴും ചെറിയ കൂട്ടങ്ങളായി കാണപ്പെടുന്ന ഇവയിൽ പെൺതുമ്പികളുടെ എണ്ണം ആൺതുമ്പികളെ അപേക്ഷിച്ച് കൂടുതലായാണ് നിരീക്ഷിക്കപ്പെട്ടിട്ടുള്ളത്. ആൺതുമ്പികളുടെ ഉദരത്തിന് ഏകദേശം രണ്ടര സെന്റിമീറ്ററോളം നീളമുണ്ടായിരിയ്ക്കും.  ചിറകുകളുടെ തുടക്കത്തിലുള്ള ചുവപ്പു നിറം ഇവയെ മറ്റു തുമ്പികളിൽ നിന്നും തിരിച്ചറിയാൻ സഹായിക്കുന്നു.  ചിറകുകളുടെ തുടക്കം മുതൽ മദ്ധ്യഭാഗം വരെ ചുവപ്പു കലർന്ന തവിട്ടു നിറം വ്യാപിച്ചു കാണാം. ",
-     description5: "കടും ചുവപ്പു നിറത്തിലുള്ള ഉദരത്തിന് ഇരുവശങ്ങളിലുമായി കറുത്ത വരകൾ കാണാം.  കണ്ണുകൾ തവിട്ടു കലർന്ന ചുവപ്പു നിറത്തിൽ കാണപ്പെടുന്നു.  ശിരസ്സിന്റെ മുൻഭാഗം ചുവപ്പു കലർന്ന മഞ്ഞനിറത്തിൽ കാണപ്പെടുന്നു. കാലുകൾക്ക് കടും ചുവപ്പു നിറമാണ്.  പെൺതുമ്പികളുടെ ശരീരത്തിന് ചുവപ്പു നിറത്തിനു പകരം കൂടുതൽ മഞ്ഞനിറമായിരിയ്ക്കും.  പെൺതുമ്പികളുടെ ഉദരത്തിലെ കറുപ്പുവരകൾ കൂടുതൽ ഇരുണ്ടതായി കാണപ്പെടുന്നു.",
+    description1: "ഏഷ്യയിൽ കാണപ്പെടുന്ന നീർമുത്തൻ കുടുംബത്തിൽ ഉള്ള ഒരു കല്ലൻതുമ്പിയാണ് പുൽ തുരുമ്പൻ. ഈ തുമ്പിയെ പല രാജ്യങ്ങളിലും കാണാമെങ്കിലും അത്ര സർവസാധാരണം അല്ല. പുൽമേടുകളിലും അതുപോലുള്ള തുറസായ സ്ഥലങ്ങളിലുമാണ് ഇവയെ കാണാറുള്ളത്‌. നാല് ഉപവർഗങ്ങളെ തിരിച്ചറിഞ്ഞിട്ടുണ്ട്. ഉപവർഗങ്ങൾ Neurothemis intermedia atalanta Ris 1919 Neurothemis intermedia degener Selys, 1879 Neurothemis intermedia excelsa Lieftinck, 1934 Neurothemis intermedia intermedia (Rambur, 1842) ",
+    description2: "കേരളത്തിൽ കാണപ്പെടുന്ന 3 Neurothemis സ്പീഷീസുകളിൽ താരതമ്യേന അപൂർവ്വമായി കാണപ്പെടുന്ന തുമ്പിയാണ് പുൽ തുരുമ്പൻ. പ്രത്യേകിച്ച് തെക്കൻ കേരളത്തിൽ ഇവ വളരെ അപൂർവ്വമാണ്. വടക്കൻ കേരളത്തിൽ കൂടുതലായി കാണപ്പെടുന്ന ഇവയെ പാലക്കാട്, മലപ്പുറം ജില്ലകളിലെ നാട്ടിൻപുറങ്ങളിൽ സുലഭമായി കാണാം. പൊതുവെ വരണ്ട കാലാവസ്ഥ ഇഷ്ടപ്പെടുന്ന വയൽ തുരുമ്പൻ തുമ്പികളെ ",
+     description3: "മഴ കഴിഞ്ഞുള്ള മാസങ്ങളിലാണ് കൂടുതലായും കാണാൻ കഴിയുന്നത്. ഇലപൊഴിയും വനങ്ങൾ ഇവയുടെ ഒരു പ്രധാന ആവാസവ്യവസ്ഥയാണ്. ചുറ്റിനും കുറ്റിച്ചെടികൾ നിറഞ്ഞ ചെറിയ കുളങ്ങൾ ഇവയുടെ ഇഷ്ട കേന്ദ്രങ്ങളാണ്. അധികം ഉയരത്തിൽ പറക്കാൻ ഇഷ്ടപ്പെടാത്ത വയൽ തുരുമ്പൻ കുറ്റിച്ചെടികളുടെയും മറ്റും ഇലപ്പടർപ്പുകളിലിരുന്ന് വെയിൽ കായുന്നത് സാധാരണമാണ്.",
+     description4: "പലപ്പോഴും ചെറിയ കൂട്ടങ്ങളായി കാണപ്പെടുന്ന ഇവയിൽ പെൺതുമ്പികളുടെ എണ്ണം ആൺതുമ്പികളെ അപേക്ഷിച്ച് കൂടുതലായാണ് നിരീക്ഷിക്കപ്പെട്ടിട്ടുള്ളത്. ആൺതുമ്പികളുടെ ഉദരത്തിന് ഏകദേശം രണ്ടര സെന്റിമീറ്ററോളം നീളമുണ്ടായിരിയ്ക്കും. ചിറകുകളുടെ തുടക്കത്തിലുള്ള ചുവപ്പു നിറം ഇവയെ മറ്റു തുമ്പികളിൽ നിന്നും തിരിച്ചറിയാൻ സഹായിക്കുന്നു.",
+     description5: "പെൺതുമ്പികളുടെ ശരീരത്തിന് ചുവപ്പു നിറത്തിനു പകരം കൂടുതൽ മഞ്ഞനിറമായിരിയ്ക്കും.  പെൺതുമ്പികളുടെ ഉദരത്തിലെ കറുപ്പുവരകൾ കൂടുതൽ ഇരുണ്ടതായി കാണപ്പെടുന്നു.",
     mainPhoto: "~/images/Neurothemis_intermedia_main.jpg",
     photos: [
-      { url: "~/images/Neurothemis_intermedia_male1.jpg", credit: "ആൺതുമ്പി © വിനീത് വെങ്ങോലിസ്", sourceUrl: "https://en.wikipedia.org/wiki/File:Neurothemis_intermedia_05455.jpg" },
-      { url: "~/images/Neurothemis_intermedia_female1.jpg", credit: "പെൺതുമ്പി © Charles J. Sharp", sourceUrl: "https://en.wikipedia.org/wiki/File:Paddyfield_parasol_(Neurothemis_intermedia)_female_Kanha.jpg" }
+      { url: "~/images/Neurothemis_intermedia_male1.jpg", credit: "ആൺതുമ്പി © വിനീത് വെങ്ങോലിസ്", "sourceUrl": "https://en.wikipedia.org/wiki/File:Neurothemis_intermedia_05455.jpg" },
+      { url: "~/images/Neurothemis_intermedia_female1.jpg", credit: "പെൺതുമ്പി © Charles J. Sharp", "sourceUrl": "https://en.wikipedia.org/wiki/File:Paddyfield_parasol_(Neurothemis_intermedia)_female_Kanha.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/107004-Neurothemis-intermedia",
     wikipediaLink: "https://en.wikipedia.org/wiki/Neurothemis_intermedia"
@@ -1210,9 +1210,9 @@ const defaultOdonates = [
      description5: "ആൺതുമ്പികൾ അധീനപ്രദേശം കാത്തുസൂക്ഷിക്കുന്ന സ്വഭാവക്കാരാണ്. ചതുപ്പുകളിലും ചെറു കുളങ്ങളിലുമാണ് ഇവ സാധാരണയായി മുട്ടയിടുന്നത്. കേരളത്തിൽ വർഷം മുഴുവനും സ്വാമിത്തുമ്പിയെ കാണാം. ജൂലൈ മുതൽ സെപ്റ്റംബർ വരെയുള്ള സമയങ്ങളിലാണ് ഇവയെ കൂടുതലായി കാണാറുള്ളത്.",
     mainPhoto: "~/images/Neurothemis_tullia_main.jpg",
     photos: [
-      { url: "~/images/Neurothemis_tullia_male1.jpg", credit: "ആൺതുമ്പി © ബ്രിജേഷ് പൂക്കോട്ടൂര്‍", sourceUrl: "https://" },
-	  { url: "~/images/Neurothemis_tullia_male2.jpg", credit: "ആൺതുമ്പി © ബ്രിജേഷ് പൂക്കോട്ടൂര്‍", sourceUrl: "https://" },
-      { url: "~/images/Neurothemis_tullia_female1.jpg", credit: "പെൺതുമ്പി © ബ്രിജേഷ് പൂക്കോട്ടൂര്‍", sourceUrl: "https://" },
+      { url: "~/images/Neurothemis_tullia_male1.jpg", credit: "ആൺതുമ്പി © ബ്രിജേഷ് പൂക്കോട്ടൂര്‍", "sourceUrl": "https://" },
+	  { url: "~/images/Neurothemis_tullia_male2.jpg", credit: "ആൺതുമ്പി © ബ്രിജേഷ് പൂക്കോട്ടൂര്‍", "sourceUrl": "https://" },
+      { url: "~/images/Neurothemis_tullia_female1.jpg", credit: "പെൺതുമ്പി © ബ്രിജേഷ് പൂക്കോട്ടൂര്‍", "sourceUrl": "https://" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/107008-Neurothemis-tullia",
     wikipediaLink: "https://en.wikipedia.org/wiki/Neurothemis_tullia"
@@ -1231,8 +1231,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Onychothemis_testacea_ceylanica_main.jpg",
     photos: [
-      { url: "~/images/Onychothemis_testacea_ceylanica_male1.jpg", credit: "ആൺതുമ്പി © 2010 Jee & Rani Nature Photography", sourceUrl: "https://en.wikipedia.org/wiki/File:Onychothemis_testacea-Kadavoor-2016-06-25-004.jpg" },
-      { url: "~/images/Onychothemis_testacea_ceylanica_female1.jpg", credit: "പെൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", sourceUrl: "https://www.inaturalist.org/observations/35112300" }
+      { url: "~/images/Onychothemis_testacea_ceylanica_male1.jpg", credit: "ആൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Onychothemis_testacea-Kadavoor-2016-06-25-004.jpg" },
+      { url: "~/images/Onychothemis_testacea_ceylanica_female1.jpg", credit: "പെൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", "sourceUrl": "https://www.inaturalist.org/observations/35112300" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/107618-Onychothemis-testacea",
     wikipediaLink: "https://en.wikipedia.org/wiki/Onychothemis_testacea"
@@ -1251,9 +1251,9 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Orthetrum_chrysis_main.jpg",
     photos: [
-      { url: "~/images/Orthetrum_chrysis_male1.jpg", credit: "ആൺതുമ്പി © 2010 Jee & Rani Nature Photography", sourceUrl: "https://en.wikipedia.org/wiki/File:Brown-backed_Red_Marsh_Hawk_Orthetrum_chrysis_Male_2_by_Kadavoor.jpg" },
-      { url: "~/images/Orthetrum_chrysis_female1.jpg", credit: "പെൺതുമ്പി © Charles J. Sharp", sourceUrl: "https://en.wikipedia.org/wiki/File:Brown-backed_red_marsh_hawk_(Orthetrum_chrysis)_female_Eravikulam.jpg" },
-	  { url: "~/images/Orthetrum_chrysis_mating.jpg", credit: "ഇണചേരല്‍ © Charles J. Sharp", sourceUrl: "https://en.wikipedia.org/wiki/File:Brown-backed_marsh_hawk_(Orthetrum_chrysis)_mating_Chinnar.jpg" }
+      { url: "~/images/Orthetrum_chrysis_male1.jpg", credit: "ആൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Brown-backed_Red_Marsh_Hawk_Orthetrum_chrysis_Male_2_by_Kadavoor.jpg" },
+      { url: "~/images/Orthetrum_chrysis_female1.jpg", credit: "പെൺതുമ്പി © Charles J. Sharp", "sourceUrl": "https://en.wikipedia.org/wiki/File:Brown-backed_red_marsh_hawk_(Orthetrum_chrysis)_female_Eravikulam.jpg" },
+	  { url: "~/images/Orthetrum_chrysis_mating.jpg", credit: "ഇണചേരല്‍ © Charles J. Sharp", "sourceUrl": "https://en.wikipedia.org/wiki/File:Brown-backed_marsh_hawk_(Orthetrum_chrysis)_mating_Chinnar.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/107952-Orthetrum-chrysis",
     wikipediaLink: "https://en.wikipedia.org/wiki/Orthetrum_chrysis"
@@ -1272,8 +1272,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Orthetrum_glaucum_main.jpg",
     photos: [
-      { url: "~/images/Orthetrum_glaucum_male1.jpg", credit: "ആൺതുമ്പി © Charles J. Sharp", sourceUrl: "https://en.wikipedia.org/wiki/File:Blue_marsh_hawk_(Orthetrum_glaucum)_male_Phuket.jpg" },
-      { url: "~/images/Orthetrum_glaucum_female1.jpg", credit: "പെൺതുമ്പി © 2010 Jee & Rani Nature Photography", sourceUrl: "https://en.wikipedia.org/wiki/File:Orthetrum_glaucum-Silent_Valley-2016-08-14-003.jpg" }
+      { url: "~/images/Orthetrum_glaucum_male1.jpg", credit: "ആൺതുമ്പി © Charles J. Sharp", "sourceUrl": "https://en.wikipedia.org/wiki/File:Blue_marsh_hawk_(Orthetrum_glaucum)_male_Phuket.jpg" },
+      { url: "~/images/Orthetrum_glaucum_female1.jpg", credit: "പെൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Orthetrum_glaucum-Silent_Valley-2016-08-14-003.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/107955-Orthetrum-glaucum",
     wikipediaLink: "https://en.wikipedia.org/wiki/Orthetrum_glaucum"
@@ -1292,9 +1292,9 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Orthetrum_luzonicum_main.jpg",
     photos: [
-      { url: "~/images/Orthetrum_luzonicum_male1.jpg", credit: "ആൺതുമ്പി © 2010 Jee & Rani Nature Photography", sourceUrl: "https://en.wikipedia.org/wiki/File:Orthetrum_luzonicum-Kadavoor-2016-09-08-001.jpg" },
-      { url: "~/images/Orthetrum_luzonicum_female1.jpg", credit: "പെൺതുമ്പി © 2010 Jee & Rani Nature Photography", sourceUrl: "https://en.wikipedia.org/wiki/File:Orthetrum_luzonicum_female_in_Kadavoor.jpg" },
-	  { url: "~/images/Orthetrum_luzonicum_mating.jpg", credit: "ഇണചേരല്‍ © 2010 Jee & Rani Nature Photography", sourceUrl: "https://en.wikipedia.org/wiki/File:Orthetrum_luzonicum_mating_of_Kadavoor.jpg" }
+      { url: "~/images/Orthetrum_luzonicum_male1.jpg", credit: "ആൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Orthetrum_luzonicum-Kadavoor-2016-09-08-001.jpg" },
+      { url: "~/images/Orthetrum_luzonicum_female1.jpg", credit: "പെൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Orthetrum_luzonicum_female_in_Kadavoor.jpg" },
+	  { url: "~/images/Orthetrum_luzonicum_mating.jpg", credit: "ഇണചേരല്‍ © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Orthetrum_luzonicum_mating_of_Kadavoor.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/107964-Orthetrum-luzonicum",
     wikipediaLink: "https://en.wikipedia.org/wiki/Orthetrum_luzonicum"
@@ -1313,8 +1313,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Orthetrum_pruinosum_neglectum_main.jpg",
     photos: [
-      { url: "~/images/Orthetrum_pruinosum_neglectum_male1.jpg", credit: "ആൺതുമ്പി © Charles J. Sharp", sourceUrl: "https://en.wikipedia.org/wiki/File:Crimson-tailed_marsh_hawk_(Orthetrum_pruinosum_neglectum)_male_Nepal.jpg" },
-      { url: "~/images/Orthetrum_pruinosum_neglectum_female1.jpg", credit: "പെൺതുമ്പി © 2010 Jee & Rani Nature Photography", sourceUrl: "https://en.wikipedia.org/wiki/File:Orthetrum_pruinosum_female_by_kadavoor.jpg" }
+      { url: "~/images/Orthetrum_pruinosum_neglectum_male1.jpg", credit: "ആൺതുമ്പി © Charles J. Sharp", "sourceUrl": "https://en.wikipedia.org/wiki/File:Crimson-tailed_marsh_hawk_(Orthetrum_pruinosum_neglectum)_male_Nepal.jpg" },
+      { url: "~/images/Orthetrum_pruinosum_neglectum_female1.jpg", credit: "പെൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Orthetrum_pruinosum_female_by_kadavoor.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/107971-Orthetrum-pruinosum",
     wikipediaLink: "https://en.wikipedia.org/wiki/Orthetrum_pruinosum"
@@ -1333,8 +1333,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Orthetrum_sabina_main.jpg",
     photos: [
-      { url: "~/images/Orthetrum_sabina_male1.jpg", credit: "ആൺതുമ്പി © Charles J. Sharp", sourceUrl: "https://en.wikipedia.org/wiki/File:Slender_skimmer_(Orthetrum_sabina)_male_Cyprus.jpg" },
-      { url: "~/images/Orthetrum_sabina_female1.jpg", credit: "പെൺതുമ്പി © Charles J. Sharp", sourceUrl: "https://en.wikipedia.org/wiki/File:Green_marsh_hawk_(Orthetrum_sabina)_female_Nepalgunj.jpg" }
+      { url: "~/images/Orthetrum_sabina_male1.jpg", credit: "ആൺതുമ്പി © Charles J. Sharp", "sourceUrl": "https://en.wikipedia.org/wiki/File:Slender_skimmer_(Orthetrum_sabina)_male_Cyprus.jpg" },
+      { url: "~/images/Orthetrum_sabina_female1.jpg", credit: "പെൺതുമ്പി © Charles J. Sharp", "sourceUrl": "https://en.wikipedia.org/wiki/File:Green_marsh_hawk_(Orthetrum_sabina)_female_Nepalgunj.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/107974-Orthetrum-sabina",
     wikipediaLink: "https://en.wikipedia.org/wiki/Orthetrum_sabina"
@@ -1353,8 +1353,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Orthetrum_taeniolatum_main.jpg",
     photos: [
-      { url: "~/images/Orthetrum_taeniolatum_male1.jpg", credit: "ആൺതുമ്പി © Prosenjit Dawn", sourceUrl: "https://en.wikipedia.org/wiki/File:Orthetrum_taeniolatum_male.jpg" },
-      { url: "~/images/Orthetrum_taeniolatum_female1.jpg", credit: "പെൺതുമ്പി © Charles J. Sharp", sourceUrl: "https://en.wikipedia.org/wiki/File:Small_skimmer_(Orthetrum_taeniolatum)_female_Rajasthan.jpg" }
+      { url: "~/images/Orthetrum_taeniolatum_male1.jpg", credit: "ആൺതുമ്പി © Prosenjit Dawn", "sourceUrl": "https://en.wikipedia.org/wiki/File:Orthetrum_taeniolatum_male.jpg" },
+      { url: "~/images/Orthetrum_taeniolatum_female1.jpg", credit: "പെൺതുമ്പി © Charles J. Sharp", "sourceUrl": "https://en.wikipedia.org/wiki/File:Small_skimmer_(Orthetrum_taeniolatum)_female_Rajasthan.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/107979-Orthetrum-taeniolatum",
     wikipediaLink: "https://en.wikipedia.org/wiki/Orthetrum_taeniolatum"
@@ -1373,8 +1373,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Orthetrum_triangulare_main.jpg",
     photos: [
-      { url: "~/images/Orthetrum_triangulare_male1.jpg", credit: "ആൺതുമ്പി © Antony Grossy", sourceUrl: "https://en.wikipedia.org/wiki/File:Dragon_Fly_(Orthetrum_triangulare)_(7976467260).jpg" },
-      { url: "~/images/Orthetrum_triangulare_female1.jpg", credit: "പെൺതുമ്പി © Rohit George", sourceUrl: "https://en.wikipedia.org/wiki/File:Orthetrum_triangulare_by_Rohit_George.jpg" }
+      { url: "~/images/Orthetrum_triangulare_male1.jpg", credit: "ആൺതുമ്പി © Antony Grossy", "sourceUrl": "https://en.wikipedia.org/wiki/File:Dragon_Fly_(Orthetrum_triangulare)_(7976467260).jpg" },
+      { url: "~/images/Orthetrum_triangulare_female1.jpg", credit: "പെൺതുമ്പി © Rohit George", "sourceUrl": "https://en.wikipedia.org/wiki/File:Orthetrum_triangulare_by_Rohit_George.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/107981-Orthetrum-triangulare",
     wikipediaLink: "https://en.wikipedia.org/wiki/Orthetrum_triangulare"
@@ -1393,8 +1393,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Palpopleura_sexmaculata_main.jpg",
     photos: [
-      { url: "~/images/Palpopleura_sexmaculata_male1.jpg", credit: "ആൺതുമ്പി © Panchapakesan Jeganathan", sourceUrl: "https://en.wikipedia.org/wiki/File:Palpopleura_sexmaculata_by_P_Jeganathan.jpg" },
-      { url: "~/images/Palpopleura_sexmaculata_female1.jpg", credit: "പെൺതുമ്പി © ഡേവിഡ് രാജു", sourceUrl: "https://en.wikipedia.org/wiki/File:Davidraju_1997.jpg" }
+      { url: "~/images/Palpopleura_sexmaculata_male1.jpg", credit: "ആൺതുമ്പി © Panchapakesan Jeganathan", "sourceUrl": "https://en.wikipedia.org/wiki/File:Palpopleura_sexmaculata_by_P_Jeganathan.jpg" },
+      { url: "~/images/Palpopleura_sexmaculata_female1.jpg", credit: "പെൺതുമ്പി © ഡേവിഡ് രാജു", "sourceUrl": "https://en.wikipedia.org/wiki/File:Davidraju_1997.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/108300-Palpopleura-sexmaculata",
     wikipediaLink: "https://en.wikipedia.org/wiki/Palpopleura_sexmaculata"
@@ -1406,15 +1406,15 @@ const defaultOdonates = [
     scientificName: "Pantala flavescens",
 	sciName: "Pantala flavescens (Fabricius, 1798)",
     family: "Libellulidae / Skimmers and Hawks / നീര്‍മുത്തന്‍‍മാര്‍",
-    description1: "ലോകത്തെല്ലായിടത്തും തന്നെ കാണപ്പെടുന്ന ഒരിനം കല്ലൻ തുമ്പിയാണ് തുലാത്തുമ്പി. മിക്ക ഉഷ്ണമേഖലാ രാജ്യങ്ങളിലും ഇവ കാണപ്പെടുന്നു. ആൺതുമ്പിയുടെ പിൻചിറകുകളുടെ അറ്റത്തുള്ള ഇരുണ്ട പൊട്ടാണ് ഇവയെ പെൺതുമ്പികളിൽ നിന്നും തിരിച്ചറിയാൻ സഹായിക്കുന്നത്. ജലാശയങ്ങളുടെയും ചതുപ്പുകളുടെയും തുറസായ സ്ഥലങ്ങളുടെയും മുകളിൽ കൂട്ടമായി ഇവ പറക്കുന്നു. ഭൂഖണ്ഡങ്ങൾ തോറും കൂട്ടമായി ദേശാടനം നടത്തുന്ന സ്വഭാവം ഇവക്കുണ്ട്. ",
-    description2: "1798-ൽ ജോഹാൻ ക്രിസ്റ്റ്യൻ ഫാബ്രിക്കസ് ഇതിനെ ആദ്യമായി വിവരിച്ചു. യൂറോപ്പിൽ അപൂർവമാണെങ്കിലും അന്റാർട്ടിക്ക ഒഴികെയുള്ള മറ്റെല്ലാ ഭൂഖണ്ഡങ്ങളിലും നല്ല അംഗസംഖ്യയുള്ളതും ഏറ്റവും വ്യാപകവുമായ കല്ലൻതുമ്പിയായി ഇതിനെ കണക്കാക്കുന്നു. 18,000 കിലോമീറ്റർ വരെ വാർഷിക യാത്ര നടത്തുന്നു. ഇത് എല്ലാ പ്രാണികളുടെയും വിദൂര കുടിയേറ്റങ്ങളിലൊന്നായി കണക്കാക്കുന്നു. തുലാത്തുമ്പികൾ ഇന്ത്യൻ ഉപഭൂഖണ്ഡത്തിൽ നിന്നും തെക്കൻ ആഫ്രിക്കയിലേക്ക് ദേശാടനം നടത്തുന്നതായി കണ്ടെത്തിയിട്ടുണ്ട്. ",
-     description3: "മഴ പെയ്യുമ്പോൾ രൂപപ്പെടുന്ന താൽകാലിക വെള്ളക്കെട്ടുകളാണ് ഇവയുടെ പ്രധാന പ്രജനന കേന്ദ്രം. മറ്റു തുമ്പികളിൽ നിന്നും വ്യത്യസ്തമായി ഇവയുടെ ലാർവക്ക് പൂർണ വളർച്ച എത്താൻ 6 ആഴ്ച്ച വരെ സമയം മതി. ആഗസ്റ്റ് - സെപ്റ്റംബർ മാസങ്ങളിൽ സജീവമാകുന്ന ഇവ സെപ്റ്റംബർ - ഒക്ടോബർ മാസങ്ങളിൽ പതിനായിരക്കണക്കിന് വരുന്ന കൂട്ടങ്ങളായി ഇന്ത്യൻ മഹാസമുദ്രം താണ്ടി ആഫ്രിക്കയിലേക്ക് സഞ്ചരിക്കുന്നു. കേരളത്തിൽ തുലാമഴയുടെ സമയമാണിത്. ഈ സമയത്ത് ധാരാളമായി കാണുന്നത് കൊണ്ടാണ് ഇവയെ തുലാത്തുമ്പികൾ എന്ന് വിളിക്കുന്നത്.",
-     description4: "ഒക്ടോബർ-നവംബർ മാസങ്ങളിൽ ഭൂമദ്ധ്യരേഖയോട് ചേർന്ന് കിടക്കുന്ന കിഴക്കൻ ആഫ്രിക്കയിൽ മഴക്കാലമാണ്. ഈ സമയത്ത് തുലാത്തുമ്പികൾ കിഴക്കൻ ആഫ്രിക്കയിൽ പ്രജനനം നടത്തുന്നു. അതിന് ശേഷം ആഫ്രിക്കയുടെ തെക്ക് ഭാഗത്തേക്ക് സഞ്ചരിക്കുന്ന ഇവ സൗത്ത് ആഫ്രിക്കയിൽ ഡിസംബർ-ഫെബ്രുവരി സമയങ്ങളിൽ സജീവമാകുന്നു (അവിടെ അപ്പോൾ വേനൽ മഴയായിരിക്കും). മാർച്ച് -മെയ് മാസങ്ങളിൽ തിരിച്ച് കിഴക്കൻ ആഫ്രിക്കയിൽ എത്തുന്ന ",
-     description5: "തുലാത്തുമ്പികൾ തെക്ക് പടിഞ്ഞാറൻ കാലവർഷത്തോടൊപ്പം, ജൂൺ-ജൂലൈ മാസങ്ങളിൽ ഇന്ത്യയിൽ തിരിച്ചെത്തുന്നു. ഒരേ തുമ്പിയല്ല ഇന്ത്യയിൽ നിന്ന് ആഫ്രിക്കയിലേക്ക് പോയി തിരിച്ചുവരുന്നത്. കുറഞ്ഞത് നാല് തലമുറകളെങ്കിലും ഈ കാലയളവിൽ പൂർത്തീകരിച്ചിട്ടുണ്ടാവും. ഇന്ത്യയിൽ നിന്ന് ആഫ്രിക്കയിലേക്കും അവിടെ നിന്ന് തിരിച്ചും ഉള്ള ഈ ദേശാടനത്തിൽ തുലാത്തുമ്പികൾ ഏകദേശം 14000 - 18000 കിലോമീറ്റർ ദൂരം സഞ്ചരിക്കുന്നു.",
+    description1: "ലോകത്തെല്ലായിടത്തും തന്നെ കാണപ്പെടുന്ന ഒരിനം കല്ലൻ തുമ്പിയാണ് തുലാത്തുമ്പി. മിക്ക ഉഷ്ണമേഖലാ രാജ്യങ്ങളിലും ഇവ കാണപ്പെടുന്നു. ആൺതുമ്പിയുടെ പിൻചിറകുകളുടെ അറ്റത്തുള്ള ഇരുണ്ട പൊട്ടാണ് ഇവയെ പെൺതുമ്പികളിൽ നിന്നും തിരിച്ചറിയാൻ സഹായിക്കുന്നത്. ജലാശയങ്ങളുടെയും ചതുപ്പുകളുടെയും തുറസായ സ്ഥലങ്ങളുടെയും മുകളിൽ കൂട്ടമായി ഇവ പറക്കുന്നു.",
+    description2: "1798-ൽ ജോഹാൻ ക്രിസ്റ്റ്യൻ ഫാബ്രിക്കസ് ഇതിനെ ആദ്യമായി വിവരിച്ചു. യൂറോപ്പിൽ അപൂർവമാണെങ്കിലും അന്റാർട്ടിക്ക ഒഴികെയുള്ള മറ്റെല്ലാ ഭൂഖണ്ഡങ്ങളിലും നല്ല അംഗസംഖ്യയുള്ളതും ഏറ്റവും വ്യാപകവുമായ കല്ലൻതുമ്പിയായി ഇതിനെ കണക്കാക്കുന്നു. 18,000 കിലോമീറ്റർ വരെ വാർഷിക യാത്ര നടത്തുന്നു. ഇത് എല്ലാ പ്രാണികളുടെയും വിദൂര കുടിയേറ്റങ്ങളിലൊന്നായി കണക്കാക്കുന്നു.",
+     description3: " തുലാത്തുമ്പികൾ ഇന്ത്യൻ ഉപഭൂഖണ്ഡത്തിൽ നിന്നും തെക്കൻ ആഫ്രിക്കയിലേക്ക് ദേശാടനം നടത്തുന്നതായി കണ്ടെത്തിയിട്ടുണ്ട്. മറ്റു തുമ്പികളിൽ നിന്നും വ്യത്യസ്തമായി ഇവയുടെ ലാർവക്ക് പൂർണ വളർച്ച എത്താൻ 6 ആഴ്ച്ച വരെ സമയം മതി. ഇവ സെപ്റ്റംബർ - ഒക്ടോബർ മാസങ്ങളിൽ പതിനായിരക്കണക്കിന് വരുന്ന കൂട്ടങ്ങളായി ഇന്ത്യൻ മഹാസമുദ്രം താണ്ടി ആഫ്രിക്കയിലേക്ക് സഞ്ചരിക്കുന്നു. കേരളത്തിൽ",
+     description4: " തുലാമഴയുടെ സമയമാണിത്. ഈ സമയത്ത് ധാരാളമായി കാണുന്നത് കൊണ്ടാണ് ഇവയെ തുലാത്തുമ്പികൾ എന്ന് വിളിക്കുന്നത്. ഒക്ടോബർ-നവംബർ മാസങ്ങളിൽ കിഴക്കൻ ആഫ്രിക്കയിൽ മഴക്കാലമാണ്. ഈ സമയത്ത് തുലാത്തുമ്പികൾ കിഴക്കൻ ആഫ്രിക്കയിൽ പ്രജനനം നടത്തുന്നു. അതിന് ശേഷം ആഫ്രിക്കയുടെ തെക്ക് ഭാഗത്തേക്ക് സഞ്ചരിക്കുന്ന ഇവ സൗത്ത് ആഫ്രിക്കയിൽ ഡിസംബർ-ഫെബ്രുവരി സമയങ്ങളിൽ സജീവമാകുന്നു. ",
+     description5: "മാർച്ച്-മെയ് മാസങ്ങളിൽ തിരിച്ച് കിഴക്കൻ ആഫ്രിക്കയിൽ എത്തുന്ന തുലാത്തുമ്പികൾ തെക്ക് പടിഞ്ഞാറൻ കാലവർഷത്തോടൊപ്പം, ജൂൺ-ജൂലൈ മാസങ്ങളിൽ ഇന്ത്യയിൽ തിരിച്ചെത്തുന്നു. ഒരേ തുമ്പിയല്ല ഇന്ത്യയിൽ നിന്ന് ആഫ്രിക്കയിലേക്ക് പോയി തിരിച്ചുവരുന്നത്. കുറഞ്ഞത് നാല് തലമുറകളെങ്കിലും ഈ കാലയളവിൽ പൂർത്തീകരിച്ചിട്ടുണ്ടാവും.",
     mainPhoto: "~/images/Pantala_flavescens_main.jpg",
     photos: [
-      { url: "~/images/Pantala_flavescens_male1.jpg", credit: "ആൺതുമ്പി © ഡേവിഡ് രാജു", sourceUrl: "https://en.wikipedia.org/wiki/File:Davidraju_IMG_5948.jpg" },
-      { url: "~/images/Pantala_flavescens_female1.jpg", credit: "പെൺതുമ്പി © Charles J. Sharp", sourceUrl: "https://en.wikipedia.org/wiki/File:Wandering_glider_(Pantala_flavescens).JPG" }
+      { url: "~/images/Pantala_flavescens_male1.jpg", credit: "ആൺതുമ്പി © ഡേവിഡ് രാജു", "sourceUrl": "https://en.wikipedia.org/wiki/File:Davidraju_IMG_5948.jpg" },
+      { url: "~/images/Pantala_flavescens_female1.jpg", credit: "പെൺതുമ്പി © Charles J. Sharp", "sourceUrl": "https://en.wikipedia.org/wiki/File:Wandering_glider_(Pantala_flavescens).JPG" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/108344-Pantala-flavescens",
     wikipediaLink: "https://en.wikipedia.org/wiki/Pantala_flavescens"
@@ -1433,8 +1433,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Potamarcha_congener_main.jpg",
     photos: [
-      { url: "~/images/Potamarcha_congener_male1.jpg", credit: "ആൺതുമ്പി © 2010 Jee & Rani Nature Photography", sourceUrl: "https://en.wikipedia.org/wiki/File:Yellow-tailed_Ashy_Skimmer_Potamarcha_congener_Male_by_kadavoor.jpg" },
-      { url: "~/images/Potamarcha_congener_female1.jpg", credit: "പെൺതുമ്പി © 2010 Jee & Rani Nature Photography", sourceUrl: "https://en.wikipedia.org/wiki/File:Potamarcha_congener_female_in_Kadavoor.jpg" }
+      { url: "~/images/Potamarcha_congener_male1.jpg", credit: "ആൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Yellow-tailed_Ashy_Skimmer_Potamarcha_congener_Male_by_kadavoor.jpg" },
+      { url: "~/images/Potamarcha_congener_female1.jpg", credit: "പെൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Potamarcha_congener_female_in_Kadavoor.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/110195-Potamarcha-congener",
     wikipediaLink: "https://en.wikipedia.org/wiki/Potamarcha_congener"
@@ -1453,8 +1453,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Rhodothemis_rufa_main.jpg",
     photos: [
-      { url: "~/images/Rhodothemis_rufa_male1.jpg", credit: "ആൺതുമ്പി © 2010 Jee & Rani Nature Photography", sourceUrl: "https://en.wikipedia.org/wiki/File:Rufous_Marsh_Glider_Rhodothemis_rufa_Male.jpg" },
-      { url: "~/images/Rhodothemis_rufa_female1.jpg", credit: "പെൺതുമ്പി © 2010 Jee & Rani Nature Photography", sourceUrl: "https://en.wikipedia.org/wiki/File:Rhodothemis_rufa_female_by_kadavoor.jpg" }
+      { url: "~/images/Rhodothemis_rufa_male1.jpg", credit: "ആൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Rufous_Marsh_Glider_Rhodothemis_rufa_Male.jpg" },
+      { url: "~/images/Rhodothemis_rufa_female1.jpg", credit: "പെൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Rhodothemis_rufa_female_by_kadavoor.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/111765-Rhodothemis-rufa",
     wikipediaLink: "https://en.wikipedia.org/wiki/Rhodothemis_rufa"
@@ -1473,8 +1473,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Rhyothemis_triangularis_main.jpg",
     photos: [
-      { url: "~/images/Rhyothemis_triangularis_male1.jpg", credit: "ആൺതുമ്പി © വിനീത് വെങ്ങോലിസ്", sourceUrl: "https://en.wikipedia.org/wiki/File:Rhyothemis_triangularis-5822.jpg" },
-      { url: "~/images/Rhyothemis_triangularis_female1.jpg", credit: "പെൺതുമ്പി © അരുണ്‍ ലാല്‍", sourceUrl: "https://www.inaturalist.org/observations/249977816" }
+      { url: "~/images/Rhyothemis_triangularis_male1.jpg", credit: "ആൺതുമ്പി © വിനീത് വെങ്ങോലിസ്", "sourceUrl": "https://en.wikipedia.org/wiki/File:Rhyothemis_triangularis-5822.jpg" },
+      { url: "~/images/Rhyothemis_triangularis_female1.jpg", credit: "പെൺതുമ്പി © അരുണ്‍ ലാല്‍", "sourceUrl": "https://www.inaturalist.org/observations/249977816" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/111797-Rhyothemis-triangularis",
     wikipediaLink: "https://en.wikipedia.org/wiki/Rhyothemis_triangularis"
@@ -1486,15 +1486,15 @@ const defaultOdonates = [
     scientificName: "Rhyothemis variegata",
 	sciName: "Rhyothemis variegata (Linnaeus, 1763)",
     family: "Libellulidae / Skimmers and Hawks / നീര്‍മുത്തന്‍‍മാര്‍",
-    description1: "ഇന്ത്യയുൾപ്പെടെ ഏഷ്യൻ രാജ്യങ്ങളിൽ കാണപ്പെടുന്ന നീർമുത്തൻ കുടുംബത്തിൽ ഉള്ള ഒരു കല്ലൻ തുമ്പിയാണ് ഓണത്തുമ്പി.   പേരിനു പിന്നിൽ   ഓഗസ്ത് മുതൽ ഡിസംബർ വരെയാണ് ഇവ കേരളത്തിൽ കാണപ്പെടുന്നത്. ഓണക്കാലത്ത് പെട്ടെന്ന് പ്രത്യക്ഷപ്പെടുന്നതിനാൽ ഇവയെ ഓണത്തുമ്പി എന്നു വിളിക്കുന്നു. ആവാസ വ്യവസ്ഥ ഇന്ത്യ ഉൾപ്പെടെയുള്ള തെക്ക് കിഴക്കൻ ഏഷ്യൻ രാജ്യങ്ങളിലാണ് ഇവയെ പ്രധാനമായും കണ്ടുവരുന്നത്.",
+    description1: "ഇന്ത്യയുൾപ്പെടെ ഏഷ്യൻ രാജ്യങ്ങളിൽ കാണപ്പെടുന്ന നീർമുത്തൻ കുടുംബത്തിൽ ഉള്ള ഒരു കല്ലൻ തുമ്പിയാണ് ഓണത്തുമ്പി. പേരിനു പിന്നിൽ ഓഗസ്ത് മുതൽ ഡിസംബർ വരെയാണ് ഇവ കേരളത്തിൽ കാണപ്പെടുന്നത്. ഓണക്കാലത്ത് പെട്ടെന്ന് പ്രത്യക്ഷപ്പെടുന്നതിനാൽ ഇവയെ ഓണത്തുമ്പി എന്നു വിളിക്കുന്നു.",
     description2: "നെൽപ്പാടങ്ങളും കുളങ്ങളും തോടുകളുമാണ് ഇവയുടെ പ്രജനനകേന്ദ്രങ്ങൾ. ശാരീരിക പ്രത്യേകതകൾ   മുഖ ഭാഗങ്ങൾക്ക് തിളങ്ങുന്ന പച്ച നിറമാണ്.  കണ്ണുകൾ ഇരുണ്ട തവിട്ട് നിറത്തിൽ കാണപ്പെടുന്നു.  ഉരസ്സിന് ഇരുണ്ട പച്ച നിറമാണ്.  കാലുകൾക്കും ഉദരത്തിനും കറുപ്പ് നിറമാണ്. ചിറകിലെ നിറവ്യത്യാസങ്ങൾ ഒഴിച്ചാൽ ആൺതുമ്പികളും പെൺതുമ്പികളും കാഴ്ച്ചയിൽ ഒരുപോലെയാണ്.",
      description3: "ആൺ തുമ്പിയുടെ ചിറകുകളിൽ കറുപ്പു നിറം കുറവും സുതാര്യതയേറിയുമിരിക്കും. പെൺ തുമ്പികളുടെ ചിറകുകൾക്ക് നിറങ്ങൾ കാഠിന്യമേറിയും സുതാര്യത കുറഞ്ഞുമിരിക്കും. കൂടാതെ പെൺതുമ്പികളുടെ ചിറകുകളുടെ ആഗ്ര ഭാഗം സുതാര്യമാണ്.  ആൺതുമ്പികളുടെ ചിറകുകൾ മുഴുവനായും മഞ്ഞ നിറം വ്യാപിച്ചു കാണാം.",
      description4: "ആൺതുമ്പികളുടെയും പെൺതുമ്പികളുടെയും വലിപ്പം ഏകദേശം തുല്യമാണ്. ചിത്രശലഭങ്ങളെപ്പോലെ വളരെ സാവധാനത്തിലാണ് ഇവ പറക്കുക. വെയിലുള്ളപ്പോൾ മുറ്റത്തും അതുപോലുള്ള തുറസായ സ്ഥലങ്ങളിലും വട്ടമിട്ടു പറക്കാറുണ്ട്. ആഹാരം കൊതുകുകൾ, ചെറിയ പ്രാണികൾ എന്നിവയാണ് പ്രധാന ആഹാരം. കൊതുകുകളുടെ നിയന്ത്രണത്തിൽ ഇവ ഒരു ഘടകമാണ്. ഓന്ത്, ആനറാഞ്ചി തുടങ്ങിയ ജീവികൾ ഇവയെ ആഹാരമാക്കുന്നു.",
      description5: "",
     mainPhoto: "~/images/Rhyothemis_variegata_main.jpg",
     photos: [
-      { url: "~/images/Rhyothemis_variegata_male1.jpg", credit: "ആൺതുമ്പി © ഡേവിഡ് രാജു", sourceUrl: "https://en.wikipedia.org/wiki/File:Rhyothemis_variegata_-_Davidraju_IMG_4761.jpg" },
-      { url: "~/images/Rhyothemis_variegata_female1.jpg", credit: "പെൺതുമ്പി © 2010 Jee & Rani Nature Photography", sourceUrl: "https://en.wikipedia.org/wiki/File:Rhyothemis_variegata_female_at_Kadavoor.jpg" }
+      { url: "~/images/Rhyothemis_variegata_male1.jpg", credit: "ആൺതുമ്പി © ഡേവിഡ് രാജു", "sourceUrl": "https://en.wikipedia.org/wiki/File:Rhyothemis_variegata_-_Davidraju_IMG_4761.jpg" },
+      { url: "~/images/Rhyothemis_variegata_female1.jpg", credit: "പെൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Rhyothemis_variegata_female_at_Kadavoor.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/82001-Rhyothemis-variegata",
     wikipediaLink: "https://en.wikipedia.org/wiki/Rhyothemis_variegata"
@@ -1513,8 +1513,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Sympetrum_fonscolombii_main.jpg",
     photos: [
-      { url: "~/images/Sympetrum_fonscolombii_male1.jpg", credit: "ആൺതുമ്പി © Joaquim Alves Gaspar Lisboa Portugal", sourceUrl: "https://en.wikipedia.org/wiki/File:Darter_August_2007-20.jpg" },
-      { url: "~/images/Sympetrum_fonscolombii_female1.jpg", credit: "പെൺതുമ്പി © Charles J. Sharp", sourceUrl: "https://en.wikipedia.org/wiki/File:Red-veined_darter_(Sympetrum_fonscolombii)_female_Cyprus.jpg" }
+      { url: "~/images/Sympetrum_fonscolombii_male1.jpg", credit: "ആൺതുമ്പി © Joaquim Alves Gaspar Lisboa Portugal", "sourceUrl": "https://en.wikipedia.org/wiki/File:Darter_August_2007-20.jpg" },
+      { url: "~/images/Sympetrum_fonscolombii_female1.jpg", credit: "പെൺതുമ്പി © Charles J. Sharp", "sourceUrl": "https://en.wikipedia.org/wiki/File:Red-veined_darter_(Sympetrum_fonscolombii)_female_Cyprus.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/113507-Sympetrum-fonscolombii",
     wikipediaLink: "https://en.wikipedia.org/wiki/Red-veined_darter"
@@ -1533,8 +1533,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Tetrathemis_platyptera_main.jpg",
     photos: [
-      { url: "~/images/Tetrathemis_platyptera_male1.jpg", credit: "ആൺതുമ്പി © 2010 Jee & Rani Nature Photography", sourceUrl: "https://en.wikipedia.org/wiki/File:Tetrathemis_platyptera_male_by_kadavoor.jpg" },
-      { url: "~/images/Tetrathemis_platyptera_female1.jpg", credit: "പെൺതുമ്പി © 2010 Jee & Rani Nature Photography", sourceUrl: "https://en.wikipedia.org/wiki/File:Tetrathemis_platyptera_female_at_Kadavoor.jpg" }
+      { url: "~/images/Tetrathemis_platyptera_male1.jpg", credit: "ആൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Tetrathemis_platyptera_male_by_kadavoor.jpg" },
+      { url: "~/images/Tetrathemis_platyptera_female1.jpg", credit: "പെൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Tetrathemis_platyptera_female_at_Kadavoor.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/113946-Tetrathemis-platyptera",
     wikipediaLink: "https://en.wikipedia.org/wiki/Tetrathemis_platyptera"
@@ -1553,8 +1553,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Tholymis_tillarga_main.jpg",
     photos: [
-      { url: "~/images/Tholymis_tillarga_male1.jpg", credit: "ആൺതുമ്പി © 2010 Jee & Rani Nature Photography", sourceUrl: "https://en.wikipedia.org/wiki/File:Tholymis_tillarga_male_by_kadavoor_01.jpg" },
-      { url: "~/images/Tholymis_tillarga_female1.jpg", credit: "പെൺതുമ്പി © വിനീത് വെങ്ങോലിസ്", sourceUrl: "https://en.wikipedia.org/wiki/File:Tholymis_tillarga_05181.jpg" }
+      { url: "~/images/Tholymis_tillarga_male1.jpg", credit: "ആൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Tholymis_tillarga_male_by_kadavoor_01.jpg" },
+      { url: "~/images/Tholymis_tillarga_female1.jpg", credit: "പെൺതുമ്പി © വിനീത് വെങ്ങോലിസ്", "sourceUrl": "https://en.wikipedia.org/wiki/File:Tholymis_tillarga_05181.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/114098-Tholymis-tillarga",
     wikipediaLink: "https://en.wikipedia.org/wiki/Tholymis_tillarga"
@@ -1573,8 +1573,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Tramea_basilaris_main.jpg",
     photos: [
-      { url: "~/images/Tramea_basilaris_male1.jpg", credit: "ആൺതുമ്പി © ഷിനോ ജേക്കബ് കൂറ്റനാട്", sourceUrl: "https://en.wikipedia.org/wiki/File:Tramea_basilaris,Red_Marsh_Trotter.jpg" },
-      { url: "~/images/Tramea_basilaris_female1.jpg", credit: "പെൺതുമ്പി © Bernard DUPONT", sourceUrl: "https://en.wikipedia.org/wiki/File:Keyhole_Glider_(Tramea_basilaris)_(11857165716).jpg" }
+      { url: "~/images/Tramea_basilaris_male1.jpg", credit: "ആൺതുമ്പി © ഷിനോ ജേക്കബ് കൂറ്റനാട്", "sourceUrl": "https://en.wikipedia.org/wiki/File:Tramea_basilaris,Red_Marsh_Trotter.jpg" },
+      { url: "~/images/Tramea_basilaris_female1.jpg", credit: "പെൺതുമ്പി © Bernard DUPONT", "sourceUrl": "https://en.wikipedia.org/wiki/File:Keyhole_Glider_(Tramea_basilaris)_(11857165716).jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/114309-Tramea-basilaris",
     wikipediaLink: "https://en.wikipedia.org/wiki/Tramea_basilaris"
@@ -1593,8 +1593,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Tramea_limbata_main.jpg",
     photos: [
-      { url: "~/images/Tramea_limbata_male1.jpg", credit: "ആൺതുമ്പി © Charles J. Sharp", sourceUrl: "https://en.wikipedia.org/wiki/File:Ferruginous_glider_(Tramea_limbata)_male_2.jpg" },
-      { url: "~/images/Tramea_limbata_female1.jpg", credit: "പെൺതുമ്പി © Anubhav Agarwal", sourceUrl: "https://en.wikipedia.org/wiki/File:Tramea_limbata_by_Anubhav_Agarwal.jpg" }
+      { url: "~/images/Tramea_limbata_male1.jpg", credit: "ആൺതുമ്പി © Charles J. Sharp", "sourceUrl": "https://en.wikipedia.org/wiki/File:Ferruginous_glider_(Tramea_limbata)_male_2.jpg" },
+      { url: "~/images/Tramea_limbata_female1.jpg", credit: "പെൺതുമ്പി © Anubhav Agarwal", "sourceUrl": "https://en.wikipedia.org/wiki/File:Tramea_limbata_by_Anubhav_Agarwal.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/114313-Tramea-limbata",
     wikipediaLink: "https://en.wikipedia.org/wiki/Tramea_limbata"
@@ -1613,8 +1613,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Tramea_virginia_main.jpg",
     photos: [
-      { url: "~/images/Tramea_virginia_male1.jpg", credit: "ആൺതുമ്പി © gary_siu", sourceUrl: "https://www.inaturalist.org/observations/184643409" },
-      { url: "~/images/Tramea_virginia_female1.jpg", credit: "പെൺതുമ്പി © WK Cheng", sourceUrl: "https://www.inaturalist.org/observations/13027989" }
+      { url: "~/images/Tramea_virginia_male1.jpg", credit: "ആൺതുമ്പി © gary_siu", "sourceUrl": "https://www.inaturalist.org/observations/184643409" },
+      { url: "~/images/Tramea_virginia_female1.jpg", credit: "പെൺതുമ്പി © WK Cheng", "sourceUrl": "https://www.inaturalist.org/observations/13027989" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/114316-Tramea-virginia",
     wikipediaLink: "https://en.wikipedia.org/wiki/Tramea"
@@ -1633,10 +1633,10 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Trithemis_aurora_main.jpg",
     photos: [
-      { url: "~/images/Trithemis_aurora_male1.jpg", credit: "ആൺതുമ്പി © ബ്രിജേഷ് പൂക്കോട്ടൂര്‍", sourceUrl: "https://" },
-      { url: "~/images/Trithemis_aurora_male2.jpg", credit: "ആൺതുമ്പി © ബ്രിജേഷ് പൂക്കോട്ടൂര്‍", sourceUrl: "https://" },
-      { url: "~/images/Trithemis_aurora_female1.jpg", credit: "പെൺതുമ്പി © ബ്രിജേഷ് പൂക്കോട്ടൂര്‍", sourceUrl: "https://" },
-	  { url: "~/images/Trithemis_aurora_female2.jpg", credit: "പെൺതുമ്പി © ബ്രിജേഷ് പൂക്കോട്ടൂര്‍", sourceUrl: "https://" }
+      { url: "~/images/Trithemis_aurora_male1.jpg", credit: "ആൺതുമ്പി © ബ്രിജേഷ് പൂക്കോട്ടൂര്‍", "sourceUrl": "https://" },
+      { url: "~/images/Trithemis_aurora_male2.jpg", credit: "ആൺതുമ്പി © ബ്രിജേഷ് പൂക്കോട്ടൂര്‍", "sourceUrl": "https://" },
+      { url: "~/images/Trithemis_aurora_female1.jpg", credit: "പെൺതുമ്പി © ബ്രിജേഷ് പൂക്കോട്ടൂര്‍", "sourceUrl": "https://" },
+	  { url: "~/images/Trithemis_aurora_female2.jpg", credit: "പെൺതുമ്പി © ബ്രിജേഷ് പൂക്കോട്ടൂര്‍", "sourceUrl": "https://" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/114466-Trithemis-aurora",
     wikipediaLink: "https://en.wikipedia.org/wiki/Crimson_marsh_glider"
@@ -1655,8 +1655,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Trithemis_festiva_main.jpg",
     photos: [
-      { url: "~/images/Trithemis_festiva_male1.jpg", credit: "ആൺതുമ്പി © ബ്രിജേഷ് പൂക്കോട്ടൂര്‍", sourceUrl: "https://" },
-      { url: "~/images/Trithemis_festiva_female1.jpg", credit: "പെൺതുമ്പി © ബ്രിജേഷ് പൂക്കോട്ടൂര്‍", sourceUrl: "https://" }
+      { url: "~/images/Trithemis_festiva_male1.jpg", credit: "ആൺതുമ്പി © ബ്രിജേഷ് പൂക്കോട്ടൂര്‍", "sourceUrl": "https://" },
+      { url: "~/images/Trithemis_festiva_female1.jpg", credit: "പെൺതുമ്പി © ബ്രിജേഷ് പൂക്കോട്ടൂര്‍", "sourceUrl": "https://" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/114476-Trithemis-festiva",
     wikipediaLink: "https://en.wikipedia.org/wiki/Black_stream_glider"
@@ -1675,8 +1675,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Trithemis_kirbyi_main.jpg",
     photos: [
-      { url: "~/images/Trithemis_kirbyi_male1.jpg", credit: "ആൺതുമ്പി © Hans Hillewaert", sourceUrl: "https://en.wikipedia.org/wiki/File:Trithemis_kirbyi.jpg" },
-      { url: "~/images/Trithemis_kirbyi_female1.jpg", credit: "പെൺതുമ്പി © gailhampshire U.K", sourceUrl: "https://en.wikipedia.org/wiki/File:Female_Orange-winged_Dropwing._Trithemis_kibyii_-_Flickr_-_gailhampshire.jpg" }
+      { url: "~/images/Trithemis_kirbyi_male1.jpg", credit: "ആൺതുമ്പി © Hans Hillewaert", "sourceUrl": "https://en.wikipedia.org/wiki/File:Trithemis_kirbyi.jpg" },
+      { url: "~/images/Trithemis_kirbyi_female1.jpg", credit: "പെൺതുമ്പി © gailhampshire U.K", "sourceUrl": "https://en.wikipedia.org/wiki/File:Female_Orange-winged_Dropwing._Trithemis_kibyii_-_Flickr_-_gailhampshire.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/114485-Trithemis-kirbyi",
     wikipediaLink: "https://en.wikipedia.org/wiki/Trithemis_kirbyi"
@@ -1695,8 +1695,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Trithemis_pallidinervis_main.jpg",
     photos: [
-      { url: "~/images/Trithemis_pallidinervis_male1.jpg", credit: "ആൺതുമ്പി © Charles J. Sharp", sourceUrl: "https://en.wikipedia.org/wiki/File:Long-legged_marsh_glider_(Trithemis_pallidinervis)_male_Rajasthan.jpg" },
-      { url: "~/images/Trithemis_pallidinervis_female1.jpg", credit: "പെൺതുമ്പി © Primejyothi", sourceUrl: "https://en.wikipedia.org/wiki/File:LongLeggedMarshGlider_0915.JPG" }
+      { url: "~/images/Trithemis_pallidinervis_male1.jpg", credit: "ആൺതുമ്പി © Charles J. Sharp", "sourceUrl": "https://en.wikipedia.org/wiki/File:Long-legged_marsh_glider_(Trithemis_pallidinervis)_male_Rajasthan.jpg" },
+      { url: "~/images/Trithemis_pallidinervis_female1.jpg", credit: "പെൺതുമ്പി © Primejyothi", "sourceUrl": "https://en.wikipedia.org/wiki/File:LongLeggedMarshGlider_0915.JPG" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/114490-Trithemis-pallidinervis",
     wikipediaLink: "https://en.wikipedia.org/wiki/Long-legged_marsh_glider"
@@ -1715,8 +1715,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Urothemis_signata_main.jpg",
     photos: [
-      { url: "~/images/Urothemis_signata_male1.jpg", credit: "ആൺതുമ്പി © 2010 Jee & Rani Nature Photography", sourceUrl: "https://en.wikipedia.org/wiki/File:Greater_Crimson_Glider_Urothemis_signata_Male_by_Kadavoor.jpg" },
-      { url: "~/images/Urothemis_signata_female1.jpg", credit: "പെൺതുമ്പി © 2010 Jee & Rani Nature Photography", sourceUrl: "https://en.wikipedia.org/wiki/File:Greater_Crimson_Glider_Urothemis_signata_Female_by_Kadavoor.jpg" }
+      { url: "~/images/Urothemis_signata_male1.jpg", credit: "ആൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Greater_Crimson_Glider_Urothemis_signata_Male_by_Kadavoor.jpg" },
+      { url: "~/images/Urothemis_signata_female1.jpg", credit: "പെൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Greater_Crimson_Glider_Urothemis_signata_Female_by_Kadavoor.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/114829-Urothemis-signata",
     wikipediaLink: "https://en.wikipedia.org/wiki/Urothemis_signata"
@@ -1735,8 +1735,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Zygonyx_iris_main.jpg",
     photos: [
-      { url: "~/images/Zygonyx_iris_male1.jpg", credit: "ആൺതുമ്പി © ബ്രിജേഷ് പൂക്കോട്ടൂര്‍", sourceUrl: "https://commons.wikimedia.org/wiki/File%3AZygonyx_iris_malabarica_%28Fraser%2C_1926%29_Male1.jpg" },
-      { url: "~/images/Zygonyx_iris_female1.jpg", credit: "പെൺതുമ്പി © Pasteur Ng", sourceUrl: "https://www.inaturalist.org/observations/81386801" }
+      { url: "~/images/Zygonyx_iris_male1.jpg", credit: "ആൺതുമ്പി © ബ്രിജേഷ് പൂക്കോട്ടൂര്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AZygonyx_iris_malabarica_%28Fraser%2C_1926%29_Male1.jpg" },
+      { url: "~/images/Zygonyx_iris_female1.jpg", credit: "പെൺതുമ്പി © Pasteur Ng", "sourceUrl": "https://www.inaturalist.org/observations/81386801" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/115299-Zygonyx-iris",
     wikipediaLink: "https://en.wikipedia.org/wiki/Zygonyx_iris"
@@ -1755,8 +1755,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Zygonyx_torridus_isis_main.jpg",
     photos: [
-      { url: "~/images/Zygonyx_torridus_isis_male1.jpg", credit: "ആൺതുമ്പി © Broobas", sourceUrl: "https://en.wikipedia.org/wiki/File:Zygonyxff.jpg" },
-      { url: "~/images/Zygonyx_torridus_isis_female1.jpg", credit: "പെൺതുമ്പി © Alandmanson", sourceUrl: "https://en.wikipedia.org/wiki/File:Zygonyx_torridus_Ringed_Cascader_010053-1.jpg" }
+      { url: "~/images/Zygonyx_torridus_isis_male1.jpg", credit: "ആൺതുമ്പി © Broobas", "sourceUrl": "https://en.wikipedia.org/wiki/File:Zygonyxff.jpg" },
+      { url: "~/images/Zygonyx_torridus_isis_female1.jpg", credit: "പെൺതുമ്പി © Alandmanson", "sourceUrl": "https://en.wikipedia.org/wiki/File:Zygonyx_torridus_Ringed_Cascader_010053-1.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/1352019-Zygonyx-torridus-isis",
     wikipediaLink: "https://en.wikipedia.org/wiki/Zygonyx_torridus"
@@ -1775,8 +1775,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Zyxomma_petiolatum_main.jpg",
     photos: [
-      { url: "~/images/Zyxomma_petiolatum_male1.jpg", credit: "ആൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", sourceUrl: "https://en.wikipedia.org/wiki/File:Brown_Dusk_Hawk_(Zyxomma_petiolatum)_(25368467958).jpg" },
-      { url: "~/images/Zyxomma_petiolatum_female1.jpg", credit: "പെൺതുമ്പി © ഡേവിഡ് രാജു", sourceUrl: "https://en.wikipedia.org/wiki/File:Zyxomma_petiolatum_by_David_Raju.jpg" }
+      { url: "~/images/Zyxomma_petiolatum_male1.jpg", credit: "ആൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", "sourceUrl": "https://en.wikipedia.org/wiki/File:Brown_Dusk_Hawk_(Zyxomma_petiolatum)_(25368467958).jpg" },
+      { url: "~/images/Zyxomma_petiolatum_female1.jpg", credit: "പെൺതുമ്പി © ഡേവിഡ് രാജു", "sourceUrl": "https://en.wikipedia.org/wiki/File:Zyxomma_petiolatum_by_David_Raju.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/115308-Zyxomma-petiolatum",
     wikipediaLink: "https://en.wikipedia.org/wiki/Zyxomma_petiolatum"
@@ -1795,8 +1795,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Epophthalmia_frontalis_main.jpg",
     photos: [
-      { url: "~/images/Epophthalmia_frontalis_male1.jpg", credit: "ആൺതുമ്പി © രെജി ചന്ദ്രന്‍", sourceUrl: "https://en.wikipedia.org/wiki/File:2.Epophthalmia_frontalis.jpg" },
-	  { url: "~/images/Epophthalmia_frontalis_male2.jpg", credit: "ആൺതുമ്പി © രെജി ചന്ദ്രന്‍", sourceUrl: "https://commons.wikimedia.org/wiki/File:Epophthalmia_frontalis.jpg" }
+      { url: "~/images/Epophthalmia_frontalis_male1.jpg", credit: "ആൺതുമ്പി © രെജി ചന്ദ്രന്‍", "sourceUrl": "https://en.wikipedia.org/wiki/File:2.Epophthalmia_frontalis.jpg" },
+	  { url: "~/images/Epophthalmia_frontalis_male2.jpg", credit: "ആൺതുമ്പി © രെജി ചന്ദ്രന്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Epophthalmia_frontalis.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/100225-Epophthalmia-frontalis",
     wikipediaLink: "https://en.wikipedia.org/wiki/Epophthalmia_frontalis"
@@ -1815,8 +1815,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Epophthalmia_vittata_main.jpg",
     photos: [
-      { url: "~/images/Epophthalmia_vittata_male1.jpg", credit: "ആൺതുമ്പി © Suraj Naik", sourceUrl: "https://en.wikipedia.org/wiki/File:Epophthalmia_vittata_3_by_Suraj_Naik.jpg" },
-      { url: "~/images/Epophthalmia_vittata_female1.jpg", credit: "പെൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", sourceUrl: "https://en.wikipedia.org/wiki/File:Epophthalmia_vittata_(Common_Torrent_Hawk)_female_dorsal_view.jpg" }
+      { url: "~/images/Epophthalmia_vittata_male1.jpg", credit: "ആൺതുമ്പി © Suraj Naik", "sourceUrl": "https://en.wikipedia.org/wiki/File:Epophthalmia_vittata_3_by_Suraj_Naik.jpg" },
+      { url: "~/images/Epophthalmia_vittata_female1.jpg", credit: "പെൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", "sourceUrl": "https://en.wikipedia.org/wiki/File:Epophthalmia_vittata_(Common_Torrent_Hawk)_female_dorsal_view.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/100226-Epophthalmia-vittata",
     wikipediaLink: "https://en.wikipedia.org/wiki/Epophthalmia_vittata"
@@ -1828,15 +1828,15 @@ const defaultOdonates = [
     scientificName: "Macromia annaimallaiensis",
 	sciName: "Macromia annaimallaiensis (Fraser, 1931)",
     family: "Macromiidae / Torrent-Hawks / നീര്‍ക്കാവലന്മാര്‍",
-    description1: "നീർക്കാവലന്മാർ എന്ന തുമ്പി കുടുംബത്തിൽപ്പെട്ട ഒരു അപൂർവ്വയിനം തുമ്പിയാണ് ആനമല പെരുംകണ്ണൻ. ഈ തുമ്പി പശ്ചിമ ഘട്ടത്തിലെ ഒരു സ്ഥാനീയ തുമ്പിയാണ്. പശ്ചിമഘട്ടത്തിൽത്തന്നെ കേരളത്തിൽ പാലക്കാട് ഗ്യാപ്പിന് തെക്കോട്ടുള്ള പ്രദേശങ്ങളിൽ നിന്ന് മാത്രമാണ് ഈ തുമ്പിയെ കണ്ടെത്തിയിട്ടുള്ളത്. മരത്തകപ്പച്ച നിറത്തിൽ തിളങ്ങുന്ന കണ്ണുകളുള്ള, ഇടത്തരം വലിപ്പമുള്ള ഒരു തുമ്പിയാണ് ആനമല പെരുംകണ്ണൻ. ",
+    description1: "നീർക്കാവലന്മാർ എന്ന തുമ്പി കുടുംബത്തിൽപ്പെട്ട ഒരു അപൂർവ്വയിനം തുമ്പിയാണ് ആനമല പെരുംകണ്ണൻ. ഈ തുമ്പി പശ്ചിമ ഘട്ടത്തിലെ ഒരു സ്ഥാനീയ തുമ്പിയാണ്. കേരളത്തിൽ പാലക്കാട് ഗ്യാപ്പിന് തെക്കോട്ടുള്ള പ്രദേശങ്ങളിൽ നിന്ന് മാത്രമാണ് ഈ തുമ്പിയെ കണ്ടെത്തിയിട്ടുള്ളത്. മരത്തകപ്പച്ച നിറത്തിൽ തിളങ്ങുന്ന കണ്ണുകളുള്ള, ഇടത്തരം വലിപ്പമുള്ള ഒരു തുമ്പിയാണിത്.",
     description2: "ആൺതുമ്പിയുടെ ഉദരത്തിന് ശരാശരി 58 മില്ലീമീറ്റർ ആണ് വലിപ്പം. ശിരസ്സിന് പൊതുവെ ചുവപ്പ് കലർന്ന തവിട്ട് നിറമാണ്. ഇരുണ്ട തവിട്ട് നിറത്തിലുള്ള ഉരസ്സിന്റെ വശങ്ങൾക്ക് നേരിയ നീല തിളക്കം കാണാം. കറുത്ത നിറത്തിലുള്ള കാലുകൾക്ക് നല്ല നീളമുണ്ട്. സുതാര്യമായ ചിറകുകളുടെ മുകൾ അരികുകളിലായി വളരെ നേർത്ത ചുവപ്പ് കലർന്ന തവിട്ട് നിറം കാണാം. ചിറകിലെ പൊട്ടിന് കറുപ്പ് നിറമാണ്.",
      description3: "കറുത്ത നിറത്തിലുള്ള ഉദരത്തിൽ തിളങ്ങുന്ന മഞ്ഞ നിറത്തിലുള്ള പാടുകൾ കാണാം. കുറുവാലുകൾക്ക് കറുപ്പ് കലർന്ന തവിട്ട് നിറമാണ്. പെൺതുമ്പിയുടെ ഉദരം ആൺതുമ്പിയുടേതിനെ അപേക്ഷിച്ച് അല്പം തടിച്ച് കുറുകിയിട്ടാണ്. ഇതൊഴിച്ചാൽ പെൺതുമ്പിയും ആൺതുമ്പിയും കാഴ്ച്ചയിൽ വലിയ വ്യത്യാസങ്ങളില്ല.",
      description4: "കാട്ടാറുകളുടെ തീരങ്ങളിൽ പറന്ന് നടക്കാൻ ഇഷ്ടപ്പെടുന്ന ആനമല പെരുംകണ്ണൻ തുമ്പി കാട്ടരുവികളിലാണ് മുട്ടയിടാറുള്ളത്.",
      description5: "",
     mainPhoto: "~/images/Macromia_annaimallaiensis_main.jpg",
     photos: [
-      { url: "~/images/Macromia_annaimallaiensis_male1.jpg", credit: "ആൺതുമ്പി © Владимир Онишко", sourceUrl: "https://www.inaturalist.org/observations/224233281" },
-      { url: "~/images/Macromia_annaimallaiensis_female1.jpg", credit: "പെൺതുമ്പി © Omar Haroon", sourceUrl: "https://www.inaturalist.org/observations/82340284" }
+      { url: "~/images/Macromia_annaimallaiensis_male1.jpg", credit: "ആൺതുമ്പി © Владимир Онишко", "sourceUrl": "https://www.inaturalist.org/observations/224233281" },
+      { url: "~/images/Macromia_annaimallaiensis_female1.jpg", credit: "പെൺതുമ്പി © Omar Haroon", "sourceUrl": "https://www.inaturalist.org/observations/82340284" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/105019-Macromia-annaimallaiensis",
     wikipediaLink: "https://en.wikipedia.org/wiki/Macromia_annaimallaiensis"
@@ -1855,8 +1855,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Macromia_bellicosa_main.jpg",
     photos: [
-      { url: "~/images/Macromia_bellicosa_male1.jpg", credit: "ആൺതുമ്പി © രെജി ചന്ദ്രന്‍", sourceUrl: "https://www.inaturalist.org/observations/80742700" },
-	  { url: "~/images/Macromia_bellicosa_male2.jpg", credit: "ആൺതുമ്പി © രെജി ചന്ദ്രന്‍", sourceUrl: "https://commons.wikimedia.org/wiki/File:Macromia_bellicosa.jpg" }
+      { url: "~/images/Macromia_bellicosa_male1.jpg", credit: "ആൺതുമ്പി © രെജി ചന്ദ്രന്‍", "sourceUrl": "https://www.inaturalist.org/observations/80742700" },
+	  { url: "~/images/Macromia_bellicosa_male2.jpg", credit: "ആൺതുമ്പി © രെജി ചന്ദ്രന്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Macromia_bellicosa.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/105021-Macromia-bellicosa",
     wikipediaLink: "https://en.wikipedia.org/wiki/Macromia_bellicosa"
@@ -1875,8 +1875,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Macromia_cingulata_main.jpg",
     photos: [
-      { url: "~/images/Macromia_cingulata_male1.jpg", credit: "ആൺതുമ്പി © രെജി ചന്ദ്രന്‍", sourceUrl: "https://en.wikipedia.org/wiki/File:Macromia_cingulata.jpg" },
-      { url: "~/images/Macromia_cingulata_female1.jpg", credit: "പെൺതുമ്പി © രെജി ചന്ദ്രന്‍", sourceUrl: "https://commons.wikimedia.org/wiki/File:Macromia_cingulata_female.jpg" }
+      { url: "~/images/Macromia_cingulata_male1.jpg", credit: "ആൺതുമ്പി © രെജി ചന്ദ്രന്‍", "sourceUrl": "https://en.wikipedia.org/wiki/File:Macromia_cingulata.jpg" },
+      { url: "~/images/Macromia_cingulata_female1.jpg", credit: "പെൺതുമ്പി © രെജി ചന്ദ്രന്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Macromia_cingulata_female.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/105023-Macromia-cingulata",
     wikipediaLink: "https://en.wikipedia.org/wiki/Macromia_cingulata"
@@ -1895,8 +1895,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Macromia_ellisoni_main.jpg",
     photos: [
-      { url: "~/images/Macromia_ellisoni_male1.jpg", credit: "ആൺതുമ്പി © 2016 Jee & Rani Nature Photography", sourceUrl: "https://en.wikipedia.org/wiki/File:Macromia-Silent_Valley-2016-08-14-001.jpg" },
-      { url: "~/images/Macromia_ellisoni_male2.jpg", credit: "ആൺതുമ്പി © രെജി ചന്ദ്രന്‍", sourceUrl: "https://www.inaturalist.org/observations/150452986" }
+      { url: "~/images/Macromia_ellisoni_male1.jpg", credit: "ആൺതുമ്പി © 2016 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Macromia-Silent_Valley-2016-08-14-001.jpg" },
+      { url: "~/images/Macromia_ellisoni_male2.jpg", credit: "ആൺതുമ്പി © രെജി ചന്ദ്രന്‍", "sourceUrl": "https://www.inaturalist.org/observations/150452986" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/105025-Macromia-ellisoni",
     wikipediaLink: "https://en.wikipedia.org/wiki/Macromia_ellisoni"
@@ -1915,8 +1915,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Macromia_flavicincta_main.jpg",
     photos: [
-      { url: "~/images/Macromia_flavicincta_female1.jpg", credit: "പെൺതുമ്പി © Ashish D Tiple", sourceUrl: "https://en.wikipedia.org/wiki/File:Macromia_flavicincta_by_Ashish_D_Tiple.jpg" },
-      { url: "~/images/Macromia_flavicincta_female2.jpg", credit: "പെൺതുമ്പി © ബാലചന്ദ്രന്‍ വി", sourceUrl: "https://commons.wikimedia.org/wiki/File:Macromia_flavicincta_by_Bala_Chandran.jpg" }
+      { url: "~/images/Macromia_flavicincta_female1.jpg", credit: "പെൺതുമ്പി © Ashish D Tiple", "sourceUrl": "https://en.wikipedia.org/wiki/File:Macromia_flavicincta_by_Ashish_D_Tiple.jpg" },
+      { url: "~/images/Macromia_flavicincta_female2.jpg", credit: "പെൺതുമ്പി © ബാലചന്ദ്രന്‍ വി", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Macromia_flavicincta_by_Bala_Chandran.jpg" }
     ],
     speciesLink: "https://inaturalist.ca/taxa/105028-Macromia-flavicincta",
     wikipediaLink: "https://en.wikipedia.org/wiki/Macromia_flavicincta"
@@ -1935,8 +1935,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Macromia_flavocolorata_main.jpg",
     photos: [
-      { url: "~/images/Macromia_flavocolorata_male1.jpg", credit: "ആൺതുമ്പി © Thomson Saburaj", sourceUrl: "https://en.wikipedia.org/wiki/File:Macromia_flavocolorata_(_Male).jpg" },
-      { url: "~/images/Macromia_flavocolorata_female1.jpg", credit: "പെൺതുമ്പി © രെജി ചന്ദ്രന്‍", sourceUrl: "https://commons.wikimedia.org/wiki/File:Macromia_flavocolorata_female.jpg" }
+      { url: "~/images/Macromia_flavocolorata_male1.jpg", credit: "ആൺതുമ്പി © Thomson Saburaj", "sourceUrl": "https://en.wikipedia.org/wiki/File:Macromia_flavocolorata_(_Male).jpg" },
+      { url: "~/images/Macromia_flavocolorata_female1.jpg", credit: "പെൺതുമ്പി © രെജി ചന്ദ്രന്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Macromia_flavocolorata_female.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/105029-Macromia-flavocolorata",
     wikipediaLink: "https://en.wikipedia.org/wiki/Macromia_flavocolorata"
@@ -1955,8 +1955,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Macromia_ida_main.jpg",
     photos: [
-      { url: "~/images/Macromia_ida_male1.jpg", credit: "ആൺതുമ്പി © രെജി ചന്ദ്രന്‍", sourceUrl: "https://en.wikipedia.org/wiki/File:Macromia_ida.jpg" },
-      { url: "~/images/Macromia_ida_male2.jpg", credit: "ആൺതുമ്പി © രെജി ചന്ദ്രന്‍", sourceUrl: "https://commons.wikimedia.org/wiki/File:Macromia_ida_1.jpg" }
+      { url: "~/images/Macromia_ida_male1.jpg", credit: "ആൺതുമ്പി © രെജി ചന്ദ്രന്‍", "sourceUrl": "https://en.wikipedia.org/wiki/File:Macromia_ida.jpg" },
+      { url: "~/images/Macromia_ida_male2.jpg", credit: "ആൺതുമ്പി © രെജി ചന്ദ്രന്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Macromia_ida_1.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/105033-Macromia-ida",
     wikipediaLink: "https://en.wikipedia.org/wiki/Macromia_ida"
@@ -1975,7 +1975,7 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Macromia_indica_main.jpg",
     photos: [
-      { url: "~/images/Macromia_indica_male1.jpg", credit: "ആൺതുമ്പി © Aibor Sanglyne", sourceUrl: "https://www.inaturalist.org/photos/151979963" }
+      { url: "~/images/Macromia_indica_male1.jpg", credit: "ആൺതുമ്പി © Aibor Sanglyne", "sourceUrl": "https://www.inaturalist.org/photos/151979963" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/105035-Macromia-indica",
     wikipediaLink: "https://en.wikipedia.org/wiki/Macromia_indica"
@@ -1995,8 +1995,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Macromia_irata_main.jpg",
     photos: [
-      { url: "~/images/Macromia_irata_male1.jpg", credit: "ആൺതുമ്പി © രെജി ചന്ദ്രന്‍", sourceUrl: "https://en.wikipedia.org/wiki/File:1.Macromia_irata.jpg" },
-      { url: "~/images/Macromia_irata_female1.jpg", credit: "പെൺതുമ്പി © RENJITH RV", sourceUrl: "https://www.inaturalist.org/observations/49018280" }
+      { url: "~/images/Macromia_irata_male1.jpg", credit: "ആൺതുമ്പി © രെജി ചന്ദ്രന്‍", "sourceUrl": "https://en.wikipedia.org/wiki/File:1.Macromia_irata.jpg" },
+      { url: "~/images/Macromia_irata_female1.jpg", credit: "പെൺതുമ്പി © RENJITH RV", "sourceUrl": "https://www.inaturalist.org/observations/49018280" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/105036-Macromia-irata",
     wikipediaLink: "https://en.wikipedia.org/wiki/Macromia_irata"
@@ -2009,15 +2009,15 @@ const defaultOdonates = [
 	sciName: "Idionyx corona (Fraser, 1921)",
     family: "Synthemistidae / Dagger Heads / കോമരത്തുമ്പികള്‍",
     description1: "കോമരത്തുമ്പികൾ എന്ന തുമ്പി കുടുംബത്തിൽപ്പെട്ട ഒരു കല്ലൻ തുമ്പിയാണ് കൊമ്പില്ലാ കോമരം. ലോകത്തിൽ, പശ്ചിമഘട്ടത്തിലെ നിത്യഹരിതവനങ്ങളിൽ മാത്രം കാണപ്പെടുന്ന ഒരു അപൂർവ്വ ഇനം തുമ്പിയാണ് കൊമ്പില്ലാ കോമരം. കർണ്ണാടക, തമിഴ്നാട്, കേരളം എന്നീ 3 സംസ്ഥാനങ്ങളിൽ നിന്ന് മാത്രമാണ് ഈ തുമ്പിയെ ഇത് വരെ കണ്ടെത്തിയിട്ടുള്ളത്.",
-    description2: "idionyx ജനുസിൽപ്പെട്ട തുമ്പികളെ കയ്യിലെടുത്ത് പരിശോധിച്ചാൽ മാത്രമേ കൃത്യമായി തിരിച്ചറിയാൻ കഴിയുകയുള്ളു. ഇവയെ പിടിക്കുന്നതാവട്ടെ വളരെ വിഷമകരവുമാണ്.  ആയതിനാൽ ഈ തുമ്പികളെക്കുറിച്ചുള്ള പരിമിതമായ അറിവ് മാത്രമാണ് ഇത് വരെ ലഭ്യമായിട്ടുള്ളത്. മറ്റു കോമരത്തുമ്പികളെ  അപേക്ഷിച്ച് വലിപ്പം കുറഞ്ഞ ഇവയുടെ ചിറകുകളിൽ (ചിറകിന്റെ തുടക്ക ഭാഗം മുതൽ ചിറകിലെ പൊട്ട് വരെ) തിളങ്ങുന്ന മഞ്ഞ നിറം വ്യാപിച്ചു കാണാം.",
+    description2: "idionyx ജനുസിൽപ്പെട്ട തുമ്പികളെ കയ്യിലെടുത്ത് പരിശോധിച്ചാൽ മാത്രമേ കൃത്യമായി തിരിച്ചറിയാൻ കഴിയുകയുള്ളു. ഇവയെ പിടിക്കുന്നതാവട്ടെ വളരെ വിഷമകരവുമാണ്. ആയതിനാൽ ഈ തുമ്പികളെക്കുറിച്ചുള്ള പരിമിതമായ അറിവ് മാത്രമാണ് ഇത് വരെ ലഭ്യമായിട്ടുള്ളത്. മറ്റു കോമരത്തുമ്പികളെ അപേക്ഷിച്ച് വലിപ്പം കുറഞ്ഞ ഇവയുടെ ചിറകുകളിൽ തിളങ്ങുന്ന മഞ്ഞ നിറം വ്യാപിച്ചു കാണാം.",
      description3: "ഈ ഇനത്തിൽപ്പെട്ട മറ്റ് തുമ്പികളിൽ നിന്നു വ്യത്യസ്തമായി ഇവയുടെ താഴെയുള്ള ചെറുവാലുകളിൽ സൂക്ഷ്മരോമങ്ങൾ കാണുകയില്ല. പെൺതുമ്പിയുടെ കണ്ണുകൾക്കിടയിലുള്ള ഭാഗത്തെ സവിശേഷാകൃതി ഇവയെ എളുപ്പം തിരിച്ചറിയാൻ സഹായിക്കുന്നു. നിത്യഹരിത വനങ്ങളിലെ കുത്തിയൊഴുകുന്ന നീർച്ചാലുകളോട് ചേർന്നാണ് ഇവയെ കാണാറുള്ളത്. പർവ്വതമുകളിലെ അരുവികളിലാണ് ഇവ മുട്ടയിടാറുള്ളത്.",
      description4: "",
      description5: "",
     mainPhoto: "~/images/Idionyx_corona_main.jpg",
     photos: [
-    { url: "~/images/Idionyx_corona_male1.jpg", credit: "ആൺതുമ്പി © രെജി ചന്ദ്രന്‍", sourceUrl: "https://www.inaturalist.org/observations/122201810" },
-	{ url: "~/images/Idionyx_corona_male2.jpg", credit: "ആൺതുമ്പി © Thomson Saburaj", sourceUrl: "https://en.wikipedia.org/wiki/File:Idionyx_corona_(_Male).jpg" },
-	{ url: "~/images/Idionyx_corona_male3.jpg", credit: "ആൺതുമ്പി © വിവേക് ചന്ദ്രന്‍ എ", sourceUrl: "https://commons.wikimedia.org/wiki/File:Idionyx_corona.jpg" }
+    { url: "~/images/Idionyx_corona_male1.jpg", credit: "ആൺതുമ്പി © രെജി ചന്ദ്രന്‍", "sourceUrl": "https://www.inaturalist.org/observations/122201810" },
+	{ url: "~/images/Idionyx_corona_male2.jpg", credit: "ആൺതുമ്പി © Thomson Saburaj", "sourceUrl": "https://en.wikipedia.org/wiki/File:Idionyx_corona_(_Male).jpg" },
+	{ url: "~/images/Idionyx_corona_male3.jpg", credit: "ആൺതുമ്പി © വിവേക് ചന്ദ്രന്‍ എ", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Idionyx_corona.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/103312-Idionyx-corona",
     wikipediaLink: "https://en.wikipedia.org/wiki/Idionyx_corona"
@@ -2036,7 +2036,7 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Idionyx_galeata_male1.jpg",
     photos: [
-      { url: "~/images/Idionyx_galeata_male1.jpg", credit: "ആൺതുമ്പി © മുനീർ തോൽപ്പെട്ടി", sourceUrl: "https://en.wikipedia.org/wiki/File:Idionyx_galeata.jpg" }
+      { url: "~/images/Idionyx_galeata_male1.jpg", credit: "ആൺതുമ്പി © മുനീർ തോൽപ്പെട്ടി", "sourceUrl": "https://en.wikipedia.org/wiki/File:Idionyx_galeata.jpg" }
     ],
     speciesLink: "https://inaturalist.ca/taxa/733505-Idionyx-galeatus",
     wikipediaLink: "https://en.wikipedia.org/wiki/Idionyx_galeatus"
@@ -2055,8 +2055,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Idionyx_gomantakensis_main.jpg",
     photos: [
-      { url: "~/images/Idionyx_gomantakensis_male1.jpg", credit: "ആൺതുമ്പി © Parag Rangnekar", sourceUrl: "https://en.wikipedia.org/wiki/File:Idionyx_gomantakensis_by_Parag_Rangnekar.jpg" },
-      { url: "~/images/Idionyx_gomantakensis_female1.jpg", credit: "പെൺതുമ്പി © Thomson Saburaj", sourceUrl: "https://en.wikipedia.org/wiki/File:Idionyx_gomantakensis_(_female).jpg" }
+      { url: "~/images/Idionyx_gomantakensis_male1.jpg", credit: "ആൺതുമ്പി © Parag Rangnekar", "sourceUrl": "https://en.wikipedia.org/wiki/File:Idionyx_gomantakensis_by_Parag_Rangnekar.jpg" },
+      { url: "~/images/Idionyx_gomantakensis_female1.jpg", credit: "പെൺതുമ്പി © Thomson Saburaj", "sourceUrl": "https://en.wikipedia.org/wiki/File:Idionyx_gomantakensis_(_female).jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/562869-Idionyx-gomantakensis",
     wikipediaLink: "https://en.wikipedia.org/wiki/Idionyx_gomantakensis"
@@ -2075,7 +2075,7 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Idionyx_minima_male1.jpg",
     photos: [
-      { url: "~/images/Idionyx_minima_male1.jpg", credit: "ആൺതുമ്പി © Natural History Museum, London", sourceUrl: "https://en.wikipedia.org/wiki/File:Idionyx_minima_Fraser,_1931_2350455766.jpg" }
+      { url: "~/images/Idionyx_minima_male1.jpg", credit: "ആൺതുമ്പി © Natural History Museum, London", "sourceUrl": "https://en.wikipedia.org/wiki/File:Idionyx_minima_Fraser,_1931_2350455766.jpg" }
     ],
     speciesLink: "https://inaturalist.ca/taxa/733508-Idionyx-minimus",
     wikipediaLink: "https://en.wikipedia.org/wiki/Idionyx_minimus"
@@ -2094,7 +2094,7 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/assets/main_photo_1200x900.jpg",
     photos: [
-      { url: "~/assets/male_1.jpg", credit: " © ", sourceUrl: "https://" }
+      { url: "~/assets/male_1.jpg", credit: " © ", "sourceUrl": "https://" }
     ],
     speciesLink: "https://inaturalist.ca/taxa/103318-Idionyx-nadganiensis",
     wikipediaLink: "https://en.wikipedia.org/wiki/Idionyx_nadganiensis"
@@ -2113,7 +2113,7 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/assets/main_photo_1200x900.jpg",
     photos: [
-      { url: "~/assets/male_1.jpg", credit: " © ", sourceUrl: "https://" }
+      { url: "~/assets/male_1.jpg", credit: " © ", "sourceUrl": "https://" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/89078-Idionyx",
     wikipediaLink: "https://en.wikipedia.org/wiki/Idionyx"
@@ -2132,7 +2132,7 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/assets/main_photo_1200x900.jpg",
     photos: [
-      { url: "~/assets/male_1.jpg", credit: " © ", sourceUrl: "https://" }
+      { url: "~/assets/male_1.jpg", credit: " © ", "sourceUrl": "https://" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/103323-Idionyx-rhinoceroides",
     wikipediaLink: "https://en.wikipedia.org/wiki/Idionyx_rhinoceroides"
@@ -2151,8 +2151,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Idionyx_saffronata_main.jpg",
     photos: [
-      { url: "~/images/Idionyx_saffronata_male1.jpg", credit: "ആൺതുമ്പി © രെജി ചന്ദ്രന്‍", sourceUrl: "https://www.inaturalist.org/observations/80747576" },
-      { url: "~/images/Idionyx_saffronata_female1.jpg", credit: "പെൺതുമ്പി © Anoop Nair", sourceUrl: "https://www.inaturalist.org/observations/167368721" }
+      { url: "~/images/Idionyx_saffronata_male1.jpg", credit: "ആൺതുമ്പി © രെജി ചന്ദ്രന്‍", "sourceUrl": "https://www.inaturalist.org/observations/80747576" },
+      { url: "~/images/Idionyx_saffronata_female1.jpg", credit: "പെൺതുമ്പി © Anoop Nair", "sourceUrl": "https://www.inaturalist.org/observations/167368721" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/733511-Idionyx-saffronatus",
     wikipediaLink: "https://en.wikipedia.org/wiki/Idionyx_saffronatus"
@@ -2171,8 +2171,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Idionyx_travancorensis_main.jpg",
     photos: [
-      { url: "~/images/Idionyx_travancorensis_male1.jpg", credit: "ആൺതുമ്പി © Thomson Saburaj", sourceUrl: "https://commons.wikimedia.org/wiki/File:%E0%B4%A4%E0%B5%86%E0%B4%95%E0%B5%8D%E0%B4%95%E0%B5%BB_%E0%B4%95%E0%B5%8B%E0%B4%AE%E0%B4%B0%E0%B4%82_(cropped).jpg" },
-      { url: "~/images/Idionyx_travancorensis_female1.jpg", credit: "പെൺതുമ്പി © Thomson Saburaj", sourceUrl: "https://commons.wikimedia.org/wiki/File:%E0%B4%A4%E0%B5%86%E0%B4%95%E0%B5%8D%E0%B4%95%E0%B5%BB_%E0%B4%95%E0%B5%8B%E0%B4%AE%E0%B4%B0%E0%B4%82_female.jpg" }
+      { url: "~/images/Idionyx_travancorensis_male1.jpg", credit: "ആൺതുമ്പി © Thomson Saburaj", "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E0%B4%A4%E0%B5%86%E0%B4%95%E0%B5%8D%E0%B4%95%E0%B5%BB_%E0%B4%95%E0%B5%8B%E0%B4%AE%E0%B4%B0%E0%B4%82_(cropped).jpg" },
+      { url: "~/images/Idionyx_travancorensis_female1.jpg", credit: "പെൺതുമ്പി © Thomson Saburaj", "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E0%B4%A4%E0%B5%86%E0%B4%95%E0%B5%8D%E0%B4%95%E0%B5%BB_%E0%B4%95%E0%B5%8B%E0%B4%AE%E0%B4%B0%E0%B4%82_female.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/103326-Idionyx-travancorensis",
     wikipediaLink: "https://en.wikipedia.org/wiki/Idionyx_travancorensis"
@@ -2191,8 +2191,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Macromidia_donaldi_main.jpg",
     photos: [
-      { url: "~/images/Macromidia_donaldi_male1.jpg", credit: "ആൺതുമ്പി © ഡേവിഡ് രാജു", sourceUrl: "https://en.wikipedia.org/wiki/File:Davidraju_Goa_(3).jpg" },
-      { url: "~/images/Macromidia_donaldi_female1.jpg", credit: "പെൺതുമ്പി ©  2016 Jee & Rani Nature Photography", sourceUrl: "https://en.wikipedia.org/wiki/File:Macromidia_donaldi-Kadavoor-2016-07-25-001.jpg" }
+      { url: "~/images/Macromidia_donaldi_male1.jpg", credit: "ആൺതുമ്പി © ഡേവിഡ് രാജു", "sourceUrl": "https://en.wikipedia.org/wiki/File:Davidraju_Goa_(3).jpg" },
+      { url: "~/images/Macromidia_donaldi_female1.jpg", credit: "പെൺതുമ്പി ©  2016 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Macromidia_donaldi-Kadavoor-2016-07-25-001.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/105054-Macromidia-donaldi",
     wikipediaLink: "https://en.wikipedia.org/wiki/Macromidia_donaldi"
@@ -2204,18 +2204,18 @@ const defaultOdonates = [
     scientificName: "Neurobasis chinensis",
 	sciName: "Neurobasis chinensis (Linnaeus, 1758)",
     family: "Calopterygidae / Glories / മരതക‍ത്തുമ്പികള്‍",
-    description1: "ഏഷ്യയിലെ ഉഷ്ണമേഖലാ പ്രദേശത്തു കാണപ്പെടുന്ന മരതകത്തുമ്പി കുടുംബത്തിൽ ഉള്ള ഒരിനം സൂചിത്തുമ്പിയാണ് പീലിത്തുമ്പി. ആൺതുമ്പികളുടെ പിൻചിറകുകളുടെ മുകൾഭാഗം തിളക്കമുള്ള പച്ചനിറത്തോടു കൂടിയതാണ്. അടിഭാഗം ബ്രൗൺ നിറത്തിലും കാണുന്നു. പെൺതുമ്പികൾക്ക് വെളുത്ത രണ്ടു പൊട്ടോടുകൂടിയ സുതാര്യമായ ചിറകുകൾ ആണ്. കാടുകളിലോ കാടുകളോടു ചേർന്നുകിടക്കുന്ന ആയ പ്രദേശങ്ങളിലോ ഉള്ള അരുവികളിലോ തോടുകളിലോ ആണ് കൂടുതലായും കണ്ടുവരുന്നത്.",
+    description1: "ഏഷ്യയിലെ ഉഷ്ണമേഖലാ പ്രദേശത്തു കാണപ്പെടുന്ന മരതകത്തുമ്പി കുടുംബത്തിൽ ഉള്ള ഒരിനം സൂചിത്തുമ്പിയാണ് പീലിത്തുമ്പി. ആൺതുമ്പികളുടെ പിൻചിറകുകളുടെ മുകൾഭാഗം തിളക്കമുള്ള പച്ചനിറത്തോടു കൂടിയതാണ്. അടിഭാഗം ബ്രൗൺ നിറത്തിലും കാണുന്നു. പെൺതുമ്പികൾക്ക് വെളുത്ത രണ്ടു പൊട്ടോടുകൂടിയ സുതാര്യമായ ചിറകുകൾ ആണ്.",
     description2: "ആൺതുമ്പികൾ അനുയോജ്യമായ സ്ഥലങ്ങളിൽ നിലയുറപ്പിച്ചിരിക്കുന്നതായി കാണാം. പെൺതുമ്പികളെ ആകർഷിക്കാനായി ചിലപ്പോൾ ചിറകുകൾ മിന്നിക്കാറുണ്ട്. പെൺതുമ്പികൾ വെള്ളത്തിൽ മുങ്ങിക്കിടക്കുന്ന സസ്യങ്ങളിലാണ് മുട്ടയിടുന്നത്. ചിലപ്പോൾ കുറേസമയം പൂർണമായി മുങ്ങിക്കിടന്നും മുട്ടയിടുന്നത് കാണാം. ജലാശയത്തിനു സമീപത്തു മാത്രമേ ഇവയെ കാണാറുള്ളൂ.",
      description3: "കേരളത്തിൽ തിരുനെല്ലി (വയനാട്), കുമ്മന്നൂർ, കോന്നി (പത്തനംതിട്ട), നെല്ലിയാമ്പതി (പാലക്കാട്), ആറളം, വരദൂർ (കണ്ണൂർ), ഉപ്പുകുന്ന് (ഇടുക്കി), തട്ടേക്കാട് (എറണാകുളം) എന്നിവിടങ്ങളിലും കണ്ടിട്ടുണ്ട്. ഇന്ത്യയിൽ കൂടുതൽ പ്രദേശങ്ങളിൽ റിപ്പോർട്ടു ചെയ്തിട്ടുള്ളതും വർഷത്തിൽ ഏറ്റവും കൂടുതൽ സമയം കണാൻ കഴിഞ്ഞതായി റിപ്പോർട്ടു ചെയ്തിട്ടുള്ളതും കേരളത്തിലാണ്.",
      description4: "",
      description5: "",
     mainPhoto: "~/images/Neurobasis_chinensis_main.jpg",
     photos: [
-      { url: "~/images/Neurobasis_chinensis_male1.jpg", credit: "ആൺതുമ്പി © ബ്രിജേഷ് പൂക്കോട്ടൂര്‍", sourceUrl: "https://" },
-      { url: "~/images/Neurobasis_chinensis_female1.jpg", credit: "പെൺതുമ്പി © ബ്രിജേഷ് പൂക്കോട്ടൂര്‍", sourceUrl: "https://" },
-      { url: "~/images/Neurobasis_chinensis_male2.jpg", credit: "ആൺതുമ്പി © ബാലകൃഷ്ണന്‍ വളപ്പില്‍", sourceUrl: "https://commons.wikimedia.org/wiki/File:Damselflies_03_(2838148277).jpg" },
-	  { url: "~/images/Neurobasis_chinensis_male3.jpg", credit: "ആൺതുമ്പി © ബ്രിജേഷ് പൂക്കോട്ടൂര്‍", sourceUrl: "https://" },
-	  { url: "~/images/Neurobasis_chinensis_mating.jpg", credit: "ഇണചേരല്‍ © വിനയരാജ് വി.ആര്‍", sourceUrl: "https://commons.wikimedia.org/wiki/File:Neurobasis_chinensis_Linnaeus,_1758_%E2%80%93_Stream_Glory_mating_at_Kottiyoor_Wildlife_Sanctuary_(26).jpg" }
+      { url: "~/images/Neurobasis_chinensis_male1.jpg", credit: "ആൺതുമ്പി © ബ്രിജേഷ് പൂക്കോട്ടൂര്‍", "sourceUrl": "https://" },
+      { url: "~/images/Neurobasis_chinensis_female1.jpg", credit: "പെൺതുമ്പി © ബ്രിജേഷ് പൂക്കോട്ടൂര്‍", "sourceUrl": "https://" },
+      { url: "~/images/Neurobasis_chinensis_male2.jpg", credit: "ആൺതുമ്പി © ബാലകൃഷ്ണന്‍ വളപ്പില്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Damselflies_03_(2838148277).jpg" },
+	  { url: "~/images/Neurobasis_chinensis_male3.jpg", credit: "ആൺതുമ്പി © ബ്രിജേഷ് പൂക്കോട്ടൂര്‍", "sourceUrl": "https://" },
+	  { url: "~/images/Neurobasis_chinensis_mating.jpg", credit: "ഇണചേരല്‍ © വിനയരാജ് വി.ആര്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Neurobasis_chinensis_Linnaeus,_1758_%E2%80%93_Stream_Glory_mating_at_Kottiyoor_Wildlife_Sanctuary_(26).jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/106974-Neurobasis-chinensis",
     wikipediaLink: "https://en.wikipedia.org/wiki/Neurobasis_chinensis"
@@ -2228,15 +2228,15 @@ const defaultOdonates = [
 	sciName: "Vestalis apicalis (Selys, 1873)",
     family: "Calopterygidae / Glories / മരതക‍ത്തുമ്പികള്‍",
     description1: "ഇന്ത്യയിലും ശ്രീലങ്കയിലും മാത്രം കണ്ടെത്തിയിട്ടുള്ള മരതകത്തുമ്പി കുടുംബത്തിൽ ഉള്ള ഒരിനം സൂചിത്തുമ്പിയാണ് ചുട്ടിച്ചിറകൻ തണൽത്തുമ്പി. ഇന്ത്യയിൽ കർണ്ണാടക, മഹാരാഷ്ട്ര, കേരളം, പശ്ചിമബംഗാൾ, തമിഴ്‌നാട്, എന്നിവിടങ്ങളിലാണ് ഇതിനെ കണ്ടെത്തിയിട്ടുള്ളത്. കേരളത്തിലെ വനമേഖലകളിൽ സാധാരണയായി കാണപ്പെടുന്ന ഒരു തുമ്പിയാണിത്. വലിയ ഒരു സൂചിത്തുമ്പിയാണ് ചുട്ടിച്ചിറകൻ തണൽത്തുമ്പി.",
-    description2: "കേരളത്തിൽ കാണപ്പെടുന്നവയിൽ വെച്ച് ഏറ്റവും വലുപ്പമുള്ള സൂചിത്തുമ്പികളിൽ ഒന്നാണിത്. ആൺതുമ്പികളുടെ ഉദരത്തിന് ശരാശരി 49-55 മില്ലിമീറ്റർ വരെ വലുപ്പമുണ്ടായിരിക്കും.  കണ്ണുകൾക്ക് ഇരുണ്ട തവിട്ട് നിറമാണ്.  ഉരസ്സിന്റെ മുകൾഭാഗത്തിനും വശങ്ങൾക്കും തിളങ്ങുന്ന പച്ച നിറമാണ്.  അടിഭാഗം മഞ്ഞ കലർന്ന വെളുത്ത നിരത്തിലാണുള്ളത്.  ഉദരത്തിന്റെ മുകൾഭാഗം പച്ച നിറത്തിലും അടിഭാഗം കറുപ്പ് നിറത്തിലും കാണപ്പെടുന്നു.",
-     description3: "ഇവയുടെ ചിറകുകൾ സുതാര്യമാണ്.  ചിറകുകളുടെ അഗ്രഭാഗത്ത് കറുത്ത നിറത്തിലുള്ള വലിയ ഒരു പൊട്ടുണ്ട്. കാലുകൾക്ക് ഇരുണ്ട തവിട്ട് നിറമാണ്.  പെൺതുമ്പികളുടെ ചിറകിലെ പൊട്ടിന് നിറമൽപം കുറവായിരിക്കും.  മാത്രവുമല്ല ഉദരത്തിന് കൂടുതൽ ചെമ്പിച്ച നിറവുമുണ്ടായിരിക്കും.  ആൺതുമ്പിയും പെൺതുമ്പിയും തമ്മിൽ മറ്റ് വ്യത്യാസങ്ങളില്ല. സമുദ്രനിരപ്പിൽ നിന്നും ഏകദേശം 700 മീറ്റർ വരെ ഉയരമുള്ള വനപ്രദേശങ്ങളിലാണ് ഇവയെ കണ്ടെത്തിയിട്ടുള്ളത്.",
-     description4: "വനപാതകളിലും അവയോടു ചേർന്നുള്ള തണലുള്ള സ്ഥലങ്ങളിലും ചെറിയ തണൽതുമ്പിയോടൊപ്പം ഇവ കൂട്ടമായി ഇരിക്കുന്നത് കാണാം. അരുവികളിലാണ് ഇവ മുട്ടയിടുന്നത്. വനനശീകരണം ഇവയുടെ വൻതോതിലുള്ള നാശത്തിന് ഇടയാവുന്നുണ്ട്.",
+    description2: "കേരളത്തിൽ കാണപ്പെടുന്നവയിൽ വെച്ച് ഏറ്റവും വലുപ്പമുള്ള സൂചിത്തുമ്പികളിൽ ഒന്നാണിത്. ആൺതുമ്പികളുടെ ഉദരത്തിന് ശരാശരി 49-55 മില്ലിമീറ്റർ വരെ വലുപ്പമുണ്ടായിരിക്കും.  കണ്ണുകൾക്ക് ഇരുണ്ട തവിട്ട് നിറമാണ്. ഉരസ്സിന്റെ മുകൾഭാഗത്തിനും വശങ്ങൾക്കും തിളങ്ങുന്ന പച്ച നിറമാണ്. ഉദരത്തിന്റെ മുകൾഭാഗം പച്ച നിറത്തിലും അടിഭാഗം കറുപ്പ് നിറത്തിലും കാണപ്പെടുന്നു.",
+     description3: "ഇവയുടെ ചിറകുകൾ സുതാര്യമാണ്. ചിറകുകളുടെ അഗ്രഭാഗത്ത് കറുത്ത നിറത്തിലുള്ള വലിയ ഒരു പൊട്ടുണ്ട്. കാലുകൾക്ക് ഇരുണ്ട തവിട്ട് നിറമാണ്. പെൺതുമ്പികളുടെ ചിറകിലെ പൊട്ടിന് നിറമൽപം കുറവായിരിക്കും. മാത്രവുമല്ല ഉദരത്തിന് കൂടുതൽ ചെമ്പിച്ച നിറവുമുണ്ടായിരിക്കും. ആൺതുമ്പിയും പെൺതുമ്പിയും തമ്മിൽ മറ്റ് വ്യത്യാസങ്ങളില്ല.",
+     description4: " സമുദ്രനിരപ്പിൽ നിന്നും ഏകദേശം 700 മീറ്റർ വരെ ഉയരമുള്ള വനപ്രദേശങ്ങളിലാണ് ഇവയെ കണ്ടെത്തിയിട്ടുള്ളത്. വനപാതകളിലും അവയോടു ചേർന്നുള്ള തണലുള്ള സ്ഥലങ്ങളിലും ചെറിയ തണൽതുമ്പിയോടൊപ്പം ഇവ കൂട്ടമായി ഇരിക്കുന്നത് കാണാം. അരുവികളിലാണ് ഇവ മുട്ടയിടുന്നത്. വനനശീകരണം ഇവയുടെ വൻതോതിലുള്ള നാശത്തിന് ഇടയാവുന്നുണ്ട്.",
      description5: "",
     mainPhoto: "~/images/Vestalis_apicalis_main.jpg",
     photos: [
-      { url: "~/images/Vestalis_apicalis_male1.jpg", credit: "ആൺതുമ്പി © ബ്രിജേഷ് പൂക്കോട്ടൂര്‍", sourceUrl: "https://" },
-      { url: "~/images/Vestalis_apicalis_female1.jpg", credit: "പെൺതുമ്പി © ബ്രിജേഷ് പൂക്കോട്ടൂര്‍", sourceUrl: "https://" },
-	  { url: "~/images/Vestalis_apicalis_mating.jpg", credit: "ഇണചേരല്‍ © റൈസണ്‍ തുമ്പൂര്‍", sourceUrl: "https://commons.wikimedia.org/wiki/File:A_wonderful_frame!_(44442353862).jpg" }
+      { url: "~/images/Vestalis_apicalis_male1.jpg", credit: "ആൺതുമ്പി © ബ്രിജേഷ് പൂക്കോട്ടൂര്‍", "sourceUrl": "https://" },
+      { url: "~/images/Vestalis_apicalis_female1.jpg", credit: "പെൺതുമ്പി © ബ്രിജേഷ് പൂക്കോട്ടൂര്‍", "sourceUrl": "https://" },
+	  { url: "~/images/Vestalis_apicalis_mating.jpg", credit: "ഇണചേരല്‍ © റൈസണ്‍ തുമ്പൂര്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_wonderful_frame!_(44442353862).jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/114949-Vestalis-apicalis",
     wikipediaLink: "https://en.wikipedia.org/wiki/Vestalis_apicalis"
@@ -2248,15 +2248,15 @@ const defaultOdonates = [
     scientificName: "Vestalis gracilis",
 	sciName: "Vestalis gracilis (Rambur, 1842)",
     family: "Calopterygidae / Glories / മരതക‍ത്തുമ്പികള്‍",
-    description1: "മലനിരകളിലെ നീർച്ചാലുകൾക്കരികിൽ കാണപ്പെടുന്ന മരതകത്തുമ്പി കുടുംബത്തിൽ ഉള്ള ഒരിനം സൂചിത്തുമ്പിയാണ് തണൽതുമ്പി. കുടുംബനാമമായ മരതകത്തുമ്പി എന്ന പേരിലും ഇവ വിളിക്കപ്പെടാറുണ്ട്. ഏഷ്യയിലെ ഒട്ടുമിക്ക രാജ്യങ്ങളിലും ഇവ കാണപ്പെടുന്നു. കണ്ണുകൾ ഇരുണ്ട തവിട്ടും തിളങ്ങുന്ന പച്ചനിറവും ചേർന്നതാണ്. മരതകപ്പച്ചനിറമാണ് ശരീരത്തിനുള്ളത്. വെയിലേൽക്കുമ്പോൾ ഇവ വെട്ടിത്തിളങ്ങുന്നത് കാണാൻ ഭംഗിയാണ്.",
-    description2: "സുതാര്യമായ ചിറകുകൾക്ക് നേർത്ത ഇരുളിമയുണ്ട്. പെൺതുമ്പിയുടെ നിറം ആൺതുമ്പിയെ അപേക്ഷിച്ച് കുറച്ച് മങ്ങിയതാണ്. കാനനവാസിയായ ഈ തുമ്പി കാട്ടിലെ നീർചോലകളുള്ള പ്രദേശങ്ങളിലും കാടിനോട് ചേർന്ന നാട്ടിൻപുറങ്ങളിലെ ശുദ്ധജല നീരൊഴുക്കിന്റെ കരകളിലുമായി കണ്ടു വരുന്നു. ഇവ ചെറുസംഘങ്ങളായിട്ടാണ് പൊന്തകളിൽ കണ്ടുവരുന്നത്. ചിലപ്പോൾ ഇവയും ചുട്ടിച്ചിറകൻ തണൽത്തുമ്പിയും ഒരേ കൂട്ടമായി കാണാറുണ്ട്‌.",
-     description3: "ഒഴുകുന്ന കാട്ടരുവികളിലാണ് ഇവ മുട്ടയിടുന്നത്. മഴകഴിഞ്ഞുള്ള സമയത്ത് കാടുകളിൽ ഇവയുടെ സാന്ദ്രത കൂടുതലാണ്. ചിലപ്പോൾ അരുവികളിൽ നിന്നും വളരെ അകലെയുള്ള കാനനപാതകളിലും അവക്കടുത്തുള്ള തണലുള്ള സ്ഥലങ്ങളിലും വരെ ഇവയെ കൂട്ടമായി കാണാം.",
+    description1: "മലനിരകളിലെ നീർച്ചാലുകൾക്കരികിൽ കാണപ്പെടുന്ന മരതകത്തുമ്പി കുടുംബത്തിൽ ഉള്ള ഒരിനം സൂചിത്തുമ്പിയാണ് തണൽതുമ്പി. കുടുംബനാമമായ മരതകത്തുമ്പി എന്ന പേരിലും ഇവ വിളിക്കപ്പെടാറുണ്ട്. ഏഷ്യയിലെ ഒട്ടുമിക്ക രാജ്യങ്ങളിലും ഇവ കാണപ്പെടുന്നു. കണ്ണുകൾ ഇരുണ്ട തവിട്ടും തിളങ്ങുന്ന പച്ചനിറവും ചേർന്നതാണ്. മരതകപ്പച്ചനിറമാണ് ശരീരത്തിനുള്ളത്. ",
+    description2: "സുതാര്യമായ ചിറകുകൾക്ക് നേർത്ത ഇരുളിമയുണ്ട്. പെൺതുമ്പിയുടെ നിറം ആൺതുമ്പിയെ അപേക്ഷിച്ച് കുറച്ച് മങ്ങിയതാണ്. കാനനവാസിയായ ഈ തുമ്പി കാട്ടിലെ നീർചോലകളുള്ള പ്രദേശങ്ങളിലും കാടിനോട് ചേർന്ന നാട്ടിൻപുറങ്ങളിലെ ശുദ്ധജല നീരൊഴുക്കിന്റെ കരകളിലുമായി കണ്ടു വരുന്നു. ഇവ ചെറുസംഘങ്ങളായിട്ടാണ് പൊന്തകളിൽ കണ്ടുവരുന്നത്. ",
+     description3: "ചിലപ്പോൾ ഇവയും ചുട്ടിച്ചിറകൻ തണൽത്തുമ്പിയും ഒരേ കൂട്ടമായി കാണാറുണ്ട്‌. ഒഴുകുന്ന കാട്ടരുവികളിലാണ് ഇവ മുട്ടയിടുന്നത്. മഴകഴിഞ്ഞുള്ള സമയത്ത് കാടുകളിൽ ഇവയുടെ സാന്ദ്രത കൂടുതലാണ്. ചിലപ്പോൾ അരുവികളിൽ നിന്നും വളരെ അകലെയുള്ള കാനനപാതകളിലും അവക്കടുത്തുള്ള തണലുള്ള സ്ഥലങ്ങളിലും വരെ ഇവയെ കൂട്ടമായി കാണാം.",
      description4: "",
      description5: "",
     mainPhoto: "~/images/Vestalis_gracilis_main.jpg",
     photos: [
-      { url: "~/images/Vestalis_gracilis_male1.jpg", credit: "ആൺതുമ്പി © വിനീത് വെങ്ങോലിസ്", sourceUrl: "https://en.wikipedia.org/wiki/File:Clear-winged_Forest_Glory_06863.jpg" },
-      { url: "~/images/Vestalis_gracilis_female1.jpg", credit: "പെൺതുമ്പി © Dinesh Valke", sourceUrl: "https://en.wikipedia.org/wiki/File:Vestalis_gracilis_%E2%99%80_(4158773801).jpg" }
+      { url: "~/images/Vestalis_gracilis_male1.jpg", credit: "ആൺതുമ്പി © വിനീത് വെങ്ങോലിസ്", "sourceUrl": "https://en.wikipedia.org/wiki/File:Clear-winged_Forest_Glory_06863.jpg" },
+      { url: "~/images/Vestalis_gracilis_female1.jpg", credit: "പെൺതുമ്പി © Dinesh Valke", "sourceUrl": "https://en.wikipedia.org/wiki/File:Vestalis_gracilis_%E2%99%80_(4158773801).jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/114951-Vestalis-gracilis",
     wikipediaLink: "https://en.wikipedia.org/wiki/Vestalis_gracilis"
@@ -2275,9 +2275,9 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Vestalis_submontana_main.jpg",
     photos: [
-     { url: "~/images/Vestalis_submontana_female1.jpg", credit: "ആൺതുമ്പി © ഗിരീഷ് മോഹന്‍ പി.കെ", sourceUrl: "https://en.wikipedia.org/wiki/File:Vestalis_apicalis_submontana.jpg" },
-	 { url: "~/images/Vestalis_submontana_male1.jpg", credit: "പെൺതുമ്പി © 2010 Jee & Rani Nature Photography", sourceUrl: "https://en.wikipedia.org/wiki/File:Vestalis_submontana-Silent_Valley-2016-08-14-001.jpg" },
-	  { url: "~/images/Vestalis_submontana_male2.jpg", credit: "കുറുവാൽ © ഡേവിഡ് രാജു", sourceUrl: "https://en.wikipedia.org/wiki/File:Vestalis_submontana_Male.jpg" }
+     { url: "~/images/Vestalis_submontana_female1.jpg", credit: "ആൺതുമ്പി © ഗിരീഷ് മോഹന്‍ പി.കെ", "sourceUrl": "https://en.wikipedia.org/wiki/File:Vestalis_apicalis_submontana.jpg" },
+	 { url: "~/images/Vestalis_submontana_male1.jpg", credit: "പെൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Vestalis_submontana-Silent_Valley-2016-08-14-001.jpg" },
+	  { url: "~/images/Vestalis_submontana_male2.jpg", credit: "കുറുവാൽ © ഡേവിഡ് രാജു", "sourceUrl": "https://en.wikipedia.org/wiki/File:Vestalis_submontana_Male.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/561337-Vestalis-submontana",
     wikipediaLink: "https://en.wikipedia.org/wiki/Vestalis_submontana"
@@ -2296,8 +2296,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Calocypha_laidlawi_main.jpg",
     photos: [
-      { url: "~/images/Calocypha_laidlawi_male1.jpg", credit: "ആൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", sourceUrl: "https://en.wikipedia.org/wiki/File:Myristica_Sapphire_(Calocypha_laidlawi)_male.jpg" },
-      { url: "~/images/Calocypha_laidlawi_female1.jpg", credit: "പെൺതുമ്പി © രെജി ചന്ദ്രന്‍", sourceUrl: "https://en.wikipedia.org/wiki/File:Calocypha_laidlawi_female_(cropped).jpg" }
+      { url: "~/images/Calocypha_laidlawi_male1.jpg", credit: "ആൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", "sourceUrl": "https://en.wikipedia.org/wiki/File:Myristica_Sapphire_(Calocypha_laidlawi)_male.jpg" },
+      { url: "~/images/Calocypha_laidlawi_female1.jpg", credit: "പെൺതുമ്പി © രെജി ചന്ദ്രന്‍", "sourceUrl": "https://en.wikipedia.org/wiki/File:Calocypha_laidlawi_female_(cropped).jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/96476-Calocypha-laidlawi",
     wikipediaLink: "https://en.wikipedia.org/wiki/Calocypha_laidlawi"
@@ -2316,11 +2316,11 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Heliocypha_bisignata_main.jpg",
     photos: [
-     { url: "~/images/Heliocypha_bisignata_male1.jpg", credit: "ആൺതുമ്പി © 2010 Jee & Rani Nature Photography", sourceUrl: "https://en.wikipedia.org/wiki/File:Rhinocypha_bisignata_male-Kadavoor-2015-08-20-001.jpg" },
-	 { url: "~/images/Heliocypha_bisignata_female1.jpg", credit: "പെൺതുമ്പി © എബ്രഹാം സാമുവേല്‍", sourceUrl: "https://commons.wikimedia.org/wiki/File:Heliocypha_bisignata_-_female_18_(2).jpg" },
-	 { url: "~/images/Heliocypha_bisignata_male2.jpg", credit: "ആൺതുമ്പി © ബ്രിജേഷ് പൂക്കോട്ടൂര്‍", sourceUrl: "https://" },
-	 { url: "~/images/Heliocypha_bisignata_male3.jpg", credit: "ആൺതുമ്പി © ബ്രിജേഷ് പൂക്കോട്ടൂര്‍", sourceUrl: "https://" },
-	 { url: "~/images/Heliocypha_bisignata_female2.jpg", credit: "പെൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", sourceUrl: "https://commons.wikimedia.org/wiki/File:Stream_Ruby_(Rhinocypha_bisignata)_female._%E0%B4%A8%E0%B5%80%E0%B4%B0%E0%B5%8D%E2%80%8D%E0%B4%AE%E0%B4%BE%E0%B4%A3%E0%B4%BF%E0%B4%95%E0%B5%8D%E0%B4%AF%E0%B4%A8%E0%B5%8D%E2%80%8D_(45003065764).jpg" }
+     { url: "~/images/Heliocypha_bisignata_male1.jpg", credit: "ആൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Rhinocypha_bisignata_male-Kadavoor-2015-08-20-001.jpg" },
+	 { url: "~/images/Heliocypha_bisignata_female1.jpg", credit: "പെൺതുമ്പി © എബ്രഹാം സാമുവേല്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Heliocypha_bisignata_-_female_18_(2).jpg" },
+	 { url: "~/images/Heliocypha_bisignata_male2.jpg", credit: "ആൺതുമ്പി © ബ്രിജേഷ് പൂക്കോട്ടൂര്‍", "sourceUrl": "https://" },
+	 { url: "~/images/Heliocypha_bisignata_male3.jpg", credit: "ആൺതുമ്പി © ബ്രിജേഷ് പൂക്കോട്ടൂര്‍", "sourceUrl": "https://" },
+	 { url: "~/images/Heliocypha_bisignata_female2.jpg", credit: "പെൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stream_Ruby_(Rhinocypha_bisignata)_female._%E0%B4%A8%E0%B5%80%E0%B4%B0%E0%B5%8D%E2%80%8D%E0%B4%AE%E0%B4%BE%E0%B4%A3%E0%B4%BF%E0%B4%95%E0%B5%8D%E0%B4%AF%E0%B4%A8%E0%B5%8D%E2%80%8D_(45003065764).jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/561358-Heliocypha-bisignata",
     wikipediaLink: "https://en.wikipedia.org/wiki/Heliocypha_bisignata"
@@ -2339,9 +2339,9 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Libellago_indica_main.jpg",
     photos: [
-      { url: "~/images/Libellago_indica_male1.jpg", credit: "ആൺതുമ്പി © 2010 Jee & Rani Nature Photography", sourceUrl: "https://en.wikipedia.org/wiki/File:Libellago_lineata_male-Kadavoor-2015-08-21-001-cropped.jpg" },
-      { url: "~/images/Libellago_indica_female1.jpg", credit: "പെൺതുമ്പി © 2010 Jee & Rani Nature Photography", sourceUrl: "https://en.wikipedia.org/wiki/File:Libellago_lineata_female-Kadavoor-2015-08-21-001-cropped.jpg" },
-	  { url: "~/images/Libellago_indica_mating.jpg", credit: "ഇണചേരല്‍ © റൈസണ്‍ തുമ്പൂര്‍", sourceUrl: "https://en.wikipedia.org/wiki/File:River_heliodor_mating_(36857248326).jpg" }
+      { url: "~/images/Libellago_indica_male1.jpg", credit: "ആൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Libellago_lineata_male-Kadavoor-2015-08-21-001-cropped.jpg" },
+      { url: "~/images/Libellago_indica_female1.jpg", credit: "പെൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Libellago_lineata_female-Kadavoor-2015-08-21-001-cropped.jpg" },
+	  { url: "~/images/Libellago_indica_mating.jpg", credit: "ഇണചേരല്‍ © റൈസണ്‍ തുമ്പൂര്‍", "sourceUrl": "https://en.wikipedia.org/wiki/File:River_heliodor_mating_(36857248326).jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/561372-Libellago-indica",
     wikipediaLink: "https://en.wikipedia.org/wiki/Libellago_indica"
@@ -2360,9 +2360,9 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Aciagrion_approximans_krishna_main.jpg",
     photos: [
-      { url: "~/images/Aciagrion_approximans_krishna_male1.jpg", credit: "ആൺതുമ്പി © എബ്രഹാം സാമുവേല്‍", sourceUrl: "https://en.wikipedia.org/wiki/File:Aciagrion_approximans_krishna_male_(14).jpg" },
-      { url: "~/images/Aciagrion_approximans_krishna_female1.jpg", credit: "പെൺതുമ്പി © Milind bhakare", sourceUrl: "https://commons.wikimedia.org/wiki/File:Aciagrion_approximans_krishna_%E2%80%93_Indian_Violet_Dartlet-THOSEGHAR_female_(1).jpg" },
-	  { url: "~/images/Aciagrion_approximans_krishna_mating.jpg", credit: "ഇണചേരല്‍ © Milind bhakare", sourceUrl: "https://commons.wikimedia.org/wiki/File:Aciagrion_approximans_krishna_%E2%80%93_Indian_Violet_Dartlet-_mating.jpg" }
+      { url: "~/images/Aciagrion_approximans_krishna_male1.jpg", credit: "ആൺതുമ്പി © എബ്രഹാം സാമുവേല്‍", "sourceUrl": "https://en.wikipedia.org/wiki/File:Aciagrion_approximans_krishna_male_(14).jpg" },
+      { url: "~/images/Aciagrion_approximans_krishna_female1.jpg", credit: "പെൺതുമ്പി © Milind bhakare", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aciagrion_approximans_krishna_%E2%80%93_Indian_Violet_Dartlet-THOSEGHAR_female_(1).jpg" },
+	  { url: "~/images/Aciagrion_approximans_krishna_mating.jpg", credit: "ഇണചേരല്‍ © Milind bhakare", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aciagrion_approximans_krishna_%E2%80%93_Indian_Violet_Dartlet-_mating.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/1561824-Aciagrion-approximans-krishna",
     wikipediaLink: "https://en.wikipedia.org/wiki/Aciagrion_approximans"
@@ -2381,9 +2381,9 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Aciagrion_occidentale_main.jpg",
     photos: [
-      { url: "~/images/Aciagrion_occidentale_male1.jpg", credit: "ആൺതുമ്പി © വിനീത് വെങ്ങോലിസ്", sourceUrl: "https://commons.wikimedia.org/wiki/File:Aciagrion_occidentale_01927.jpg" },
-      { url: "~/images/Aciagrion_occidentale_female1.jpg", credit: "പെൺതുമ്പി © Muhamed Sherif", sourceUrl: "https://en.wikipedia.org/wiki/File:Aciagrion_occidentale_by_Sherif.jpg" },
-	  { url: "~/images/Aciagrion_occidentale_mating.jpg", credit: "ഇണചേരല്‍ © ഷിനോ ജേക്കബ് കൂറ്റനാട്", sourceUrl: "https://commons.wikimedia.org/wiki/File:Green-striped_Slender_Dartlet_,Aciagrion_occidentale.jpg" }
+      { url: "~/images/Aciagrion_occidentale_male1.jpg", credit: "ആൺതുമ്പി © വിനീത് വെങ്ങോലിസ്", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aciagrion_occidentale_01927.jpg" },
+      { url: "~/images/Aciagrion_occidentale_female1.jpg", credit: "പെൺതുമ്പി © Muhamed Sherif", "sourceUrl": "https://en.wikipedia.org/wiki/File:Aciagrion_occidentale_by_Sherif.jpg" },
+	  { url: "~/images/Aciagrion_occidentale_mating.jpg", credit: "ഇണചേരല്‍ © ഷിനോ ജേക്കബ് കൂറ്റനാട്", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Green-striped_Slender_Dartlet_,Aciagrion_occidentale.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/93156-Aciagrion-occidentale",
     wikipediaLink: "https://en.wikipedia.org/wiki/Aciagrion_occidentale"
@@ -2402,9 +2402,9 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Agriocnemis_keralensis_main.jpg",
     photos: [
-      { url: "~/images/Agriocnemis_keralensis_male1.jpg", credit: "ആൺതുമ്പി © 2010 Jee & Rani Nature Photography", sourceUrl: "https://en.wikipedia.org/wiki/File:Agriocnemis_keralensis_at_Kadavoor.jpg" },
-      { url: "~/images/Agriocnemis_keralensis_female1.jpg", credit: "പെൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", sourceUrl: "https://en.wikipedia.org/wiki/File:Agriocnemis_keralensis_Female_(20113195221).jpg" },
-	  { url: "~/images/Agriocnemis_Keralensis_mating.jpg", credit: "ഇണചേരല്‍ © റൈസണ്‍ തുമ്പൂര്‍", sourceUrl: "https://en.wikipedia.org/wiki/File:Agriocnemis_Keralensis_mating.jpg" }
+      { url: "~/images/Agriocnemis_keralensis_male1.jpg", credit: "ആൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Agriocnemis_keralensis_at_Kadavoor.jpg" },
+      { url: "~/images/Agriocnemis_keralensis_female1.jpg", credit: "പെൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", "sourceUrl": "https://en.wikipedia.org/wiki/File:Agriocnemis_keralensis_Female_(20113195221).jpg" },
+	  { url: "~/images/Agriocnemis_Keralensis_mating.jpg", credit: "ഇണചേരല്‍ © റൈസണ്‍ തുമ്പൂര്‍", "sourceUrl": "https://en.wikipedia.org/wiki/File:Agriocnemis_Keralensis_mating.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/93551-Agriocnemis-keralensis",
     wikipediaLink: "https://en.wikipedia.org/wiki/Agriocnemis_keralensis"
@@ -2423,9 +2423,9 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Agriocnemis_pieris_main.jpg",
     photos: [
-      { url: "~/images/Agriocnemis_pieris_male1.jpg", credit: "ആൺതുമ്പി © 2010 Jee & Rani Nature Photography", sourceUrl: "https://en.wikipedia.org/wiki/File:Agriocnemis_pieris-Kadavoor-2016-11-26-001.jpg" },
-      { url: "~/images/Agriocnemis_pieris_female1.jpg", credit: "പെൺതുമ്പി © 2010 Jee & Rani Nature Photography", sourceUrl: "https://en.wikipedia.org/wiki/File:Agriocnemis_pieris-Kadavoor-2016-07-31-002.jpg" },
-	  { url: "~/images/Agriocnemis_pieris_mating.jpg", credit: "ഇണചേരല്‍ © 2010 Jee & Rani Nature Photography", sourceUrl: "https://en.wikipedia.org/wiki/File:Agriocnemis_pieris_mating_in_Kadavoor.jpg" }
+      { url: "~/images/Agriocnemis_pieris_male1.jpg", credit: "ആൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Agriocnemis_pieris-Kadavoor-2016-11-26-001.jpg" },
+      { url: "~/images/Agriocnemis_pieris_female1.jpg", credit: "പെൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Agriocnemis_pieris-Kadavoor-2016-07-31-002.jpg" },
+	  { url: "~/images/Agriocnemis_pieris_mating.jpg", credit: "ഇണചേരല്‍ © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Agriocnemis_pieris_mating_in_Kadavoor.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/93556-Agriocnemis-pieris",
     wikipediaLink: "https://en.wikipedia.org/wiki/Agriocnemis_pieris"
@@ -2444,9 +2444,9 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Agriocnemis_pygmaea_main.jpg",
     photos: [
-      { url: "~/images/Agriocnemis_pygmaea_male1.jpg", credit: "ആൺതുമ്പി © Joydeep", sourceUrl: "https://en.wikipedia.org/wiki/File:Agriocnemis_pygmaea_male,_Burdwan,_West_Bengal,_India_14_03_2012.jpg" },
-      { url: "~/images/Agriocnemis_pygmaea_female1.jpg", credit: "പെൺതുമ്പി © Joydeep", sourceUrl: "https://en.wikipedia.org/wiki/File:Agriocnemis_pygmaea_female,_Burdwan,_West_Bengal,_India_11_10_2012.jpg" },
-	  { url: "~/images/Agriocnemis_pygmaea_mating.jpg", credit: "ഇണചേരല്‍ © Renjusplace", sourceUrl: "https://commons.wikimedia.org/wiki/File:Agriocnemis_pygmaea_12.jpg" }
+      { url: "~/images/Agriocnemis_pygmaea_male1.jpg", credit: "ആൺതുമ്പി © Joydeep", "sourceUrl": "https://en.wikipedia.org/wiki/File:Agriocnemis_pygmaea_male,_Burdwan,_West_Bengal,_India_14_03_2012.jpg" },
+      { url: "~/images/Agriocnemis_pygmaea_female1.jpg", credit: "പെൺതുമ്പി © Joydeep", "sourceUrl": "https://en.wikipedia.org/wiki/File:Agriocnemis_pygmaea_female,_Burdwan,_West_Bengal,_India_11_10_2012.jpg" },
+	  { url: "~/images/Agriocnemis_pygmaea_mating.jpg", credit: "ഇണചേരല്‍ © Renjusplace", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Agriocnemis_pygmaea_12.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/93558-Agriocnemis-pygmaea",
     wikipediaLink: "https://en.wikipedia.org/wiki/Agriocnemis_pygmaea"
@@ -2465,8 +2465,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Agriocnemis_splendidissima_main.jpg",
     photos: [
-      { url: "~/images/Agriocnemis_splendidissima_male1.jpg", credit: "ആൺതുമ്പി © 2010 Jee & Rani Nature Photography", sourceUrl: "https://en.wikipedia.org/wiki/File:Agriocnemis_splendidissima_by_kadavoor.JPG" },
-      { url: "~/images/Agriocnemis_splendidissima_female1.jpg", credit: "പെൺതുമ്പി © 2010 Jee & Rani Nature Photography", sourceUrl: "https://en.wikipedia.org/wiki/File:Agriocnemis_splendidissima_female_by_Kadavoor.jpg" }
+      { url: "~/images/Agriocnemis_splendidissima_male1.jpg", credit: "ആൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Agriocnemis_splendidissima_by_kadavoor.JPG" },
+      { url: "~/images/Agriocnemis_splendidissima_female1.jpg", credit: "പെൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Agriocnemis_splendidissima_female_by_Kadavoor.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/733494-Agriocnemis-splendidissima",
     wikipediaLink: "https://en.wikipedia.org/wiki/Agriocnemis_splendidissima"
@@ -2485,8 +2485,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Amphiallagma_parvum_main.jpg",
     photos: [
-      { url: "~/images/Amphiallagma_parvum_male1.jpg", credit: "ആൺതുമ്പി © ഡേവിഡ് രാജു", sourceUrl: "https://en.wikipedia.org/wiki/File:Amphiallagma_parvum_by_Davidraju_IMG_9994.jpg" },
-      { url: "~/images/Amphiallagma_parvum_female1.jpg", credit: "പെൺതുമ്പി © വിനയന്‍ പി നായര്‍", sourceUrl: "https://en.wikipedia.org/wiki/File:Azure_Dartlet_(_Amphiallagma_parvum)_Female.jpg" }
+      { url: "~/images/Amphiallagma_parvum_male1.jpg", credit: "ആൺതുമ്പി © ഡേവിഡ് രാജു", "sourceUrl": "https://en.wikipedia.org/wiki/File:Amphiallagma_parvum_by_Davidraju_IMG_9994.jpg" },
+      { url: "~/images/Amphiallagma_parvum_female1.jpg", credit: "പെൺതുമ്പി © വിനയന്‍ പി നായര്‍", "sourceUrl": "https://en.wikipedia.org/wiki/File:Azure_Dartlet_(_Amphiallagma_parvum)_Female.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/93900-Amphiallagma-parvum",
     wikipediaLink: "https://en.wikipedia.org/wiki/Amphiallagma"
@@ -2505,10 +2505,10 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Archibasis_oscillans_main.jpg",
     photos: [
-      { url: "~/images/Archibasis_oscillans_male1.jpg", credit: "ആൺതുമ്പി © 2010 Jee & Rani Nature Photography", sourceUrl: "https://commons.wikimedia.org/wiki/File:Archibasis_oscillans_male-Kadavoor-2015-08-20-001.jpg" },
-      { url: "~/images/Archibasis_oscillans_female1.jpg", credit: "പെൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", sourceUrl: "https://en.wikipedia.org/wiki/File:Archibasis_oscillans_female_(22617529972).jpg" },
-      { url: "~/images/Archibasis_oscillans_female2.jpg", credit: "പെൺതുമ്പി © Praveen J", sourceUrl: "https://www.inaturalist.org/observations/105772746" },	  
-	  { url: "~/images/Archibasis_oscillans_mating.jpg", credit: "ഇണചേരല്‍ © 2010 Jee & Rani Nature Photography", sourceUrl: "https://commons.wikimedia.org/wiki/File:Archibasis_oscillans-Kadavoor-2016-07-03-007.jpg" }
+      { url: "~/images/Archibasis_oscillans_male1.jpg", credit: "ആൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Archibasis_oscillans_male-Kadavoor-2015-08-20-001.jpg" },
+      { url: "~/images/Archibasis_oscillans_female1.jpg", credit: "പെൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", "sourceUrl": "https://en.wikipedia.org/wiki/File:Archibasis_oscillans_female_(22617529972).jpg" },
+      { url: "~/images/Archibasis_oscillans_female2.jpg", credit: "പെൺതുമ്പി © Praveen J", "sourceUrl": "https://www.inaturalist.org/observations/105772746" },	  
+	  { url: "~/images/Archibasis_oscillans_mating.jpg", credit: "ഇണചേരല്‍ © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Archibasis_oscillans-Kadavoor-2016-07-03-007.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/94510-Archibasis-oscillans",
     wikipediaLink: "https://en.wikipedia.org/wiki/Archibasis_oscillans"
@@ -2527,8 +2527,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Ceriagrion_olivaceum_main.jpg",
     photos: [
-      { url: "~/images/Ceriagrion_olivaceum_male1.jpg", credit: "ആൺതുമ്പി © മുനീർ തോൽപ്പെട്ടി", sourceUrl: "https://commons.wikimedia.org/wiki/File:Ceriagrion_olivaceum_auraniacum.jpg" },
-      { url: "~/images/Ceriagrion_olivaceum_female1.jpg", credit: "പെൺതുമ്പി © മനോജ് പി", sourceUrl: "https://en.wikipedia.org/wiki/File:Ceriagrion_olivaceum_female.jpg" }
+      { url: "~/images/Ceriagrion_olivaceum_male1.jpg", credit: "ആൺതുമ്പി © മുനീർ തോൽപ്പെട്ടി", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ceriagrion_olivaceum_auraniacum.jpg" },
+      { url: "~/images/Ceriagrion_olivaceum_female1.jpg", credit: "പെൺതുമ്പി © മനോജ് പി", "sourceUrl": "https://en.wikipedia.org/wiki/File:Ceriagrion_olivaceum_female.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/97073-Ceriagrion-olivaceum",
     wikipediaLink: "https://en.wikipedia.org/wiki/Ceriagrion_olivaceum"
@@ -2547,9 +2547,9 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Ceriagrion_cerinorubellum_main.jpg",
     photos: [
-      { url: "~/images/Ceriagrion_cerinorubellum_male1.jpg", credit: "ആൺതുമ്പി © വിനീത് വെങ്ങോലിസ്", sourceUrl: "https://en.wikipedia.org/wiki/File:Orange-tailed_marsh_dart_08030.jpg" },
-      { url: "~/images/Ceriagrion_cerinorubellum_female1.jpg", credit: "പെൺതുമ്പി © ഡേവിഡ് രാജു", sourceUrl: "https://en.wikipedia.org/wiki/File:Davidraju_IMG_7768.jpg" },
-	  { url: "~/images/Ceriagrion_cerinorubellum_mating.jpg", credit: "ഇണചേരല്‍ © 2010 Jee & Rani Nature Photography", sourceUrl: "https://en.wikipedia.org/wiki/File:Ceriagrion_cerinorubellum_mating_by_kadavoor.jpg" }
+      { url: "~/images/Ceriagrion_cerinorubellum_male1.jpg", credit: "ആൺതുമ്പി © വിനീത് വെങ്ങോലിസ്", "sourceUrl": "https://en.wikipedia.org/wiki/File:Orange-tailed_marsh_dart_08030.jpg" },
+      { url: "~/images/Ceriagrion_cerinorubellum_female1.jpg", credit: "പെൺതുമ്പി © ഡേവിഡ് രാജു", "sourceUrl": "https://en.wikipedia.org/wiki/File:Davidraju_IMG_7768.jpg" },
+	  { url: "~/images/Ceriagrion_cerinorubellum_mating.jpg", credit: "ഇണചേരല്‍ © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Ceriagrion_cerinorubellum_mating_by_kadavoor.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/97057-Ceriagrion-cerinorubellum",
     wikipediaLink: "https://en.wikipedia.org/wiki/Ceriagrion_cerinorubellum"
@@ -2568,8 +2568,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Ceriagrion_chromothorax_main.jpg",
     photos: [
-      { url: "~/images/Ceriagrion_chromothorax_male1.jpg", credit: "ആൺതുമ്പി © വിനയന്‍ പി നായര്‍", sourceUrl: "https://en.wikipedia.org/wiki/File:Ceriagrion_chromothorax._Male.jpg" },
-      { url: "~/images/Ceriagrion_chromothorax_female1.jpg", credit: "പെൺതുമ്പി © Charles J. Sharp", sourceUrl: "https://commons.wikimedia.org/wiki/File:Sindhudurg_marsh_dart_(Ceriagrion_chromothorax)_female_Kerala.jpg" }
+      { url: "~/images/Ceriagrion_chromothorax_male1.jpg", credit: "ആൺതുമ്പി © വിനയന്‍ പി നായര്‍", "sourceUrl": "https://en.wikipedia.org/wiki/File:Ceriagrion_chromothorax._Male.jpg" },
+      { url: "~/images/Ceriagrion_chromothorax_female1.jpg", credit: "പെൺതുമ്പി © Charles J. Sharp", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sindhudurg_marsh_dart_(Ceriagrion_chromothorax)_female_Kerala.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/990996-Ceriagrion-chromothorax",
     wikipediaLink: "https://en.wikipedia.org/wiki/Ceriagrion_chromothorax"
@@ -2588,9 +2588,9 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Ceriagrion_coromandelianum_main.jpg",
     photos: [
-      { url: "~/images/Ceriagrion_coromandelianum_male1.jpg", credit: "ആൺതുമ്പി © Joydeep", sourceUrl: "https://en.wikipedia.org/wiki/File:Ceriagrion_coromandelianum_male,_Burdwan,_West_Bengal,_India_09_07_2013.jpg" },
-      { url: "~/images/Ceriagrion_coromandelianum_female1.jpg", credit: "പെൺതുമ്പി © Joydeep", sourceUrl: "https://en.wikipedia.org/wiki/File:Ceriagrion_coromandelianum,_Burdwan,_West_Bengal,_India_23_09_2012_(1).JPG" },
-	  { url: "~/images/Ceriagrion_coromandelianum_mating.jpg", credit: "ഇണചേരല്‍ © വിനീത് വെങ്ങോലിസ്", sourceUrl: "https://commons.wikimedia.org/wiki/File:Ceriagrion_coromandelianum_mating_6017_(cropped).jpg" }
+      { url: "~/images/Ceriagrion_coromandelianum_male1.jpg", credit: "ആൺതുമ്പി © Joydeep", "sourceUrl": "https://en.wikipedia.org/wiki/File:Ceriagrion_coromandelianum_male,_Burdwan,_West_Bengal,_India_09_07_2013.jpg" },
+      { url: "~/images/Ceriagrion_coromandelianum_female1.jpg", credit: "പെൺതുമ്പി © Joydeep", "sourceUrl": "https://en.wikipedia.org/wiki/File:Ceriagrion_coromandelianum,_Burdwan,_West_Bengal,_India_23_09_2012_(1).JPG" },
+	  { url: "~/images/Ceriagrion_coromandelianum_mating.jpg", credit: "ഇണചേരല്‍ © വിനീത് വെങ്ങോലിസ്", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ceriagrion_coromandelianum_mating_6017_(cropped).jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/97060-Ceriagrion-coromandelianum",
     wikipediaLink: "https://en.wikipedia.org/wiki/Ceriagrion_coromandelianum"
@@ -2609,9 +2609,9 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Ceriagrion_rubiae_main.jpg",
     photos: [
-      { url: "~/images/Ceriagrion_rubiae_male1.jpg", credit: "ആൺതുമ്പി © എബ്രഹാം സാമുവേല്‍", sourceUrl: "https://en.wikipedia.org/wiki/File:Ceriagrion_rubiae-_male_(2).jpg" },
-      { url: "~/images/Ceriagrion_rubiae_female1.jpg", credit: "പെൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", sourceUrl: "https://commons.wikimedia.org/wiki/File:Orange_Marsh_Dart_female_(Ceriagrion_rubiae).jpg" },
-	  { url: "~/images/Ceriagrion_rubiae_mating.jpg", credit: "ഇണചേരല്‍ © ഷിനോ ജേക്കബ് കൂറ്റനാട്", sourceUrl: "https://commons.wikimedia.org/wiki/File:Ceriagrion_rubiae,_Orange_Wax_Tail.jpg" }
+      { url: "~/images/Ceriagrion_rubiae_male1.jpg", credit: "ആൺതുമ്പി © എബ്രഹാം സാമുവേല്‍", "sourceUrl": "https://en.wikipedia.org/wiki/File:Ceriagrion_rubiae-_male_(2).jpg" },
+      { url: "~/images/Ceriagrion_rubiae_female1.jpg", credit: "പെൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Orange_Marsh_Dart_female_(Ceriagrion_rubiae).jpg" },
+	  { url: "~/images/Ceriagrion_rubiae_mating.jpg", credit: "ഇണചേരല്‍ © ഷിനോ ജേക്കബ് കൂറ്റനാട്", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ceriagrion_rubiae,_Orange_Wax_Tail.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/507491-Ceriagrion-rubiae",
     wikipediaLink: "https://en.wikipedia.org/wiki/Ceriagrion_rubiae"
@@ -2630,9 +2630,9 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Ischnura_rubilio_main.jpg",
     photos: [
-      { url: "~/images/Ischnura_rubilio_male1.jpg", credit: "ആൺതുമ്പി © 2010 Jee & Rani Nature Photography", sourceUrl: "https://en.wikipedia.org/wiki/File:Ischnura_rubilio-Kadavoor-2016-07-09-001.jpg" },
-      { url: "~/images/Ischnura_rubilio_female1.jpg", credit: "പെൺതുമ്പി © 2010 Jee & Rani Nature Photography", sourceUrl: "https://en.wikipedia.org/wiki/File:Ischnura_rubilio-Silent_Valley-2016-08-15-001.jpg" },
-	  { url: "~/images/Ischnura_rubilio_mating.jpg", credit: "ഇണചേരല്‍ © ഷിനോ ജേക്കബ് കൂറ്റനാട്", sourceUrl: "https://commons.wikimedia.org/wiki/File:Western_Golden_Dartlet_,_Ischnura_rubilio).jpg" }
+      { url: "~/images/Ischnura_rubilio_male1.jpg", credit: "ആൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Ischnura_rubilio-Kadavoor-2016-07-09-001.jpg" },
+      { url: "~/images/Ischnura_rubilio_female1.jpg", credit: "പെൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Ischnura_rubilio-Silent_Valley-2016-08-15-001.jpg" },
+	  { url: "~/images/Ischnura_rubilio_mating.jpg", credit: "ഇണചേരല്‍ © ഷിനോ ജേക്കബ് കൂറ്റനാട്", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Western_Golden_Dartlet_,_Ischnura_rubilio).jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/561940-Ischnura-rubilio",
     wikipediaLink: "https://en.wikipedia.org/wiki/Ischnura_rubilio"
@@ -2651,9 +2651,9 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Ischnura_senegalensis_main.jpg",
     photos: [
-      { url: "~/images/Ischnura_senegalensis_male1.jpg", credit: "ആൺതുമ്പി © TekuraDF", sourceUrl: "https://en.wikipedia.org/wiki/File:Ischnura_senegalensis(Male_,_Japan_,_2018.09.02).jpg" },
-      { url: "~/images/Ischnura_senegalensis_female1.jpg", credit: "പെൺതുമ്പി © TekuraDF", sourceUrl: "https://en.wikipedia.org/wiki/File:Ischnura_senegalensis(Female,Japan,2018.10.08).jpg" },
-	  { url: "~/images/Ischnura_senegalensis_mating.jpg", credit: "ഇണചേരല്‍ © TekuraDF", sourceUrl: "https://en.wikipedia.org/wiki/File:Ischnura_senegalensis(Couple,Japan,2018.05.26,b).jpg" }
+      { url: "~/images/Ischnura_senegalensis_male1.jpg", credit: "ആൺതുമ്പി © TekuraDF", "sourceUrl": "https://en.wikipedia.org/wiki/File:Ischnura_senegalensis(Male_,_Japan_,_2018.09.02).jpg" },
+      { url: "~/images/Ischnura_senegalensis_female1.jpg", credit: "പെൺതുമ്പി © TekuraDF", "sourceUrl": "https://en.wikipedia.org/wiki/File:Ischnura_senegalensis(Female,Japan,2018.10.08).jpg" },
+	  { url: "~/images/Ischnura_senegalensis_mating.jpg", credit: "ഇണചേരല്‍ © TekuraDF", "sourceUrl": "https://en.wikipedia.org/wiki/File:Ischnura_senegalensis(Couple,Japan,2018.05.26,b).jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/52053-Ischnura-senegalensis",
     wikipediaLink: "https://en.wikipedia.org/wiki/Ischnura_senegalensis"
@@ -2667,13 +2667,13 @@ const defaultOdonates = [
     family: "Coenagrionidae / Dartlets, Marsh Darts and Sprites / നിലത്തന്‍മാര്‍",
     description1: "തണൽ പ്രദേശങ്ങളിൽ കാണുന്ന കടും തവിട്ടും ഇളം നീലനിറവുമുള്ള നിലത്തൻ കുടുംബത്തിൽ ഉള്ള ഒരിനം സൂചിത്തുമ്പിയാണ് കരിയിലത്തുമ്പി. കേരളത്തിൽ വളരെ അപൂർവ്വമായിട്ടാണ് ഈ തുമ്പിയെ കണ്ടെത്തിയിട്ടുള്ളത്. വലിയ കായലുകളുടേയും പുഴകളുടേയും അടുത്തുള്ള ചെറിയ കുറ്റിക്കാടുകളാണ് ഇഷ്ടപ്പെട്ട സ്ഥലം. കറുത്ത കണ്ണുകളുടെ കീഴ് ഭാഗം പച്ച കലർന്ന നീല നിറത്തിലാണ്. ",
     description2: "തലക്ക് നീല കലർന്ന തവിട്ട് നിറമാണ്.ഉദരത്തിൽ നീല നിറത്തിലുള്ള ചെറിയ വളയങ്ങളുണ്ട്. തണൽ പ്രദേശങ്ങളിൽ കാണുന്ന കടും തവിട്ടും, ഇളം നീല നിറവുമുള്ള ചെറിയ സൂചിതുമ്പി. കാട്ടുപുല്‍ച്ചിന്നനുമായി സാമ്യമുണ്ടെങ്കിലും നീളം കുറഞ്ഞ ചെരുവലുകളും ഉദരത്തിലെ എട്ടാം ഖണ്ഡത്തിലെ നീല വളയവും ഇവയെ തിരിച്ചറിയാൻ സഹായിക്കുന്നു. ആൺതുമ്പികളെ ആണ് അധികമായി കാണാറുള്ളത്.",
-     description3: "മൂന്നു നിറഭേദങ്ങളുള്ള ആൺ തുമ്പികളെ കണ്ടെത്തിയിട്ടുണ്ട്. പൊതുവേ നീലയും തവിട്ട്‌ നിറത്തിലുമുള്ള ആൺതുമ്പികളെ ആണ് കൂടുതലായി കാണാൻ സാധിക്കുന്നത്. കറുത്ത കണ്ണുകളുടെ കീഴ്ഭാഗം പച്ച കലർന്ന നീല നിറത്തിലാണ്. തലയ്ക്ക് നീല കലർന്ന തവിട്ട്‌ നിറമാണ്‌. ഉരസ്സിനും, ഉദരത്തിനും ചുവപ്പ് കലർന്ന തവിട്ട്‌ നിറവും. ഉദരത്തിൽ നീല നിറത്തിലുള്ള ചെറിയ വളയങ്ങൾ ഉണ്ട്. കാലുകൾ ഇളം തവിട്ട്‌ നിറത്തിലാണ്.",
+     description3: "മൂന്നു നിറഭേദങ്ങളുള്ള ആൺ തുമ്പികളെ കണ്ടെത്തിയിട്ടുണ്ട്. പൊതുവേ നീലയും തവിട്ട്‌ നിറത്തിലുമുള്ള ആൺതുമ്പികളെ ആണ് കൂടുതലായി കാണാൻ സാധിക്കുന്നത്.",
      description4: "പെൺതുമ്പികള്‍ കാഴ്ചയിൽ ആൺതുമ്പികളെ പോലെയാണ്. തണൽ വളരെ അധികം ഇഷ്ടപെടുന്ന ഇവ തറയിൽ നിന്ന് അധികം ഉയരത്തിൽ പറക്കുവാൻ താല്പര്യപെടാറില്ല. അധീന പ്രദേശം കാത്തു സൂക്ഷിക്കുന്ന ഈ തുമ്പികളെ ഒരേ സ്ഥലത്ത് സ്ഥിരമായി കാണാം.",
      description5: "",
     mainPhoto: "~/images/Mortonagrion_varralli_main.jpg",
     photos: [
-      { url: "~/images/Mortonagrion_varralli_male1.jpg", credit: "ആൺതുമ്പി © Renjusplace", sourceUrl: "https://commons.wikimedia.org/wiki/File:Mortonagrion_varralli_2.jpg" },
-      { url: "~/images/Mortonagrion_varralli_female1.jpg", credit: "പെൺതുമ്പി © Sunny Joseph", sourceUrl: "https://en.wikipedia.org/wiki/File:Mortonagrion_varralli_by_Sunny_Joseph_412.jpg" }
+      { url: "~/images/Mortonagrion_varralli_male1.jpg", credit: "ആൺതുമ്പി © Renjusplace", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mortonagrion_varralli_2.jpg" },
+      { url: "~/images/Mortonagrion_varralli_female1.jpg", credit: "പെൺതുമ്പി © Sunny Joseph", "sourceUrl": "https://en.wikipedia.org/wiki/File:Mortonagrion_varralli_by_Sunny_Joseph_412.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/106203-Mortonagrion-varralli",
     wikipediaLink: "https://en.wikipedia.org/wiki/Mortonagrion_varralli"
@@ -2692,8 +2692,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Paracercion_calamorum_main.jpg",
     photos: [
-      { url: "~/images/Paracercion_calamorum_male1.jpg", credit: "ആൺതുമ്പി © വിനയന്‍ പി നായര്‍", sourceUrl: "https://commons.wikimedia.org/wiki/File:Paracercion_calamorum_2_by_Vinayan_Nair.jpg" },
-      { url: "~/images/Paracercion_calamorum_female1.jpg", credit: "പെൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", sourceUrl: "https://en.wikipedia.org/wiki/File:Paracercion_calamorum_(Dusky_Lilysquatter)_female.jpg" }
+      { url: "~/images/Paracercion_calamorum_male1.jpg", credit: "ആൺതുമ്പി © വിനയന്‍ പി നായര്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paracercion_calamorum_2_by_Vinayan_Nair.jpg" },
+      { url: "~/images/Paracercion_calamorum_female1.jpg", credit: "പെൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", "sourceUrl": "https://en.wikipedia.org/wiki/File:Paracercion_calamorum_(Dusky_Lilysquatter)_female.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/108420-Paracercion-calamorum",
     wikipediaLink: "https://en.wikipedia.org/wiki/Paracercion_calamorum"
@@ -2712,8 +2712,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Paracercion_malayanum_main.jpg",
     photos: [
-      { url: "~/images/Paracercion_malayanum_male1.jpg", credit: "ആൺതുമ്പി © ബാലചന്ദ്രന്‍ വി", sourceUrl: "https://en.wikipedia.org/wiki/File:Paracercion_malayanum_lateral_view.jpg" },
-      { url: "~/images/Paracercion_malayanum_female1.jpg", credit: "പെൺതുമ്പി © Andrew Pierce", sourceUrl: "https://www.inaturalist.org/observations/88779817" }
+      { url: "~/images/Paracercion_malayanum_male1.jpg", credit: "ആൺതുമ്പി © ബാലചന്ദ്രന്‍ വി", "sourceUrl": "https://en.wikipedia.org/wiki/File:Paracercion_malayanum_lateral_view.jpg" },
+      { url: "~/images/Paracercion_malayanum_female1.jpg", credit: "പെൺതുമ്പി © Andrew Pierce", "sourceUrl": "https://www.inaturalist.org/observations/88779817" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/108421-Paracercion-melanotum",
     wikipediaLink: "https://en.wikipedia.org/wiki/Paracercion_melanotum"
@@ -2727,13 +2727,13 @@ const defaultOdonates = [
     family: "Coenagrionidae / Dartlets, Marsh Darts and Sprites / നിലത്തന്‍മാര്‍",
     description1: "നിലത്തന്മാർ എന്ന തുമ്പി കുടുംബത്തിൽപ്പെട്ട ഒരു സൂചിത്തുമ്പിയാണ് ചെറുവാലൻ പൂത്താലി. ഇന്ത്യ, ചൈന, ഇന്തോനേഷ്യ , മലേഷ്യ, മ്യാന്മാർ, സിംഗപ്പൂർ, തായ്‌ലൻഡ് തുടങ്ങിയ ഏഷ്യൻ രാജ്യങ്ങളിലാണ് ഇവയെ സാധാരണയായി കണ്ടു വരുന്നത്. ഇടത്തരം വലിപ്പമുള്ള നീല നിറത്തിലുള്ള ഒരു സൂചിത്തുമ്പിയാണ് ചെറുവാലൻ പൂത്താലി. ഇതിന്റെ ശിരസ്സിന് അല്പം വിളറിയ പച്ച കലർന്ന നീല നിറമാണ്. ",
     	 description2: "ശിരസ്സിന്റെ പിൻഭാഗത്ത് നേരിയ കറുപ്പ് നിറം കാണാം. കണ്ണുകൾക്ക് നീല നിറമാണ്. നല്ല തിളങ്ങുന്ന നീല നിറത്തിലുള്ള ഉരസ്സിൽ മധ്യ ഭാഗത്തായി ഒരു കറുത്ത പാടും അതിന് മുകളിലായി നേർത്ത കറുപ്പ് വരകളും കാണാം. വിളറിയ നീല നിറത്തിലുള്ള കാലിന്റെ പിൻഭാഗം കറുത്തിട്ടാണ്. ചിറകുകൾ സുതാര്യമാണ്. ചിറകിലെ പൊട്ട് മങ്ങിയ മഞ്ഞ നിറത്തിലോ തവിട്ട് നിറത്തിലോ കാണപ്പെടുന്നു. ",
-     description3: "ഉദരത്തിന്റെ വശങ്ങൾ പൊതുവെ നീല നിറത്തിലും മുകൾ ഭാഗം കറുപ്പ് നിറത്തിലും കാണപെടുന്നു. ഉദരത്തിന്റെ 8 , 9 ഖണ്ഡങ്ങൾ മുഴുവനായും നീല നിറത്തിലാണുള്ളത്. ഉദരത്തിന്റെ പത്താം ഖണ്ഡത്തിൽ X ആകൃതിയിലുള്ള ഒരു കറുത്ത പാട് കാണാം. ഉദരത്തിന്റെ പത്താം ഖണ്ഡത്തിന്റെ നേർപകുതി വലിപ്പത്തിലുള്ള കുറുവാലുകൾക്ക് കറുത്ത നിറമാണ്. മുകളിലെ ജോഡി കുറുവാലുകളുടെ അറ്റം കൊളുത്ത് പോലെ അല്പം അകത്തേക്ക് വളഞ്ഞ് കാണപ്പെടുന്നു. കൂടാതെ ഇവയുടെ ആഗ്രഭാഗം വിഭജിച്ച് ഒരു ശിഖരം പോലെ കാണാം. ",
-     description4: "ആൺതുമ്പിയുടെ ഉദരത്തിന് 30 - 32.5 മില്ലീമീറ്റർ വരെ വലിപ്പമുണ്ടായിരിക്കും. പെൺതുമ്പിക്ക് ആൺതുമ്പിയെ അപേക്ഷിച്ച് അല്പം വലിപ്പം കുറവാണ്. പെൺതുമ്പിയുടെ ഉദരത്തിന് 29 മില്ലീമീറ്റർ വരെയാണ് വലിപ്പം. പെൺതുമ്പിയുടെ ശരീരത്തിലെ പാടുകളും വരകളും ആൺതുമ്പിയുടേതിന് സമാനമാണെങ്കിലും ശരീരത്തിന്റെ നിറത്തിൽ വ്യത്യാസമുണ്ട്. കണ്ണുകൾക്കും ഉരസ്സിനും നീല കലർന്ന പച്ച നിറമാണ്. ",
+     description3: "ഉദരത്തിന്റെ വശങ്ങൾ പൊതുവെ നീല നിറത്തിലും മുകൾ ഭാഗം കറുപ്പ് നിറത്തിലും കാണപ്പെടുന്നു. ഉദരത്തിന്റെ 8, 9 ഖണ്ഡങ്ങൾ മുഴുവനായും നീല നിറത്തിലാണുള്ളത്. ഉദരത്തിന്റെ പത്താം ഖണ്ഡത്തിൽ X ആകൃതിയിലുള്ള ഒരു കറുത്ത പാട് കാണാം. ഉദരത്തിന്റെ പത്താം ഖണ്ഡത്തിന്റെ നേർപകുതി വലിപ്പത്തിലുള്ള കുറുവാലുകൾക്ക് കറുത്ത നിറമാണ്.",
+     description4: "ആൺതുമ്പിയുടെ ഉദരത്തിന് 30-32.5 മില്ലീമീറ്റർ വരെ വലിപ്പമുണ്ടായിരിക്കും. പെൺതുമ്പിക്ക് ആൺതുമ്പിയെ അപേക്ഷിച്ച് അല്പം വലിപ്പം കുറവാണ്. പെൺതുമ്പിയുടെ ഉദരത്തിന് 29 മില്ലീമീറ്റർ വരെയാണ് വലിപ്പം. പെൺതുമ്പിയുടെ ശരീരത്തിലെ പാടുകളും വരകളും ആൺതുമ്പിയുടേതിന് സമാനമാണെങ്കിലും ശരീരത്തിന്റെ നിറത്തിൽ വ്യത്യാസമുണ്ട്. കണ്ണുകൾക്കും ഉരസ്സിനും നീല കലർന്ന പച്ച നിറമാണ്. ",
      description5: "നാട്ടുപൂത്താലി, കാട്ടുപൂത്താലി എന്നീ തുമ്പികളുമായി വളരെ സാദൃശ്യമുണ്ടെങ്കിലും കുറുവാലുകളുടെ വലിപ്പക്കുറവ് ചെറുവാലൻ പൂത്താലിയെ കാഴ്ച്ചയിൽ വ്യത്യസ്തമാക്കുന്നു. കൂടാതെ മുകളിലെ ജോഡി കുറുവാലുകളുടെ അഗ്രഭാഗത്തുള്ള സവിശേഷാകൃതി നാട്ടുപൂത്താലിയിൽ നിന്നും ചെറുവാലൻ പൂത്താലിയെ എളുപ്പത്തിൽ വേർതിരിച്ചറിയാൻ സഹായിക്കുന്നു.",
     mainPhoto: "~/images/Pseudagrion_australasiae_main.jpg",
     photos: [
-      { url: "~/images/Pseudagrion_australasiae_male1.jpg", credit: "ആൺതുമ്പി © 2016 Jee & Rani Nature Photography", sourceUrl: "https://en.wikipedia.org/wiki/File:Pseudagrion_australasiae-Kadavoor-2016-07-11-002.jpg" },
-      { url: "~/images/Pseudagrion_australasiae_female1.jpg", credit: "പെൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", sourceUrl: "https://commons.wikimedia.org/wiki/File:Pseudagrion_australasiae_female1.jpg" }
+      { url: "~/images/Pseudagrion_australasiae_male1.jpg", credit: "ആൺതുമ്പി © 2016 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Pseudagrion_australasiae-Kadavoor-2016-07-11-002.jpg" },
+      { url: "~/images/Pseudagrion_australasiae_female1.jpg", credit: "പെൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pseudagrion_australasiae_female1.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/110779-Pseudagrion-australasiae",
     wikipediaLink: "https://en.wikipedia.org/wiki/Pseudagrion_australasiae"
@@ -2752,8 +2752,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Pseudagrion_decorum_main.jpg",
     photos: [
-      { url: "~/images/Pseudagrion_decorum_male1.jpg", credit: "ആൺതുമ്പി © 2016 Jee & Rani Nature Photography", sourceUrl: "https://en.wikipedia.org/wiki/File:Pseudagrion_decorum-Thekkady-2016-12-02-001.jpg" },
-      { url: "~/images/Pseudagrion_decorum_female1.jpg", credit: "പെൺതുമ്പി © മനോജ് വി നായര്‍", sourceUrl: "https://en.wikipedia.org/wiki/File:Pseudagrion_decorum_female_by_Manoj_V_Nair.jpg" }
+      { url: "~/images/Pseudagrion_decorum_male1.jpg", credit: "ആൺതുമ്പി © 2016 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Pseudagrion_decorum-Thekkady-2016-12-02-001.jpg" },
+      { url: "~/images/Pseudagrion_decorum_female1.jpg", credit: "പെൺതുമ്പി © മനോജ് വി നായര്‍", "sourceUrl": "https://en.wikipedia.org/wiki/File:Pseudagrion_decorum_female_by_Manoj_V_Nair.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/110793-Pseudagrion-decorum",
     wikipediaLink: "https://en.wikipedia.org/wiki/Pseudagrion_decorum"
@@ -2772,8 +2772,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Pseudagrion_indicum_main.jpg",
     photos: [
-      { url: "~/images/Pseudagrion_indicum_male1.jpg", credit: "ആൺതുമ്പി © 2015 Jee & Rani Nature Photography", sourceUrl: "https://en.wikipedia.org/wiki/File:Pseudagrion_indicum-Kadavoor-2015-08-21-001.jpg" },
-	  { url: "~/images/Pseudagrion_indicum_mating.jpg", credit: "ഇണചേരല്‍ © 2010 Jee & Rani Nature Photography", sourceUrl: "https://en.wikipedia.org/wiki/File:Pseudagrion_indicum_by_kadavoor.JPG" }
+      { url: "~/images/Pseudagrion_indicum_male1.jpg", credit: "ആൺതുമ്പി © 2015 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Pseudagrion_indicum-Kadavoor-2015-08-21-001.jpg" },
+	  { url: "~/images/Pseudagrion_indicum_mating.jpg", credit: "ഇണചേരല്‍ © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Pseudagrion_indicum_by_kadavoor.JPG" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/110820-Pseudagrion-indicum",
     wikipediaLink: "https://en.wikipedia.org/wiki/Pseudagrion_indicum"
@@ -2792,8 +2792,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Pseudagrion_malabaricum_main.jpg",
     photos: [
-      { url: "~/images/Pseudagrion_malabaricum_male1.jpg", credit: "ആൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", sourceUrl: "https://en.wikipedia.org/wiki/File:Pseudagrion_malabaricum_male.jpg" },
-      { url: "~/images/Pseudagrion_malabaricum_female1.jpg", credit: "പെൺതുമ്പി © വിനയന്‍ പി നായര്‍", sourceUrl: "https://en.wikipedia.org/wiki/File:Pseudagrion_malabaricum_Female.jpg" }
+      { url: "~/images/Pseudagrion_malabaricum_male1.jpg", credit: "ആൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", "sourceUrl": "https://en.wikipedia.org/wiki/File:Pseudagrion_malabaricum_male.jpg" },
+      { url: "~/images/Pseudagrion_malabaricum_female1.jpg", credit: "പെൺതുമ്പി © വിനയന്‍ പി നായര്‍", "sourceUrl": "https://en.wikipedia.org/wiki/File:Pseudagrion_malabaricum_Female.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/110829-Pseudagrion-malabaricum",
     wikipediaLink: "https://en.wikipedia.org/wiki/Pseudagrion_malabaricum"
@@ -2805,15 +2805,15 @@ const defaultOdonates = [
     scientificName: "Pseudagrion microcephalum",
 	sciName: "Pseudagrion microcephalum (Rambur, 1842)",
     family: "Coenagrionidae / Dartlets, Marsh Darts and Sprites / നിലത്തന്‍മാര്‍",
-    description1: "നിലത്തൻ കുടുംബത്തിൽ ഉള്ള ഒരിനം സൂചിത്തുമ്പിയാണ് നാട്ടുപൂത്താലി. ആകാശനീലയിൽ കറുപ്പുവരകളോടുകൂടിയ ശരീരമാണ് ആൺതുമ്പികളുടേത്, നേർത്ത പച്ചയും തവിട്ടും കലർന്ന ശരീരത്തിൽ കറുത്തവരകളോടുകൂടി പെൺതുമ്പികളും കാണപ്പെടുന്നു. വയലുകൾ, കുളങ്ങൾ, തോടുകൾ എന്നിവിടങ്ങളിൽ ഇവ സാധാരണയായി കാണപ്പെടുന്നു. ഇന്ത്യ, ഓസ്ട്രേലിയ, ബംഗ്ലാദേശ്, ചൈന, ജപ്പാൻ, മലേഷ്യ, മ്യാന്മാർ, ശ്രീലങ്ക, തായ്‌ലന്റ്, വിയറ്റ്നാം എന്നീ രാജ്യങ്ങളിലാണ് ഇവയുടെ സാന്നിദ്ധ്യം കണ്ടെത്തിയിട്ടുള്ളത്.",
-    description2: "താഴ്ന്ന പ്രദേശങ്ങളിൽ സാധാരണമായും കാടുകളിൽ അപൂർവ്വമായും കാണുന്നു. കായലുകൾ, ചതുപ്പുകൾ, തോടുകൾ, പുഴകൾ എന്നിവിടങ്ങളിൽ കൂടുതലായും കാണുന്നു. ജലാശയത്തിനു സമീപം സദാ വെട്ടി പറന്നുകൊണ്ടിരിക്കും. പുല്ലുകളിലും ഉണക്ക ചില്ലകളിലും താമര ഇലകളിലും മാറി മാറി ഇരിക്കാൻ ഇഷ്ടപെടുന്നു . ചെറിയ കൂട്ടങ്ങളായ് വസിക്കുന്ന ഇവയുടെ ആൺ തുമ്പികൾ തമ്മിൽ അധീന പ്രദേശങ്ങൾക്കായ് തർക്കങ്ങൾ ഉണ്ടാക്കാറുണ്ട്.",
+    description1: "നിലത്തൻ കുടുംബത്തിൽ ഉള്ള ഒരിനം സൂചിത്തുമ്പിയാണ് നാട്ടുപൂത്താലി. ആകാശനീലയിൽ കറുപ്പുവരകളോടുകൂടിയ ശരീരമാണ് ആൺതുമ്പികളുടേത്, നേർത്ത പച്ചയും തവിട്ടും കലർന്ന ശരീരത്തിൽ കറുത്തവരകളോടുകൂടി പെൺതുമ്പികളും കാണപ്പെടുന്നു. വയലുകൾ, കുളങ്ങൾ, തോടുകൾ എന്നിവിടങ്ങളിൽ ഇവ സാധാരണയായി കാണപ്പെടുന്നു.",
+    description2: "താഴ്ന്ന പ്രദേശങ്ങളിൽ സാധാരണമായും കാടുകളിൽ അപൂർവ്വമായും കാണുന്നു. കായലുകൾ, ചതുപ്പുകൾ, തോടുകൾ, പുഴകൾ എന്നിവിടങ്ങളിൽ കൂടുതലായും കാണുന്നു. ചെറിയ കൂട്ടങ്ങളായ് വസിക്കുന്ന ഇവയുടെ ആൺ തുമ്പികൾ തമ്മിൽ അധീന പ്രദേശങ്ങൾക്കായ് തർക്കങ്ങൾ ഉണ്ടാക്കാറുണ്ട്.",
      description3: " മിക്കപ്പോഴും പെൺ തുമ്പികൾ ജലാശയത്തിനു അകലെ മാറിയാണ് കണ്ടു വരുന്നത്. വടക്ക് കിഴക്കന് മൺസൂൺ കാലത്ത് കൂട്ടമായ്‌ ദേശാടനം നടത്താറുണ്ട്‌. ആൺ തുമ്പി: കണ്ണുകളുടെ കീഴ്ഭാഗം ഇളം നീല നിറമാണ്‌. കണ്ണിനു മുകളിലായ് കറുത്ത തൊപ്പിയുണ്ട്. തലയിൽ കണ്ണുകൾ തമ്മിൽ ബന്ധിപ്പിക്കുന്ന കറുത്ത വരയും ഇളം നീല പൊട്ടുകളും ഉണ്ട്. ഉരസ്സിനു മുകൾ ഭാഗം കറുത്ത നിറവും അതിൽ നേർത്ത ഇളം നീല വരകളുമുണ്ട്. ",
      description4: "ഉരസ്സിന്റെ വശങ്ങളിൽ ഇളം നീല നിറമാണ്‌. ഇളം നീല നിറത്തിലുള്ള ഉദരത്തിൽ കറുത്ത വരകളും കലകളും ഉണ്ട് . സുതാര്യമായ ചിറകുകൾ ആണുള്ളത്. പെൺ തുമ്പി: ഇളം പച്ച കണ്ണുകളുടെ മുകൾ ഭാഗം മഞ്ഞ നിറമാണ്‌. ഉരസ്സിനും ഉദരതിനും മങ്ങിയ പച്ച കലർന്ന നീല നിറമാണ്‌. ഉരസ്സിനു മുകളിൽ തവിട്ട്‌ നിറമുള്ള വരകളും ഉദരത്തിന്റെ ഖണ്ഡങ്ങളുടെ മുകൾ ഭാഗത്ത്‌ കറുത്ത കലകളും ഉണ്ട്.",
      description5: "",
     mainPhoto: "~/images/Pseudagrion_microcephalum_main.jpg",
     photos: [
-      { url: "~/images/Pseudagrion_microcephalum_male1.jpg", credit: "ആൺതുമ്പി © എബ്രഹാം സാമുവേല്‍", sourceUrl: "https://en.wikipedia.org/wiki/File:Pseudagrion_microcephalum_-_male_chry.jpg" },
-      { url: "~/images/Pseudagrion_microcephalum_female1.jpg", credit: "പെൺതുമ്പി © Sunny Joseph", sourceUrl: "https://en.wikipedia.org/wiki/File:Pseudagrion_microcephalum_by_Sunny_Joseph.jpg" }
+      { url: "~/images/Pseudagrion_microcephalum_male1.jpg", credit: "ആൺതുമ്പി © എബ്രഹാം സാമുവേല്‍", "sourceUrl": "https://en.wikipedia.org/wiki/File:Pseudagrion_microcephalum_-_male_chry.jpg" },
+      { url: "~/images/Pseudagrion_microcephalum_female1.jpg", credit: "പെൺതുമ്പി © Sunny Joseph", "sourceUrl": "https://en.wikipedia.org/wiki/File:Pseudagrion_microcephalum_by_Sunny_Joseph.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/110834-Pseudagrion-microcephalum",
     wikipediaLink: "https://en.wikipedia.org/wiki/Blue_riverdamsel"
@@ -2832,9 +2832,9 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Pseudagrion_rubriceps_main.jpg",
     photos: [
-      { url: "~/images/Pseudagrion_rubriceps_male1.jpg", credit: "ആൺതുമ്പി © 2015 Jee & Rani Nature Photography", sourceUrl: "https://en.wikipedia.org/wiki/File:Pseudagrion_rubriceps_male-Kadavoor-2015-08-20-001.jpg" },
-      { url: "~/images/Pseudagrion_rubriceps_female1.jpg", credit: "പെൺതുമ്പി © Muhamed Sherif", sourceUrl: "https://commons.wikimedia.org/wiki/File:Pseudagrion_rubriceps_-_November_2014.jpg" },
-	  { url: "~/images/Pseudagrion_rubriceps_mating.jpg", credit: "ഇണചേരല്‍ © റൈസണ്‍ തുമ്പൂര്‍", sourceUrl: "https://commons.wikimedia.org/wiki/File:Saffron_Faced_Blue_Dart_(Pseudagrion_rubriceps)_mating_(30004415527).jpg" }
+      { url: "~/images/Pseudagrion_rubriceps_male1.jpg", credit: "ആൺതുമ്പി © 2015 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Pseudagrion_rubriceps_male-Kadavoor-2015-08-20-001.jpg" },
+      { url: "~/images/Pseudagrion_rubriceps_female1.jpg", credit: "പെൺതുമ്പി © Muhamed Sherif", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pseudagrion_rubriceps_-_November_2014.jpg" },
+	  { url: "~/images/Pseudagrion_rubriceps_mating.jpg", credit: "ഇണചേരല്‍ © റൈസണ്‍ തുമ്പൂര്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Saffron_Faced_Blue_Dart_(Pseudagrion_rubriceps)_mating_(30004415527).jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/110843-Pseudagrion-rubriceps",
     wikipediaLink: "https://en.wikipedia.org/wiki/Pseudagrion_rubriceps"
@@ -2846,15 +2846,15 @@ const defaultOdonates = [
     scientificName: "Dysphaea ethela",
 	sciName: "Dysphaea ethela (Fraser, 1924)",
     family: "Euphaeidae / Torrent-Darts / അരുവിയന്‍മാര്‍",
-    description1: "ശരീരമാസകലം കറുപ്പ് നിറമുള്ള അരുവിയൻ കുടുംബത്തിൽ ഉള്ള ഒരിനം സൂചിത്തുമ്പിയാണ് കരിമ്പൻ അരുവിയൻ. കേരളം, കർണാടകം, തമിഴ്‌നാട് എന്നീ സംസ്ഥനങ്ങളിൽ ഇവയെ കണ്ടുവരുന്നു. പൂർവഘത്തിലും മധ്യഇന്ത്യയിലും ഇവയെ കണ്ടെത്തിയിട്ടുണ്ട്. വനപ്രദേശങ്ങളിലെ ഒഴുക്കുള്ള അരുവികളിലും, അപൂർവ്വമായി നാട്ടിൻ പുറങ്ങളിലെ പുഴകളിലും ഇവ കാണപ്പെടുന്നു. മഴ കഴിഞ്ഞുള്ള കാലങ്ങളിൽ ഇവയുടെ ചെറിയ കൂട്ടങ്ങൾ കാണാം. ",
-    description2: "ജലാശയങ്ങളിൽ നിന്നും പൊങ്ങിനിൽക്കുന്ന പാറകൾ, മരക്കുറ്റികൾ എന്നിവയാണ് പ്രധാന ഇരിപ്പിടങ്ങൾ. വലിയ കണ്ണുകളുടെ മുകൾ ഭാഗം കറുപ്പു കീഴ്ഭാഗം ചാര നിറവുമാണ്. കറുത്ത ഉരസ്സിൽ കൂടി തവിട്ടു നിറത്തിലുള്ള നേർത്ത വരകൾ പോകുന്നുണ്ട്. ഇവയുടെ കാലുകൾക്ക് കറുത്ത നിറമാണ്. നീളമുള്ള കറുത്ത ഉദരത്തിന് തവിട്ടു വളയങ്ങളുണ്ട്. ഉദരത്തിന്റെ അഗ്രഭാഗം വളച്ചു മുകളിലോട്ടുയർത്തി പിടിക്കുന്ന ശീലവുമുണ്ട്. ",
+    description1: "ശരീരമാസകലം കറുപ്പ് നിറമുള്ള ഒരിനം സൂചിത്തുമ്പിയാണ് കരിമ്പൻ അരുവിയൻ. കേരളം, കർണാടകം, തമിഴ്‌നാട് എന്നീ സംസ്ഥനങ്ങളിൽ ഇവയെ കണ്ടുവരുന്നു. പൂർവഘത്തിലും മധ്യഇന്ത്യയിലും ഇവയെ കണ്ടെത്തിയിട്ടുണ്ട്. വനപ്രദേശങ്ങളിലെ ഒഴുക്കുള്ള അരുവികളിലും, അപൂർവ്വമായി നാട്ടിൻ പുറങ്ങളിലെ പുഴകളിലും ഇവ കാണപ്പെടുന്നു. മഴ കഴിഞ്ഞുള്ള കാലങ്ങളിൽ ഇവയുടെ ചെറിയ കൂട്ടങ്ങൾ കാണാം. ",
+    description2: "ജലാശയങ്ങളിൽ നിന്നും പൊങ്ങിനിൽക്കുന്ന പാറകൾ, മരക്കുറ്റികൾ എന്നിവയാണ് പ്രധാന ഇരിപ്പിടങ്ങൾ. വലിയ കണ്ണുകളുടെ മുകൾ ഭാഗം കറുപ്പു കീഴ്ഭാഗം ചാര നിറവുമാണ്. ഉദരത്തിന്റെ അഗ്രഭാഗം വളച്ചു മുകളിലോട്ടുയർത്തി പിടിക്കുന്ന ശീലവുമുണ്ട്. ",
      description3: "ഇവയുടെ ചിറകിന് തിളങ്ങുന്ന ഇളം തവിട്ടു നിറമോ കറുപ്പ് നിറമോ ആയിരിക്കും. തവിട്ടു നിറമുള്ള കണ്ണിന്റെ കീഴ്ഭാഗം ചാരനിറമാണ്. കറുത്ത ഉരസ്സിൽ മഞ്ഞ വരകളുണ്ട്. ഉദരത്തിന് കറുപ്പു നിറവും അതിൽ മഞ്ഞ വരകളും വളയങ്ങളുമുണ്ട്. ഇവയ്ക്ക് ദീർഘനേരം പറക്കാനുള്ള കഴിവമുണ്ട്. അപകടമുണ്ടെന്നു തോന്നിയാൽ വളരെ ഉയരമുള്ള മരച്ചില്ലുകളിലേക്ക് പറന്ന് അപ്രത്യക്ഷമാവും.",
      description4: "ആൺതുമ്പികൾ പാറകളിലും മരക്കുറ്റിയിലും ഒരിടത്തുതന്നെ വളരെയേറെ നേരം ഇരിക്കാനിഷ്ടപ്പെടുന്നു. പെൺതുമ്പികൾ ജലാശയത്തിനോട് ചേർന്നുള്ള പൊക്കമുള്ള മരത്തിന്റെ ചില്ലകളിലാണ് വിശ്രമിക്കാറുള്ളത്.",
      description5: "",
     mainPhoto: "~/images/Dysphaea_ethela_main.jpg",
     photos: [
-      { url: "~/images/Dysphaea_ethela_male1.jpg", credit: "ആൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", sourceUrl: "https://en.wikipedia.org/wiki/File:Black_Torrent_Dart_(Dysphaea_ethela)_male._(25602242838).jpg" },
-      { url: "~/images/Dysphaea_ethela_female1.jpg", credit: "പെൺതുമ്പി © എബ്രഹാം സാമുവേല്‍", sourceUrl: "https://en.wikipedia.org/wiki/File:Dysphaea_ethela_-_female_3(vagamon).jpg" }
+      { url: "~/images/Dysphaea_ethela_male1.jpg", credit: "ആൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", "sourceUrl": "https://en.wikipedia.org/wiki/File:Black_Torrent_Dart_(Dysphaea_ethela)_male._(25602242838).jpg" },
+      { url: "~/images/Dysphaea_ethela_female1.jpg", credit: "പെൺതുമ്പി © എബ്രഹാം സാമുവേല്‍", "sourceUrl": "https://en.wikipedia.org/wiki/File:Dysphaea_ethela_-_female_3(vagamon).jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/99638-Dysphaea-ethela",
     wikipediaLink: "https://en.wikipedia.org/wiki/Dysphaea_ethela"
@@ -2867,14 +2867,14 @@ const defaultOdonates = [
 	sciName: "Euphaea cardinalis (Fraser, 1924)",
     family: "Euphaeidae / Torrent-Darts / അരുവിയന്‍മാര്‍",
     description1: "ശരീരത്തിന് കറുപ്പു ചുവപ്പും നിറവും ചിറകിൽ വലിയ ഒരു കറുത്ത പാടുമുള്ള അരുവിയൻ കുടുംബത്തിൽ ഉള്ള ഒരിനം സൂചിത്തുമ്പിയാണ് തെക്കൻ അരുവിയൻ. ആൺതുമ്പികളുട തവിട്ടു നിറത്തിലുള്ള ചുണ്ടും, ചുവന്ന കാലുകളും ചിറകിലെ വലിയ കറുത്ത പാടും മറ്റു അരുവിയന്മാരുമായി തിരിച്ചറിയുവാൻ സഹായിക്കുന്നു. പശ്ചിമഘട്ടത്തിൽ പാലക്കാടിന് തെക്കോട്ടു മാത്രമേ ഇവയെ കാണാറുള്ളു. ",
-    description2: "ഉൾക്കാടുകളിൽ പ്രത്യേകിച്ച് ഉയർന്ന വനമേഖലകളിലെ അരുവികളിലെ തുറസ്സായ ഇടങ്ങളിൽ കാണപ്പെടുന്നു. കണ്ണുകൾക്ക് കടും തവിട്ടു നിറവും കീഴ്ഭാഗം മങ്ങിയ മഞ്ഞയുമാണ്. ഉരസ്സിന് കറുപ്പിൽ മഞ്ഞ വരകളും, കീഴ് പകുതിയിൽ മഞ്ഞയിൽ കറുത്ത ചെറിയ പൊട്ടുകളുമുണ്ട്. ചുവന്ന നിറമുള്ള കാലുകളുടെ അവസാന ഖണ്ഡങ്ങൾക്ക് കറുപ്പ് നിറമാണ്. ഉരുണ്ടതും നീളമുള്ളതുമായ ഉദരത്തിന് ചുവപ്പു നിറവും അഗ്രഭാഗങ്ങൾ കറുത്തതുമാണ്. ",
+    description2: "ഉൾക്കാടുകളിൽ പ്രത്യേകിച്ച് ഉയർന്ന വനമേഖലകളിലെ അരുവികളിലെ തുറസ്സായ ഇടങ്ങളിൽ കാണപ്പെടുന്നു. ",
      description3: "സുതാര്യമായ നീളമുള്ള ചിറകാണ് ഇവയ്ക്കുള്ളത്. പിൻ ചിറകിൽ പകുതി മുതൽ അഗ്രഭാഗം വരെ കറുത്തതായിരിക്കും. മുൻ ചിറകുകൾക്ക് പിൻ ചിറകിനെക്കാൾ നീളം കൂടുതലായിരിക്കും. പിൻ ചിറകുകൾ തുറക്കുമ്പോൾ കറുത്ത ഭാഗങ്ങളിൽ തിളങ്ങുന്ന ചുവപ്പ് നിറം കാണാം. ഉരസ്സിനും ഉദരത്തിനും കടും തവിട്ടു നിറവും അതിൽ പച്ച കലർന്ന മങ്ങിയ മഞ്ഞ വരകളും കലകളുമുണ്ട്.",
      description4: "സുതാര്യമായ ചിറകിനു നേരിയ തവിട്ടുനിറമുണ്ട്. പറന്നു വന്നിരുന്ന ഉടനെയും അപകട സൂചനയുള്ളപ്പോഴും ചിറകുകൾ വിരിച്ച് പിൻ ചിറകുകളിലെ തിളങ്ങുന്ന ചുവപ്പ് നിറം കാണിക്കാറുണ്ട്. പെൺതുമ്പികൾ ജലാശയത്തിനരികിൽ പൊക്കമുള്ള ചെടികളിൽ മാറി മാറി ഇരിക്കാറാണ് പതിവ്. ചിലപ്പോൾ ഇവ കൂട്ടമായും കാണാറുണ്ട്.",
      description5: "",
     mainPhoto: "~/images/Euphaea_cardinalis_main.jpg",
     photos: [
-      { url: "~/images/Euphaea_cardinalis_male1.jpg", credit: "ആൺതുമ്പി © ബ്രിജേഷ് പൂക്കോട്ടൂര്‍", sourceUrl: "https://commons.wikimedia.org/wiki/File%3AEuphaea_cardinalis_%28Fraser%2C_1924%29.jpg" },
-      { url: "~/images/Euphaea_cardinalis_female1.jpg", credit: "പെൺതുമ്പി © ബ്രിജേഷ് പൂക്കോട്ടൂര്‍", sourceUrl: "https://commons.wikimedia.org/wiki/File%3AEuphaea_cardinalis_%28Fraser%2C_1924%29_Female.jpg" }
+      { url: "~/images/Euphaea_cardinalis_male1.jpg", credit: "ആൺതുമ്പി © ബ്രിജേഷ് പൂക്കോട്ടൂര്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEuphaea_cardinalis_%28Fraser%2C_1924%29.jpg" },
+      { url: "~/images/Euphaea_cardinalis_female1.jpg", credit: "പെൺതുമ്പി © ബ്രിജേഷ് പൂക്കോട്ടൂര്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEuphaea_cardinalis_%28Fraser%2C_1924%29_Female.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/100732-Euphaea-cardinalis",
     wikipediaLink: "https://en.wikipedia.org/wiki/Euphaea_cardinalis"
@@ -2888,14 +2888,14 @@ const defaultOdonates = [
     family: "Euphaeidae / Torrent-Darts / അരുവിയന്‍മാര്‍",
     description1: "ശരീരത്തിന് കറുപ്പും ചുവപ്പും നിറമുള്ള അരുവിയൻ കുടുംബത്തിൽ ഉള്ള ഒരിനം സൂചിത്തുമ്പിയാണ് വടക്കൻ അരുവിയൻ. ആൺതുമ്പിയുടെ ഇളം നീല ചുണ്ടും മഞ്ഞയും കറുപ്പു നിറമുള്ള കാലും മുൻ ചിറകിന്റെ അഗ്രഭാഗത്തെ കറുത്ത പാടും മറ്റു അരുവിയന്മാരിൽ നിന്നും തിരിച്ചറിയുവാൻ സഹായിക്കുന്നു. പശ്ചിമഘട്ടത്തിൽ പാലക്കാട്ട് മുതൽ വടക്കോട്ടുള്ള വനമേഖലകളിൽ മാത്രം കാണപ്പെടുന്നു. ",
     description2: "ഒഴുക്കുള്ള അരുവികളിലെ പാറകളിലും ഉണങ്ങിയ മരച്ചില്ലകളിലുമാണ് കൂടുതൽ കാണാറുള്ളത്. കറുത്ത കണ്ണുകളുടെ കീഴ്ഭാഗത്തിന് ഇളം ചാരനിറമാണ്. ചുണ്ടുകൾക്ക് നീല നിറം. കറുത്ത ഉരസ്സിന്റെ മുകൾ ഭാഗത്ത് തീമഞ്ഞ വരകളും കീഴ്ഭാഗത്ത് ചുവപ്പ് നിറവുമാണ്. മഞ്ഞ നിറത്തിലുള്ള കാലുകളുടെ മുകൾ വശം കറുപ്പ് നിറമാണ്. ഉദരത്തിനു ചുവപ്പ് നിറവും അഗ്രഭാഗത്തേക്ക് വരുമ്പോൾ കറുപ്പു നിറവുമാണ്.",
-     description3: "സുതാര്യമായ നീളമുള്ള ചിറകുകളാണ് ഇവയ്ക്കുള്ളത്. പിൻ ചിറകിന്റെ പകുതി മുതൽ അഗ്രഭാഗം വരെ കറുത്ത പാടുണ്ട്. മുൻ ചിറകിന് പിൻ ചിറകിനേക്കാൾ നീളം കൂടുതലും അഗ്രഭാഗത്തായിട്ട് നേരിയ കറുത്ത പാടുമുണ്ട്. ചിറകുകൾ തുറക്കുമ്പോൾ കറുത്ത പാടുകളിൽ വിസ്മയിപ്പിക്കുന്ന തിളങ്ങുന്ന ചുവപ്പു നിറം കാണാം. ഉരസ്സിനോട് ചേരുന്ന ചിറകിന്റെ ഭാഗത്ത് നേരിയ തവിട്ട് നിറമുണ്ട്. തവിട്ടു നിറമുള്ള കണ്ണുകളുടെ കീഴ്ഭാഗത്തിന് ചാരനിറമാണ്. ",
+     description3: "സുതാര്യമായ നീളമുള്ള ചിറകുകളാണ് ഇവയ്ക്കുള്ളത്. പിൻ ചിറകിന്റെ പകുതി മുതൽ അഗ്രഭാഗം വരെ കറുത്ത പാടുണ്ട്. ചിറകുകൾ തുറക്കുമ്പോൾ കറുത്ത പാടുകളിൽ വിസ്മയിപ്പിക്കുന്ന തിളങ്ങുന്ന ചുവപ്പു നിറം കാണാം. ഉരസ്സിനോട് ചേരുന്ന ചിറകിന്റെ ഭാഗത്ത് നേരിയ തവിട്ട് നിറമുണ്ട്. തവിട്ടു നിറമുള്ള കണ്ണുകളുടെ കീഴ്ഭാഗത്തിന് ചാരനിറമാണ്. ",
      description4: "കടും തവിട്ടു നിറമുള്ള ഉരസ്സിലും ഉദരത്തിലും വരകളും കലകളുമുണ്ട്. സുതാര്യമായ ചിറകുകളാണിവയ്ക്കുള്ളത്. ഇണയെ ആകർഷിക്കുവാൻ ചിറകുകൾ വിടർത്തി തിളങ്ങുന്ന ചുവപ്പ് നിറങ്ങൾ കാണിക്കാറുണ്ട്. പെൺതുമ്പികൾ ഇണ ചേരുവാൻ മാത്രമേ ജലാശയത്തിനരികിൽ വരാറുള്ളു. ചെറിയ കൂട്ടങ്ങളായും ഇവയെ കാണപ്പെടുന്നു.",
      description5: "",
     mainPhoto: "~/images/Euphaea_dispar_main.jpg",
     photos: [
-      { url: "~/images/Euphaea_dispar_male1.jpg", credit: "ആൺതുമ്പി © ഡേവിഡ് രാജു", sourceUrl: "https://en.wikipedia.org/wiki/File:Euphaea_dispar_-_Davidraju_IMG_5408.jpg" },
-      { url: "~/images/Euphaea_dispar_female1.jpg", credit: "പെൺതുമ്പി © Thomson Saburaj", sourceUrl: "https://commons.wikimedia.org/wiki/File:Euphaea_dispar_(Female).jpg" },
-	  { url: "~/images/Euphaea_dispar_mating.jpg", credit: "ഇണചേരല്‍ © Jithesh Pai", sourceUrl: "https://www.inaturalist.org/observations/132276377" }
+      { url: "~/images/Euphaea_dispar_male1.jpg", credit: "ആൺതുമ്പി © ഡേവിഡ് രാജു", "sourceUrl": "https://en.wikipedia.org/wiki/File:Euphaea_dispar_-_Davidraju_IMG_5408.jpg" },
+      { url: "~/images/Euphaea_dispar_female1.jpg", credit: "പെൺതുമ്പി © Thomson Saburaj", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Euphaea_dispar_(Female).jpg" },
+	  { url: "~/images/Euphaea_dispar_mating.jpg", credit: "ഇണചേരല്‍ © Jithesh Pai", "sourceUrl": "https://www.inaturalist.org/observations/132276377" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/100733-Euphaea-dispar",
     wikipediaLink: "https://en.wikipedia.org/wiki/Euphaea_dispar"
@@ -2914,10 +2914,10 @@ const defaultOdonates = [
      description5: "അപൂർവ്വമായിട്ടാണ് പെൺതുമ്പികൾ ജലാശയത്തിനടുത്ത് വരാറുള്ളത്. ശുദ്ധജലത്തിന്റെ സൂചകമാണ് ഈ തുമ്പിയുടെ സാന്നിദ്ധ്യം.",
     mainPhoto: "~/images/Euphaea_fraseri_main.jpg",
     photos: [
-      { url: "~/images/Euphaea_fraseri_male1.jpg", credit: "ആൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", sourceUrl: "https://commons.wikimedia.org/wiki/File:Malabar_Torrent_Dart_(Euphaea_fraseri)_male.,%E0%B4%9A%E0%B5%86%E0%B4%99%E0%B5%8D%E0%B4%95%E0%B4%B1%E0%B5%81%E0%B4%AA%E0%B5%8D%E0%B4%AA%E0%B5%BB_%E0%B4%85%E0%B4%B0%E0%B5%81%E0%B4%B5%E0%B4%BF%E0%B4%AF%E0%B5%BB_(45003072104).jpg" },
-      { url: "~/images/Euphaea_fraseri_female1.jpg", credit: "പെൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", sourceUrl: "https://commons.wikimedia.org/wiki/File:Malabar_Torrent_Dart_(Euphaea_fraseri)_Female_(30740827208).jpg" },
-	  { url: "~/images/Euphaea_fraseri_female2.jpg", credit: "പെൺതുമ്പി © ഗിരീഷ് മോഹന്‍ പി.കെ", sourceUrl: "https://commons.wikimedia.org/wiki/File:Euphaea_fraseri_03.jpg" },
-	  { url: "~/images/Euphaea_fraseri_mating.jpg", credit: "ഇണചേരല്‍ © 2010 Jee & Rani Nature Photography", sourceUrl: "https://commons.wikimedia.org/wiki/File:Euphaea_fraseri-Kadavoor-2016-06-25-001.jpg" }
+      { url: "~/images/Euphaea_fraseri_male1.jpg", credit: "ആൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Malabar_Torrent_Dart_(Euphaea_fraseri)_male.,%E0%B4%9A%E0%B5%86%E0%B4%99%E0%B5%8D%E0%B4%95%E0%B4%B1%E0%B5%81%E0%B4%AA%E0%B5%8D%E0%B4%AA%E0%B5%BB_%E0%B4%85%E0%B4%B0%E0%B5%81%E0%B4%B5%E0%B4%BF%E0%B4%AF%E0%B5%BB_(45003072104).jpg" },
+      { url: "~/images/Euphaea_fraseri_female1.jpg", credit: "പെൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Malabar_Torrent_Dart_(Euphaea_fraseri)_Female_(30740827208).jpg" },
+	  { url: "~/images/Euphaea_fraseri_female2.jpg", credit: "പെൺതുമ്പി © ഗിരീഷ് മോഹന്‍ പി.കെ", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Euphaea_fraseri_03.jpg" },
+	  { url: "~/images/Euphaea_fraseri_mating.jpg", credit: "ഇണചേരല്‍ © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Euphaea_fraseri-Kadavoor-2016-06-25-001.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/100735-Euphaea-fraseri",
     wikipediaLink: "https://en.wikipedia.org/wiki/Euphaea_fraseri"
@@ -2936,9 +2936,9 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Indolestes_gracilis_main.jpg",
     photos: [
-			{ url: "~/images/Indolestes_gracilis_male1.jpg", credit: "ആൺതുമ്പി © എബ്രഹാം സാമുവേല്‍", sourceUrl: "https://en.wikipedia.org/wiki/File:Indolestes_gracilis_-_male.jpg" },
-			{ url: "~/images/Indolestes_gracilis_female1.jpg", credit: "പെൺതുമ്പി © എബ്രഹാം സാമുവേല്‍", sourceUrl: "https://commons.wikimedia.org/wiki/File:Indolestes_gracilis_-_female.jpg" },
-	        { url: "~/images/Indolestes_gracilis_mating.jpg", credit: "ഇണചേരല്‍ © മനോജ് പി", sourceUrl: "https://commons.wikimedia.org/wiki/File:Indolestes_gracilis_2_by_Manoj_P.jpg" }
+			{ url: "~/images/Indolestes_gracilis_male1.jpg", credit: "ആൺതുമ്പി © എബ്രഹാം സാമുവേല്‍", "sourceUrl": "https://en.wikipedia.org/wiki/File:Indolestes_gracilis_-_male.jpg" },
+			{ url: "~/images/Indolestes_gracilis_female1.jpg", credit: "പെൺതുമ്പി © എബ്രഹാം സാമുവേല്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Indolestes_gracilis_-_female.jpg" },
+	        { url: "~/images/Indolestes_gracilis_mating.jpg", credit: "ഇണചേരല്‍ © മനോജ് പി", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Indolestes_gracilis_2_by_Manoj_P.jpg" }
 			],
     speciesLink: "https://www.inaturalist.org/taxa/103411-Indolestes-gracilis",
     wikipediaLink: "https://en.wikipedia.org/wiki/Indolestes_gracilis"
@@ -2957,10 +2957,10 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Indolestes_pulcherrimus_main.jpg",
     photos: [
-      { url: "~/images/Indolestes_pulcherrimus_male1.jpg", credit: "ആൺതുമ്പി © മുനീർ തോൽപ്പെട്ടി", sourceUrl: "https://en.wikipedia.org/wiki/File:Indolestes_pulcherrimus_6.jpg" },
-      { url: "~/images/Indolestes_pulcherrimus_female1.jpg", credit: "പെൺതുമ്പി © മുനീർ തോൽപ്പെട്ടി", sourceUrl: "https://en.wikipedia.org/wiki/File:Indolestes_pulcherrimus_2.jpg" },
-      { url: "~/images/Indolestes_pulcherrimus_mating.jpg", credit: "ഇണചേരല്‍ © മുനീർ തോൽപ്പെട്ടി", sourceUrl: "https://en.wikipedia.org/wiki/File:Indolestes_pulcherrimus_7.jpg" },
-      { url: "~/images/Indolestes_pulcherrimus_male2.jpg", credit: "കുറുവാൽ (ആൺതുമ്പി) © മുനീർ തോൽപ്പെട്ടി", sourceUrl: "https://en.wikipedia.org/wiki/File:Indolestes_pulcherrimus_3.jpg" }
+      { url: "~/images/Indolestes_pulcherrimus_male1.jpg", credit: "ആൺതുമ്പി © മുനീർ തോൽപ്പെട്ടി", "sourceUrl": "https://en.wikipedia.org/wiki/File:Indolestes_pulcherrimus_6.jpg" },
+      { url: "~/images/Indolestes_pulcherrimus_female1.jpg", credit: "പെൺതുമ്പി © മുനീർ തോൽപ്പെട്ടി", "sourceUrl": "https://en.wikipedia.org/wiki/File:Indolestes_pulcherrimus_2.jpg" },
+      { url: "~/images/Indolestes_pulcherrimus_mating.jpg", credit: "ഇണചേരല്‍ © മുനീർ തോൽപ്പെട്ടി", "sourceUrl": "https://en.wikipedia.org/wiki/File:Indolestes_pulcherrimus_7.jpg" },
+      { url: "~/images/Indolestes_pulcherrimus_male2.jpg", credit: "കുറുവാൽ (ആൺതുമ്പി) © മുനീർ തോൽപ്പെട്ടി", "sourceUrl": "https://en.wikipedia.org/wiki/File:Indolestes_pulcherrimus_3.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/103415-Indolestes-pulcherrimus",
     wikipediaLink: "https://en.wikipedia.org/wiki/Indolestes_pulcherrimus"
@@ -2979,8 +2979,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Lestes_concinnus_main.jpg",
     photos: [
-      { url: "~/images/Lestes_concinnus_male1.jpg", credit: "ആൺതുമ്പി © ഡേവിഡ് രാജു", sourceUrl: "https://commons.wikimedia.org/wiki/File:Davidraju_IMG_4327.jpg" },
-      { url: "~/images/Lestes_concinnus_female1.jpg", credit: "പെൺതുമ്പി © മനോജ് വി നായര്‍", sourceUrl: "https://commons.wikimedia.org/wiki/File:Lestes_umbrinus_female_by_Manoj_V_Nair.jpg" }
+      { url: "~/images/Lestes_concinnus_male1.jpg", credit: "ആൺതുമ്പി © ഡേവിഡ് രാജു", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Davidraju_IMG_4327.jpg" },
+      { url: "~/images/Lestes_concinnus_female1.jpg", credit: "പെൺതുമ്പി © മനോജ് വി നായര്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lestes_umbrinus_female_by_Manoj_V_Nair.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/104421-Lestes-concinnus",
     wikipediaLink: "https://en.wikipedia.org/wiki/Lestes_concinnus"
@@ -2993,15 +2993,15 @@ const defaultOdonates = [
 	sciName: "Lestes dorothea (Fraser, 1924)",
     family: "Lestidae / Spreadwings / ചേരാച്ചിറകൻ",
     description1: "കറുത്ത പുള്ളികളും കലകളുമുള്ള ചേരാചിറകൻ കുടുംബത്തിൽ ഉള്ള ഒരു സൂചിത്തുമ്പിയാണ് കാട്ടു ചേരാച്ചിറകൻ. ഇന്ത്യ, തായ്‌ലാന്റ്, മലേഷ്യ എന്നീ രാജ്യങ്ങളിൽ ഇവ കാണപ്പെടുന്നു. ഇവയ്ക്ക് നീലക്കണ്ണി ചേരാച്ചിറകൻ തുമ്പിയുമായി ഏറെ സാമ്യമുണ്ടെങ്കിലും കുറച്ചുകൂടി വലിപ്പമുണ്ട്. ",
-    description2: "ഇവയുടെ ശിരസ്സിനു കറുപ്പുനിറവും പ്രായപൂർത്തിയായ ആൺതുമ്പികളുടെ കണ്ണുകൾക്ക് നീലനിറവുമാണ്. ഇവയുടെ ഉരസ്സിന്റെ മുതുകുഭാഗത്ത് നീലക്കണ്ണി ചേരാച്ചിറകൻ തുമ്പിക്ക് ഉള്ളതുപോലുള്ള കരിമ്പച്ച നിറത്തിലുള്ള ഒരു പുള്ളിയുണ്ട്. അതിനു താഴെയായി ഇരുവശത്തും കറുപ്പും പച്ചയും കലർന്ന ഓരോ വരകൾകൂടിയുണ്ട്. അതോടൊപ്പം മൂന്നു കറുത്ത പൊട്ടുകളും. നീലക്കണ്ണി ചേരാച്ചിറകൻ തുമ്പിക്ക് ഈ വരകൾ ഇല്ല. ",
-     description3: "പ്രായപൂർത്തിയായ ആൺതുമ്പികളുടെ ഈ കലകളെല്ലാം ഇളം നീലനിറത്തിലുള്ള പൊടികൾകൊണ്ട് മറയ്ക്കപ്പെടും. സുതാര്യമായ ചിറകുകളിൽ കറുത്ത പൊട്ടുകളുണ്ട്. 8, 9, 10 ഖണ്ഡങ്ങൾ കറുപ്പ് നിറമാണ്. പത്താം ഖണ്ഡത്തിന്റെ മുതുഭാഗത്തുമാത്രം പ്രായമാകുമ്പോൾ നീലനിറത്തിലുള്ള പൊടികൾകൊണ്ട് മൂടപ്പെടും. നീലക്കണ്ണി ചേരാച്ചിറകൻ തുമ്പിക്ക് ഒൻപതാം ഖണ്ഡത്തിൽ ഇരുവശത്തും നീല കലകൾ ഉണ്ട്.",
-     description4: " പ്രായമായ ആൺതുമ്പിയുടെ കുറുവാലുകളുടെ മധ്യഭാഗം ഇളം നീല നിറത്തിലും ഇരു അഗ്രങ്ങളും കറുപ്പുനിറത്തിലും ആയിരിക്കും. പെൺതുമ്പികളുടെ കലകൾ കൂടുതൽ വീതിയുള്ളതും വ്യക്തവുമാണ്. തീരെ ചെറിയ കുറുവാലുകൾക്ക് ഇരുണ്ട നിറമാണ്. ",
+    description2: "ഇവയുടെ ശിരസ്സിനു കറുപ്പുനിറവും പ്രായപൂർത്തിയായ ആൺതുമ്പികളുടെ കണ്ണുകൾക്ക് നീലനിറവുമാണ്. ഇവയുടെ ഉരസ്സിന്റെ മുതുകുഭാഗത്ത് നീലക്കണ്ണി ചേരാച്ചിറകൻ തുമ്പിക്ക് ഉള്ളതുപോലുള്ള കരിമ്പച്ച നിറത്തിലുള്ള ഒരു പുള്ളിയുണ്ട്. അതിനു താഴെയായി ഇരുവശത്തും കറുപ്പും പച്ചയും കലർന്ന ഓരോ വരകൾകൂടിയുണ്ട്. അതോടൊപ്പം മൂന്നു കറുത്ത പൊട്ടുകളും. ",
+     description3: "നീലക്കണ്ണി ചേരാച്ചിറകൻ തുമ്പിക്ക് ഈ വരകൾ ഇല്ല. പ്രായപൂർത്തിയായ ആൺതുമ്പികളുടെ ഈ കലകളെല്ലാം ഇളം നീലനിറത്തിലുള്ള പൊടികൾകൊണ്ട് മറയ്ക്കപ്പെടും. സുതാര്യമായ ചിറകുകളിൽ കറുത്ത പൊട്ടുകളുണ്ട്. 8, 9, 10 ഖണ്ഡങ്ങൾ കറുപ്പ് നിറമാണ്. പത്താം ഖണ്ഡത്തിന്റെ മുതുഭാഗത്തുമാത്രം പ്രായമാകുമ്പോൾ നീലനിറത്തിലുള്ള പൊടികൾകൊണ്ട് മൂടപ്പെടും.",
+     description4: " നീലക്കണ്ണി ചേരാച്ചിറകൻ തുമ്പിക്ക് ഒൻപതാം ഖണ്ഡത്തിൽ ഇരുവശത്തും നീല കലകൾ ഉണ്ട്. പ്രായമായ ആൺതുമ്പിയുടെ കുറുവാലുകളുടെ മധ്യഭാഗം ഇളം നീല നിറത്തിലും ഇരു അഗ്രങ്ങളും കറുപ്പുനിറത്തിലും ആയിരിക്കും. പെൺതുമ്പികളുടെ കലകൾ കൂടുതൽ വീതിയുള്ളതും വ്യക്തവുമാണ്. തീരെ ചെറിയ കുറുവാലുകൾക്ക് ഇരുണ്ട നിറമാണ്. ",
      description5: "വലിപ്പക്കൂടുതലും 8, 9 ഖണ്ഡങ്ങളിലെ കലകളുടെ അഭാവവും ഉരസ്സിന്റെ വശത്തുള്ള കറുപ്പും പച്ചയും കലർന്ന വരയും ഇവയെ നീലക്കണ്ണി ചേരാച്ചിറകൻ തുമ്പിയിൽനിന്നും വേർതിരിച്ചറിയാൻ സഹായിക്കുന്നു. ചെടികൾ നിറഞ്ഞ കുളങ്ങളിലാണ് ഇവ പ്രജനനം നടത്തുന്നത്.",
     mainPhoto: "~/images/Lestes_dorothea_main.jpg",
     photos: [
-      { url: "~/images/Lestes_dorothea_male1.jpg", credit: "ആൺതുമ്പി © വിവേക് ചന്ദ്രന്‍ എ", sourceUrl: "https://commons.wikimedia.org/wiki/File:Lestes_dorothea_from_Wayanad.jpg" },
-      { url: "~/images/Lestes_dorothea_female1.jpg", credit: "പെൺതുമ്പി © 2010 Jee & Rani Nature Photography", sourceUrl: "https://en.wikipedia.org/wiki/File:Lestes_dorothea-Kadavoor-2018-08-05-002.jpg" },
-	  { url: "~/images/Lestes_dorothea_mating.jpg", credit: "ഇണചേരല്‍ © 2010 Jee & Rani Nature Photography", sourceUrl: "https://commons.wikimedia.org/wiki/File:Lestes_dorothea-Kadavoor-2018-08-05-004.jpg" }
+      { url: "~/images/Lestes_dorothea_male1.jpg", credit: "ആൺതുമ്പി © വിവേക് ചന്ദ്രന്‍ എ", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lestes_dorothea_from_Wayanad.jpg" },
+      { url: "~/images/Lestes_dorothea_female1.jpg", credit: "പെൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Lestes_dorothea-Kadavoor-2018-08-05-002.jpg" },
+	  { url: "~/images/Lestes_dorothea_mating.jpg", credit: "ഇണചേരല്‍ © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lestes_dorothea-Kadavoor-2018-08-05-004.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/104428-Lestes-dorothea",
     wikipediaLink: "https://en.wikipedia.org/wiki/Lestes_dorothea"
@@ -3020,10 +3020,10 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Lestes_elatus_main.jpg",
     photos: [
-      { url: "~/images/Lestes_elatus_male1.jpg", credit: "ആൺതുമ്പി © 2010 Jee & Rani Nature Photography", sourceUrl: "https://en.wikipedia.org/wiki/File:Lestes_elatus-Kadavoor-2016-07-04-004.jpg" },
-      { url: "~/images/Lestes_elatus_female1.jpg", credit: "പെൺതുമ്പി © 2010 Jee & Rani Nature Photography", sourceUrl: "https://en.wikipedia.org/wiki/File:Lestes_elatus-Kadavoor-2016-07-04-003.jpg" },
-	  { url: "~/images/Lestes_elatus_1.jpg", credit: "© പ്രവീണ്‍ ജി നായര്‍", sourceUrl: "https://commons.wikimedia.org/wiki/File:Emerald_Spreadwing_or_Lestes_elatus.jpg" },
-	  { url: "~/images/Lestes_elatus_mating.jpg", credit: "ഇണചേരല്‍ © ഷിനോ ജേക്കബ് കൂറ്റനാട്", sourceUrl: "https://commons.wikimedia.org/wiki/File:Lestes_elatus_male_and_female.jpg" }
+      { url: "~/images/Lestes_elatus_male1.jpg", credit: "ആൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Lestes_elatus-Kadavoor-2016-07-04-004.jpg" },
+      { url: "~/images/Lestes_elatus_female1.jpg", credit: "പെൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Lestes_elatus-Kadavoor-2016-07-04-003.jpg" },
+	  { url: "~/images/Lestes_elatus_1.jpg", credit: "© പ്രവീണ്‍ ജി നായര്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Emerald_Spreadwing_or_Lestes_elatus.jpg" },
+	  { url: "~/images/Lestes_elatus_mating.jpg", credit: "ഇണചേരല്‍ © ഷിനോ ജേക്കബ് കൂറ്റനാട്", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lestes_elatus_male_and_female.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/149502-Lestes-elatus",
     wikipediaLink: "https://en.wikipedia.org/wiki/Lestes_elatus"
@@ -3042,9 +3042,9 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Lestes_malabaricus_main.jpg",
     photos: [
-      { url: "~/images/Lestes_malabaricus_male1.jpg", credit: "ആൺതുമ്പി © അഫ്സര്‍ നായക്കന്‍", sourceUrl: "https://commons.wikimedia.org/wiki/File:Lestes_malabaricus_6.jpg" },
-      { url: "~/images/Lestes_malabaricus_male2.jpg", credit: "ആൺതുമ്പി © ഹനീഫ് മങ്ങാട്", sourceUrl: "https://commons.wikimedia.org/wiki/File:Lestes_malabaricus_Fraser_(cropped).jpg" },
-	  { url: "~/images/Lestes_malabaricus_mating.jpg", credit: "ഇണചേരല്‍ © ഹനീഫ് മങ്ങാട്", sourceUrl: "https://commons.wikimedia.org/wiki/File:Lestes_malabaricus.jpg" }
+      { url: "~/images/Lestes_malabaricus_male1.jpg", credit: "ആൺതുമ്പി © അഫ്സര്‍ നായക്കന്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lestes_malabaricus_6.jpg" },
+      { url: "~/images/Lestes_malabaricus_male2.jpg", credit: "ആൺതുമ്പി © ഹനീഫ് മങ്ങാട്", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lestes_malabaricus_Fraser_(cropped).jpg" },
+	  { url: "~/images/Lestes_malabaricus_mating.jpg", credit: "ഇണചേരല്‍ © ഹനീഫ് മങ്ങാട്", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lestes_malabaricus.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/561020-Lestes-malabaricus/",
     wikipediaLink: "https://en.wikipedia.org/wiki/Lestes_malabaricus"
@@ -3063,9 +3063,9 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Lestes_nodalis_main.jpg",
     photos: [
-      { url: "~/images/Lestes_nodalis_male1.jpg", credit: "ആൺതുമ്പി © വിനീത് വെങ്ങോലിസ്", sourceUrl: "https://en.wikipedia.org/wiki/File:Lestes_nodalis_05311.jpg" },
-      { url: "~/images/Lestes_nodalis_female1.jpg", credit: "പെൺതുമ്പി © വിനീത് വെങ്ങോലിസ്", sourceUrl: "https://en.wikipedia.org/wiki/File:Lestes_nodalis_08243.jpg" },
-      { url: "~/images/Lestes_nodalis_mating.jpg", credit: "ഇണചേരല്‍ © വിവേക് ചന്ദ്രന്‍ എ", sourceUrl: "https://commons.wikimedia.org/wiki/File:DSC01930_edited-DeNoiseAI-standard.jpg" }
+      { url: "~/images/Lestes_nodalis_male1.jpg", credit: "ആൺതുമ്പി © വിനീത് വെങ്ങോലിസ്", "sourceUrl": "https://en.wikipedia.org/wiki/File:Lestes_nodalis_05311.jpg" },
+      { url: "~/images/Lestes_nodalis_female1.jpg", credit: "പെൺതുമ്പി © വിനീത് വെങ്ങോലിസ്", "sourceUrl": "https://en.wikipedia.org/wiki/File:Lestes_nodalis_08243.jpg" },
+      { url: "~/images/Lestes_nodalis_mating.jpg", credit: "ഇണചേരല്‍ © വിവേക് ചന്ദ്രന്‍ എ", "sourceUrl": "https://commons.wikimedia.org/wiki/File:DSC01930_edited-DeNoiseAI-standard.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/104440-Lestes-nodalis",
     wikipediaLink: "https://en.wikipedia.org/wiki/Lestes_nodalis"
@@ -3084,10 +3084,10 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Lestes_patricia_main.jpg",
     photos: [
-      { url: "~/images/Lestes_patricia_male1.jpg", credit: "ആൺതുമ്പി © Shriram Bhakare", sourceUrl: "https://en.wikipedia.org/wiki/File:Lestes_patricia_male-shrirambhakare4.jpg" },
-       { url: "~/images/Lestes_patricia_female1.jpg", credit: "പെൺതുമ്പി © Shriram Bhakare", sourceUrl: "https://en.wikipedia.org/wiki/File:Lestes_patricia_female-shrirambhakare2.jpg" },
-       { url: "~/images/Lestes_patricia_male2.jpg", credit: "ആൺതുമ്പി © Shriram Bhakare", sourceUrl: "https://en.wikipedia.org/wiki/File:Lestes_patricia_male-shrirambhakare5.jpg" },
-	   { url: "~/images/Lestes_patricia_mating.jpg", credit: "ഇണചേരല്‍ © Shriram Bhakare", sourceUrl: "https://en.wikipedia.org/wiki/File:Lestes_patricia_mating-shrirambhakare.jpg" }
+      { url: "~/images/Lestes_patricia_male1.jpg", credit: "ആൺതുമ്പി © Shriram Bhakare", "sourceUrl": "https://en.wikipedia.org/wiki/File:Lestes_patricia_male-shrirambhakare4.jpg" },
+       { url: "~/images/Lestes_patricia_female1.jpg", credit: "പെൺതുമ്പി © Shriram Bhakare", "sourceUrl": "https://en.wikipedia.org/wiki/File:Lestes_patricia_female-shrirambhakare2.jpg" },
+       { url: "~/images/Lestes_patricia_male2.jpg", credit: "ആൺതുമ്പി © Shriram Bhakare", "sourceUrl": "https://en.wikipedia.org/wiki/File:Lestes_patricia_male-shrirambhakare5.jpg" },
+	   { url: "~/images/Lestes_patricia_mating.jpg", credit: "ഇണചേരല്‍ © Shriram Bhakare", "sourceUrl": "https://en.wikipedia.org/wiki/File:Lestes_patricia_mating-shrirambhakare.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/561021-Lestes-patricia",
     wikipediaLink: "https://en.wikipedia.org/wiki/Lestes_patricia"
@@ -3099,16 +3099,16 @@ const defaultOdonates = [
     scientificName: "Lestes praemorsus",
 	sciName: "Lestes praemorsus (Hagen in Selys, 1862)",
     family: "Lestidae / Spreadwings / ചേരാച്ചിറകൻ",
-    description1: "നീല നിറമുള്ള ശരീരത്തിൽ കറുത്ത പുള്ളികളും കലകളുമുള്ള ചേരാചിറകൻ കുടുംബത്തിൽ ഉള്ള ഒരു സൂചിത്തുമ്പിയാണ് നീലക്കണ്ണന്‍ ചേരാച്ചിറകൻ. ഇന്ത്യ, തായ്‌ലാന്റ്, ചൈന എന്നീ രാജ്യങ്ങളിൽ ഇവ കാണപ്പെടുന്നു. പച്ച വരയൻ ചേരാച്ചിറകനുമായി സാമ്യമുണ്ടെങ്കിലും ഉരസ്സിന് മുകൾ ഭാഗത്തെ കലകൾ വ്യത്യസ്തമാണ്. ഈ തുമ്പി കേരളത്തിൽ ഏറെ സാധാരണമാണ്. മഴ കഴിഞ്ഞ് തൊട്ടടുത്തുള്ള മാസങ്ങളിലാണ് ഈ തുമ്പിയെ ധാരാളമായി കാണുവാൻ കഴിയുന്നത്. ",
+    description1: "നീല നിറമുള്ള ശരീരത്തിൽ കറുത്ത പുള്ളികളും കലകളുമുള്ള ഒരു സൂചിത്തുമ്പിയാണ് നീലക്കണ്ണന്‍ ചേരാച്ചിറകൻ. പച്ച വരയൻ ചേരാച്ചിറകനുമായി സാമ്യമുണ്ടെങ്കിലും ഉരസ്സിന് മുകൾ ഭാഗത്തെ കലകൾ വ്യത്യസ്തമാണ്. ഈ തുമ്പി കേരളത്തിൽ ഏറെ സാധാരണമാണ്. മഴ കഴിഞ്ഞ് തൊട്ടടുത്തുള്ള മാസങ്ങളിലാണ് ഈ തുമ്പിയെ ധാരാളമായി കാണുവാൻ കഴിയുന്നത്. ",
     description2: "നെൽപ്പാടങ്ങളിലും ചതുപ്പു നിലങ്ങളിലും കുളങ്ങളിലും ഈ തുമ്പിയെ കണ്ടെത്തുവാൻ കഴിയും. തിളങ്ങുന്ന ഇളം നീല കണ്ണുകളാണുള്ളത്. ഉരസ്സിന്റെ വശങ്ങളിൽ നീല കലർന്ന വെളുത്ത നിറവും അതിൽ കറുത്ത പുള്ളികളുമുണ്ട്. മുതുകിൽ തിളങ്ങുന്ന പച്ച കലർന്ന കറുത്തനിറത്തിലുള്ള കലകളുണ്ടായിരിക്കും. കാലുകൾക്ക് കറുത്ത നിറമാണ്. ഇളംനീലയും വെളുപ്പും കലർന്ന ഉദരത്തിൽ നീല നിറത്തിലുള്ള ചെറിയ വളയങ്ങളുണ്ട്. ",
      description3: "പെണ്‍തുമ്പികള്‍ കാഴ്ചയിൽ ആൺ തുമ്പികളെപ്പോലെയെങ്കിലും കണ്ണുകൾ പച്ചയും നീലയും നിറങ്ങൾ കലർന്നതും ഉദരത്തിനു താരതമ്യേന കൂടുതൽ വലിപ്പവുമുണ്ടായിരിക്കും. മറ്റു വിരിച്ചിറകൻ തുമ്പികളെ അപേക്ഷിച്ച് ഇവ വളരെ വേഗത്തിൽ പറക്കാൻ ഇഷ്ടപ്പെടുന്നു. ജലാശയത്തിന്റെ അരികിലുള്ള മരച്ചില്ലകളിലോ തെങ്ങിന്റെ ഓലയുടെ കീഴിലോ തൂങ്ങിക്കിടന്നാണ് സാധാരണ വിശ്രമിക്കുന്നത്. ",
      description4: "വിശ്രമിക്കുമ്പേോൾ ഉദരം മുകളിലോട്ടും താഴോട്ടും ചലിപ്പിക്കുന്ന സ്വഭാവമുണ്ട്. ജലോപരിതലത്തിന് മുകളിൽ പൊങ്ങിനിൽക്കുന്ന പുല്ലുകളിലാണ് ഇവ മുട്ടയിടാറുള്ളത്.",
      description5: "",
     mainPhoto: "~/images/Lestes_praemorsus_main.jpg",
     photos: [
-      { url: "~/images/Lestes_praemorsus_male1.jpg", credit: "ആൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", sourceUrl: "https://en.wikipedia.org/wiki/File:Lestes_praemorsus_male.jpg" },
-      { url: "~/images/Lestes_praemorsus_female1.jpg", credit: "പെൺതുമ്പി © രെജി ചന്ദ്രന്‍", sourceUrl: "https://commons.wikimedia.org/wiki/File:Lestes_praemorsus.jpg" },
-	  { url: "~/images/Lestes_praemorsus_mating.jpg", credit: "ഇണചേരല്‍ © രെജി ചന്ദ്രന്‍", sourceUrl: "https://commons.wikimedia.org/wiki/File:Lestes_praemorsus_egg.jpg" }
+      { url: "~/images/Lestes_praemorsus_male1.jpg", credit: "ആൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", "sourceUrl": "https://en.wikipedia.org/wiki/File:Lestes_praemorsus_male.jpg" },
+      { url: "~/images/Lestes_praemorsus_female1.jpg", credit: "പെൺതുമ്പി © രെജി ചന്ദ്രന്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lestes_praemorsus.jpg" },
+	  { url: "~/images/Lestes_praemorsus_mating.jpg", credit: "ഇണചേരല്‍ © രെജി ചന്ദ്രന്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lestes_praemorsus_egg.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/104447-Lestes-praemorsus",
     wikipediaLink: "https://en.wikipedia.org/wiki/Lestes_praemorsus"
@@ -3127,10 +3127,10 @@ const defaultOdonates = [
      description5: "ഉരസ്സിന്റെ മുതുകുഭാഗത്ത് ഉള്ള കറുത്ത കലകൾ ഇവയെ എളുപ്പത്തിൽ തിരിച്ചറിയാൻ സഹായിക്കുന്നു.",
     mainPhoto: "~/images/Platylestes_kirani_main.jpg",
     photos: [
-      { url: "~/images/Platylestes_kirani_male1.jpg", credit: "ആൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", sourceUrl: "https://en.wikipedia.org/wiki/File:Platylestes_kirani_male.jpg" },
-      { url: "~/images/Platylestes_kirani_female1.jpg", credit: "പെൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", sourceUrl: "https://en.wikipedia.org/wiki/File:Platylestes_kirani_female.jpg" },
-      { url: "~/images/Platylestes_kirani_male_dorsal_thorax_and_eyes.jpg", credit: "ഉരസ്സിലെ കറുത്ത കലകൾ - ആൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", sourceUrl: "https://en.wikipedia.org/wiki/File:Platylestes_kirani_male_dorsal_thorax_and_eyes.jpg" },	  
-	  { url: "~/images/Platylestes_kirani_mating.jpg", credit: "ഇണചേരല്‍ © റൈസണ്‍ തുമ്പൂര്‍", sourceUrl: "https://en.wikipedia.org/wiki/File:Platylestes_kirani_mating.jpg" }
+      { url: "~/images/Platylestes_kirani_male1.jpg", credit: "ആൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", "sourceUrl": "https://en.wikipedia.org/wiki/File:Platylestes_kirani_male.jpg" },
+      { url: "~/images/Platylestes_kirani_female1.jpg", credit: "പെൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", "sourceUrl": "https://en.wikipedia.org/wiki/File:Platylestes_kirani_female.jpg" },
+      { url: "~/images/Platylestes_kirani_male_dorsal_thorax_and_eyes.jpg", credit: "ഉരസ്സിലെ കറുത്ത കലകൾ - ആൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", "sourceUrl": "https://en.wikipedia.org/wiki/File:Platylestes_kirani_male_dorsal_thorax_and_eyes.jpg" },	  
+	  { url: "~/images/Platylestes_kirani_mating.jpg", credit: "ഇണചേരല്‍ © റൈസണ്‍ തുമ്പൂര്‍", "sourceUrl": "https://en.wikipedia.org/wiki/File:Platylestes_kirani_mating.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/1134988-Platylestes-kirani",
     wikipediaLink: "https://en.wikipedia.org/wiki/Platylestes_kirani"
@@ -3143,16 +3143,16 @@ const defaultOdonates = [
 	sciName: "Platylestes platystylus (Rambur, 1842)",
     family: "Lestidae / Spreadwings / ചേരാച്ചിറകൻ",
     description1: "ചേരാചിറകൻ കുടുംബത്തിൽ ഉള്ള ഒരു സൂചിത്തുമ്പിയാണ് പച്ചക്കണ്ണൻ ചേരാച്ചിറകൻ. ഇതിന്റെ ആവാസവ്യവസ്ഥ വളരെ വിശാലമാണെങ്കിലും ഇപ്പോൾ അധികം കാണാറില്ല. പണ്ട് കണ്ടിട്ടുള്ളത് പശ്ചിമ ബംഗാൾ, മ്യാൻമാർ (Fraser 1933), തായ്‌ലന്റ് (Hämäläinen and Pinratana 1999), ലാവോസ് (Yokoi 2001) എന്നിവിടങ്ങളിലാണ്. ",
-     description2: "ഈയിടെ കണ്ടിട്ടുള്ളത് തായ്‌ലന്റ്, വിയറ്റ്നാം, ലാവോസ് എന്നിവിടങ്ങളിലാണ്. 2017ലും 2018ലും തൃശൂർ ജില്ലയിലെ തുമ്പൂരിൽ ഈ തുമ്പിയെ കണ്ടെത്തുകയുണ്ടായി. 2018-ൽ കണ്ണൂർ ജില്ലയിലെ തളിപ്പറമ്പ് അടുത്തുള്ള വരഡൂർ ഗ്രാമത്തിലും ഇവയെ കണ്ടെത്തുകയുണ്ടായി. മറ്റു ചേരാചിറകൻ തുമ്പികളുടെതന്നെ വലിപ്പവും മങ്ങിയ നിറവുമുള്ള ഒരു തുമ്പിയാണിത്. ഇതിന്റെ കഴുത്തിനും ഉരസ്സിനും മങ്ങിയ കാക്കികലർന്ന തവിട്ടുനിറവും വശങ്ങളിൽ കൂടുതൽ മങ്ങിയ നിറവുമാണ്. ",
-     description3: "ഉരസ്സിൽ ധാരാളം കറുത്ത പൊട്ടുകളുണ്ട്. മങ്ങിയ പുകനിറമുള്ള സുതാര്യമായ ചിറകുകളിൽ നീളം കുറഞ്ഞതും വീതിയുള്ളതുമായ രണ്ടുവശത്തും നേർത്ത വെള്ള അരികോടുകൂടിയ പൊട്ടുകളാണുള്ളത് (pterostigma). മങ്ങിയ മഞ്ഞയും ചുവപ്പും കലർന്ന ഉദരത്തിന്റെ ഓരോ ഖണ്ഡത്തിലും നേർത്ത കറുത്ത വളയങ്ങളുണ്ട്. വെളുത്ത കുറുവാലുകളുടെ (anal appendages) ആരംഭത്തിൽ കറുപ്പുനിറമാണ്. ",
-     description4: "മുകളിലെ കുറുവാലുകളുടെ അഗ്രം വളഞ്ഞു കൂട്ടിമുട്ടുന്നു താഴത്തെ കുറുവാലുകൾ കട്ടിയുള്ളവയും പകുതിമാത്രം നീളമുള്ളവയുമാണ്. ലിംഗവ്യത്യാസമനുസരിച്ചുള്ള മാറ്റങ്ങളൊഴിച്ചാൽ പെൺതുമ്പികൾ ആൺതുമ്പികളെപ്പോലെതന്നെയിരിക്കും. പത്താം ഖണ്ഡത്തിന്റെ അതേ നീളത്തിലുള്ള കുറുവാലുകൾക്കു ചുവട്ടിൽ ഇരുണ്ടതും തുടർന്ന് മഞ്ഞനിറവുമാണ്. ",
+     description2: "ഈയിടെ കണ്ടിട്ടുള്ളത് തായ്‌ലന്റ്, വിയറ്റ്നാം, ലാവോസ് എന്നിവിടങ്ങളിലാണ്. 2017ലും 2018ലും തൃശൂർ ജില്ലയിലെ തുമ്പൂരിൽ ഈ തുമ്പിയെ കണ്ടെത്തുകയുണ്ടായി. 2018-ൽ കണ്ണൂർ ജില്ലയിലെ തളിപ്പറമ്പ് അടുത്തുള്ള വരഡൂർ ഗ്രാമത്തിലും ഇവയെ കണ്ടെത്തുകയുണ്ടായി. മറ്റു ചേരാചിറകൻ തുമ്പികളുടെതന്നെ വലിപ്പവും മങ്ങിയ നിറവുമുള്ള ഒരു തുമ്പിയാണിത്.",
+     description3: " ഇതിന്റെ കഴുത്തിനും ഉരസ്സിനും മങ്ങിയ കാക്കികലർന്ന തവിട്ടുനിറവും വശങ്ങളിൽ കൂടുതൽ മങ്ങിയ നിറവുമാണ്. ഉരസ്സിൽ ധാരാളം കറുത്ത പൊട്ടുകളുണ്ട്. മങ്ങിയ പുകനിറമുള്ള സുതാര്യമായ ചിറകുകളിൽ നീളം കുറഞ്ഞതും വീതിയുള്ളതുമായ രണ്ടുവശത്തും നേർത്ത വെള്ള അരികോടുകൂടിയ പൊട്ടുകളാണുള്ളത് (pterostigma). മങ്ങിയ മഞ്ഞയും ചുവപ്പും കലർന്ന ഉദരത്തിന്റെ ഓരോ ഖണ്ഡത്തിലും നേർത്ത കറുത്ത വളയങ്ങളുണ്ട്. ",
+     description4: "വെളുത്ത കുറുവാലുകളുടെ (anal appendages) ആരംഭത്തിൽ കറുപ്പുനിറമാണ്. മുകളിലെ കുറുവാലുകളുടെ അഗ്രം വളഞ്ഞു കൂട്ടിമുട്ടുന്നു താഴത്തെ കുറുവാലുകൾ കട്ടിയുള്ളവയും പകുതിമാത്രം നീളമുള്ളവയുമാണ്. ലിംഗവ്യത്യാസമനുസരിച്ചുള്ള മാറ്റങ്ങളൊഴിച്ചാൽ പെൺതുമ്പികൾ ആൺതുമ്പികളെപ്പോലെതന്നെയിരിക്കും. പത്താം ഖണ്ഡത്തിന്റെ അതേ നീളത്തിലുള്ള കുറുവാലുകൾക്കു ചുവട്ടിൽ ഇരുണ്ടതും തുടർന്ന് മഞ്ഞനിറവുമാണ്. ",
      description5: "ഉരസ്സിന്റെ വശങ്ങളിലുള്ള കറുത്ത പൊട്ടുകളും ഏറെക്കുറെ സമചതുരാകൃതിയിലും വശങ്ങളിൽ വെള്ള അരികുകളോടും കൂടിയ ചിറകുകളിലെ പൊട്ടുകളും (pterostigma) മറ്റു ചേരാചിറകൻ തുമ്പികളിൽനിന്നും ഇവയെ തിരിച്ചറിയാൻ സഹായിക്കുന്നു.",
     mainPhoto: "~/images/Platylestes_platystylus_main.jpg",
     photos: [
-      { url: "~/images/Platylestes_platystylus_male1.jpg", credit: "ആൺതുമ്പി © വിനയന്‍ പി നായര്‍", sourceUrl: "https://en.wikipedia.org/wiki/File:Platylestes_platystylus_male_(cropped).jpg" },
-      { url: "~/images/Platylestes_platystylus_female1.jpg", credit: "പെൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", sourceUrl: "https://en.wikipedia.org/wiki/File:Platylestes_platystylus_female.jpg" },
-	  { url: "~/images/Platylestes_platystylus_wings_of_female.jpg", credit: "ചിറകുകള്‍ © റൈസണ്‍ തുമ്പൂര്‍", sourceUrl: "https://en.wikipedia.org/wiki/File:Platylestes_platystylus_Wings_of_female.jpg" },
- 	  { url: "~/images/Platylestes_platystylus_mating.jpg", credit: "ഇണചേരല്‍ © ഷിനോ ജേക്കബ് കൂറ്റനാട്", sourceUrl: "https://commons.wikimedia.org/wiki/File:Platylestes_platystylus,_Emerald-eyed_Spread_wing.jpg" }
+      { url: "~/images/Platylestes_platystylus_male1.jpg", credit: "ആൺതുമ്പി © വിനയന്‍ പി നായര്‍", "sourceUrl": "https://en.wikipedia.org/wiki/File:Platylestes_platystylus_male_(cropped).jpg" },
+      { url: "~/images/Platylestes_platystylus_female1.jpg", credit: "പെൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", "sourceUrl": "https://en.wikipedia.org/wiki/File:Platylestes_platystylus_female.jpg" },
+	  { url: "~/images/Platylestes_platystylus_wings_of_female.jpg", credit: "ചിറകുകള്‍ © റൈസണ്‍ തുമ്പൂര്‍", "sourceUrl": "https://en.wikipedia.org/wiki/File:Platylestes_platystylus_Wings_of_female.jpg" },
+ 	  { url: "~/images/Platylestes_platystylus_mating.jpg", credit: "ഇണചേരല്‍ © ഷിനോ ജേക്കബ് കൂറ്റനാട്", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Platylestes_platystylus,_Emerald-eyed_Spread_wing.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/109709-Platylestes-platystylus",
     wikipediaLink: "https://en.wikipedia.org/wiki/Platylestes_platystylus"
@@ -3171,7 +3171,7 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Caconeura_gomphoides_main.jpg",
     photos: [
-      { url: "~/images/Caconeura_gomphoides_male1.jpg", credit: "© ഡേവിഡ് രാജു", sourceUrl: "https://en.wikipedia.org/wiki/File:Caconeura_gomphoides.jpg" }
+      { url: "~/images/Caconeura_gomphoides_male1.jpg", credit: "© ഡേവിഡ് രാജു", "sourceUrl": "https://en.wikipedia.org/wiki/File:Caconeura_gomphoides.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/96391-Caconeura-gomphoides",
     wikipediaLink: "https://en.wikipedia.org/wiki/Caconeura_gomphoides"
@@ -3190,9 +3190,9 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Caconeura_ramburi_main.jpg",
     photos: [
-      { url: "~/images/Caconeura_ramburi_male1.jpg", credit: "ആൺതുമ്പി © മുനീർ തോൽപ്പെട്ടി", sourceUrl: "https://commons.wikimedia.org/wiki/File:Caconeura_ramburi_1.jpg" },
-      { url: "~/images/Caconeura_ramburi_female1.jpg", credit: "പെൺതുമ്പി © രെജി ചന്ദ്രന്‍", sourceUrl: "https://commons.wikimedia.org/wiki/File:Caconeura_ramburi_female.jpg" },
-	  { url: "~/images/Caconeura_ramburi_mating.jpg", credit: "ഇണചേരല്‍ © രെജി ചന്ദ്രന്‍", sourceUrl: "https://commons.wikimedia.org/wiki/File:Caconeura_ramburi_2.jpg" }
+      { url: "~/images/Caconeura_ramburi_male1.jpg", credit: "ആൺതുമ്പി © മുനീർ തോൽപ്പെട്ടി", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caconeura_ramburi_1.jpg" },
+      { url: "~/images/Caconeura_ramburi_female1.jpg", credit: "പെൺതുമ്പി © രെജി ചന്ദ്രന്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caconeura_ramburi_female.jpg" },
+	  { url: "~/images/Caconeura_ramburi_mating.jpg", credit: "ഇണചേരല്‍ © രെജി ചന്ദ്രന്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caconeura_ramburi_2.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/96392-Caconeura-ramburi",
     wikipediaLink: "https://en.wikipedia.org/wiki/Caconeura_ramburi"
@@ -3211,9 +3211,9 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Caconeura_risi_main.jpg",
     photos: [
-      { url: "~/images/Caconeura_risi_male1.jpg", credit: "ആൺതുമ്പി © രെജി ചന്ദ്രന്‍", sourceUrl: "https://commons.wikimedia.org/wiki/File:Caconeura_risi_male_1.jpg" },
-      { url: "~/images/Caconeura_risi_female1.jpg", credit: "പെൺതുമ്പി © രെജി ചന്ദ്രന്‍", sourceUrl: "https://commons.wikimedia.org/wiki/File:Caconeura_risi_female.jpg" },
-	  { url: "~/images/Caconeura_risi_mating.jpg", credit: "ഇണചേരല്‍ © ഷിനോ ജേക്കബ് കൂറ്റനാട്", sourceUrl: "https://commons.wikimedia.org/wiki/File:Wayanad_Bambootail_-_Caconeura_risi.jpg" }
+      { url: "~/images/Caconeura_risi_male1.jpg", credit: "ആൺതുമ്പി © രെജി ചന്ദ്രന്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caconeura_risi_male_1.jpg" },
+      { url: "~/images/Caconeura_risi_female1.jpg", credit: "പെൺതുമ്പി © രെജി ചന്ദ്രന്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caconeura_risi_female.jpg" },
+	  { url: "~/images/Caconeura_risi_mating.jpg", credit: "ഇണചേരല്‍ © ഷിനോ ജേക്കബ് കൂറ്റനാട്", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wayanad_Bambootail_-_Caconeura_risi.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/96393-Caconeura-risi",
     wikipediaLink: "https://en.wikipedia.org/wiki/Caconeura_risi"
@@ -3232,10 +3232,10 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Copera_marginipes_main.jpg",
     photos: [
-      { url: "~/images/Copera_marginipes_male1.jpg", credit: "ആൺതുമ്പി © 2010 Jee & Rani Nature Photography", sourceUrl: "https://en.wikipedia.org/wiki/File:Copera_marginipes-Kadavoor-2016-11-11-001.jpg" },
-      { url: "~/images/Copera_marginipes_female1.jpg", credit: "പെൺതുമ്പി © 2010 Jee & Rani Nature Photography", sourceUrl: "https://en.wikipedia.org/wiki/File:Copera_marginipes-Kadavoor-2016-11-11-003.jpg" },
-	  { url: "~/images/Copera_marginipes_male2.jpg", credit: "കുറുവാൽ © 2010 Jee & Rani Nature Photography", sourceUrl: "https://en.wikipedia.org/wiki/File:Copera_marginipes-Kadavoor-2016-11-11-002.jpg" },
-	  { url: "~/images/Copera_marginipes_mating.jpg", credit: "ഇണചേരല്‍ © റൈസണ്‍ തുമ്പൂര്‍", sourceUrl: "https://commons.wikimedia.org/wiki/File:Yellow_featherlegs_(Copera_marginipes)_mating._%E0%B4%AE%E0%B4%9E%E0%B5%8D%E0%B4%9E%E0%B4%95%E0%B5%8D%E0%B4%95%E0%B4%BE%E0%B4%B2%E0%B4%BF_%E0%B4%AA%E0%B4%BE%E0%B4%B2%E0%B5%8D%E2%80%8D%E0%B4%A4%E0%B5%8D%E0%B4%A4%E0%B5%81%E0%B4%AE%E0%B5%8D%E0%B4%AA%E0%B4%BF._(37594367384).jpg" }
+      { url: "~/images/Copera_marginipes_male1.jpg", credit: "ആൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Copera_marginipes-Kadavoor-2016-11-11-001.jpg" },
+      { url: "~/images/Copera_marginipes_female1.jpg", credit: "പെൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Copera_marginipes-Kadavoor-2016-11-11-003.jpg" },
+	  { url: "~/images/Copera_marginipes_male2.jpg", credit: "കുറുവാൽ © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Copera_marginipes-Kadavoor-2016-11-11-002.jpg" },
+	  { url: "~/images/Copera_marginipes_mating.jpg", credit: "ഇണചേരല്‍ © റൈസണ്‍ തുമ്പൂര്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yellow_featherlegs_(Copera_marginipes)_mating._%E0%B4%AE%E0%B4%9E%E0%B5%8D%E0%B4%9E%E0%B4%95%E0%B5%8D%E0%B4%95%E0%B4%BE%E0%B4%B2%E0%B4%BF_%E0%B4%AA%E0%B4%BE%E0%B4%B2%E0%B5%8D%E2%80%8D%E0%B4%A4%E0%B5%8D%E0%B4%A4%E0%B5%81%E0%B4%AE%E0%B5%8D%E0%B4%AA%E0%B4%BF._(37594367384).jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/98382-Copera-marginipes",
     wikipediaLink: "https://en.wikipedia.org/wiki/Copera_marginipes"
@@ -3254,10 +3254,10 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Copera_vittata_main.jpg",
     photos: [
-      { url: "~/images/Copera_vittata_male1.jpg", credit: "ആൺതുമ്പി © ഡേവിഡ് രാജു", sourceUrl: "https://en.wikipedia.org/wiki/File:Davidraju_C.vittata.jpg" },
-      { url: "~/images/Copera_vittata_female1.jpg", credit: "പെൺതുമ്പി © വിനീത് വെങ്ങോലിസ്", sourceUrl: "https://en.wikipedia.org/wiki/File:Copera_species_05399.jpg" },
-	  { url: "~/images/Copera_vittata_male2.jpg", credit: "കുറുവാൽ © 2010 Jee & Rani Nature Photography", sourceUrl: "https://en.wikipedia.org/wiki/File:Copera_vittata-Kadavoor-2016-11-27-003.jpg" },
-	  { url: "~/images/Copera_vittata_mating.jpg", credit: "ഇണചേരല്‍ © പ്രവീണ്‍ പി", sourceUrl: "https://commons.wikimedia.org/wiki/File:Mating_Blue_Bush_Dart_02_@_Kanjirappally.jpg" }
+      { url: "~/images/Copera_vittata_male1.jpg", credit: "ആൺതുമ്പി © ഡേവിഡ് രാജു", "sourceUrl": "https://en.wikipedia.org/wiki/File:Davidraju_C.vittata.jpg" },
+      { url: "~/images/Copera_vittata_female1.jpg", credit: "പെൺതുമ്പി © വിനീത് വെങ്ങോലിസ്", "sourceUrl": "https://en.wikipedia.org/wiki/File:Copera_species_05399.jpg" },
+	  { url: "~/images/Copera_vittata_male2.jpg", credit: "കുറുവാൽ © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Copera_vittata-Kadavoor-2016-11-27-003.jpg" },
+	  { url: "~/images/Copera_vittata_mating.jpg", credit: "ഇണചേരല്‍ © പ്രവീണ്‍ പി", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mating_Blue_Bush_Dart_02_@_Kanjirappally.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/98384-Copera-vittata",
     wikipediaLink: "https://en.wikipedia.org/wiki/Copera_vittata"
@@ -3269,16 +3269,16 @@ const defaultOdonates = [
     scientificName: "Disparoneura apicalis",
 	sciName: "Disparoneura apicalis (Fraser, 1924)",
     family: "Platycnemididae / Bambootails / പാല്‍ത്തുമ്പികള്‍",
-    description1: "ചിറകിന്റെ അഗ്രഭാഗത്ത് കറുപ്പു നിറമുള്ള പാൽത്തുമ്പി കുടുംബത്തിൽ ഉള്ള ഒരു മുളവാലൻ സൂചിത്തുമ്പിയാണ് ചുട്ടിച്ചിറകൻ മുളവാലൻ. കരിഞ്ചിറകൻ മുളവാലനോട് സാമ്യമുണ്ടെങ്കിലും ചിറകിലെ കറുപ്പുനിറം ഇവയെ തിരിച്ചറിയുവാൻ സഹായിക്കുന്നു. ഇവ പശ്ചിമഘട്ടത്തിൽ മാത്രം അപൂർവ്വമായി കാണുന്ന സൂചിത്തുമ്പികളാണ്. കേരളത്തിൽ വയനാട്ടിലെ കുറുവാ ദ്വീപുകളിൽ മാത്രമാണ് ഇത് വരെ കണ്ടെത്തിയിട്ടുള്ളൂ. ",
+    description1: "ചിറകിന്റെ അഗ്രഭാഗത്ത് കറുപ്പു നിറമുള്ള ഒരു മുളവാലൻ സൂചിത്തുമ്പിയാണ് ചുട്ടിച്ചിറകൻ മുളവാലൻ. കരിഞ്ചിറകൻ മുളവാലനോട് സാമ്യമുണ്ടെങ്കിലും ചിറകിലെ കറുപ്പുനിറം ഇവയെ തിരിച്ചറിയുവാൻ സഹായിക്കുന്നു. ഇവ പശ്ചിമഘട്ടത്തിൽ മാത്രം അപൂർവ്വമായി കാണുന്ന സൂചിത്തുമ്പികളാണ്. കേരളത്തിൽ വയനാട്ടിലെ കുറുവാ ദ്വീപുകളിൽ മാത്രമാണ് ഇത് വരെ കണ്ടെത്തിയിട്ടുള്ളൂ. ",
     description2: "പാറക്കെട്ടുകൾ നിറഞ്ഞ, വീതിയുള്ള അരുവികളുടെ ഇടയിൽ നിഴൽ വീണ് കിടക്കുന്ന പ്രദേശത്ത് ഈ തുമ്പിയെ കണ്ടെത്തുവാൻ കഴിയും. കണ്ണുകളുടെ കീഴ്ഭാഗം മഞ്ഞയും മുകൾ ഭാഗം ഇളം ചുവപ്പും അതിൽ രണ്ട് വെളുത്ത വളയവുമുണ്ട്. കഴുത്തും തലയും കറുത്ത നിറത്തിലാണ്. കറുത്ത നിറമുള്ള ഉരസ്സിൽ നേർത്ത പച്ച നിറവും അതിൽ ഇഷ്ടിക ചുവപ്പ് നിറത്തിലുള്ള നേർത്ത വരയും കാണുവാൻ കഴിയും.",
      description3: " പ്രായമാകും തോറും ഈ വര അപ്രത്യക്ഷമായിക്കൊണ്ടിരിക്കും. കാലുകൾ കറുത്ത നിറത്തിലാണ്. കറുത്ത നിറമുള്ള ഉദരത്തിൽ വെള്ള നിറത്തിലുള്ള ചെറിയ വളയങ്ങൾ കാണാം. സുതാര്യമായ വളയങ്ങളുടെ അഗ്രഭാഗം കറുപ്പാണ്. ഇളം തവിട്ട് നിറത്തിലുള്ള ഇവയുടെ ശരീരത്തിൽ കറുത്ത വരകളും കലകളുമുണ്ട്. ചിറകുകളിൽ കറുത്ത പൊട്ടുകൾ കാണുകയില്ല. മൺസൂൺ മഴയ്ക്ക് തൊട്ടുമുൻപും ",
      description4: "അതിനു ശേഷവുമാണ് ഈ തുമ്പിയെ ഏറ്റവുംമധികം കാണുവാൻ സാധിക്കുന്നത്. കരിഞ്ചിറകൻ മുളവാലൻ തുമ്പിയുടെ അതേ ആവാസവ്യവസ്ഥയാണിവയ്ക്കും. പെൺതുമ്പികൾ താരതമ്യേന വിരളമാണ്. ചെറിയ കൂട്ടങ്ങളായിട്ടാണ് ഇവയെ കാണുവാൻ സാധിക്കുക.",
      description5: "",
     mainPhoto: "~/images/Disparoneura_apicalis_main.jpg",
     photos: [
-      { url: "~/images/Disparoneura_apicalis_male1.jpg", credit: "ആൺതുമ്പി © ഡേവിഡ് രാജു", sourceUrl: "https://en.wikipedia.org/wiki/File:Disparoneura_apicalis_(4).jpg" },
-      { url: "~/images/Disparoneura_apicalis_female1.jpg", credit: "പെൺതുമ്പി © ഡേവിഡ് രാജു", sourceUrl: "https://en.wikipedia.org/wiki/File:Disparonura_apicalis-female.jpg" },
-	  { url: "~/images/Disparoneura_apicalis_male2.jpg", credit: "ആൺതുമ്പി © ഡേവിഡ് രാജു", sourceUrl: "https://en.wikipedia.org/wiki/File:Disparoneura_apicalis_-_male_VG.jpg" }
+      { url: "~/images/Disparoneura_apicalis_male1.jpg", credit: "ആൺതുമ്പി © ഡേവിഡ് രാജു", "sourceUrl": "https://en.wikipedia.org/wiki/File:Disparoneura_apicalis_(4).jpg" },
+      { url: "~/images/Disparoneura_apicalis_female1.jpg", credit: "പെൺതുമ്പി © ഡേവിഡ് രാജു", "sourceUrl": "https://en.wikipedia.org/wiki/File:Disparonura_apicalis-female.jpg" },
+	  { url: "~/images/Disparoneura_apicalis_male2.jpg", credit: "ആൺതുമ്പി © ഡേവിഡ് രാജു", "sourceUrl": "https://en.wikipedia.org/wiki/File:Disparoneura_apicalis_-_male_VG.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/99450-Disparoneura-apicalis",
     wikipediaLink: "https://en.wikipedia.org/wiki/Disparoneura_apicalis"
@@ -3291,15 +3291,15 @@ const defaultOdonates = [
 	sciName: "Disparoneura quadrimaculata (Rambur, 1842)",
     family: "Platycnemididae / Bambootails / പാല്‍ത്തുമ്പികള്‍",
     description1: "ശരീരത്തിന് ഇഷ്ടികച്ചുവപ്പ് നിറവും ചിറകിൽ തവിട്ട് നിറത്തിലുള്ള വലിയ പൊട്ടും ഉള്ള പാൽത്തുമ്പി കുടുംബത്തിൽ ഉള്ള ഒരു മുളവാലൻ സൂചിത്തുമ്പിയാണ് കരിഞ്ചിറകൻ മുളവാലൻ. വടക്കൻ കേരളത്തിലാണ് ഈ തുമ്പിയെ മുഖ്യമായും കണ്ടെത്തിയിട്ടുള്ളത്. ഇവയെ കാടുകൾക്കടുത്തുള്ള വലിയ നദികളിലാണ് കാണുവാൻ കഴിയുന്നത്. ",
-    description2: "ഇഷ്ടികച്ചുവപ്പ് നിറമുള്ള കണ്ണിന്റെ കീഴ്ഭാഗം മങ്ങിയ വെളുപ്പ് നിറമാണ്. കണ്ണിന്റെ മുകൾഭാഗത്തായി വെളുത്ത ഒരു വളയമുണ്ട്. കഴുത്തിനും ഉരസ്സിനും ഇഷ്ടിക ചുവപ്പ് നിറം. കീഴ്വശങ്ങൾക്ക് ഇളം തവിട്ട് കലർന്ന മഞ്ഞ നിറമാണ്. കാലുകൾക്ക് തവിട്ട് നിറം. കടും തവിട്ടു നിറത്തിൽ മഞ്ഞയും കറുപ്പും വളയങ്ങളുള്ള ഉദരത്തിന്റെ അവസാന ഖണ്ഡങ്ങൾക്ക് കറുത്ത നിറമാണ്. സുതാര്യമായ ചിറകുകളുടെ മധ്യഭാഗത്തായി തവിട്ട് നിറത്തിലുള്ള വലിയ പൊട്ടുണ്ട്. ",
+    description2: "ഇഷ്ടികച്ചുവപ്പ് നിറമുള്ള കണ്ണിന്റെ കീഴ്ഭാഗം മങ്ങിയ വെളുപ്പ് നിറമാണ്. കണ്ണിന്റെ മുകൾഭാഗത്തായി വെളുത്ത ഒരു വളയമുണ്ട്. കഴുത്തിനും ഉരസ്സിനും ഇഷ്ടിക ചുവപ്പ് നിറം. കീഴ് വശങ്ങൾക്ക് ഇളം തവിട്ട് കലർന്ന മഞ്ഞ നിറമാണ്. കാലുകൾക്ക് തവിട്ട് നിറം. സുതാര്യമായ ചിറകുകളുടെ മധ്യഭാഗത്തായി തവിട്ട് നിറത്തിലുള്ള വലിയ പൊട്ടുണ്ട്. ",
      description3: "കാഴ്ചയിൽ പെൺതുമ്പികൾ ആൺതുമ്പികളെപ്പോലെയാണെങ്കിലും നിറങ്ങൾ മങ്ങിയതായിരിക്കും. ഇവയുടെ ചിറകുകൾക്ക് നേരിയ തവിട്ട് നിറം മാത്രമാണുള്ളത്. ഉണങ്ങിയ മൺതിട്ടകളും പാറപ്പുറങ്ങളും ഇവയുടെ ഇഷ്ട ഇരിപ്പിടങ്ങളാണ്. ആൺതുമ്പികളെ സദാ വെള്ളത്തിനടുത്ത് കാണുവാൻ കഴിയുമെങ്കിലും പെൺതുമ്പികളെ മുട്ടയിടുന്ന സമയത്തു മാത്രമാണ് ജലാശയത്തിനടുത്ത് കാണുവാൻ സാധിക്കുന്നത്.",
      description4: "",
      description5: "",
     mainPhoto: "~/images/Disparoneura_quadrimaculata_main.jpg",
     photos: [
-      { url: "~/images/Disparoneura_quadrimaculata_male1.jpg", credit: "ആൺതുമ്പി © Milind Bhakare", sourceUrl: "https://commons.wikimedia.org/wiki/File:Disparoneura_quadrimaculata_-_Black-winged_Bambootail_310520_(11).jpg" },
-      { url: "~/images/Disparoneura_quadrimaculata_female1.jpg", credit: "പെൺതുമ്പി © Nagabhushan Jyothi", sourceUrl: "https://commons.wikimedia.org/wiki/File:Disparoneura_quadrimaculata_2_by_Nagabhushan_Jyothi.jpg" },
-	  { url: "~/images/Disparoneura_quadrimaculata_mating.jpg", credit: "ഇണചേരല്‍ © മനോജ് വി നായര്‍", sourceUrl: "https://commons.wikimedia.org/wiki/File:Disparoneura_quadrimaculata_3_by_Manoj_V_Nair.jpg" }
+      { url: "~/images/Disparoneura_quadrimaculata_male1.jpg", credit: "ആൺതുമ്പി © Milind Bhakare", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Disparoneura_quadrimaculata_-_Black-winged_Bambootail_310520_(11).jpg" },
+      { url: "~/images/Disparoneura_quadrimaculata_female1.jpg", credit: "പെൺതുമ്പി © Nagabhushan Jyothi", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Disparoneura_quadrimaculata_2_by_Nagabhushan_Jyothi.jpg" },
+	  { url: "~/images/Disparoneura_quadrimaculata_mating.jpg", credit: "ഇണചേരല്‍ © മനോജ് വി നായര്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Disparoneura_quadrimaculata_3_by_Manoj_V_Nair.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/99451-Disparoneura-quadrimaculata",
     wikipediaLink: "https://en.wikipedia.org/wiki/Disparoneura_quadrimaculata"
@@ -3318,10 +3318,10 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Elattoneura_souteri_main.jpg",
     photos: [
-      { url: "~/images/Elattoneura_souteri_male1.jpg", credit: "ആൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", sourceUrl: "https://commons.wikimedia.org/wiki/File:Elattoneura_souteri_male_(31829953236).jpg" },
-      { url: "~/images/Elattoneura_souteri_female1.jpg", credit: "പെൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", sourceUrl: "https://commons.wikimedia.org/wiki/File:Elattoneura_souteri.jpg" },
-	  { url: "~/images/Elattoneura_souteri_male2.jpg", credit: "ആൺതുമ്പി © വിവേക് ചന്ദ്രന്‍ എ", sourceUrl: "https://www.inaturalist.org/observations/94122292" },
-	  { url: "~/images/Elattoneura_souteri_male3.jpg", credit: "ആൺതുമ്പി © വിവേക് ചന്ദ്രന്‍ എ", sourceUrl: "https://www.inaturalist.org/observations/94122292" }
+      { url: "~/images/Elattoneura_souteri_male1.jpg", credit: "ആൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Elattoneura_souteri_male_(31829953236).jpg" },
+      { url: "~/images/Elattoneura_souteri_female1.jpg", credit: "പെൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Elattoneura_souteri.jpg" },
+	  { url: "~/images/Elattoneura_souteri_male2.jpg", credit: "ആൺതുമ്പി © വിവേക് ചന്ദ്രന്‍ എ", "sourceUrl": "https://www.inaturalist.org/observations/94122292" },
+	  { url: "~/images/Elattoneura_souteri_male3.jpg", credit: "ആൺതുമ്പി © വിവേക് ചന്ദ്രന്‍ എ", "sourceUrl": "https://www.inaturalist.org/observations/94122292" }
 	  ],
     speciesLink: "https://www.inaturalist.org/taxa/99782-Elattoneura-souteri",
     wikipediaLink: "https://en.wikipedia.org/wiki/Elattoneura_souteri"
@@ -3340,9 +3340,9 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Elattoneura_tetrica_main.jpg",
     photos: [
-      { url: "~/images/Elattoneura_tetrica_male1.jpg", credit: "ആൺതുമ്പി © അഫ്സര്‍ നായക്കന്‍", sourceUrl: "https://commons.wikimedia.org/wiki/File:Elattoneura_tetrica_4.jpg" },
-      { url: "~/images/Elattoneura_tetrica_female1.jpg", credit: "പെൺതുമ്പി © ബാലചന്ദ്രന്‍ വി", sourceUrl: "https://en.wikipedia.org/wiki/File:Elattoneura_tetrica_(Laidlaw,_1917)_female.jpg" },
-	  { url: "~/images/Elattoneura_tetrica_mating.jpg", credit: "ഇണചേരല്‍ © ബാലചന്ദ്രന്‍ വി", sourceUrl: "https://commons.wikimedia.org/wiki/File:Elattoneura_tetrica_03.jpg" }
+      { url: "~/images/Elattoneura_tetrica_male1.jpg", credit: "ആൺതുമ്പി © അഫ്സര്‍ നായക്കന്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Elattoneura_tetrica_4.jpg" },
+      { url: "~/images/Elattoneura_tetrica_female1.jpg", credit: "പെൺതുമ്പി © ബാലചന്ദ്രന്‍ വി", "sourceUrl": "https://en.wikipedia.org/wiki/File:Elattoneura_tetrica_(Laidlaw,_1917)_female.jpg" },
+	  { url: "~/images/Elattoneura_tetrica_mating.jpg", credit: "ഇണചേരല്‍ © ബാലചന്ദ്രന്‍ വി", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Elattoneura_tetrica_03.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/99783-Elattoneura-tetrica",
     wikipediaLink: "https://en.wikipedia.org/wiki/Elattoneura_tetrica"
@@ -3361,8 +3361,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Esme_cyaneovittata_main.jpg",
     photos: [
-      { url: "~/images/Esme_cyaneovittata_male1.jpg", credit: "ആൺതുമ്പി © Gopal Krishnan", sourceUrl: "https://commons.wikimedia.org/wiki/File:Esme_cyaneovittata-3.jpg" },
-      { url: "~/images/Esme_cyaneovittata_female1.jpg", credit: "പെൺതുമ്പി © Gopal Krishnan", sourceUrl: "https://commons.wikimedia.org/wiki/File:Esme_cyaneovittata_female.jpg" }
+      { url: "~/images/Esme_cyaneovittata_male1.jpg", credit: "ആൺതുമ്പി © Gopal Krishnan", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Esme_cyaneovittata-3.jpg" },
+      { url: "~/images/Esme_cyaneovittata_female1.jpg", credit: "പെൺതുമ്പി © Gopal Krishnan", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Esme_cyaneovittata_female.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/100421-Esme-cyaneovittata",
     wikipediaLink: "https://en.wikipedia.org/wiki/Esme_cyaneovittata"
@@ -3381,9 +3381,9 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Esme_longistyla_main.jpg",
     photos: [
-      { url: "~/images/Esme_longistyla_male1.jpg", credit: "ആൺതുമ്പി © രെജി ചന്ദ്രന്‍", sourceUrl: "https://commons.wikimedia.org/wiki/File:Esme_longistyla.jpg" },
-      { url: "~/images/Esme_longistyla_female1.jpg", credit: "പെൺതുമ്പി © രെജി ചന്ദ്രന്‍", sourceUrl: "https://commons.wikimedia.org/wiki/File:Esme_longistyla_female.jpg" },
-	  { url: "~/images/Esme_longistyla_mating.jpg", credit: "ഇണചേരല്‍ © രെജി ചന്ദ്രന്‍", sourceUrl: "https://commons.wikimedia.org/wiki/File:Esme_longistyla_mating.jpg" }
+      { url: "~/images/Esme_longistyla_male1.jpg", credit: "ആൺതുമ്പി © രെജി ചന്ദ്രന്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Esme_longistyla.jpg" },
+      { url: "~/images/Esme_longistyla_female1.jpg", credit: "പെൺതുമ്പി © രെജി ചന്ദ്രന്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Esme_longistyla_female.jpg" },
+	  { url: "~/images/Esme_longistyla_mating.jpg", credit: "ഇണചേരല്‍ © രെജി ചന്ദ്രന്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Esme_longistyla_mating.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/100422-Esme-longistyla",
     wikipediaLink: "https://en.wikipedia.org/wiki/Esme_longistyla"
@@ -3402,9 +3402,9 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Esme_mudiensis_main.jpg",
     photos: [
-      { url: "~/images/Esme_mudiensis_male1.jpg", credit: "ആൺതുമ്പി © എബ്രഹാം സാമുവേല്‍", sourceUrl: "https://commons.wikimedia.org/wiki/File:Esme_mudiensis_-_male_P.jpg" },
-      { url: "~/images/Esme_mudiensis_female1.jpg", credit: "പെൺതുമ്പി © ബാലചന്ദ്രന്‍ വി", sourceUrl: "https://commons.wikimedia.org/wiki/File:Esme_mudiensis_(Fraser,1931)_02.jpg" },
-	  { url: "~/images/Esme_mudiensis_mating.jpg", credit: "ഇണചേരല്‍ © Krishna Murthy", sourceUrl: "https://www.inaturalist.org/observations/58334308" }
+      { url: "~/images/Esme_mudiensis_male1.jpg", credit: "ആൺതുമ്പി © എബ്രഹാം സാമുവേല്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Esme_mudiensis_-_male_P.jpg" },
+      { url: "~/images/Esme_mudiensis_female1.jpg", credit: "പെൺതുമ്പി © ബാലചന്ദ്രന്‍ വി", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Esme_mudiensis_(Fraser,1931)_02.jpg" },
+	  { url: "~/images/Esme_mudiensis_mating.jpg", credit: "ഇണചേരല്‍ © Krishna Murthy", "sourceUrl": "https://www.inaturalist.org/observations/58334308" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/100423-Esme-mudiensis",
     wikipediaLink: "https://en.wikipedia.org/wiki/Esme_mudiensis"
@@ -3423,11 +3423,11 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Melanoneura_bilineata_main.jpg",
     photos: [
-      { url: "~/images/Melanoneura_bilineata_male1.jpg", credit: "ആൺതുമ്പി © രെജി ചന്ദ്രന്‍", sourceUrl: "https://commons.wikimedia.org/wiki/File:Melanoneura_bilineata_1.jpg" },
-      { url: "~/images/Melanoneura_bilineata_female1.jpg", credit: "പെൺതുമ്പി © രെജി ചന്ദ്രന്‍", sourceUrl: "https://commons.wikimedia.org/wiki/File:Melanoneura_bilineata_female_1.jpg" },
-	  { url: "~/images/Melanoneura_bilineata_male2.jpg", credit: "ആൺതുമ്പി © രെജി ചന്ദ്രന്‍", sourceUrl: "https://commons.wikimedia.org/wiki/File:Melanoneura_bilineata_male_head.jpg" },
-	  { url: "~/images/Melanoneura_bilineata_anal_appandage.jpg", credit: "കുറുവാൽ © രെജി ചന്ദ്രന്‍", sourceUrl: "https://commons.wikimedia.org/wiki/File:Melanoneura_bilineata_Anal_Appandage.jpg" },
-	  { url: "~/images/Melanoneura_bilineata_mating.jpg", credit: "ഇണചേരല്‍ © രെജി ചന്ദ്രന്‍", sourceUrl: "https://commons.wikimedia.org/wiki/File:Melanoneura_bilineata_mating_1.jpg" }
+      { url: "~/images/Melanoneura_bilineata_male1.jpg", credit: "ആൺതുമ്പി © രെജി ചന്ദ്രന്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Melanoneura_bilineata_1.jpg" },
+      { url: "~/images/Melanoneura_bilineata_female1.jpg", credit: "പെൺതുമ്പി © രെജി ചന്ദ്രന്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Melanoneura_bilineata_female_1.jpg" },
+	  { url: "~/images/Melanoneura_bilineata_male2.jpg", credit: "ആൺതുമ്പി © രെജി ചന്ദ്രന്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Melanoneura_bilineata_male_head.jpg" },
+	  { url: "~/images/Melanoneura_bilineata_anal_appandage.jpg", credit: "കുറുവാൽ © രെജി ചന്ദ്രന്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Melanoneura_bilineata_Anal_Appandage.jpg" },
+	  { url: "~/images/Melanoneura_bilineata_mating.jpg", credit: "ഇണചേരല്‍ © രെജി ചന്ദ്രന്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Melanoneura_bilineata_mating_1.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/105514-Melanoneura-bilineata",
     wikipediaLink: "https://en.wikipedia.org/wiki/Melanoneura_bilineata"
@@ -3446,8 +3446,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Melanoneura_agasthyamalaica_main.jpg",
     photos: [
-      { url: "~/images/Melanoneura_agasthyamalaica_male1.jpg", credit: "ആൺതുമ്പി © ", sourceUrl: "https://www.researchgate.net/publication/384741197_Melanoneura_agasthyamalaica_sp_n_Odonata_Platycnemididae_from_the_Western_Ghats_India" },
-      { url: "~/images/Melanoneura_agasthyamalaica_female1.jpg", credit: "പെൺതുമ്പി © ", sourceUrl: "https://www.researchgate.net/publication/384741197_Melanoneura_agasthyamalaica_sp_n_Odonata_Platycnemididae_from_the_Western_Ghats_India" }
+      { url: "~/images/Melanoneura_agasthyamalaica_male1.jpg", credit: "ആൺതുമ്പി © ", "sourceUrl": "https://www.researchgate.net/publication/384741197_Melanoneura_agasthyamalaica_sp_n_Odonata_Platycnemididae_from_the_Western_Ghats_India" },
+      { url: "~/images/Melanoneura_agasthyamalaica_female1.jpg", credit: "പെൺതുമ്പി © ", "sourceUrl": "https://www.researchgate.net/publication/384741197_Melanoneura_agasthyamalaica_sp_n_Odonata_Platycnemididae_from_the_Western_Ghats_India" }
     ],
     speciesLink: "https://www.researchgate.net/publication/384741197_Melanoneura_agasthyamalaica_sp_n_Odonata_Platycnemididae_from_the_Western_Ghats_India",
     wikipediaLink: "https://www.biotaxa.org/ijo/article/view/86296"
@@ -3467,9 +3467,9 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Onychargia_atrocyana_main.jpg",
     photos: [
-      { url: "~/images/Onychargia_atrocyana_male1.jpg", credit: "ആൺതുമ്പി © PJeganathan", sourceUrl: "https://commons.wikimedia.org/wiki/File:Black_marsh_dart_Onychargia_atrocyana_from_Anaimalai_hills_IMG_8910_a.jpg" },
-      { url: "~/images/Onychargia_atrocyana_female1.jpg", credit: "പെൺതുമ്പി © Joydeep", sourceUrl: "https://en.wikipedia.org/wiki/File:Onychargia_atrocyana,_Burdwan,_West_Bengal,_India_13_09_2012.jpg" },
-	  { url: "~/images/Onychargia_atrocyana_mating.jpg", credit: "ഇണചേരല്‍ © ഡേവിഡ് രാജു", sourceUrl: "https://commons.wikimedia.org/wiki/File:ONYCHARGIA_ATROCYANA.jpg" }
+      { url: "~/images/Onychargia_atrocyana_male1.jpg", credit: "ആൺതുമ്പി © PJeganathan", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Black_marsh_dart_Onychargia_atrocyana_from_Anaimalai_hills_IMG_8910_a.jpg" },
+      { url: "~/images/Onychargia_atrocyana_female1.jpg", credit: "പെൺതുമ്പി © Joydeep", "sourceUrl": "https://en.wikipedia.org/wiki/File:Onychargia_atrocyana,_Burdwan,_West_Bengal,_India_13_09_2012.jpg" },
+	  { url: "~/images/Onychargia_atrocyana_mating.jpg", credit: "ഇണചേരല്‍ © ഡേവിഡ് രാജു", "sourceUrl": "https://commons.wikimedia.org/wiki/File:ONYCHARGIA_ATROCYANA.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/107577-Onychargia-atrocyana",
     wikipediaLink: "https://en.wikipedia.org/wiki/Onychargia_atrocyana"
@@ -3488,9 +3488,9 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Phylloneura_westermanni_main.jpg",
     photos: [
-      { url: "~/images/Phylloneura_westermanni_male1.jpg", credit: "ആൺതുമ്പി © Sharan V", sourceUrl: "https://www.inaturalist.org/observations/236243812" },
-      { url: "~/images/Phylloneura_westermanni_male2.jpg", credit: "ആൺതുമ്പി © Harikrishnan S", sourceUrl: "https://commons.wikimedia.org/wiki/File:P.westermanni6.jpg" },
-	  { url: "~/images/Phylloneura_westermanni_mating.jpg", credit: "ഇണചേരല്‍ © Harikrishnan S", sourceUrl: "https://commons.wikimedia.org/wiki/File:P.westermanni2.jpg" }
+      { url: "~/images/Phylloneura_westermanni_male1.jpg", credit: "ആൺതുമ്പി © Sharan V", "sourceUrl": "https://www.inaturalist.org/observations/236243812" },
+      { url: "~/images/Phylloneura_westermanni_male2.jpg", credit: "ആൺതുമ്പി © Harikrishnan S", "sourceUrl": "https://commons.wikimedia.org/wiki/File:P.westermanni6.jpg" },
+	  { url: "~/images/Phylloneura_westermanni_mating.jpg", credit: "ഇണചേരല്‍ © Harikrishnan S", "sourceUrl": "https://commons.wikimedia.org/wiki/File:P.westermanni2.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/109452-Phylloneura-westermanni",
     wikipediaLink: "https://en.wikipedia.org/wiki/Phylloneura_westermanni"
@@ -3509,7 +3509,7 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Phylloneura_rupestris_male1.jpg",
     photos: [
-      { url: "~/images/Phylloneura_rupestris_male1.jpg", credit: "ആൺതുമ്പി © രെജി ചന്ദ്രന്‍", sourceUrl: "https://commons.wikimedia.org/wiki/File:Phylloneura_rupestris.jpg" }
+      { url: "~/images/Phylloneura_rupestris_male1.jpg", credit: "ആൺതുമ്പി © രെജി ചന്ദ്രന്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Phylloneura_rupestris.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/1532253-Phylloneura-rupestris",
     wikipediaLink: "https://en.wikipedia.org/wiki/Phylloneura_rupestris"
@@ -3528,9 +3528,9 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Prodasineura_verticalis_main.jpg",
     photos: [
-      { url: "~/images/Prodasineura_verticalis_male1.jpg", credit: "ആൺതുമ്പി © 2010 Jee & Rani Nature Photography", sourceUrl: "https://en.wikipedia.org/wiki/File:Prodasineura_verticalis_male-Kadavoor-2015-08-20-002.jpg" },
-      { url: "~/images/Prodasineura_verticalis_female1.jpg", credit: "പെൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", sourceUrl: "https://en.wikipedia.org/wiki/File:Red-striped_Black_bambootail_(Prodasineura_verticalis)_female_(31026882414).jpg" },
-	  { url: "~/images/Prodasineura_verticalis_mating.jpg", credit: "ഇണചേരല്‍ © റൈസണ്‍ തുമ്പൂര്‍", sourceUrl: "https://commons.wikimedia.org/wiki/File:Black_Bambootail_(Prodasineura_vertices_)_(21490880029).jpg" }
+      { url: "~/images/Prodasineura_verticalis_male1.jpg", credit: "ആൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Prodasineura_verticalis_male-Kadavoor-2015-08-20-002.jpg" },
+      { url: "~/images/Prodasineura_verticalis_female1.jpg", credit: "പെൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", "sourceUrl": "https://en.wikipedia.org/wiki/File:Red-striped_Black_bambootail_(Prodasineura_verticalis)_female_(31026882414).jpg" },
+	  { url: "~/images/Prodasineura_verticalis_mating.jpg", credit: "ഇണചേരല്‍ © റൈസണ്‍ തുമ്പൂര്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Black_Bambootail_(Prodasineura_vertices_)_(21490880029).jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/110587-Prodasineura-verticalis",
     wikipediaLink: "https://en.wikipedia.org/wiki/Prodasineura_verticalis"
@@ -3549,8 +3549,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Indosticta_deccanensis_main.jpg",
     photos: [
-      { url: "~/images/Indosticta_deccanensis_male1.jpg", credit: "ആൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", sourceUrl: "https://commons.wikimedia.org/wiki/File:Indosticta_deccanensis_(20899090289).jpg" },
-      { url: "~/images/Indosticta_deccanensis_female1.jpg", credit: "പെൺതുമ്പി © ഡേവിഡ് രാജു", sourceUrl: "https://commons.wikimedia.org/wiki/File:Davidraju_IMG_4806.jpg" }
+      { url: "~/images/Indosticta_deccanensis_male1.jpg", credit: "ആൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Indosticta_deccanensis_(20899090289).jpg" },
+      { url: "~/images/Indosticta_deccanensis_female1.jpg", credit: "പെൺതുമ്പി © ഡേവിഡ് രാജു", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Davidraju_IMG_4806.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/561153-Indosticta-deccanensis",
     wikipediaLink: "https://en.wikipedia.org/wiki/Indosticta"
@@ -3569,8 +3569,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Protosticta_anamalaica_main.jpg",
     photos: [
-      { url: "~/images/Protosticta_anamalaica_male1.jpg", credit: "ആൺതുമ്പി © കലേഷ് സദാശിവന്‍", sourceUrl: "https://www.researchgate.net/publication/362264035_A_new_species_of_Protosticta_Selys_1885_Odonata_Zygoptera_Platystictidaefrom_Western_Ghats_India" },
-      { url: "~/images/Protosticta_anamalaica_female1.jpg", credit: "പെൺതുമ്പി © കലേഷ് സദാശിവന്‍", sourceUrl: "https://www.researchgate.net/publication/362264035_A_new_species_of_Protosticta_Selys_1885_Odonata_Zygoptera_Platystictidaefrom_Western_Ghats_India" }
+      { url: "~/images/Protosticta_anamalaica_male1.jpg", credit: "ആൺതുമ്പി © കലേഷ് സദാശിവന്‍", "sourceUrl": "https://www.researchgate.net/publication/362264035_A_new_species_of_Protosticta_Selys_1885_Odonata_Zygoptera_Platystictidaefrom_Western_Ghats_India" },
+      { url: "~/images/Protosticta_anamalaica_female1.jpg", credit: "പെൺതുമ്പി © കലേഷ് സദാശിവന്‍", "sourceUrl": "https://www.researchgate.net/publication/362264035_A_new_species_of_Protosticta_Selys_1885_Odonata_Zygoptera_Platystictidaefrom_Western_Ghats_India" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/1418405-Protosticta-anamalaica",
     wikipediaLink: "https://en.wikipedia.org/wiki/Protosticta_anamalaica"
@@ -3589,7 +3589,7 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/assets/main_photo_1200x900.jpg",
     photos: [
-      { url: "~/assets/male_1.jpg", credit: " © ", sourceUrl: "https://" }
+      { url: "~/assets/male_1.jpg", credit: " © ", "sourceUrl": "https://" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/110715-Protosticta-antelopoides",
     wikipediaLink: "https://en.wikipedia.org/wiki/Protosticta_antelopoides"
@@ -3608,7 +3608,7 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Protosticta_armageddonia_male1.jpg",
     photos: [
-      { url: "~/images/Protosticta_armageddonia_male1.jpg", credit: "ആൺതുമ്പി © രെജി ചന്ദ്രന്‍", sourceUrl: "https://commons.wikimedia.org/wiki/File:Protosticta_armageddonia.jpg" }
+      { url: "~/images/Protosticta_armageddonia_male1.jpg", credit: "ആൺതുമ്പി © രെജി ചന്ദ്രന്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Protosticta_armageddonia.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/1493078-Protosticta-armageddonia",
     wikipediaLink: "https://en.wikipedia.org/wiki/Protosticta_armageddonia"
@@ -3627,9 +3627,9 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Protosticta_cyanofemora_main.jpg",
     photos: [
-      { url: "~/images/Protosticta_cyanofemora_male1.jpg", credit: "ആൺതുമ്പി © ഡേവിഡ് രാജു", sourceUrl: "https://commons.wikimedia.org/wiki/File:Protosticta_cyanofemora_-_male.jpg" },
-      { url: "~/images/Protosticta_cyanofemora_female1.jpg", credit: "പെൺതുമ്പി © ഡേവിഡ് രാജു", sourceUrl: "https://commons.wikimedia.org/wiki/File:Protosticta_cyanofemora-_female.jpg" },
-	  { url: "~/images/Protosticta_cyanofemora_male2.jpg", credit: "ആൺതുമ്പി © ഡേവിഡ് രാജു", sourceUrl: "https://commons.wikimedia.org/wiki/File:Protosticta_cyanofemora_-Head.jpg" }
+      { url: "~/images/Protosticta_cyanofemora_male1.jpg", credit: "ആൺതുമ്പി © ഡേവിഡ് രാജു", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Protosticta_cyanofemora_-_male.jpg" },
+      { url: "~/images/Protosticta_cyanofemora_female1.jpg", credit: "പെൺതുമ്പി © ഡേവിഡ് രാജു", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Protosticta_cyanofemora-_female.jpg" },
+	  { url: "~/images/Protosticta_cyanofemora_male2.jpg", credit: "ആൺതുമ്പി © ഡേവിഡ് രാജു", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Protosticta_cyanofemora_-Head.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/1350571-Protosticta-cyanofemora",
     wikipediaLink: "https://en.wikipedia.org/wiki/Protosticta_cyanofemora"
@@ -3648,9 +3648,9 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Protosticta_davenporti_main.jpg",
     photos: [
-      { url: "~/images/Protosticta_davenporti_male1.jpg", credit: "ആൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", sourceUrl: "https://commons.wikimedia.org/wiki/File:Protosticta_davenporti_male.jpg" },
-      { url: "~/images/Protosticta_davenporti_female1.jpg", credit: "പെൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", sourceUrl: "https://commons.wikimedia.org/wiki/File:Protosticta_davenporti_female.jpg" },
-	  { url: "~/images/Protosticta_davenporti_male2.jpg", credit: "കുറുവാൽ © ബാലചന്ദ്രന്‍ വി", sourceUrl: "https://commons.wikimedia.org/wiki/File:Protosticata_davenporti_01.jpg" }
+      { url: "~/images/Protosticta_davenporti_male1.jpg", credit: "ആൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Protosticta_davenporti_male.jpg" },
+      { url: "~/images/Protosticta_davenporti_female1.jpg", credit: "പെൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Protosticta_davenporti_female.jpg" },
+	  { url: "~/images/Protosticta_davenporti_male2.jpg", credit: "കുറുവാൽ © ബാലചന്ദ്രന്‍ വി", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Protosticata_davenporti_01.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/110718-Protosticta-davenporti",
     wikipediaLink: "https://en.wikipedia.org/wiki/Protosticta_davenporti"
@@ -3669,8 +3669,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Protosticta_francyi_main.jpg",
     photos: [
-      { url: "~/images/Protosticta_francyi_male1.jpg", credit: "ആൺതുമ്പി © Vibhu V", sourceUrl: "https://www.researchgate.net/publication/364639326_A_new_species_of_Protosticta_Selys_1885_Odonata_Zygoptera_Platystictidae_from_the_Brahmagiri_Hills_Kerala_India/" },
-      { url: "~/images/Protosticta_francyi_female1.jpg", credit: "പെൺതുമ്പി © Vibhu V", sourceUrl: "https://www.researchgate.net/publication/364639326_A_new_species_of_Protosticta_Selys_1885_Odonata_Zygoptera_Platystictidae_from_the_Brahmagiri_Hills_Kerala_India/" }
+      { url: "~/images/Protosticta_francyi_male1.jpg", credit: "ആൺതുമ്പി © Vibhu V", "sourceUrl": "https://www.researchgate.net/publication/364639326_A_new_species_of_Protosticta_Selys_1885_Odonata_Zygoptera_Platystictidae_from_the_Brahmagiri_Hills_Kerala_India/" },
+      { url: "~/images/Protosticta_francyi_female1.jpg", credit: "പെൺതുമ്പി © Vibhu V", "sourceUrl": "https://www.researchgate.net/publication/364639326_A_new_species_of_Protosticta_Selys_1885_Odonata_Zygoptera_Platystictidae_from_the_Brahmagiri_Hills_Kerala_India/" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/1427671-Protosticta-francyi",
     wikipediaLink: "https://en.wikipedia.org/wiki/Protosticta"
@@ -3689,9 +3689,9 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Protosticta_gravelyi_main.jpg",
     photos: [
-      { url: "~/images/Protosticta_gravelyi_male1.jpg", credit: "ആൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", sourceUrl: "https://commons.wikimedia.org/wiki/File:Pied_Reedtail_(Protosticta_gravelyi)_male._%E0%B4%AA%E0%B5%81%E0%B4%B3%E0%B5%8D%E0%B4%B3%E0%B4%BF_%E0%B4%A8%E0%B4%BF%E0%B4%B4%E0%B4%B2%E0%B5%8D%E2%80%8D%E0%B4%A4%E0%B5%8D%E0%B4%A4%E0%B5%81%E0%B4%AE%E0%B5%8D%E0%B4%AA%E0%B4%BF._(31150246768).jpg" },
-      { url: "~/images/Protosticta_gravelyi_female1.jpg", credit: "പെൺതുമ്പി © 2010 Jee & Rani Nature Photography", sourceUrl: "https://en.wikipedia.org/wiki/File:Protosticta_gravelyi-Kadavoor-2016-06-23-004.jpg" },
-	  { url: "~/images/Protosticta_gravelyi_male2.jpg", credit: "കുറുവാൽ © 2010 Jee & Rani Nature Photography", sourceUrl: "https://commons.wikimedia.org/wiki/File:Protosticta_gravelyi-Kadavoor-2016-06-23-002.jpg" }
+      { url: "~/images/Protosticta_gravelyi_male1.jpg", credit: "ആൺതുമ്പി © റൈസണ്‍ തുമ്പൂര്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pied_Reedtail_(Protosticta_gravelyi)_male._%E0%B4%AA%E0%B5%81%E0%B4%B3%E0%B5%8D%E0%B4%B3%E0%B4%BF_%E0%B4%A8%E0%B4%BF%E0%B4%B4%E0%B4%B2%E0%B5%8D%E2%80%8D%E0%B4%A4%E0%B5%8D%E0%B4%A4%E0%B5%81%E0%B4%AE%E0%B5%8D%E0%B4%AA%E0%B4%BF._(31150246768).jpg" },
+      { url: "~/images/Protosticta_gravelyi_female1.jpg", credit: "പെൺതുമ്പി © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://en.wikipedia.org/wiki/File:Protosticta_gravelyi-Kadavoor-2016-06-23-004.jpg" },
+	  { url: "~/images/Protosticta_gravelyi_male2.jpg", credit: "കുറുവാൽ © 2010 Jee & Rani Nature Photography", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Protosticta_gravelyi-Kadavoor-2016-06-23-002.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/110723-Protosticta-gravelyi",
     wikipediaLink: "https://en.wikipedia.org/wiki/Protosticta_gravelyi"
@@ -3710,7 +3710,7 @@ const defaultOdonates = [
      description5: "മഴ കഴിഞ്ഞുള്ള മാസങ്ങളിൽ ധാരാളമായി കാണുവാൻ സാധിക്കുന്നു. നിഴൽ വീണ് കിടക്കുന്ന കാടുകൾ ഇഷ്ടപ്പെടുന്ന ഈ തുമ്പിയെ കണ്ടു പിടിയ്ക്കുവാൻ പ്രയാസമാണ്. വനപാതയിലെ മൺതിട്ടകളിലുള്ള ഉണങ്ങിയ ഇലകളിലോ, വേരുകളിലോ ഇരിക്കാനാണിഷ്ടം.",
     mainPhoto: "~/images/Protosticta_hearseyi_main.jpg",
     photos: [
-      { url: "~/images/Protosticta_hearseyi_male1.jpg", credit: "ആൺതുമ്പി © മനോജ് പി", sourceUrl: "https://en.wikipedia.org/wiki/File:Protosticta_hearseyi_by_Manoj_P.jpg" }
+      { url: "~/images/Protosticta_hearseyi_male1.jpg", credit: "ആൺതുമ്പി © മനോജ് പി", "sourceUrl": "https://en.wikipedia.org/wiki/File:Protosticta_hearseyi_by_Manoj_P.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/110724-Protosticta-hearseyi",
     wikipediaLink: "https://en.wikipedia.org/wiki/Protosticta_hearseyi"
@@ -3723,13 +3723,13 @@ const defaultOdonates = [
 	sciName: "Protosticta monticola (Emiliyamma & Palot, 2016)",
     family: "Platystictidae / Reed tails / നിഴല്‍ത്തുമ്പികള്‍",
     description1: "നിഴൽത്തുമ്പി കുടുംബത്തിൽ ഉള്ള ഒരു സൂചിത്തുമ്പിയാണ് പർവ്വതവാസി നിഴൽത്തുമ്പി അഥവാ ചോല നിഴൽത്തുമ്പി. ഇത് പശ്ചിമഘട്ടത്തിലെ ഒരു തദ്ദേശീയ തുമ്പിയാണ്. മലമുകളിൽ വസിക്കുന്നത് എന്ന അർത്ഥമാണ് 'മോൻടികോള' എന്ന ശാസ്ത്രീയനാമം കൊണ്ട് ഉദ്ദേശിക്കുന്നത്. ഇന്ത്യയിൽ കണ്ടെത്തിയിട്ടുള്ള പതിനഞ്ച് നിഴൽത്തുമ്പികളിൽ പന്ത്രണ്ടും പശ്ചിമഘട്ടത്തിൽ നിന്നുമാണ്. ",
-     description2: "കറുത്ത അഗ്രത്തോടുകൂടിയ നീലകലർന്ന പച്ചനിറത്തിലുള്ള കണ്ണുകളും ഇരുണ്ട ഉടലുമുള്ള ഈ സൂചിത്തുമ്പിയുടെ ഉരസ്സിൽ മഞ്ഞ വരകൾ ഉണ്ട്. സുതാര്യമായ ചിറകുകളിലെ പൊട്ടുകൾക്ക് കടുത്ത തവിട്ടുനിറമാണ്. കറുപ്പുനിറത്തിലുള്ള ഉദരത്തിന്റെ ആദ്യ ഖണ്ഡങ്ങളുടെ വശങ്ങളിൽ മഞ്ഞനിറമുണ്ട്. 3 മുതൽ 8 വരെയുള്ള ഖണ്ഡങ്ങളുടെ തുടക്കത്തിൽ മഞ്ഞ വളയങ്ങളുണ്ട്. എട്ടാം ഖണ്ഡത്തിന്റെ വശങ്ങൾക്കും മഞ്ഞനിറമാണ്. ഒൻപതും പത്തും ഖണ്ഡങ്ങളും കുറുവാലുകളും കറുപ്പുനിറമാണ്. ",
-     description3: "പെൺതുമ്പികൾ ആൺതുമ്പികളെപ്പോലെതന്നെ ആണെങ്കിലും കുറുകിയ ശരീരപ്രകൃതമാണ്. ഉദരത്തിലെ മഞ്ഞ കലകളിൽ ഉള്ള വ്യത്യാസവും കണ്ണിന്റെ നിറവും ഇവയെ സമാന ആവാസവ്യവസ്ഥയിൽ കാണപ്പെടുന്ന ചോല നിഴൽത്തുമ്പിയിൽനിന്നും വേർതിരിച്ചറിയാൻ സഹായിക്കുന്നു. ചോല നിഴൽത്തുമ്പിയുടെ ഉദരത്തിന്റെ മുതുകുവശം എട്ടാം ഖണ്ഡത്തിൽ മഞ്ഞ നിറത്തിലാണ്. ഒൻപതാം ഖണ്ഡത്തിന്റെ ഇരു വശങ്ങളിലും ഓരോ മഞ്ഞ പൊട്ടുകൾ ഉണ്ട്. അവയുടെ കണ്ണുകൾ നീല നിരത്തിലുള്ളവയും ആണ്. ",
-     description4: "കോഴിക്കോട് സുവോളജിക്കൽ സർവ്വേ ഓഫ് ഇന്ത്യയിലെ ശാസ്ത്രജ്ഞരായ ഡോ. കെ. ജി. എമിലിയമ്മയും ഡോ. ജാഫർ പാലോട്ടും അടങ്ങുന്ന സംഘമാണ് ഈ കണ്ടുപിടിത്തത്തിന്റെ പിന്നിൽ. പശ്ചിമഘട്ട മലനിരയിൽ ഏകദേശം 1600 മീറ്റർ ഉയരത്തിലുള്ള ചോലക്കാടുകളിലാണ് ഇവയുടെ ആവാസസ്ഥലം. ഇടുക്കി ജില്ലയിൽ ആനമല മലനിരകളിൽ ആണ് 2014 ൽ ഇവയെ ആദ്യമായി കണ്ടത്. പിന്നീടുള്ള പഠനത്തിൽ ഇവയുടെ സാന്നിദ്ധ്യം മറയൂർ കമ്പിളിപ്പാറച്ചോലയിലും നാഗമലച്ചോലയിലും കണ്ടെത്തി. ",
-     description5: "ഇടുക്കി ജില്ലയിലെ മതികെട്ടാൻ ചോല ദേശിയോദ്യാനത്തിലും ഇവയുടെ സാന്നിധ്യം രേഖപ്പെടുത്തിയിട്ടുണ്ട്. ഉയരത്തിലുള്ള ചോലക്കാടുകളിൽ കണ്ടെത്തിയ ഏക നിഴൽത്തുമ്പിയാണിത്‌. ഉദരത്തിന്റെ മുതുകു ഭാഗത്തെ കറുപ്പുനിറവും ഏഴും എട്ടും ഖണ്ഡങ്ങളുടെ മുതുകു ഭാഗത്തെ നീലയും മഞ്ഞയും നിറങ്ങളുടെ അഭാവവും കുറുവാലുകളുടെ പ്രത്യേക ആകൃതിയും ഇവയെ മറ്റു നിഴൽത്തുമ്പികളിൽനിന്നും തിരിച്ചറിയാൻ സഹായിക്കും.",
+     description2: "പെൺതുമ്പികൾ ആൺതുമ്പികളെപ്പോലെതന്നെ ആണെങ്കിലും കുറുകിയ ശരീരപ്രകൃതമാണ്. ഉദരത്തിലെ മഞ്ഞ കലകളിൽ ഉള്ള വ്യത്യാസവും കണ്ണിന്റെ നിറവും ഇവയെ സമാന ആവാസവ്യവസ്ഥയിൽ കാണപ്പെടുന്ന ചോല നിഴൽത്തുമ്പിയിൽനിന്നും വേർതിരിച്ചറിയാൻ സഹായിക്കുന്നു. ",
+     description3: "ചോല നിഴൽത്തുമ്പിയുടെ ഉദരത്തിന്റെ മുതുകുവശം എട്ടാം ഖണ്ഡത്തിൽ മഞ്ഞ നിറത്തിലാണ്. ഒൻപതാം ഖണ്ഡത്തിന്റെ ഇരു വശങ്ങളിലും ഓരോ മഞ്ഞ പൊട്ടുകൾ ഉണ്ട്. അവയുടെ കണ്ണുകൾ നീല നിരത്തിലുള്ളവയും ആണ്. ",
+     description4: "കോഴിക്കോട് സുവോളജിക്കൽ സർവ്വേ ഓഫ് ഇന്ത്യയിലെ ശാസ്ത്രജ്ഞരായ ഡോ. കെ. ജി. എമിലിയമ്മയും ഡോ. ജാഫർ പാലോട്ടും അടങ്ങുന്ന സംഘമാണ് ഈ കണ്ടുപിടിത്തത്തിന്റെ പിന്നിൽ. പശ്ചിമഘട്ട മലനിരയിൽ ഏകദേശം 1600 മീറ്റർ ഉയരത്തിലുള്ള ചോലക്കാടുകളിലാണ് ഇവയുടെ ആവാസസ്ഥലം.",
+     description5: "ഇടുക്കി ജില്ലയിൽ ആനമല മലനിരകളിൽ ആണ് 2014 ൽ ഇവയെ ആദ്യമായി കണ്ടത്. പിന്നീടുള്ള പഠനത്തിൽ ഇവയുടെ സാന്നിദ്ധ്യം മറയൂർ കമ്പിളിപ്പാറച്ചോലയിലും നാഗമലച്ചോലയിലും കണ്ടെത്തി. ഇടുക്കി ജില്ലയിലെ മതികെട്ടാൻ ചോല ദേശിയോദ്യാനത്തിലും ഇവയുടെ സാന്നിധ്യം രേഖപ്പെടുത്തിയിട്ടുണ്ട്. ഉയരത്തിലുള്ള ചോലക്കാടുകളിൽ കണ്ടെത്തിയ ഏക നിഴൽത്തുമ്പിയാണിത്‌. ",
     mainPhoto: "~/images/Protosticta_monticola_main.jpg",
     photos: [
-      { url: "~/images/Protosticta_monticola_male1.jpg", credit: "ആൺതുമ്പി © Emiliyamma & Palot 2016", sourceUrl: "https://commons.wikimedia.org/wiki/File:Protosticta_monticola_by_Emiliyamma_and_Palot.jpg" }
+      { url: "~/images/Protosticta_monticola_male1.jpg", credit: "ആൺതുമ്പി © Emiliyamma & Palot 2016", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Protosticta_monticola_by_Emiliyamma_and_Palot.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/561170-Protosticta-monticola",
     wikipediaLink: "https://en.wikipedia.org/wiki/Protosticta_monticola"
@@ -3742,16 +3742,16 @@ const defaultOdonates = [
 	sciName: "Protosticta mortoni (Fraser, 1924)",
     family: "Platystictidae / Reed tails / നിഴല്‍ത്തുമ്പികള്‍",
     description1: "കറുത്ത ശരീരത്തിൽ വെളുത്ത വരകളും ഉദരത്തിൽ വെളുത്ത വളയങ്ങളുമുള്ള നിഴൽത്തുമ്പി കുടുംബത്തിൽ ഉള്ള ഒരു സൂചിത്തുമ്പിയാണ് നീലക്കഴുത്തൻ നിഴൽത്തുമ്പി. ഇത് പശ്ചിമഘട്ടത്തിലെ ഒരു തദ്ദേശീയ തുമ്പിയാണ്. നീളമുള്ള ഉദരവും, ഉദരത്തിന്റെ പകുതിയിൽ താഴെ മാത്രം നീളമുള്ള ചിറകുകളും, കടും നീലം നിറമുള്ള കണ്ണുകളുമുള്ള ആൺതുമ്പിയെ തിരിച്ചറിയാൻ എളുപ്പമാണ്. ",
-    description2: "ജലാശയത്തിനു ചുറ്റുമുള്ള വനങ്ങളുടെ അടിക്കാടുകളിൽ കാണപ്പെടുന്നു. ഇവയുടെ കഴുത്തിന് മങ്ങിയ നീലനിറമാണ്. തിളങ്ങുന്ന കറുപ്പു നിറമുള്ള ഉരസ്സിൽ രണ്ട് ഇളം നീല വരകൾ കാണാം. കറുത്ത ഉദരത്തിന്റെ ഖണ്ഡങ്ങൾക്കിടയിൽ വെളുത്ത വളയങ്ങളുണ്ട്. പെൺതുമ്പികളുടെ ഉദരം നീളം കുറഞ്ഞതും തടിച്ചതുമാണ്. കഴുത്തിന്റെ നീല നിറവും എട്ടാം ഖണ്ഡത്തിലെ അടയാളത്തിലുള്ള വ്യത്യാസവും ഇവയെ പുള്ളി നിഴൽത്തുമ്പിയിൽനിന്നും തിരിച്ചറിയാൻ സഹായിക്കുന്നു.",
+    description2: "ജലാശയത്തിനു ചുറ്റുമുള്ള വനങ്ങളുടെ അടിക്കാടുകളിൽ കാണപ്പെടുന്നു. ഇവയുടെ കഴുത്തിന് മങ്ങിയ നീലനിറമാണ്. തിളങ്ങുന്ന കറുപ്പു നിറമുള്ള ഉരസ്സിൽ രണ്ട് ഇളം നീല വരകൾ കാണാം. കഴുത്തിന്റെ നീല നിറവും എട്ടാം ഖണ്ഡത്തിലെ അടയാളത്തിലുള്ള വ്യത്യാസവും ഇവയെ പുള്ളി നിഴൽത്തുമ്പിയിൽനിന്നും തിരിച്ചറിയാൻ സഹായിക്കുന്നു.",
      description3: "",
      description4: "",
      description5: "",
     mainPhoto: "~/images/Protosticta_mortoni_main.jpg",
     photos: [
-      { url: "~/images/Protosticta_mortoni_male1.jpg", credit: "ആൺതുമ്പി © വിവേക് ചന്ദ്രന്‍ എ", sourceUrl: "https://www.inaturalist.org/observations/224860387" },
-      { url: "~/images/Protosticta_mortoni_female1.jpg", credit: "പെൺതുമ്പി © Karthik", sourceUrl: "https://www.inaturalist.org/observations/169558234" },
-	  { url: "~/images/Protosticta_mortoni_male2.jpg", credit: "ആൺതുമ്പി © Tejas Mehendale", sourceUrl: "https://www.inaturalist.org/observations/220829933" },
-	  { url: "~/images/Protosticta_mortoni_male3.jpg", credit: "കുറുവാൽ © Tejas Mehendale", sourceUrl: "https://www.inaturalist.org/observations/220829933" }
+      { url: "~/images/Protosticta_mortoni_male1.jpg", credit: "ആൺതുമ്പി © വിവേക് ചന്ദ്രന്‍ എ", "sourceUrl": "https://www.inaturalist.org/observations/224860387" },
+      { url: "~/images/Protosticta_mortoni_female1.jpg", credit: "പെൺതുമ്പി © Karthik", "sourceUrl": "https://www.inaturalist.org/observations/169558234" },
+	  { url: "~/images/Protosticta_mortoni_male2.jpg", credit: "ആൺതുമ്പി © Tejas Mehendale", "sourceUrl": "https://www.inaturalist.org/observations/220829933" },
+	  { url: "~/images/Protosticta_mortoni_male3.jpg", credit: "കുറുവാൽ © Tejas Mehendale", "sourceUrl": "https://www.inaturalist.org/observations/220829933" }
 	  ],
     speciesLink: "https://www.inaturalist.org/taxa/1134324-Protosticta-mortoni",
     wikipediaLink: "https://en.wikipedia.org/wiki/Protosticta_mortoni"
@@ -3770,9 +3770,9 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Protosticta_ponmudiensis_main.jpg",
     photos: [
-      { url: "~/images/Protosticta_ponmudiensis_male1.jpg", credit: "ആൺതുമ്പി © കലേഷ് സദാശിവന്‍", sourceUrl: "https://commons.wikimedia.org/wiki/File:Protosticta_ponmudiensis_01.jpg" },
-      { url: "~/images/Protosticta_ponmudiensis_male2.jpg", credit: "ആൺതുമ്പി - ഉദരഭാഗം © കലേഷ് സദാശിവന്‍", sourceUrl: "https://en.wikipedia.org/wiki/File:Protosticta_ponmudiensis_-_terminal_abdominal_segments.jpg" },
-	  { url: "~/images/Protosticta_ponmudiensis_male3.jpg", credit: "കുറുവാൽ © കലേഷ് സദാശിവന്‍", sourceUrl: "https://en.wikipedia.org/wiki/File:Protosticta_ponmudiensis_male_-_anal_appendages.jpg" }
+      { url: "~/images/Protosticta_ponmudiensis_male1.jpg", credit: "ആൺതുമ്പി © കലേഷ് സദാശിവന്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Protosticta_ponmudiensis_01.jpg" },
+      { url: "~/images/Protosticta_ponmudiensis_male2.jpg", credit: "ആൺതുമ്പി - ഉദരഭാഗം © കലേഷ് സദാശിവന്‍", "sourceUrl": "https://en.wikipedia.org/wiki/File:Protosticta_ponmudiensis_-_terminal_abdominal_segments.jpg" },
+	  { url: "~/images/Protosticta_ponmudiensis_male3.jpg", credit: "കുറുവാൽ © കലേഷ് സദാശിവന്‍", "sourceUrl": "https://en.wikipedia.org/wiki/File:Protosticta_ponmudiensis_male_-_anal_appendages.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/561174-Protosticta-ponmudiensis",
     wikipediaLink: "https://en.wikipedia.org/wiki/Protosticta_ponmudiensis"
@@ -3791,9 +3791,9 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Protosticta_rufostigma_main.jpg",
     photos: [
-      { url: "~/images/Protosticta_rufostigma_male1.jpg", credit: "ആൺതുമ്പി © Thomson Saburaj", sourceUrl: "https://commons.wikimedia.org/wiki/File:DSC_0067_Protosticta_rufostigma_Kimmins,_1958.jpg" },
-      { url: "~/images/Protosticta_rufostigma_female1.jpg", credit: "പെൺതുമ്പി © Thomson Saburaj", sourceUrl: "https://commons.wikimedia.org/wiki/File:DSC_0541_Protosticta_rufostigma_Kimmins,_1958_female.jpg" },
-	  { url: "~/images/Protosticta_rufostigma_female2.jpg", credit: "പെൺതുമ്പി © രെജി ചന്ദ്രന്‍", sourceUrl: "https://commons.wikimedia.org/wiki/File:Protosticta_rufostigma_female.jpg" }
+      { url: "~/images/Protosticta_rufostigma_male1.jpg", credit: "ആൺതുമ്പി © Thomson Saburaj", "sourceUrl": "https://commons.wikimedia.org/wiki/File:DSC_0067_Protosticta_rufostigma_Kimmins,_1958.jpg" },
+      { url: "~/images/Protosticta_rufostigma_female1.jpg", credit: "പെൺതുമ്പി © Thomson Saburaj", "sourceUrl": "https://commons.wikimedia.org/wiki/File:DSC_0541_Protosticta_rufostigma_Kimmins,_1958_female.jpg" },
+	  { url: "~/images/Protosticta_rufostigma_female2.jpg", credit: "പെൺതുമ്പി © രെജി ചന്ദ്രന്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Protosticta_rufostigma_female.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/110729-Protosticta-rufostigma",
     wikipediaLink: "https://en.wikipedia.org/wiki/Protosticta_rufostigma"
@@ -3812,8 +3812,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Protosticta_sanguinostigma_main.jpg",
     photos: [
-      { url: "~/images/Protosticta_sanguinostigma_male1.jpg", credit: "ആൺതുമ്പി © അഫ്സര്‍ നായക്കന്‍", sourceUrl: "https://commons.wikimedia.org/wiki/File:Protosticta_sanguinostigma_12.jpg" },
-      { url: "~/images/Protosticta_sanguinostigma_female1.jpg", credit: "പെൺതുമ്പി © രെജി ചന്ദ്രന്‍", sourceUrl: "https://commons.wikimedia.org/wiki/File:Protosticta_sanguinostigma.jpg" }
+      { url: "~/images/Protosticta_sanguinostigma_male1.jpg", credit: "ആൺതുമ്പി © അഫ്സര്‍ നായക്കന്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Protosticta_sanguinostigma_12.jpg" },
+      { url: "~/images/Protosticta_sanguinostigma_female1.jpg", credit: "പെൺതുമ്പി © രെജി ചന്ദ്രന്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Protosticta_sanguinostigma.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/110730-Protosticta-sanguinostigma",
     wikipediaLink: "https://en.wikipedia.org/wiki/Protosticta_sanguinostigma"
@@ -3832,8 +3832,8 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Protosticta_sexcolorata_main.jpg",
     photos: [
-      { url: "~/images/Protosticta_sexcolorata_male1.jpg", credit: "ആൺതുമ്പി © Chandran AV et al.", sourceUrl: "https://www.researchgate.net/publication/377329396_Description_of_Protosticta_sexcolorata_sp_nov_Odonata_Platystictidae_from_the_Western_Ghats_India" },
-      { url: "~/images/Protosticta_sexcolorata_female1.jpg", credit: "പെൺതുമ്പി © Chandran AV et al.", sourceUrl: "https://www.researchgate.net/publication/377329396_Description_of_Protosticta_sexcolorata_sp_nov_Odonata_Platystictidae_from_the_Western_Ghats_India" }
+      { url: "~/images/Protosticta_sexcolorata_male1.jpg", credit: "ആൺതുമ്പി © Chandran AV et al.", "sourceUrl": "https://www.researchgate.net/publication/377329396_Description_of_Protosticta_sexcolorata_sp_nov_Odonata_Platystictidae_from_the_Western_Ghats_India" },
+      { url: "~/images/Protosticta_sexcolorata_female1.jpg", credit: "പെൺതുമ്പി © Chandran AV et al.", "sourceUrl": "https://www.researchgate.net/publication/377329396_Description_of_Protosticta_sexcolorata_sp_nov_Odonata_Platystictidae_from_the_Western_Ghats_India" }
     ],
     speciesLink: "https://doi.org/10.1016/j.japb.2023.11.010",
     wikipediaLink: "https://en.wikipedia.org/wiki/Protosticta"
@@ -3852,14 +3852,12 @@ const defaultOdonates = [
      description5: "",
     mainPhoto: "~/images/Protosticta_sholai_main.jpg",
     photos: [
-      { url: "~/images/Protosticta_sholai_male1.jpg", credit: "ആൺതുമ്പി © സുജിത്ത് വി ഗോപാലന്‍", sourceUrl: "https://commons.wikimedia.org/wiki/File:Protosticta_sholai.jpg" },
-      { url: "~/images/Protosticta_sholai_female1.jpg", credit: "പെൺതുമ്പി © സുജിത്ത് വി ഗോപാലന്‍", sourceUrl: "https://commons.wikimedia.org/wiki/File:Protosticta_sholai_female.jpg" }
+      { url: "~/images/Protosticta_sholai_male1.jpg", credit: "ആൺതുമ്പി © സുജിത്ത് വി ഗോപാലന്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Protosticta_sholai.jpg" },
+      { url: "~/images/Protosticta_sholai_female1.jpg", credit: "പെൺതുമ്പി © സുജിത്ത് വി ഗോപാലന്‍", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Protosticta_sholai_female.jpg" }
     ],
     speciesLink: "https://www.inaturalist.org/taxa/1250561-Protosticta-sholai",
     wikipediaLink: "https://en.wikipedia.org/wiki/Protosticta_sholai"
   }
-
- 
  
  ];
  
