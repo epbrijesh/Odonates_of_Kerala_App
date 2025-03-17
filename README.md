@@ -4,7 +4,7 @@ Odonates of Kerala App written in NativeScript.
 This app is designed to help nature enthusiasts, researchers, and curious minds learn about and identify Odonata species found in Kerala.
 
 v.3.0.0
-- Digital Field Guide works completely offline.
+- Digital Field Guide works offline.
 - A comprehensive database of Odonate diversity in Kerala.  
 - Species Profiles: High-quality images, taxonomic details and behavior notes.
 - Create your own checklists.
@@ -16,5 +16,5 @@ v.3.0.0
 - Feedback Option.
 - New Blue Theme.
 - Stable filter, search in odonate list.
-- Completely Free & Open Source App.
 - Few images added/changed.
+- Completely Free & Open Source App.
