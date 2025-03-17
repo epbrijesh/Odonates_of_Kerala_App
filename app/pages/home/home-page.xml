@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo" class="page-background">
+  <ActionBar class="action-bar">
+    <ActionBar.titleView>
+      <Label text="Odonates of Kerala" fontSize="24" color="white" fontWeight="bold" />
+    </ActionBar.titleView>
+  </ActionBar>
+
+  <ScrollView>
+    <StackLayout class="p-4">
+      <!-- Featured Species Card -->
+      <StackLayout class="info-card" tap="{{ onFeaturedSpeciesTap }}">
+        <Label text="Odonate of the day!" class="section-title text-center" />
+        <Image src="{{ featuredSpecies.mainPhoto }}" height="200" stretch="aspectFill" class="rounded-lg" />
+        <Label text="{{ featuredSpecies.scientificName }}" textWrap="true" class="text-center leading-none text-2xl font-bold" color="#00008B" />
+        <Label text="{{ featuredSpecies.commonName }}" textWrap="true" class="text-center leading-none text-2xl font-bold" color="#000dff" />
+        <Label text="{{ featuredSpecies.malayalamName }}" textWrap="true" class="text-center leading-none text-2xl" color="#B22222" />
+        <Label text="{{ featuredSpecies.family }}" textWrap="true" class="text-md text-center leading-none " color="#008000" />
+      </StackLayout>
+
+      <!-- Navigation Grid -->
+      <GridLayout rows="auto, auto, auto" columns="*, *" class="mt-4">
+        <!-- Search Button -->
+        <StackLayout tap="{{ onSearchTap }}" class="info-card p-3" row="0" col="0" margin="4">
+          <Label text="🔍" class="text-3xl text-center" />
+          <Label text="SEARCH" class="text-lg font-bold text-center" color="#2243b6" />
+        </StackLayout>
+
+        <!-- AI Identifier Button -->
+        <StackLayout tap="{{ onAIIdentifierTap }}" class="info-card p-3" row="0" col="1" margin="4">
+          <Label text="🤖" class="text-3xl text-center" />
+          <Label text="AI IDENTIFIER" class="text-lg font-bold text-center" color="#2243b6" />
+        </StackLayout>
+
+        <!-- Checklists Button -->
+        <StackLayout tap="{{ onChecklistsTap }}" class="info-card p-3" row="1" col="0" margin="4">
+          <Label text="✓" class="text-3xl text-center" />
+          <Label text="CHECKLISTS" class="text-lg font-bold text-center" color="#2243b6" />
+        </StackLayout>
+
+        <!-- Transect Button -->
+        <StackLayout tap="{{ onTransectTap }}" class="info-card p-3" row="1" col="1" margin="4">
+          <Label text="📊" class="text-3xl text-center" />
+          <Label text="TRANSECT" class="text-lg font-bold text-center" color="#2243b6" />
+        </StackLayout>
+
+        <!-- Learn Button -->
+        <StackLayout tap="{{ onLearnTap }}" class="info-card p-3" row="2" col="0" margin="4">
+          <Label text="📚" class="text-3xl text-center" />
+          <Label text="LEARN" class="text-lg font-bold text-center" color="#2243b6" />
+        </StackLayout>
+
+        <!-- About Button -->
+        <StackLayout tap="{{ onAboutTap }}" class="info-card p-3" row="2" col="1" margin="4">
+          <Label text="ℹ️" class="text-3xl text-center" />
+          <Label text="ABOUT" class="text-lg font-bold text-center" color="#2243b6" />
+        </StackLayout>
+      </GridLayout>
+
+      <!-- Feedback Section -->
+      <StackLayout class="info-card mt-4 p-4" tap="{{ onFeedbackTap }}">
+        <Label text="📝" class="text-3xl text-center" />
+        <Label text="SEND FEEDBACK" class="text-lg font-bold text-center" color="#2243b6" />
+        <Label text="Help us improve! Share your thoughts and suggestions." textWrap="true" class="leading-none text-center text-sm mt-2" color="#2243b6" />
+      </StackLayout>
+    </StackLayout>
+  </ScrollView>
+</Page>
